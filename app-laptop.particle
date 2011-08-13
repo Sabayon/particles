@@ -9,7 +9,6 @@ packages:
 	app-laptop/batti,
 	app-laptop/configure-thinkpad,
 	app-laptop/configure-trackpoint,
-	app-laptop/easy-slow-down-manager,
 	app-laptop/fnfx,
 	app-laptop/hdaps-gl,
 	app-laptop/hdapsd,
