@@ -15,7 +15,6 @@ packages:
 	app-laptop/ibam,
 	app-laptop/laptop-mode-tools,
 	app-laptop/macbook-backlight,
-	app-laptop/nvidiabl,
 	app-laptop/pbbuttonsd,
 	app-laptop/pommed,
 	app-laptop/powerprefs,
