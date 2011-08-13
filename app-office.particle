@@ -21,7 +21,6 @@ packages:
 	app-office/ical,
 	app-office/impressive,
 	app-office/kmymoney,
-	app-office/koffice-l10n,
 	app-office/ledger,
 	app-office/lyx,
 	app-office/magicpoint,
