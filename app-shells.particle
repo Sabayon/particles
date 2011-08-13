@@ -5,13 +5,10 @@
 # Mandatory, cannot be empty
 packages:
 	app-shells/autojump,
-	app-shells/bash,
-	app-shells/bash-completion,
 	app-shells/bashish,
 	app-shells/dash,
 	app-shells/dsh,
 	app-shells/fish,
-	app-shells/gentoo-bashcomp,
 	app-shells/ksh,
 	app-shells/localshell,
 	app-shells/mksh,
