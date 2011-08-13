@@ -5,8 +5,10 @@
 # Mandatory, cannot be empty
 packages:
 	app-office/abiword,
+	app-office/abiword-docs,
 	app-office/akonadi-server,
 	app-office/billreminder,
+	app-office/borg,
 	app-office/calcurse,
 	app-office/calligra,
 	app-office/dia,
@@ -17,6 +19,8 @@ packages:
 	app-office/gnucash,
 	app-office/gnumeric,
 	app-office/grisbi,
+	app-office/gtg,
+	app-office/homebank,
 	app-office/hourglass,
 	app-office/ical,
 	app-office/impressive,
@@ -25,12 +29,17 @@ packages:
 	app-office/lyx,
 	app-office/magicpoint,
 	app-office/mdbtools,
+	app-office/multitalk,
 	app-office/openerp-client,
+	app-office/openerp-server,
 	app-office/orage,
 	app-office/osmo,
 	app-office/passepartout,
 	app-office/plan,
 	app-office/planner,
+	app-office/pybliographer,
+	app-office/qcharselect,
+	app-office/qchartdiary,
 	app-office/rabbit,
 	app-office/sc,
 	app-office/scribus,
@@ -39,6 +48,9 @@ packages:
 	app-office/taxbird,
 	app-office/texmacs,
 	app-office/texmaker,
+	app-office/texmakerx,
+	app-office/teapot,
+	app-office/tedia2sql,
 	app-office/tpp
 
 # Entropy repository where to commit packages
