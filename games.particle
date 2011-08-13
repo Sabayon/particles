@@ -597,6 +597,11 @@ packages:
 # Mandatory, cannot be empty
 repository: sabayon-hell
 
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: yes
+
 # Allow dependencies to be pulled in?
 # Valid values are either "yes" or "no"
 # Default is: no
