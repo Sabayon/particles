@@ -7,7 +7,6 @@ packages:
 	app-laptop/acpi4asus,
 	app-laptop/batterymon,
 	app-laptop/batti,
-	app-laptop/configure-thinkpad,
 	app-laptop/configure-trackpoint,
 	app-laptop/fnfx,
 	app-laptop/hdaps-gl,
@@ -21,7 +20,6 @@ packages:
 	app-laptop/pommed,
 	app-laptop/powerprefs,
 	app-laptop/radeontool,
-	app-laptop/samsung-tools,
 	app-laptop/tpb
 
 # Entropy repository where to commit packages
