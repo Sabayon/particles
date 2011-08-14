@@ -1,0 +1,289 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+        net-analyzer/arpon,
+        net-analyzer/bwping,
+        net-analyzer/dhcp_probe,
+        net-analyzer/lilac,
+        net-analyzer/nagios-check_fail2ban,
+        net-analyzer/nagios-check_ipmi_sensor,
+        net-analyzer/nagios-check_mysql_health,
+        net-analyzer/nagtrap,
+        net-analyzer/nagvis,
+        net-analyzer/nepenthes,
+        net-analyzer/nmapsi,
+        net-analyzer/nstats,
+        net-analyzer/ostinato,
+        net-analyzer/postal,
+        net-analyzer/rtpbreak,
+        net-analyzer/smokeping,
+        net-analyzer/sslsniff,
+        net-analyzer/synscan,
+        net-analyzer/thc-ipv6,
+        net-analyzer/w3af,
+        net-analyzer/aimsniff,
+        net-analyzer/amap,
+        net-analyzer/angst,
+        net-analyzer/argus,
+        net-analyzer/argus-clients,
+        net-analyzer/arp-sk,
+        net-analyzer/arping,
+        net-analyzer/arpoison,
+        net-analyzer/arptools,
+        net-analyzer/arpwatch,
+        net-analyzer/authforce,
+        net-analyzer/barnyard,
+        net-analyzer/barnyard2,
+        net-analyzer/bigeye,
+        net-analyzer/bing,
+        net-analyzer/bmon,
+        net-analyzer/braa,
+        net-analyzer/bwbar,
+        net-analyzer/bwm-ng,
+        net-analyzer/bwmon,
+        net-analyzer/cacti,
+        net-analyzer/cacti-spine,
+        net-analyzer/calamaris,
+        net-analyzer/carl,
+        net-analyzer/chaosreader,
+        net-analyzer/cnet,
+        net-analyzer/cryptcat,
+        net-analyzer/cutter,
+        net-analyzer/darkstat,
+        net-analyzer/dhcpdump,
+        net-analyzer/dnstracer,
+        net-analyzer/dosdetector,
+        net-analyzer/driftnet,
+        net-analyzer/dsniff,
+        net-analyzer/echoping,
+        net-analyzer/egressor,
+        net-analyzer/etherape,
+        net-analyzer/ethloop,
+        net-analyzer/ethstatus,
+        net-analyzer/ettercap,
+        net-analyzer/fail2ban,
+        net-analyzer/fe3d,
+        net-analyzer/ffp,
+        net-analyzer/firewalk,
+        net-analyzer/flow-tools,
+        net-analyzer/fping,
+        net-analyzer/fprobe,
+        net-analyzer/fragroute,
+        net-analyzer/ftester,
+        net-analyzer/fwlogwatch,
+        net-analyzer/gensink,
+        net-analyzer/gnome-nettool,
+        net-analyzer/gnu-netcat,
+        net-analyzer/gspoof,
+        net-analyzer/hping,
+        net-analyzer/httping,
+        net-analyzer/hunt,
+        net-analyzer/hydra,
+        net-analyzer/ibmonitor,
+        net-analyzer/ifmetric,
+        net-analyzer/ifstat,
+        net-analyzer/ifstatus,
+        net-analyzer/iftop,
+        net-analyzer/ike-scan,
+        net-analyzer/ipaudit,
+        net-analyzer/ipband,
+        net-analyzer/ipcad,
+        net-analyzer/iplog,
+        net-analyzer/ippl,
+        net-analyzer/ipscan,
+        net-analyzer/iptraf-ng,
+        net-analyzer/iptstate,
+        net-analyzer/isic,
+        net-analyzer/jnettop,
+        net-analyzer/knocker,
+        net-analyzer/labrea,
+        net-analyzer/lft,
+        net-analyzer/libnasl,
+        net-analyzer/linkchecker,
+        net-analyzer/macchanger,
+        net-analyzer/mbrowse,
+        net-analyzer/metasploit,
+        net-analyzer/midas-nms,
+        net-analyzer/mping,
+        net-analyzer/mrtg,
+        net-analyzer/mrtg-ping-probe,
+        net-analyzer/mtr,
+        net-analyzer/munin,
+        net-analyzer/mwcollect,
+        net-analyzer/nagios,
+        net-analyzer/nagios-check_logfiles,
+        net-analyzer/nagios-core,
+        net-analyzer/nagios-imagepack,
+        net-analyzer/nagios-nrpe,
+        net-analyzer/nagios-nsca,
+        net-analyzer/nagios-plugins,
+        net-analyzer/nagios-plugins-snmp,
+        net-analyzer/nagios-sap-ccms-plugin,
+        net-analyzer/nagircbot,
+        net-analyzer/nast,
+        net-analyzer/nb,
+        net-analyzer/nbaudit,
+        net-analyzer/nbtscan,
+        net-analyzer/ndoutils,
+        net-analyzer/ndsad,
+        net-analyzer/nessus,
+        net-analyzer/nessus-core,
+        net-analyzer/nessus-libraries,
+        net-analyzer/nessus-plugins,
+        net-analyzer/net-snmp,
+        net-analyzer/netcat6,
+        net-analyzer/netdiscover,
+        net-analyzer/nethogs,
+        net-analyzer/neti,
+        net-analyzer/netio,
+        net-analyzer/netperf,
+        net-analyzer/netselect,
+        net-analyzer/nettop,
+        net-analyzer/netwag,
+        net-analyzer/netwatch,
+        net-analyzer/netwox,
+        net-analyzer/nfdump,
+        net-analyzer/ngrep,
+        net-analyzer/nikto,
+        net-analyzer/nipper,
+        net-analyzer/nload,
+        net-analyzer/nmap,
+        net-analyzer/nmbscan,
+        net-analyzer/nsat,
+        net-analyzer/ntop,
+        net-analyzer/nttcp,
+        net-analyzer/oinkmaster,
+        net-analyzer/openvas,
+        net-analyzer/openvas-client,
+        net-analyzer/openvas-libnasl,
+        net-analyzer/openvas-libraries,
+        net-analyzer/openvas-plugins,
+        net-analyzer/openvas-server,
+        net-analyzer/p0f,
+        net-analyzer/packit,
+        net-analyzer/pathload,
+        net-analyzer/pathrate,
+        net-analyzer/pbnj,
+        net-analyzer/pchar,
+        net-analyzer/pinger,
+        net-analyzer/pktstat,
+        net-analyzer/pmacct,
+        net-analyzer/poink,
+        net-analyzer/portmon,
+        net-analyzer/portsentry,
+        net-analyzer/prewikka,
+        net-analyzer/quidscor,
+        net-analyzer/raddump,
+        net-analyzer/rain,
+        net-analyzer/rrdcollect,
+        net-analyzer/rrdtool,
+        net-analyzer/sancp,
+        net-analyzer/sarg,
+        net-analyzer/sbd,
+        net-analyzer/scanlogd,
+        net-analyzer/scanssh,
+        net-analyzer/scapy,
+        net-analyzer/scli,
+        net-analyzer/sec,
+        net-analyzer/sflowtool,
+        net-analyzer/sguil-client,
+        net-analyzer/sguil-server,
+        net-analyzer/siphon,
+        net-analyzer/slurm,
+        net-analyzer/sniffit,
+        net-analyzer/snmptt,
+        net-analyzer/snort,
+        net-analyzer/snortalog,
+        net-analyzer/snortsam,
+        net-analyzer/squid-graph,
+        net-analyzer/squidsites,
+        net-analyzer/ssldump,
+        net-analyzer/ssmping,
+        net-analyzer/symon,
+        net-analyzer/syweb,
+        net-analyzer/tcpdump,
+        net-analyzer/tcpflow,
+        net-analyzer/tcpreen,
+        net-analyzer/tcpreplay,
+        net-analyzer/tcpslice,
+        net-analyzer/tcpstat,
+        net-analyzer/tcptrace,
+        net-analyzer/tcptraceroute,
+        net-analyzer/tcptrack,
+        net-analyzer/thcrut,
+        net-analyzer/thrulay,
+        net-analyzer/tleds,
+        net-analyzer/tptest,
+        net-analyzer/traceproto,
+        net-analyzer/traceroute,
+        net-analyzer/traceroute-nanog,
+        net-analyzer/traffic-vis,
+        net-analyzer/trafshow,
+        net-analyzer/ttcp,
+        net-analyzer/upnpscan,
+        net-analyzer/vnstat,
+        net-analyzer/webfuzzer,
+        net-analyzer/wireshark,
+        net-analyzer/xnetload,
+        net-analyzer/xprobe,
+        net-analyzer/yersinia,
+        net-analyzer/zabbix,
+        net-analyzer/zenmap,
+        net-analyzer/zniper
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: yes
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
