@@ -1,0 +1,237 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+        app-emacs/alt-font-menu,
+        app-emacs/analog,
+        app-emacs/apache-mode,
+        app-emacs/auto-complete,
+        app-emacs/autoconf-mode,
+        app-emacs/binclock,
+        app-emacs/blogmax,
+        app-emacs/bm,
+        app-emacs/bongo,
+        app-emacs/boxquote,
+        app-emacs/browse-kill-ring,
+        app-emacs/bubblet,
+        app-emacs/calfw,
+        app-emacs/chess,
+        app-emacs/circe,
+        app-emacs/cldoc,
+        app-emacs/color-browser,
+        app-emacs/company-mode,
+        app-emacs/cperl-mode,
+        app-emacs/crontab-mode,
+        app-emacs/crypt++,
+        app-emacs/csharp-mode,
+        app-emacs/css-mode,
+        app-emacs/csv-mode,
+        app-emacs/ddskk,
+        app-emacs/delicious,
+        app-emacs/develock,
+        app-emacs/df-mode,
+        app-emacs/dictionary,
+        app-emacs/dircolors,
+        app-emacs/dired-sort-menu,
+        app-emacs/doctest-mode,
+        app-emacs/doxymacs,
+        app-emacs/dropdown-list,
+        app-emacs/ecb,
+        app-emacs/edb,
+        app-emacs/edit-list,
+        app-emacs/elib,
+        app-emacs/elscreen,
+        app-emacs/emacs-daemon,
+        app-emacs/emacs-jabber,
+        app-emacs/emacs-wget,
+        app-emacs/emacs-wiki,
+        app-emacs/emacs-wiki-blog,
+        app-emacs/emhacks,
+        app-emacs/emms,
+        app-emacs/eperiodic,
+        app-emacs/erc,
+        app-emacs/erobot,
+        app-emacs/fff,
+        app-emacs/filladapt,
+        app-emacs/flashcard,
+        app-emacs/folding,
+        app-emacs/gnuserv,
+        app-emacs/google-c-style,
+        app-emacs/graphviz-dot-mode,
+        app-emacs/grep-edit,
+        app-emacs/h4x0r,
+        app-emacs/haskell-mode,
+        app-emacs/highline,
+        app-emacs/howm,
+        app-emacs/htmlize,
+        app-emacs/http-emacs,
+        app-emacs/httpd,
+        app-emacs/icicles,
+        app-emacs/igrep,
+        app-emacs/imaxima,
+        app-emacs/inform-mode,
+        app-emacs/initsplit,
+        app-emacs/jam-mode,
+        app-emacs/jasmin,
+        app-emacs/javascript,
+        app-emacs/jde,
+        app-emacs/keywiz,
+        app-emacs/lookup,
+        app-emacs/lua-mode,
+        app-emacs/lyskom-elisp-client,
+        app-emacs/magit,
+        app-emacs/mailcrypt,
+        app-emacs/mairix,
+        app-emacs/mcomplete,
+        app-emacs/mell,
+        app-emacs/mew,
+        app-emacs/mic-paren,
+        app-emacs/mldonkey,
+        app-emacs/mode-compile,
+        app-emacs/mpg123-el,
+        app-emacs/mu-cite,
+        app-emacs/muse,
+        app-emacs/nagios-mode,
+        app-emacs/navi2ch,
+        app-emacs/nxml-docbook5-schemas,
+        app-emacs/nxml-gentoo-schemas,
+        app-emacs/nxml-libvirt-schemas,
+        app-emacs/nxml-mode,
+        app-emacs/nxml-svg-schemas,
+        app-emacs/outline-magic,
+        app-emacs/planner,
+        app-emacs/pov-mode,
+        app-emacs/prime-el,
+        app-emacs/protbuf,
+        app-emacs/psgml,
+        app-emacs/pymacs,
+        app-emacs/quack,
+        app-emacs/quilt-el,
+        app-emacs/qwerty,
+        app-emacs/redo,
+        app-emacs/regress,
+        app-emacs/remember,
+        app-emacs/rfcview,
+        app-emacs/riece,
+        app-emacs/rnc-mode,
+        app-emacs/rst,
+        app-emacs/ruby-mode,
+        app-emacs/rudel,
+        app-emacs/sawfish,
+        app-emacs/scala-mode,
+        app-emacs/session,
+        app-emacs/setnu,
+        app-emacs/slime,
+        app-emacs/sml-mode,
+        app-emacs/sokoban,
+        app-emacs/ssh,
+        app-emacs/stripes,
+        app-emacs/sumibi,
+        app-emacs/tamago,
+        app-emacs/tdtd,
+        app-emacs/template,
+        app-emacs/tempo-snippets,
+        app-emacs/thinks,
+        app-emacs/thumbs,
+        app-emacs/tnt,
+        app-emacs/tuareg-mode,
+        app-emacs/twittering-mode,
+        app-emacs/typing,
+        app-emacs/uboat,
+        app-emacs/undo-tree,
+        app-emacs/uptimes,
+        app-emacs/vhdl-mode,
+        app-emacs/view-process,
+        app-emacs/volume,
+        app-emacs/yasnippet,
+        app-emacs/yatex,
+        app-emacs/yc,
+        app-emacs/yow,
+        app-emacs/zenburn,
+        app-emacs/zenirc,
+        app-emacs/apel,
+        app-emacs/auctex,
+        app-emacs/bbdb,
+        app-emacs/cedet,
+        app-emacs/color-moccur,
+        app-emacs/color-theme,
+        app-emacs/emacs-common-gentoo,
+        app-emacs/emacs-w3m,
+        app-emacs/ess,
+        app-emacs/flim,
+        app-emacs/gentoo-syntax,
+        app-emacs/matlab,
+        app-emacs/mmm-mode,
+        app-emacs/moccur-edit,
+        app-emacs/ocaml-mode,
+        app-emacs/org-mode,
+        app-emacs/paredit,
+        app-emacs/php-mode,
+        app-emacs/po-mode,
+        app-emacs/proofgeneral,
+        app-emacs/python-mode,
+        app-emacs/scheme-complete,
+        app-emacs/semi,
+        app-emacs/vm,
+        app-emacs/w3mnav,
+        app-emacs/wanderlust,
+        app-emacs/whine,
+        app-emacs/wikipedia-mode,
+        app-emacs/xrdb-mode,
+        app-emacs/xslide
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
