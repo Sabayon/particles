@@ -207,7 +207,6 @@ packages:
 	media-sound/omptagger,
 	media-sound/orpheus,
 	media-sound/padevchooser,
-	media-sound/paprefs,
 	media-sound/patchage,
 	media-sound/pavucontrol,
 	media-sound/pavumeter,
