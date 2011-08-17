@@ -3,7 +3,8 @@
 # List of packages required to be built.
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
-packages:         dev-php/PEAR-Archive_Tar,
+packages:         
+	dev-php/PEAR-Archive_Tar,
         dev-php/PEAR-Auth,
         dev-php/PEAR-Auth_HTTP,
         dev-php/PEAR-Auth_SASL,
