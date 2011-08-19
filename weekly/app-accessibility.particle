@@ -1,0 +1,101 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+        app-accessibility/SphinxTrain,
+        app-accessibility/accerciser,
+        app-accessibility/at-spi2-atk,
+        app-accessibility/at-spi2-core,
+        app-accessibility/brltty,
+	app-accessibility/caribou,
+        app-accessibility/dasher,
+        app-accessibility/eflite,
+        app-accessibility/emacspeak,
+        app-accessibility/emacspeak-ss,
+        app-accessibility/epos,
+        app-accessibility/espeak,
+        app-accessibility/espeakup,
+        app-accessibility/festival,
+        app-accessibility/festival-fi,
+        app-accessibility/festival-freebsoft-utils,
+        app-accessibility/festival-hts,
+        app-accessibility/festival-it,
+        app-accessibility/festival-ru,
+        app-accessibility/flite,
+        app-accessibility/freetts,
+        app-accessibility/gnome-mag,
+        app-accessibility/gnome-speech,
+        app-accessibility/gok,
+        app-accessibility/java-access-bridge,
+        app-accessibility/mbrola,
+        app-accessibility/morseall,
+        app-accessibility/nfbtrans,
+        app-accessibility/orca,
+        app-accessibility/perlbox-voice,
+        app-accessibility/pidgin-festival,
+        app-accessibility/powiedz,
+        app-accessibility/sound-icons,
+        app-accessibility/speakup-utils,
+        app-accessibility/speech-dispatcher,
+        app-accessibility/speech-tools,
+        app-accessibility/speechd,
+        app-accessibility/speechd-el,
+        app-accessibility/sphinx2,
+        app-accessibility/sphinx3,
+        app-accessibility/yasr
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
