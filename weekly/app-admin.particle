@@ -1,0 +1,198 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-admin/389-admin-console,
+	app-admin/389-console,
+	app-admin/389-ds-console,
+	app-admin/addpatches,
+	app-admin/amazon-ec2-init,
+	app-admin/analog,
+	app-admin/apache-tools,
+	app-admin/apachetop,
+	app-admin/apg,
+	app-admin/augeas,
+	app-admin/bastille,
+	app-admin/bcfg2,
+	app-admin/cancd,
+	app-admin/ccze,
+	app-admin/checkrestart,
+	app-admin/chroot_safe,
+	app-admin/chrootuid,
+	app-admin/chrpath,
+	app-admin/collectd,
+	app-admin/conky,
+	app-admin/conkyforecast,
+	app-admin/conserver,
+	app-admin/cpulimit,
+	app-admin/cronolog,
+	app-admin/denyhosts,
+	app-admin/diradm,
+	app-admin/drush,
+	app-admin/durep,
+	app-admin/ec2-ami-tools,
+	app-admin/ec2-api-tools,
+	app-admin/emacs-updater,
+	app-admin/fetchlog,
+	app-admin/fifo-cronolog,
+	app-admin/flexlm,
+	app-admin/fsvs,
+	app-admin/gam-server,
+	app-admin/gamin,
+	app-admin/genromfs,
+	app-admin/gentoo-rsync-mirror,
+	app-admin/geolizer,
+	app-admin/gkrellm,
+	app-admin/gnome-system-tools,
+	app-admin/grubconfig,
+	app-admin/gtkdiskfree,
+	app-admin/haskell-updater,
+	app-admin/hddtemp,
+	app-admin/hwreport,
+	app-admin/ide-smart,
+	app-admin/integrit,
+	app-admin/kedpm,
+	app-admin/keepassx,
+	app-admin/killproc,
+	app-admin/lcap,
+	app-admin/lib_users,
+	app-admin/listadmin,
+	app-admin/localepurge,
+	app-admin/logcheck,
+	app-admin/logmon,
+	app-admin/logrotate,
+	app-admin/logsurfer+,
+	app-admin/longrun,
+	app-admin/lsat,
+	app-admin/lsyncd,
+	app-admin/makepasswd,
+	app-admin/mcelog,
+	app-admin/mcollective,
+	app-admin/metalog,
+	app-admin/mon,
+	app-admin/monit,
+	app-admin/newsyslog,
+	app-admin/osiris,
+	app-admin/passook,
+	app-admin/paxtest,
+	app-admin/perl-cleaner,
+	app-admin/pessulus,
+	app-admin/petrovich,
+	app-admin/phpsyslogng,
+	app-admin/pprocm,
+	app-admin/prelude-lml,
+	app-admin/prelude-manager,
+	app-admin/procinfo,
+	app-admin/profiler,
+	app-admin/psmon,
+	app-admin/puppet,
+	app-admin/pwcrypt,
+	app-admin/pwgen,
+	app-admin/pydf,
+	app-admin/qpage,
+	app-admin/quickswitch,
+	app-admin/rackview,
+	app-admin/radmind,
+	app-admin/ranpwd,
+	app-admin/reportmagic,
+	app-admin/rsyslog,
+	app-admin/rudy,
+	app-admin/showconsole,
+	app-admin/smolt,
+	app-admin/socklog,
+	app-admin/sshguard,
+	app-admin/stow,
+	app-admin/sud,
+	app-admin/sudo,
+	app-admin/sulfur,
+	app-admin/superadduser,
+	app-admin/supervisor,
+	app-admin/swatch,
+	app-admin/sxid,
+	app-admin/sysklogd,
+	app-admin/syslog-ng,
+	app-admin/syslog-summary,
+	app-admin/syslogread,
+	app-admin/sysrqd,
+	app-admin/sysstat,
+	app-admin/system-config-date,
+	app-admin/system-config-keyboard,
+	app-admin/system-config-printer-common,
+	app-admin/system-config-printer-gnome,
+	app-admin/system-config-users,
+	app-admin/system-tools-backends,
+	app-admin/tenshi,
+	app-admin/testdisk,
+	app-admin/tmpreaper,
+	app-admin/tmpwatch,
+	app-admin/tripwire,
+	app-admin/ulog-acctd,
+	app-admin/ulogd,
+	app-admin/usbview,
+	app-admin/usermin,
+	app-admin/verynice,
+	app-admin/watchfolder,
+	app-admin/webalizer,
+	app-admin/webalizer-xtended,
+	app-admin/webapp-config,
+	app-admin/whowatch,
+	app-admin/xstow,
+	app-admin/xtail,
+	app-admin/yaala
+
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
