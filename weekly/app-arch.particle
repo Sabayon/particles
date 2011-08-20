@@ -1,0 +1,145 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-arch/advancecomp,
+	app-arch/afio,
+	app-arch/alien,
+	app-arch/arc,
+	app-arch/arj,
+	app-arch/bsdsfv,
+	app-arch/bzip2,
+	app-arch/cabextract,
+	app-arch/cfv,
+	app-arch/cksfv,
+	app-arch/cpio,
+	app-arch/createrepo,
+	app-arch/dczip,
+	app-arch/deb2targz,
+	app-arch/deltarpm,
+	app-arch/dpkg,
+	app-arch/duff,
+	app-arch/dump,
+	app-arch/fastjar,
+	app-arch/file-roller,
+	app-arch/funzix,
+	app-arch/gtk-splitter,
+	app-arch/gzip,
+	app-arch/hardlink++,
+	app-arch/hardlink,
+	app-arch/ipkg-utils,
+	app-arch/lbzip2,
+	app-arch/lha,
+	app-arch/libarchive,
+	app-arch/libpar2,
+	app-arch/libzpaq,
+	app-arch/lrzip,
+	app-arch/lzip,
+	app-arch/lzop,
+	app-arch/macutil,
+	app-arch/makeself,
+	app-arch/mscompress,
+	app-arch/mt-st,
+	app-arch/ncompress,
+	app-arch/p7zip,
+	app-arch/par,
+	app-arch/par2cmdline,
+	app-arch/pax,
+	app-arch/pbzip2,
+	app-arch/pdv,
+	app-arch/peazip-gtk-bin,
+	app-arch/pigz,
+	app-arch/ppmd,
+	app-arch/pure-sfv,
+	app-arch/pxz,
+	app-arch/q7z,
+	app-arch/rar,
+	app-arch/rpm,
+	app-arch/rpm2targz,
+	app-arch/rzip,
+	app-arch/sharutils,
+	app-arch/snappy,
+	app-arch/squeeze,
+	app-arch/star,
+	app-arch/tapeutils,
+	app-arch/tar,
+	app-arch/tardy,
+	app-arch/tarsync,
+	app-arch/torrentzip,
+	app-arch/unace,
+	app-arch/unace,
+	app-arch/unadf,
+	app-arch/unarj,
+	app-arch/undms,
+	app-arch/unlzx,
+	app-arch/unmakeself,
+	app-arch/unp,
+	app-arch/unrar,
+	app-arch/unrar-gpl,
+	app-arch/unshield,
+	app-arch/unzip,
+	app-arch/upm,
+	app-arch/upx-bin,
+	app-arch/xar,
+	app-arch/xarchiver,
+	app-arch/xdms,
+	app-arch/xz-utils,
+	app-arch/zip,
+	app-arch/zoo,
+	app-arch/zpaq
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
