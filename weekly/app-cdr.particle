@@ -1,0 +1,123 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-cdr/acetoneiso,
+	app-cdr/b5i2iso,
+	app-cdr/backlite,
+	app-cdr/bashburn,
+	app-cdr/bchunk,
+	app-cdr/bin2iso,
+	app-cdr/brasero,
+	app-cdr/burn-cd,
+	app-cdr/burncdda,
+	app-cdr/burncenter,
+	app-cdr/ccd2iso,
+	app-cdr/cdck,
+	app-cdr/cdemu,
+	app-cdr/cdemud,
+	app-cdr/cdlabelgen,
+	app-cdr/cdrdao,
+	app-cdr/cdrtools,
+	app-cdr/cdw,
+	app-cdr/cuecue,
+	app-cdr/cuegen,
+	app-cdr/cuetools,
+	app-cdr/daa2iso,
+	app-cdr/disc-cover,
+	app-cdr/dvd+rw-tools,
+	app-cdr/dvd95,
+	app-cdr/dvdisaster,
+	app-cdr/dvdshrink,
+	app-cdr/extract-xiso,
+	app-cdr/gaffitter,
+	app-cdr/gcdemu,
+	app-cdr/gnomebaker,
+	app-cdr/graveman,
+	app-cdr/gtkcdlabel,
+	app-cdr/iat,
+	app-cdr/isomaster,
+	app-cdr/isomd5sum,
+	app-cdr/k3b,
+	app-cdr/k9copy,
+	app-cdr/kcdemu,
+	app-cdr/lightscribe-lacie,
+	app-cdr/lightscribe-simplelabeler,
+	app-cdr/lightscribe-template,
+	app-cdr/mirage2iso,
+	app-cdr/mkcdtoc,
+	app-cdr/mode2cdmaker,
+	app-cdr/mp3burn,
+	app-cdr/multicd,
+	app-cdr/nero,
+	app-cdr/nrg2iso,
+	app-cdr/plextor-tool,
+	app-cdr/poweriso,
+	app-cdr/qmultirecord,
+	app-cdr/qpxtool,
+	app-cdr/recorder,
+	app-cdr/serpentine,
+	app-cdr/sync2cd,
+	app-cdr/tkdvd,
+	app-cdr/uif2iso,
+	app-cdr/webcdwriter,
+	app-cdr/xbiso,
+	app-cdr/xcdroast,
+	app-cdr/xdvdfs-tools,
+	app-cdr/xfburn
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
