@@ -1,0 +1,133 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-editors/XML-XSH2,
+	app-editors/adie,
+	app-editors/aee,
+	app-editors/amyedit,
+	app-editors/beaver,
+	app-editors/bluefish,
+	app-editors/bvi,
+	app-editors/cooledit,
+	app-editors/cssed,
+	app-editors/dav,
+	app-editors/dhex,
+	app-editors/e3,
+	app-editors/editra,
+	app-editors/ee,
+	app-editors/efte,
+	app-editors/elvis,
+	app-editors/emacs,
+	app-editors/emact,
+	app-editors/fe,
+	app-editors/fte,
+	app-editors/gedit,
+	app-editors/gedit-plugins,
+	app-editors/ghex,
+	app-editors/ghex,
+	app-editors/gobby,
+	app-editors/gphpedit,
+	app-editors/gummi,
+	app-editors/gvim,
+	app-editors/hexcurse,
+	app-editors/hexedit,
+	app-editors/hteditor,
+	app-editors/jasspa-microemacs,
+	app-editors/jed,
+	app-editors/jedit,
+	app-editors/jext,
+	app-editors/joe,
+	app-editors/jove,
+	app-editors/juffed,
+	app-editors/kile,
+	app-editors/kompozer,
+	app-editors/le,
+	app-editors/leafpad,
+	app-editors/levee,
+	app-editors/lfhex,
+	app-editors/lpe,
+	app-editors/mg,
+	app-editors/mlview,
+	app-editors/mp,
+	app-editors/nano,
+	app-editors/ne,
+	app-editors/nedit,
+	app-editors/nvi,
+	app-editors/padre,
+	app-editors/qemacs,
+	app-editors/qwriter,
+	app-editors/qxmledit,
+	app-editors/scite,
+	app-editors/shed,
+	app-editors/tea,
+	app-editors/teco,
+	app-editors/ted,
+	app-editors/uemacs-pk,
+	app-editors/vile,
+	app-editors/vim,
+	app-editors/vim-core,
+	app-editors/wily,
+	app-editors/wxhexeditor,
+	app-editors/xemacs,
+	app-editors/xmlcopyeditor,
+	app-editors/xvile,
+	app-editors/zile,
+	app-editors/znotes,
+	app-editors/zoinks
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
