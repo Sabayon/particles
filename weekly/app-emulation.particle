@@ -1,0 +1,129 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-emulation/aranym,
+	app-emulation/bochs,
+	app-emulation/cedega,
+	app-emulation/coldfire,
+	app-emulation/dinero,
+	app-emulation/dlx,
+	app-emulation/dosemu,
+	app-emulation/dynamips,
+	app-emulation/e-uae,
+	app-emulation/emul-linux-x86-baselibs,
+	app-emulation/emul-linux-x86-compat,
+	app-emulation/emul-linux-x86-cpplibs,
+	app-emulation/emul-linux-x86-gtklibs,
+	app-emulation/emul-linux-x86-gtkmmlibs,
+	app-emulation/emul-linux-x86-java,
+	app-emulation/emul-linux-x86-medialibs,
+	app-emulation/emul-linux-x86-motif,
+	app-emulation/emul-linux-x86-opengl,
+	app-emulation/emul-linux-x86-qtlibs,
+	app-emulation/emul-linux-x86-sdl,
+	app-emulation/emul-linux-x86-soundlibs,
+	app-emulation/emul-linux-x86-xlibs,
+	app-emulation/fuse,
+	app-emulation/fuse-utils,
+	app-emulation/ganeti,
+	app-emulation/ganeti-htools,
+	app-emulation/ganeti-instance-debian-etch,
+	app-emulation/ganeti-instance-debootstrap,
+	app-emulation/ganeti-instance-image,
+	app-emulation/gxemul,
+	app-emulation/hercules,
+	app-emulation/lib765,
+	app-emulation/libdsk,
+	app-emulation/libspectrum,
+	app-emulation/libvirt,
+	app-emulation/libvirt-snmp,
+	app-emulation/lxc,
+	app-emulation/playonlinux,
+	app-emulation/q4wine,
+	app-emulation/qemu-kvm,
+	app-emulation/qemulator,
+	app-emulation/qtemu,
+	app-emulation/simh,
+	app-emulation/skyeye,
+	app-emulation/softgun,
+	app-emulation/spectemu,
+	app-emulation/spice-protocol,
+	app-emulation/spice-vdagent,
+	app-emulation/spice,
+	app-emulation/spim,
+	app-emulation/uade,
+	app-emulation/uae,
+	app-emulation/vboxgtk,
+	app-emulation/vice,
+	app-emulation/virt-manager,
+	app-emulation/virt-what,
+	app-emulation/virtinst,
+	app-emulation/vmware-server-console,
+	app-emulation/vmware-tools,
+	app-emulation/vmware-view-open-client,
+	app-emulation/vmware-vix,
+	app-emulation/vov,
+	app-emulation/wine,
+	app-emulation/wine-doors,
+	app-emulation/winetricks,
+	app-emulation/x48,
+	app-emulation/xen,
+	app-emulation/xen-pvgrub,
+	app-emulation/xen-tools
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
