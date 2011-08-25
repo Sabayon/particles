@@ -106,7 +106,6 @@ packages:
 	app-admin/stow,
 	app-admin/sud,
 	app-admin/sudo,
-	app-admin/sulfur,
 	app-admin/superadduser,
 	app-admin/supervisor,
 	app-admin/swatch,
