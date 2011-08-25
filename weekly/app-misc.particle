@@ -1,0 +1,318 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-misc/abook,
+	app-misc/activylircd,
+	app-misc/actkbd,
+	app-misc/aldo,
+	app-misc/alexandria,
+	app-misc/anki,
+	app-misc/astrolog,
+	app-misc/astrolog-ephemeris,
+	app-misc/away,
+	app-misc/banner,
+	app-misc/bb,
+	app-misc/beancounter,
+	app-misc/beanstalkd,
+	app-misc/beep,
+	app-misc/bfm,
+	app-misc/bfr,
+	app-misc/binclock,
+	app-misc/bins,
+	app-misc/binwalk,
+	app-misc/birthday,
+	app-misc/bleachbit,
+	app-misc/booh,
+	app-misc/bottlerocket,
+	app-misc/boxes,
+	app-misc/btail,
+	app-misc/byobu,
+	app-misc/ca-certificates,
+	app-misc/cadubi,
+	app-misc/calendar,
+	app-misc/cbrpager,
+	app-misc/cbview,
+	app-misc/ccal,
+	app-misc/cdargs,
+	app-misc/cdcat,
+	app-misc/cdcollect,
+	app-misc/cdctl,
+	app-misc/cdircmp,
+	app-misc/cdspeed,
+	app-misc/ckermit,
+	app-misc/clockywock,
+	app-misc/cmatrix,
+	app-misc/color,
+	app-misc/colordiff,
+	app-misc/countrycodes,
+	app-misc/cstream,
+	app-misc/cw,
+	app-misc/cwiid,
+	app-misc/dailystrips,
+	app-misc/datefudge,
+	app-misc/ddccontrol,
+	app-misc/ddccontrol-db,
+	app-misc/delay,
+	app-misc/detachtty,
+	app-misc/detox,
+	app-misc/devtodo,
+	app-misc/digitemp,
+	app-misc/discomatic,
+	app-misc/dnetc,
+	app-misc/dtach,
+	app-misc/dvorak7min,
+	app-misc/dvorakng,
+	app-misc/dvtm,
+	app-misc/editor-wrapper,
+	app-misc/egads,
+	app-misc/email2trac,
+	app-misc/emelfm2,
+	app-misc/esekeyd,
+	app-misc/exe,
+	app-misc/fdupes,
+	app-misc/fdutils,
+	app-misc/figlet,
+	app-misc/fixdos,
+	app-misc/flasm,
+	app-misc/freemind,
+	app-misc/fslint,
+	app-misc/fslurp,
+	app-misc/fsniper,
+	app-misc/fujiplay,
+	app-misc/g15composer,
+	app-misc/g15daemon,
+	app-misc/g15macro,
+	app-misc/g15message,
+	app-misc/g15mpd,
+	app-misc/g15stats,
+	app-misc/gcal,
+	app-misc/geekcode,
+	app-misc/gentoo,
+	app-misc/geoclue,
+	app-misc/glastree,
+	app-misc/glcdprocdriver,
+	app-misc/gnomecatalog,
+	app-misc/gnote,
+	app-misc/gnuit,
+	app-misc/gnutu,
+	app-misc/golly,
+	app-misc/goobook,
+	app-misc/gpsdrive,
+	app-misc/grabcartoons,
+	app-misc/gramps,
+	app-misc/granule,
+	app-misc/graphlcd-base,
+	app-misc/grc,
+	app-misc/gtypist,
+	app-misc/hachoir-metadata,
+	app-misc/hachoir-subfile,
+	app-misc/hachoir-urwid,
+	app-misc/hatools,
+	app-misc/hello,
+	app-misc/hexcompare,
+	app-misc/hilite,
+	app-misc/i810switch,
+	app-misc/ifp-line,
+	app-misc/ignuit,
+	app-misc/iguanaIR,
+	app-misc/inputlircd,
+	app-misc/interceptty,
+	app-misc/irtrans-irclient,
+	app-misc/irtrans-irserver,
+	app-misc/jail,
+	app-misc/jbidwatcher,
+	app-misc/jdictionary,
+	app-misc/jot,
+	app-misc/joy2key,
+	app-misc/joymouse,
+	app-misc/kanatest,
+	app-misc/klavaro,
+	app-misc/klive,
+	app-misc/ktoblzcheck,
+	app-misc/kupfer,
+	app-misc/lcd4linux,
+	app-misc/lcdproc,
+	app-misc/leave,
+	app-misc/ledit,
+	app-misc/linux-logo,
+	app-misc/linuxspa,
+	app-misc/lockfile-progs,
+	app-misc/logitech-applet,
+	app-misc/logserial,
+	app-misc/lsx,
+	app-misc/lxsplit,
+	app-misc/matew,
+	app-misc/mc,
+	app-misc/media-player-info,
+	app-misc/mencal,
+	app-misc/mepl,
+	app-misc/mime-types,
+	app-misc/misterhouse,
+	app-misc/mmv,
+	app-misc/mouseremote,
+	app-misc/mtail,
+	app-misc/multimon,
+	app-misc/muttprint,
+	app-misc/mvcase,
+	app-misc/mx5000tools,
+	app-misc/note,
+	app-misc/nullmodem,
+	app-misc/nut,
+	app-misc/ompload,
+	app-misc/ondir,
+	app-misc/oneko,
+	app-misc/openjnlp,
+	app-misc/pal,
+	app-misc/pax-utils,
+	app-misc/perltrash,
+	app-misc/pip,
+	app-misc/pipeworks,
+	app-misc/plod,
+	app-misc/pwsafe,
+	app-misc/pysmssend,
+	app-misc/querypkg,
+	app-misc/ranger,
+	app-misc/razertool,
+	app-misc/realpath,
+	app-misc/regex-markup,
+	app-misc/regionset,
+	app-misc/reptyr,
+	app-misc/revoco,
+	app-misc/rio,
+	app-misc/rio500,
+	app-misc/rioutil,
+	app-misc/rl,
+	app-misc/rlwrap,
+	app-misc/roadnav,
+	app-misc/sabayon-mce,
+	app-misc/sabayon-music,
+	app-misc/sabayon-skel,
+	app-misc/sabayon-version,
+	app-misc/sabayonlive-tools,
+	app-misc/scope,
+	app-misc/screen,
+	app-misc/screenie,
+	app-misc/scrub,
+	app-misc/sl,
+	app-misc/slashtime,
+	app-misc/slmon,
+	app-misc/smtm,
+	app-misc/socnetv,
+	app-misc/sonypid,
+	app-misc/sphinx,
+	app-misc/splitvt,
+	app-misc/srm,
+	app-misc/strigi,
+	app-misc/supercat,
+	app-misc/symlinks,
+	app-misc/tablix,
+	app-misc/task,
+	app-misc/tasque,
+	app-misc/tdfsb,
+	app-misc/tdl,
+	app-misc/timestamp,
+	app-misc/tkpasman,
+	app-misc/tmux,
+	app-misc/tmux-mem-cpu-load,
+	app-misc/toilet,
+	app-misc/tomboy,
+	app-misc/towitoko,
+	app-misc/tpconfig,
+	app-misc/tpipe,
+	app-misc/tprint,
+	app-misc/tracker,
+	app-misc/ttyrec,
+	app-misc/tuxcmd,
+	app-misc/tuxcmd-modules,
+	app-misc/unfoo,
+	app-misc/uptimed,
+	app-misc/utimer,
+	app-misc/vcp,
+	app-misc/vifm,
+	app-misc/vittk,
+	app-misc/vlock,
+	app-misc/wcd,
+	app-misc/webcomics-collector,
+	app-misc/when,
+	app-misc/wipe,
+	app-misc/worker,
+	app-misc/workrave,
+	app-misc/wyrd,
+	app-misc/xmind-portable,
+	app-misc/yagtd,
+	app-misc/ytree,
+	app-misc/zisofs-tools
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
