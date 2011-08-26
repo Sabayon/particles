@@ -1,0 +1,319 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	media-plugins/alsa-plugins,
+	media-plugins/alsaequal,
+	media-plugins/amb-plugins,
+	media-plugins/audacious-dumb,
+	media-plugins/audacious-plugins,
+	media-plugins/banshee-community-extensions,
+	media-plugins/blop,
+	media-plugins/caps-plugins,
+	media-plugins/fil-plugins,
+	media-plugins/frei0r-plugins,
+	media-plugins/gimp-greycstoration,
+	media-plugins/gimp-lqr,
+	media-plugins/gimp-resynthesizer,
+	media-plugins/gkrellmpc,
+	media-plugins/gmpc-alarm,
+	media-plugins/gmpc-avahi,
+	media-plugins/gmpc-discogs,
+	media-plugins/gmpc-extraplaylist,
+	media-plugins/gmpc-jamendo,
+	media-plugins/gmpc-last-fm,
+	media-plugins/gmpc-libnotify,
+	media-plugins/gmpc-lyrics,
+	media-plugins/gmpc-lyricwiki,
+	media-plugins/gmpc-magnatune,
+	media-plugins/gmpc-mdcover,
+	media-plugins/gmpc-playlistsort,
+	media-plugins/gmpc-shout,
+	media-plugins/gmpc-tagedit,
+	media-plugins/gmpc-wikipedia,
+	media-plugins/gst-plugins-a52dec,
+	media-plugins/gst-plugins-alsa,
+	media-plugins/gst-plugins-annodex,
+	media-plugins/gst-plugins-assrender,
+	media-plugins/gst-plugins-cdio,
+	media-plugins/gst-plugins-cdparanoia,
+	media-plugins/gst-plugins-dv,
+	media-plugins/gst-plugins-dvb,
+	media-plugins/gst-plugins-dvdread,
+	media-plugins/gst-plugins-esd,
+	media-plugins/gst-plugins-faac,
+	media-plugins/gst-plugins-faad,
+	media-plugins/gst-plugins-ffmpeg,
+	media-plugins/gst-plugins-flac,
+	media-plugins/gst-plugins-gconf,
+	media-plugins/gst-plugins-gio,
+	media-plugins/gst-plugins-gl,
+	media-plugins/gst-plugins-gnomevfs,
+	media-plugins/gst-plugins-jack,
+	media-plugins/gst-plugins-jpeg,
+	media-plugins/gst-plugins-ladspa,
+	media-plugins/gst-plugins-lame,
+	media-plugins/gst-plugins-libmms,
+	media-plugins/gst-plugins-libpng,
+	media-plugins/gst-plugins-libvisual,
+	media-plugins/gst-plugins-mad,
+	media-plugins/gst-plugins-meta,
+	media-plugins/gst-plugins-mimic,
+	media-plugins/gst-plugins-modplug,
+	media-plugins/gst-plugins-mpeg2dec,
+	media-plugins/gst-plugins-mpeg2enc,
+	media-plugins/gst-plugins-mplex,
+	media-plugins/gst-plugins-musepack,
+	media-plugins/gst-plugins-mythtv,
+	media-plugins/gst-plugins-neon,
+	media-plugins/gst-plugins-ofa,
+	media-plugins/gst-plugins-ogg,
+	media-plugins/gst-plugins-oss,
+	media-plugins/gst-plugins-pango,
+	media-plugins/gst-plugins-pulse,
+	media-plugins/gst-plugins-raw1394,
+	media-plugins/gst-plugins-resindvd,
+	media-plugins/gst-plugins-schroedinger,
+	media-plugins/gst-plugins-shout2,
+	media-plugins/gst-plugins-sidplay,
+	media-plugins/gst-plugins-soup,
+	media-plugins/gst-plugins-speex,
+	media-plugins/gst-plugins-taglib,
+	media-plugins/gst-plugins-theora,
+	media-plugins/gst-plugins-twolame,
+	media-plugins/gst-plugins-v4l2,
+	media-plugins/gst-plugins-vorbis,
+	media-plugins/gst-plugins-vp8,
+	media-plugins/gst-plugins-wavpack,
+	media-plugins/gst-plugins-x,
+	media-plugins/gst-plugins-x264,
+	media-plugins/gst-plugins-ximagesrc,
+	media-plugins/gst-plugins-xvid,
+	media-plugins/gst-plugins-xvideo,
+	media-plugins/hexter,
+	media-plugins/ir_lv2,
+	media-plugins/kipi-plugins,
+	media-plugins/ladspa-bs2b,
+	media-plugins/libvisual-plugins,
+	media-plugins/libvisual-projectm,
+	media-plugins/live,
+	media-plugins/mcp-plugins,
+	media-plugins/mediastreamer-amr,
+	media-plugins/mediastreamer-ilbc,
+	media-plugins/mediastreamer-x264,
+	media-plugins/mytharchive,
+	media-plugins/mythbrowser,
+	media-plugins/mythgallery,
+	media-plugins/mythgame,
+	media-plugins/mythmovies,
+	media-plugins/mythmusic,
+	media-plugins/mythnetvision,
+	media-plugins/mythnews,
+	media-plugins/mythvideo,
+	media-plugins/mythweather,
+	media-plugins/quodlibet-plugins,
+	media-plugins/rev-plugins,
+	media-plugins/swh-lv2,
+	media-plugins/swh-plugins,
+	media-plugins/tap-plugins,
+	media-plugins/vamp-aubio-plugins,
+	media-plugins/vamp-libxtract-plugins,
+	media-plugins/vco-plugins,
+	media-plugins/vdr-ac3mode,
+	media-plugins/vdr-actuator,
+	media-plugins/vdr-admin,
+	media-plugins/vdr-alcd,
+	media-plugins/vdr-amarok,
+	media-plugins/vdr-arghdirector,
+	media-plugins/vdr-atmo,
+	media-plugins/vdr-atscepg,
+	media-plugins/vdr-autosort,
+	media-plugins/vdr-avards,
+	media-plugins/vdr-beep,
+	media-plugins/vdr-bitstreamout,
+	media-plugins/vdr-browse,
+	media-plugins/vdr-burn,
+	media-plugins/vdr-burn-templates,
+	media-plugins/vdr-calc,
+	media-plugins/vdr-cdda,
+	media-plugins/vdr-chanman,
+	media-plugins/vdr-channelblocker,
+	media-plugins/vdr-channelscan,
+	media-plugins/vdr-cinebars,
+	media-plugins/vdr-clock,
+	media-plugins/vdr-console,
+	media-plugins/vdr-coverviewer,
+	media-plugins/vdr-cpumon,
+	media-plugins/vdr-decruft,
+	media-plugins/vdr-devstatus,
+	media-plugins/vdr-director,
+	media-plugins/vdr-dummydevice,
+	media-plugins/vdr-dvd,
+	media-plugins/vdr-dvdconvert,
+	media-plugins/vdr-dvdswitch,
+	media-plugins/vdr-eggtimer,
+	media-plugins/vdr-epgsearch,
+	media-plugins/vdr-epgsync,
+	media-plugins/vdr-exec,
+	media-plugins/vdr-extb,
+	media-plugins/vdr-extrecmenu,
+	media-plugins/vdr-femon,
+	media-plugins/vdr-fepg,
+	media-plugins/vdr-ffnetdev,
+	media-plugins/vdr-filebrowser,
+	media-plugins/vdr-freecell,
+	media-plugins/vdr-fritzbox,
+	media-plugins/vdr-games,
+	media-plugins/vdr-graphlcd,
+	media-plugins/vdr-graphtft,
+	media-plugins/vdr-image,
+	media-plugins/vdr-imonlcd,
+	media-plugins/vdr-infosatepg,
+	media-plugins/vdr-iptv,
+	media-plugins/vdr-joystick,
+	media-plugins/vdr-kvdrmon,
+	media-plugins/vdr-launcher,
+	media-plugins/vdr-lcdproc,
+	media-plugins/vdr-lcr,
+	media-plugins/vdr-live,
+	media-plugins/vdr-loadepg,
+	media-plugins/vdr-mailbox,
+	media-plugins/vdr-menuorg,
+	media-plugins/vdr-mlist,
+	media-plugins/vdr-mount,
+	media-plugins/vdr-mp3ng,
+	media-plugins/vdr-mplayer,
+	media-plugins/vdr-music,
+	media-plugins/vdr-newsticker,
+	media-plugins/vdr-nordlichtsepg,
+	media-plugins/vdr-osdpip,
+	media-plugins/vdr-osdserver,
+	media-plugins/vdr-osdteletext,
+	media-plugins/vdr-pcd,
+	media-plugins/vdr-picselshow,
+	media-plugins/vdr-pilotskin,
+	media-plugins/vdr-pin,
+	media-plugins/vdr-powermate,
+	media-plugins/vdr-prefermenu,
+	media-plugins/vdr-premiereepg,
+	media-plugins/vdr-pvrinput,
+	media-plugins/vdr-radio,
+	media-plugins/vdr-recstatus,
+	media-plugins/vdr-reelchannelscan,
+	media-plugins/vdr-remote,
+	media-plugins/vdr-remoteosd,
+	media-plugins/vdr-remotetimers,
+	media-plugins/vdr-rotor,
+	media-plugins/vdr-rssreader,
+	media-plugins/vdr-scheduler,
+	media-plugins/vdr-screenshot,
+	media-plugins/vdr-serial,
+	media-plugins/vdr-skincurses,
+	media-plugins/vdr-skinelchi,
+	media-plugins/vdr-skinenigmang,
+	media-plugins/vdr-skinreel,
+	media-plugins/vdr-skinsoppalusikka,
+	media-plugins/vdr-sleeptimer,
+	media-plugins/vdr-sndctl,
+	media-plugins/vdr-softdevice,
+	media-plugins/vdr-softplay,
+	media-plugins/vdr-span,
+	media-plugins/vdr-spider,
+	media-plugins/vdr-streamdev,
+	media-plugins/vdr-sudoku,
+	media-plugins/vdr-suspendoutput,
+	media-plugins/vdr-svdrposd,
+	media-plugins/vdr-svdrpservice,
+	media-plugins/vdr-sysinfo,
+	media-plugins/vdr-systeminfo,
+	media-plugins/vdr-taste,
+	media-plugins/vdr-text2skin,
+	media-plugins/vdr-timeline,
+	media-plugins/vdr-ttxtsubs,
+	media-plugins/vdr-tvonscreen,
+	media-plugins/vdr-undelete,
+	media-plugins/vdr-vcd,
+	media-plugins/vdr-vdrcd,
+	media-plugins/vdr-vdrrip,
+	media-plugins/vdr-vodcatcher,
+	media-plugins/vdr-vompserver,
+	media-plugins/vdr-wapd,
+	media-plugins/vdr-weatherng,
+	media-plugins/vdr-xineliboutput,
+	media-plugins/vdr-xxvautotimer,
+	media-plugins/vdr-yaepg,
+	media-plugins/vdr-zappilot,
+	media-plugins/xsynth-dssi
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
