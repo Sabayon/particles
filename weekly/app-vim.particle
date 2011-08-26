@@ -1,0 +1,196 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-vim/align,
+	app-vim/alternate,
+	app-vim/ansiesc,
+	app-vim/ant_menu,
+	app-vim/autoalign,
+	app-vim/bash-support,
+	app-vim/bnf-syntax,
+	app-vim/brainfuck-syntax,
+	app-vim/breakpts,
+	app-vim/bufferexplorer,
+	app-vim/c-support,
+	app-vim/calendar,
+	app-vim/cctree,
+	app-vim/cecutil,
+	app-vim/cfengine-syntax,
+	app-vim/closetag,
+	app-vim/cmdalias,
+	app-vim/colorschemes,
+	app-vim/colorsel,
+	app-vim/colorv,
+	app-vim/conque,
+	app-vim/cream,
+	app-vim/csound-syntax,
+	app-vim/csv,
+	app-vim/curcmdmode,
+	app-vim/cvsmenu,
+	app-vim/dbext,
+	app-vim/detectindent,
+	app-vim/dhcpd-syntax,
+	app-vim/easytags,
+	app-vim/ebnf-syntax,
+	app-vim/enhancedcommentify,
+	app-vim/errsign,
+	app-vim/eruby-syntax,
+	app-vim/eselect-syntax,
+	app-vim/exheres-syntax,
+	app-vim/extra-syntax,
+	app-vim/fluxbox-syntax,
+	app-vim/foldutil,
+	app-vim/fugitive,
+	app-vim/fuzzyfinder,
+	app-vim/genindent,
+	app-vim/gentoo-syntax,
+	app-vim/genutils,
+	app-vim/gist,
+	app-vim/gitolite-syntax,
+	app-vim/gitv,
+	app-vim/gnupg,
+	app-vim/greputils,
+	app-vim/gtk-syntax,
+	app-vim/gundo,
+	app-vim/help-extra-syntax,
+	app-vim/increment,
+	app-vim/info,
+	app-vim/l9,
+	app-vim/locateopen,
+	app-vim/matrix,
+	app-vim/minibufexpl,
+	app-vim/multiplesearch,
+	app-vim/multvals,
+	app-vim/nagios-syntax,
+	app-vim/nerdcommenter,
+	app-vim/nerdtree,
+	app-vim/nginx-syntax,
+	app-vim/ntp-syntax,
+	app-vim/omnicppcomplete,
+	app-vim/pam-syntax,
+	app-vim/perl-support,
+	app-vim/pgn-syntax,
+	app-vim/phpdocs,
+	app-vim/pushpop,
+	app-vim/rails,
+	app-vim/ri-browser,
+	app-vim/screen,
+	app-vim/searchcomplete,
+	app-vim/securemodelines,
+	app-vim/selinux-syntax,
+	app-vim/showmarks,
+	app-vim/slimv,
+	app-vim/snipmate,
+	app-vim/supertab,
+	app-vim/surround,
+	app-vim/svncommand,
+	app-vim/taglist,
+	app-vim/tmpl,
+	app-vim/toggle,
+	app-vim/tt2-syntax,
+	app-vim/txtfmt,
+	app-vim/udev-syntax,
+	app-vim/unite,
+	app-vim/uptime,
+	app-vim/vim-latex,
+	app-vim/vim-r,
+	app-vim/vim-spell-cs,
+	app-vim/vim-spell-da,
+	app-vim/vim-spell-de,
+	app-vim/vim-spell-el,
+	app-vim/vim-spell-en,
+	app-vim/vim-spell-es,
+	app-vim/vim-spell-fr,
+	app-vim/vim-spell-he,
+	app-vim/vim-spell-hu,
+	app-vim/vim-spell-it,
+	app-vim/vim-spell-nl,
+	app-vim/vim-spell-pl,
+	app-vim/vim-spell-pt,
+	app-vim/vim-spell-ru,
+	app-vim/vimbuddy,
+	app-vim/vimcalc,
+	app-vim/vimcommander,
+	app-vim/vimoutliner,
+	app-vim/vimpress,
+	app-vim/vimpython,
+	app-vim/wikipedia-syntax,
+	app-vim/xquery-syntax,
+	app-vim/xsl-syntax,
+	app-vim/yankring,
+	app-vim/zencoding-vim,
+	app-vim/zoomwin
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
