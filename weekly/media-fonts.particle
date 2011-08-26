@@ -1,0 +1,226 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	media-fonts/adi-dsp-fonts,
+	media-fonts/alee-fonts,
+	media-fonts/animal-tracks,
+	media-fonts/anonymous-pro,
+	media-fonts/aquafont,
+	media-fonts/aquapfont,
+	media-fonts/arabeyes-fonts,
+	media-fonts/arkpandora,
+	media-fonts/arphicfonts,
+	media-fonts/artwiz-aleczapka-en,
+	media-fonts/artwiz-latin1,
+	media-fonts/asenine,
+	media-fonts/baekmuk-fonts,
+	media-fonts/bitstream-cyberbit,
+	media-fonts/cantarell,
+	media-fonts/cardo,
+	media-fonts/cheapskatefonts,
+	media-fonts/cicle,
+	media-fonts/cm-unicode,
+	media-fonts/corefonts,
+	media-fonts/cronyx-fonts,
+	media-fonts/culmus,
+	media-fonts/dejavu,
+	media-fonts/dina,
+	media-fonts/droid,
+	media-fonts/efont-unicode,
+	media-fonts/ekushey-bangla-fonts,
+	media-fonts/encodings,
+	media-fonts/essays1743,
+	media-fonts/exljbris-free,
+	media-fonts/farsi-fonts,
+	media-fonts/fgdc-emergency,
+	media-fonts/font-adobe-100dpi,
+	media-fonts/font-adobe-75dpi,
+	media-fonts/font-adobe-utopia-100dpi,
+	media-fonts/font-adobe-utopia-75dpi,
+	media-fonts/font-adobe-utopia-type1,
+	media-fonts/font-alias,
+	media-fonts/font-arabic-misc,
+	media-fonts/font-bh-100dpi,
+	media-fonts/font-bh-75dpi,
+	media-fonts/font-bh-lucidatypewriter-100dpi,
+	media-fonts/font-bh-lucidatypewriter-75dpi,
+	media-fonts/font-bh-ttf,
+	media-fonts/font-bh-type1,
+	media-fonts/font-bitstream-100dpi,
+	media-fonts/font-bitstream-75dpi,
+	media-fonts/font-bitstream-speedo,
+	media-fonts/font-bitstream-type1,
+	media-fonts/font-cronyx-cyrillic,
+	media-fonts/font-cursor-misc,
+	media-fonts/font-daewoo-misc,
+	media-fonts/font-dec-misc,
+	media-fonts/font-ibm-type1,
+	media-fonts/font-isas-misc,
+	media-fonts/font-jis-misc,
+	media-fonts/font-micro-misc,
+	media-fonts/font-misc-cyrillic,
+	media-fonts/font-misc-ethiopic,
+	media-fonts/font-misc-meltho,
+	media-fonts/font-misc-misc,
+	media-fonts/font-mutt-misc,
+	media-fonts/font-schumacher-misc,
+	media-fonts/font-screen-cyrillic,
+	media-fonts/font-sony-misc,
+	media-fonts/font-sun-misc,
+	media-fonts/font-util,
+	media-fonts/font-winitzki-cyrillic,
+	media-fonts/font-xfree86-type1,
+	media-fonts/free-bangla-font,
+	media-fonts/freefont-ttf,
+	media-fonts/freefonts,
+	media-fonts/fs-fonts,
+	media-fonts/heuristica,
+	media-fonts/hkscs-ming,
+	media-fonts/hunkyfonts,
+	media-fonts/inconsolata,
+	media-fonts/intlfonts,
+	media-fonts/ipamonafont,
+	media-fonts/ja-ipafonts,
+	media-fonts/jisx0213-fonts,
+	media-fonts/jsmath,
+	media-fonts/jsmath-extra-dark,
+	media-fonts/kacst-fonts,
+	media-fonts/kanjistrokeorders,
+	media-fonts/khmer,
+	media-fonts/kochi-substitute,
+	media-fonts/konfont,
+	media-fonts/lfpfonts-fix,
+	media-fonts/lfpfonts-var,
+	media-fonts/liberation-fonts,
+	media-fonts/libertine-ttf,
+	media-fonts/lohit-fonts,
+	media-fonts/mathematica-fonts,
+	media-fonts/mgopen,
+	media-fonts/mikachan-font-otf,
+	media-fonts/mikachan-font-ttc,
+	media-fonts/mikachan-font-ttf,
+	media-fonts/monafont,
+	media-fonts/montecarlo,
+	media-fonts/mplus-fonts,
+	media-fonts/mplus-outline-fonts,
+	media-fonts/nanumfont,
+	media-fonts/nepali-fonts,
+	media-fonts/oldstandard,
+	media-fonts/opendesktop-fonts,
+	media-fonts/oto,
+	media-fonts/paratype,
+	media-fonts/pcf2bdf,
+	media-fonts/pigiarniq,
+	media-fonts/pothana2k,
+	media-fonts/proggy-fonts,
+	media-fonts/sabayon-fonts,
+	media-fonts/sazanami,
+	media-fonts/sgi-fonts,
+	media-fonts/shinonome,
+	media-fonts/sil-abyssinica,
+	media-fonts/sil-arabicfonts,
+	media-fonts/sil-charis,
+	media-fonts/sil-doulos,
+	media-fonts/sil-ezra,
+	media-fonts/sil-galatia,
+	media-fonts/sil-gentium,
+	media-fonts/sil-padauk,
+	media-fonts/stix-fonts,
+	media-fonts/takao-fonts,
+	media-fonts/tengwar-fonts,
+	media-fonts/terminus-font,
+	media-fonts/texcm-ttf,
+	media-fonts/thaifonts-scalable,
+	media-fonts/tibetan-machine-font,
+	media-fonts/ttf-bitstream-vera,
+	media-fonts/ubuntu-font-family,
+	media-fonts/umeplus-fonts,
+	media-fonts/unfonts,
+	media-fonts/unfonts-extra,
+	media-fonts/unifont,
+	media-fonts/urw-fonts,
+	media-fonts/urwvn-fonts,
+	media-fonts/vc-fonts,
+	media-fonts/vdrsymbols-ttf,
+	media-fonts/vlgothic,
+	media-fonts/webby-fonts,
+	media-fonts/wqy-bitmapfont,
+	media-fonts/wqy-microhei,
+	media-fonts/wqy-unibit,
+	media-fonts/wqy-zenhei,
+	media-fonts/x11fonts-jmk,
+	media-fonts/zh-kcfonts
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
