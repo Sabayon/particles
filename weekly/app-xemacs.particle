@@ -1,0 +1,208 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-xemacs/ada,
+	app-xemacs/apel,
+	app-xemacs/auctex,
+	app-xemacs/bbdb,
+	app-xemacs/build,
+	app-xemacs/c-support,
+	app-xemacs/calc,
+	app-xemacs/calendar,
+	app-xemacs/cc-mode,
+	app-xemacs/cedet-common,
+	app-xemacs/clearcase,
+	app-xemacs/cogre,
+	app-xemacs/cookie,
+	app-xemacs/crisp,
+	app-xemacs/debug,
+	app-xemacs/dictionary,
+	app-xemacs/dired,
+	app-xemacs/docbookide,
+	app-xemacs/easypg,
+	app-xemacs/ecb,
+	app-xemacs/ecrypto,
+	app-xemacs/ede,
+	app-xemacs/edebug,
+	app-xemacs/edict,
+	app-xemacs/ediff,
+	app-xemacs/edit-utils,
+	app-xemacs/edt,
+	app-xemacs/efs,
+	app-xemacs/egg-its,
+	app-xemacs/eieio,
+	app-xemacs/elib,
+	app-xemacs/emerge,
+	app-xemacs/erc,
+	app-xemacs/escreen,
+	app-xemacs/eshell,
+	app-xemacs/ess,
+	app-xemacs/eudc,
+	app-xemacs/footnote,
+	app-xemacs/forms,
+	app-xemacs/fortran-modes,
+	app-xemacs/frame-icon,
+	app-xemacs/fsf-compat,
+	app-xemacs/games,
+	app-xemacs/general-docs,
+	app-xemacs/gentoo-syntax,
+	app-xemacs/gnats,
+	app-xemacs/gnus,
+	app-xemacs/guided-tour,
+	app-xemacs/haskell-mode,
+	app-xemacs/hm-html-menus,
+	app-xemacs/hyperbole,
+	app-xemacs/ibuffer,
+	app-xemacs/idlwave,
+	app-xemacs/igrep,
+	app-xemacs/ilisp,
+	app-xemacs/jde,
+	app-xemacs/latin-euro-standards,
+	app-xemacs/latin-unity,
+	app-xemacs/leim,
+	app-xemacs/locale,
+	app-xemacs/lookup,
+	app-xemacs/mail-lib,
+	app-xemacs/mailcrypt,
+	app-xemacs/mew,
+	app-xemacs/mh-e,
+	app-xemacs/mine,
+	app-xemacs/misc-games,
+	app-xemacs/mmm-mode,
+	app-xemacs/mule-base,
+	app-xemacs/mule-ucs,
+	app-xemacs/net-utils,
+	app-xemacs/ocaml,
+	app-xemacs/oo-browser,
+	app-xemacs/os-utils,
+	app-xemacs/pc,
+	app-xemacs/pcl-cvs,
+	app-xemacs/pcomplete,
+	app-xemacs/perl-modes,
+	app-xemacs/pgg,
+	app-xemacs/prog-modes,
+	app-xemacs/ps-print,
+	app-xemacs/psgml,
+	app-xemacs/psgml-dtds,
+	app-xemacs/python-modes,
+	app-xemacs/re-builder,
+	app-xemacs/reftex,
+	app-xemacs/riece,
+	app-xemacs/rmail,
+	app-xemacs/ruby-modes,
+	app-xemacs/sasl,
+	app-xemacs/scheme,
+	app-xemacs/semantic,
+	app-xemacs/sgml,
+	app-xemacs/sh-script,
+	app-xemacs/sieve,
+	app-xemacs/skk,
+	app-xemacs/slider,
+	app-xemacs/sml-mode,
+	app-xemacs/sounds-au,
+	app-xemacs/sounds-wav,
+	app-xemacs/speedbar,
+	app-xemacs/strokes,
+	app-xemacs/sun,
+	app-xemacs/supercite,
+	app-xemacs/texinfo,
+	app-xemacs/text-modes,
+	app-xemacs/textools,
+	app-xemacs/time,
+	app-xemacs/tm,
+	app-xemacs/tooltalk,
+	app-xemacs/tpu,
+	app-xemacs/tramp,
+	app-xemacs/vc,
+	app-xemacs/vc-cc,
+	app-xemacs/vhdl,
+	app-xemacs/view-process,
+	app-xemacs/viper,
+	app-xemacs/vm,
+	app-xemacs/w3,
+	app-xemacs/x-symbol,
+	app-xemacs/xemacs-base,
+	app-xemacs/xemacs-devel,
+	app-xemacs/xemacs-eterm,
+	app-xemacs/xemacs-ispell,
+	app-xemacs/xemacs-packages-all,
+	app-xemacs/xetla,
+	app-xemacs/xlib,
+	app-xemacs/xslide,
+	app-xemacs/xslt-process,
+	app-xemacs/xwem,
+	app-xemacs/zenirc
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
