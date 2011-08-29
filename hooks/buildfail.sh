@@ -13,7 +13,7 @@ if [ ! -f "${BUILD_LOG}" ]; then
 	echo "cannot find build log file"
 	exit 1
 fi
-REMOTE_DIR="~/tinderbox/${DATE_DIR}/${MATTER_PORTAGE_FAILED_PACKAGE_NAME}"
+REMOTE_DIR="~/tinderbox/${DATE_DIR}/$(uname -m)/${MATTER_PORTAGE_FAILED_PACKAGE_NAME}"
 
 echo "Uploading ${BUILD_LOG} to tinderbox.sabayon.org..."
 ssh entropy@tinderbox.sabayon.org mkdir -p "${REMOTE_DIR}"
