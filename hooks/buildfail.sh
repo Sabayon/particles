@@ -2,7 +2,7 @@
 # MATTTER_PORTAGE_REPOSITORY = portage repository
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = CPV of failed package
 
-DATE_DIR=$(date +%Y-%m-%d-%H:%M)
+DATE_DIR=$(date +%Y-%m-%d)
 
 BUILD_LOG=$(echo -n "${MATTER_PORTAGE_BUILD_LOG_DIR}/${MATTER_PORTAGE_FAILED_PACKAGE_NAME}"*.log)
 if [ -z "${BUILD_LOG}" ]; then
