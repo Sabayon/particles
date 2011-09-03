@@ -6,7 +6,7 @@
 packages:
 	~games-util/fteqcc-xonotic-9999,
 	~games-fps/xonotic-data-9999,
-	~games-ftp/xonotic-maps-9999,
+	~games-fps/xonotic-maps-9999,
 	~games-fps/xonotic-9999
 	
 
