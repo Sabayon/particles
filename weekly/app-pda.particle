@@ -9,7 +9,6 @@ packages:
 	app-pda/dynamite,
 	app-pda/fusepod,
 	app-pda/gnupod,
-	app-pda/gpixpod,
 	app-pda/gtkpod,
 	app-pda/ideviceinstaller,
 	app-pda/ifuse,
