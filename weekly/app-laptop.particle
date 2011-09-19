@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	app-laptop/acpi4asus,
-	app-laptop/batterymon,
 	app-laptop/batti,
 	app-laptop/configure-trackpoint,
 	app-laptop/fnfx,
