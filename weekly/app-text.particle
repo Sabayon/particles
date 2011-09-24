@@ -1,0 +1,364 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	app-text/7plus,
+	app-text/a2ps,
+	app-text/acroread,
+	app-text/active-dvi,
+	app-text/adiff,
+	app-text/aiksaurus,
+	app-text/an,
+	app-text/ansifilter,
+	app-text/antiword,
+	app-text/antixls,
+	app-text/apvlv,
+	app-text/asciidoc,
+	app-text/aspell,
+	app-text/bact,
+	app-text/barcode,
+	app-text/bibclean,
+	app-text/bibletime,
+	app-text/bibus,
+	app-text/bibutils,
+	app-text/binfind,
+	app-text/bogosort,
+	app-text/build-docbook-catalog,
+	app-text/c2ps,
+	app-text/calibre,
+	app-text/catdoc,
+	app-text/cb2bib,
+	app-text/cedilla,
+	app-text/chasen,
+	app-text/chm2pdf,
+	app-text/chmsee,
+	app-text/clara,
+	app-text/cmigemo,
+	app-text/code2html,
+	app-text/convertlit,
+	app-text/convmv,
+	app-text/cook,
+	app-text/crf++,
+	app-text/crm114,
+	app-text/csvfix,
+	app-text/cuneiform,
+	app-text/cwtext,
+	app-text/dbacl,
+	app-text/ddir,
+	app-text/delta,
+	app-text/dictd,
+	app-text/diction,
+	app-text/ding,
+	app-text/diffpdf,
+	app-text/ding,
+	app-text/djview4,
+	app-text/djvu,
+	app-text/docbook-dsssl-stylesheets,
+	app-text/docbook-sgml,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-dtd,
+	app-text/docbook-sgml-utils,
+	app-text/docbook-xml-dtd,
+	app-text/docbook-xml-dtd,
+	app-text/docbook-xml-dtd,
+	app-text/docbook-xml-dtd,
+	app-text/docbook-xml-dtd,
+	app-text/docbook-xml-simple-dtd,
+	app-text/docbook-xml-simple-dtd,
+	app-text/docbook-xml-simple-dtd,
+	app-text/docbook-xsl-ns-stylesheets,
+	app-text/docbook-xsl-stylesheets,
+	app-text/docbook2X,
+	app-text/docx2txt,
+	app-text/dos2unix,
+	app-text/duali,
+	app-text/duconv,
+	app-text/dvipdfm,
+	app-text/dvipdfmx,
+	app-text/dvipng,
+	app-text/dvipsk,
+	app-text/dvisvgm,
+	app-text/ebook-tools,
+	app-text/enchant,
+	app-text/enscript,
+	app-text/epdf,
+	app-text/epdfview,
+	app-text/epstool,
+	app-text/evince,
+	app-text/expander,
+	app-text/fbreader,
+	app-text/flpsed,
+	app-text/focuswriter,
+	app-text/freepwing,
+	app-text/gentoo-guide-xml-dtd,
+	app-text/ghostscript-gpl,
+	app-text/gimagereader,
+	app-text/glark,
+	app-text/glosung,
+	app-text/gnome-doc-utils,
+	app-text/gnopaster,
+	app-text/gocr,
+	app-text/goldendict,
+	app-text/gonzui,
+	app-text/grutatxt,
+	app-text/gtkspell,
+	app-text/gtranslator,
+	app-text/gv,
+	app-text/highlight,
+	app-text/hnb,
+	app-text/htag,
+	app-text/html-xml-utils,
+	app-text/html2text,
+	app-text/html401,
+	app-text/htmlc,
+	app-text/htmldoc,
+	app-text/htmlinc,
+	app-text/htmlrecode,
+	app-text/htmltidy,
+	app-text/htp,
+	app-text/hunspell,
+	app-text/hyperestraier,
+	app-text/info2html,
+	app-text/iso-codes,
+	app-text/ispell,
+	app-text/jabref,
+	app-text/jadetex,
+	app-text/jing,
+	app-text/jpdftweak,
+	app-text/kbibtex,
+	app-text/kchmviewer,
+	app-text/kding,
+	app-text/keepnote,
+	app-text/kiwix,
+	app-text/landslide,
+	app-text/lcdf-typetools,
+	app-text/letterize,
+	app-text/libpaper,
+	app-text/libspectre,
+	app-text/libtextcat,
+	app-text/libwpd,
+	app-text/libwpg,
+	app-text/libwpg,
+	app-text/libwps,
+	app-text/linuxdoc-tools,
+	app-text/lodgeit,
+	app-text/lout,
+	app-text/lyx2html,
+	app-text/mathtex,
+	app-text/mbtpdfasm,
+	app-text/mecab,
+	app-text/mftrace,
+	app-text/mht-rip,
+	app-text/mpage,
+	app-text/mupdf,
+	app-text/mythes,
+	app-text/namazu,
+	app-text/nfoview,
+	app-text/notecase,
+	app-text/noweb,
+	app-text/o3read,
+	app-text/ocrad,
+	app-text/odt2txt,
+	app-text/openjade,
+	app-text/opensp,
+	app-text/ots,
+	app-text/paps,
+	app-text/passivetex,
+	app-text/pastebin,
+	app-text/pastebunz,
+	app-text/pdf2djvu,
+	app-text/pdf2html,
+	app-text/pdf2oo,
+	app-text/pdfgrep,
+	app-text/pdfjam,
+	app-text/pdfminer,
+	app-text/pdfsandwich,
+	app-text/pdfshuffler,
+	app-text/pdftk,
+	app-text/pep,
+	app-text/pinfo,
+	app-text/po4a,
+	app-text/podofo,
+	app-text/poppler,
+	app-text/poppler-base,
+	app-text/poppler-data,
+	app-text/poppler-glib,
+	app-text/poppler-qt4,
+	app-text/ps2eps,
+	app-text/ps2pkm,
+	app-text/psiconv,
+	app-text/pspdftool,
+	app-text/pspresent,
+	app-text/pstotext,
+	app-text/psutils,
+	app-text/pybookreader,
+	app-text/pylize,
+	app-text/pyrpub,
+	app-text/pytextile,
+	app-text/qgoogletranslator,
+	app-text/queequeg,
+	app-text/rarian,
+	app-text/recode,
+	app-text/reed,
+	app-text/refbase,
+	app-text/rfcutil,
+	app-text/rhyme,
+	app-text/rman,
+	app-text/rnv,
+	app-text/robodoc,
+	app-text/ronn,
+	app-text/rpl,
+	app-text/rtf2html,
+	app-text/sablotron,
+	app-text/sary,
+	app-text/scrollkeeper,
+	app-text/scrollkeeper-dtd,
+	app-text/sdcv,
+	app-text/searchmonkey,
+	app-text/sgml-common,
+	app-text/sgmltools-lite,
+	app-text/sgrep,
+	app-text/silvercity,
+	app-text/skribe,
+	app-text/sloccount,
+	app-text/spellutils,
+	app-text/stardict,
+	app-text/sword,
+	app-text/sword-modules,
+	app-text/t1utils,
+	app-text/tabler,
+	app-text/teckit,
+	app-text/tesseract,
+	app-text/texi2html,
+	app-text/texlive,
+	app-text/texlive-core,
+	app-text/tkinfo,
+	app-text/tkman,
+	app-text/tofrodos,
+	app-text/tokyodystopia,
+	app-text/trang,
+	app-text/tree,
+	app-text/ttf2pt1,
+	app-text/tuxcards,
+	app-text/txt2man,
+	app-text/txt2pdbdoc,
+	app-text/txt2tags,
+	app-text/u2ps,
+	app-text/unix2dos,
+	app-text/unpaper,
+	app-text/unrtf,
+	app-text/utrac,
+	app-text/uudeview,
+	app-text/uvconv,
+	app-text/vilistextum,
+	app-text/vlna,
+	app-text/wdiff,
+	app-text/webgen,
+	app-text/wgetpaste,
+	app-text/wiki2beamer,
+	app-text/winefish,
+	app-text/wklej,
+	app-text/wpd2odt,
+	app-text/wscr,
+	app-text/wv,
+	app-text/wv2,
+	app-text/xchm,
+	app-text/xdvik,
+	app-text/xdvipdfmx,
+	app-text/xfbib,
+	app-text/xhtml1,
+	app-text/xindy,
+	app-text/xlhtml,
+	app-text/xlsx2csv,
+	app-text/xml2,
+	app-text/xml2doc,
+	app-text/xmldiff,
+	app-text/xmlformat,
+	app-text/xmlstarlet,
+	app-text/xmlto,
+	app-text/xournal,
+	app-text/xpdf,
+	app-text/yagf,
+	app-text/yudit,
+	app-text/zathura,
+	app-text/zemberek-server,
+	app-text/zpspell
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
