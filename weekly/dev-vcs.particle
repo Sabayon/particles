@@ -1,0 +1,145 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	dev-vcs/archway,
+	dev-vcs/bzr,
+	dev-vcs/bzr-explorer,
+	dev-vcs/bzr-git,
+	dev-vcs/bzr-gtk,
+	dev-vcs/bzr-rewrite,
+	dev-vcs/bzr-svn,
+	dev-vcs/bzr-xmloutput,
+	dev-vcs/bzrtools,
+	dev-vcs/cola,
+	dev-vcs/colorcvs,
+	dev-vcs/colorsvn,
+	dev-vcs/cssc,
+	dev-vcs/cvs,
+	dev-vcs/cvs2cl,
+	dev-vcs/cvs2svn,
+	dev-vcs/cvsd,
+	dev-vcs/cvsgraph,
+	dev-vcs/cvsps,
+	dev-vcs/cvsq,
+	dev-vcs/cvsspam,
+	dev-vcs/cvsutils,
+	dev-vcs/darcs,
+	dev-vcs/easygit,
+	dev-vcs/fossil,
+	dev-vcs/giggle,
+	dev-vcs/git,
+	dev-vcs/git-bz,
+	dev-vcs/git-cvs,
+	dev-vcs/git-gui-tools,
+	dev-vcs/git-sh,
+	dev-vcs/git-subversion,
+	dev-vcs/gitg,
+	dev-vcs/gitolite,
+	dev-vcs/gitosis-gentoo,
+	dev-vcs/gitstats,
+	dev-vcs/guilt,
+	dev-vcs/hg-git,
+	dev-vcs/hgsubversion,
+	dev-vcs/hgsvn,
+	dev-vcs/hgview,
+	dev-vcs/kdesvn,
+	dev-vcs/mercurial,
+	dev-vcs/mercurial-server,
+	dev-vcs/monotone,
+	dev-vcs/mr,
+	dev-vcs/qbzr,
+	dev-vcs/qct,
+	dev-vcs/qgit,
+	dev-vcs/qsvn,
+	dev-vcs/rabbitvcs,
+	dev-vcs/rapidsvn,
+	dev-vcs/rcs,
+	dev-vcs/rcsi,
+	dev-vcs/rsvndump,
+	dev-vcs/statcvs,
+	dev-vcs/statsvn,
+	dev-vcs/stgit,
+	dev-vcs/subversion,
+	dev-vcs/subversion-java,
+	dev-vcs/svn2cl,
+	dev-vcs/svn2git,
+	dev-vcs/svneverever,
+	dev-vcs/svnmailer,
+	dev-vcs/tig,
+	dev-vcs/tkcvs,
+	dev-vcs/topgit,
+	dev-vcs/veracity
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
