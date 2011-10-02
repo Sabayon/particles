@@ -6,7 +6,6 @@
 packages:
 	dev-games/KXL,
 	dev-games/cardpics,
-	dev-games/cegui,
 	dev-games/cel,
 	dev-games/clanlib,
 	dev-games/crystalspace,
@@ -39,6 +38,9 @@ packages:
 	dev-games/simgear,
 	dev-games/vamos,
 	dev-games/wfmath
+
+# Cause library breakages:
+# dev-games/cegui
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
