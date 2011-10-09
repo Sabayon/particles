@@ -18,12 +18,6 @@ packages:
 	dev-games/hdl_dump,
 	dev-games/hlsdk,
 	dev-games/irrlicht,
-	dev-games/libggz,
-	dev-games/libgrapple,
-	dev-games/libmaitretarot,
-	dev-games/libmt_client,
-	dev-games/libnw,
-	dev-games/mercator,
 	dev-games/neoengine,
 	dev-games/neotools,
 	dev-games/newton,
@@ -41,6 +35,12 @@ packages:
 
 # Cause library breakages:
 # dev-games/cegui
+# dev-games/mercator
+# dev-games/libggz
+# dev-games/libgrapple
+# dev-games/libmaitretarot
+# dev-games/libmt_client
+# dev-games/libnw
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
