@@ -30,8 +30,7 @@ packages:
 	dev-games/poker-eval,
 	dev-games/ps2-packer,
 	dev-games/simgear,
-	dev-games/vamos,
-	dev-games/wfmath
+	dev-games/vamos
 
 # Cause library breakages:
 # dev-games/cegui
@@ -41,6 +40,7 @@ packages:
 # dev-games/libmaitretarot
 # dev-games/libmt_client
 # dev-games/libnw
+# dev-games/wfmath
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
