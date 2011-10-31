@@ -26,6 +26,7 @@ packages:
 	app-admin/conky,
 	app-admin/conkyforecast,
 	app-admin/conserver,
+	app-admin/cpu-g,
 	app-admin/cpulimit,
 	app-admin/cronolog,
 	app-admin/denyhosts,
