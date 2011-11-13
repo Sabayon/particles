@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	gnome-extra/accountsdialog,
 	gnome-extra/assogiate,
 	gnome-extra/at-spi,
 	gnome-extra/avant-window-navigator,
@@ -13,6 +14,7 @@ packages:
 	gnome-extra/contacts,
 	gnome-extra/docky,
 	gnome-extra/drwright,
+	gnome-extra/eiciel,
 	gnome-extra/evolution-data-server,
 	gnome-extra/evolution-exchange,
 	gnome-extra/evolution-rss,
@@ -30,6 +32,7 @@ packages:
 	gnome-extra/gnome-do,
 	gnome-extra/gnome-do-plugins,
 	gnome-extra/gnome-documents,
+	gnome-extra/gnome-dvb-daemon,
 	gnome-extra/gnome-games,
 	gnome-extra/gnome-games-extra-data,
 	gnome-extra/gnome-globalmenu,
@@ -64,14 +67,18 @@ packages:
 	gnome-extra/nautilus-open-terminal,
 	gnome-extra/nautilus-sendto,
 	gnome-extra/nm-applet,
+	gnome-extra/panflute,
 	gnome-extra/polkit-gnome,
+	gnome-extra/seahorse-nautilus,
 	gnome-extra/sushi,
+	gnome-extra/synapse,
 	gnome-extra/swfdec-gnome,
 	gnome-extra/tasks,
 	gnome-extra/yelp,
 	gnome-extra/yelp-xsl,
+	gnome-extra/zeitgeist,
+	gnome-extra/zeitgeist-datahub,
 	gnome-extra/zenity
-
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
