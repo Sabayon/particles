@@ -10,7 +10,6 @@ packages:
         app-i18n/cstools,
         app-i18n/enca,
         app-i18n/fbiterm,
-        app-i18n/fcitx,
         app-i18n/fcitx-configtool,
         app-i18n/fcitx-sunpinyin,
         app-i18n/ibus,
