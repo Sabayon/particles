@@ -1,0 +1,183 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	dev-haskell/alex,
+	dev-haskell/alsa-core,
+	dev-haskell/alsa-mixer,
+	dev-haskell/alut,
+	dev-haskell/ansi-terminal,
+	dev-haskell/ansi-wl-pprint,
+	dev-haskell/arrows,
+	dev-haskell/binary,
+	dev-haskell/bzlib,
+	dev-haskell/c2hs,
+	dev-haskell/cabal,
+	dev-haskell/cabal-install,
+	dev-haskell/cairo,
+	dev-haskell/cgi,
+	dev-haskell/configfile,
+	dev-haskell/convertible,
+	dev-haskell/cpphs,
+	dev-haskell/curl,
+	dev-haskell/dataenc,
+	dev-haskell/deepseq,
+	dev-haskell/digest,
+	dev-haskell/dlist,
+	dev-haskell/drift,
+	dev-haskell/editline,
+	dev-haskell/fgl,
+	dev-haskell/frown,
+	dev-haskell/ghc-paths,
+	dev-haskell/gio,
+	dev-haskell/glade,
+	dev-haskell/glib,
+	dev-haskell/glut,
+	dev-haskell/gtk,
+	dev-haskell/gtk2hs-buildtools,
+	dev-haskell/haddock,
+	dev-haskell/happy,
+	dev-haskell/harp,
+	dev-haskell/hashed-storage,
+	dev-haskell/haskeline,
+	dev-haskell/haskell-src,
+	dev-haskell/haskell-src-exts,
+	dev-haskell/haxml,
+	dev-haskell/hdbc,
+	dev-haskell/hdbc-odbc,
+	dev-haskell/hdbc-postgresql,
+	dev-haskell/hdbc-sqlite,
+	dev-haskell/hdoc,
+	dev-haskell/highlighting-kate,
+	dev-haskell/hinotify,
+	dev-haskell/hs-bibutils,
+	dev-haskell/hscolour,
+	dev-haskell/hslogger,
+	dev-haskell/hsql,
+	dev-haskell/hsql-mysql,
+	dev-haskell/hsql-odbc,
+	dev-haskell/hsql-postgresql,
+	dev-haskell/hsql-sqlite,
+	dev-haskell/html,
+	dev-haskell/http,
+	dev-haskell/hunit,
+	dev-haskell/iconv,
+	dev-haskell/json,
+	dev-haskell/language-c,
+	dev-haskell/missingh,
+	dev-haskell/mmap,
+	dev-haskell/mtl,
+	dev-haskell/network,
+	dev-haskell/openal,
+	dev-haskell/opengl,
+	dev-haskell/pandoc-types,
+	dev-haskell/pango,
+	dev-haskell/parallel,
+	dev-haskell/parsec,
+	dev-haskell/quickcheck,
+	dev-haskell/quickcheck,
+	dev-haskell/readline,
+	dev-haskell/regex-base,
+	dev-haskell/regex-compat,
+	dev-haskell/regex-pcre-builtin,
+	dev-haskell/regex-posix,
+	dev-haskell/statevar,
+	dev-haskell/stm,
+	dev-haskell/stream,
+	dev-haskell/syb,
+	dev-haskell/tagsoup,
+	dev-haskell/tar,
+	dev-haskell/terminfo,
+	dev-haskell/test-framework,
+	dev-haskell/test-framework-hunit,
+	dev-haskell/test-framework-quickcheck2,
+	dev-haskell/testpack,
+	dev-haskell/texmath,
+	dev-haskell/text,
+	dev-haskell/time,
+	dev-haskell/utf8-string,
+	dev-haskell/uuagc,
+	dev-haskell/uulib,
+	dev-haskell/wash,
+	dev-haskell/wxcore,
+	dev-haskell/wxdirect,
+	dev-haskell/wxhaskell,
+	dev-haskell/x11,
+	dev-haskell/x11-xft,
+	dev-haskell/xhtml,
+	dev-haskell/xml,
+	dev-haskell/zip-archive,
+	dev-haskell/zlib
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
