@@ -1,0 +1,129 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	dev-ml/ANSITerminal,
+	dev-ml/bin-prot,
+	dev-ml/bolt,
+	dev-ml/camlidl,
+	dev-ml/camlimages,
+	dev-ml/camlp5,
+	dev-ml/camlzip,
+	dev-ml/camomile,
+	dev-ml/core,
+	dev-ml/cryptokit,
+	dev-ml/extlib,
+	dev-ml/facile,
+	dev-ml/fieldslib,
+	dev-ml/findlib,
+	dev-ml/fort,
+	dev-ml/gd4o,
+	dev-ml/kaputt,
+	dev-ml/lablgl,
+	dev-ml/lablgtk,
+	dev-ml/lwt,
+	dev-ml/obrowser,
+	dev-ml/ocaml-augeas,
+	dev-ml/ocaml-autoconf,
+	dev-ml/ocaml-data-notation,
+	dev-ml/ocaml-doc,
+	dev-ml/ocaml-expat,
+	dev-ml/ocaml-expect,
+	dev-ml/ocaml-fileutils,
+	dev-ml/ocaml-make,
+	dev-ml/ocaml-mysql,
+	dev-ml/ocaml-sqlite3,
+	dev-ml/ocaml-ssl,
+	dev-ml/ocamldsort,
+	dev-ml/ocamlduce,
+	dev-ml/ocamlgraph,
+	dev-ml/ocamlgsl,
+	dev-ml/ocamlnet,
+	dev-ml/ocamlsdl,
+	dev-ml/ocamlweb,
+	dev-ml/ocurl,
+	dev-ml/odns,
+	dev-ml/ounit,
+	dev-ml/pcre-ocaml,
+	dev-ml/pomap,
+	dev-ml/postgresql-ocaml,
+	dev-ml/pxp,
+	dev-ml/react,
+	dev-ml/res,
+	dev-ml/sexplib,
+	dev-ml/type-conv,
+	dev-ml/ulex,
+	dev-ml/xmlm
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
