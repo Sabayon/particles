@@ -1,0 +1,153 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	dev-tex/aastex,
+	dev-tex/abntex,
+	dev-tex/bera,
+	dev-tex/biblatex,
+	dev-tex/bibtex2html,
+	dev-tex/bibtexu,
+	dev-tex/catdvi,
+	dev-tex/chktex,
+	dev-tex/cjk-latex,
+	dev-tex/cpp2latex,
+	dev-tex/crosstex,
+	dev-tex/csindex,
+	dev-tex/culmus-latex,
+	dev-tex/currvita,
+	dev-tex/curve,
+	dev-tex/detex,
+	dev-tex/dot2tex,
+	dev-tex/dot2texi,
+	dev-tex/dvi2gr,
+	dev-tex/dvi2tty,
+	dev-tex/dvipost,
+	dev-tex/envlab,
+	dev-tex/europecv,
+	dev-tex/feynmf,
+	dev-tex/flabels,
+	dev-tex/floatflt,
+	dev-tex/foiltex,
+	dev-tex/frakturx,
+	dev-tex/fundus,
+	dev-tex/g-brief,
+	dev-tex/glossaries,
+	dev-tex/harvard,
+	dev-tex/herm-pic,
+	dev-tex/hevea,
+	dev-tex/hlatex,
+	dev-tex/html2latex,
+	dev-tex/hyphen_show,
+	dev-tex/isotope,
+	dev-tex/ivritex,
+	dev-tex/latex-beamer,
+	dev-tex/latex-calendar,
+	dev-tex/latex2html,
+	dev-tex/latex2rtf,
+	dev-tex/latexdiff,
+	dev-tex/latexmk,
+	dev-tex/lazylist,
+	dev-tex/leaflet,
+	dev-tex/lgrind,
+	dev-tex/luatex,
+	dev-tex/metapost,
+	dev-tex/mh,
+	dev-tex/natbib,
+	dev-tex/newlfm,
+	dev-tex/notoccite,
+	dev-tex/oesch,
+	dev-tex/pdfannotextractor,
+	dev-tex/pgf,
+	dev-tex/polytable,
+	dev-tex/pstplus,
+	dev-tex/qtexengine,
+	dev-tex/quotchap,
+	dev-tex/rcsinfo,
+	dev-tex/revtex,
+	dev-tex/rubber,
+	dev-tex/serienbrief,
+	dev-tex/sketch,
+	dev-tex/style-check,
+	dev-tex/svninfo,
+	dev-tex/tex4ht,
+	dev-tex/texamator,
+	dev-tex/texmfind,
+	dev-tex/tipa,
+	dev-tex/tth,
+	dev-tex/xcolor,
+	dev-tex/xmltex,
+	dev-tex/xymtex
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
