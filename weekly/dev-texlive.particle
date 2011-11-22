@@ -1,0 +1,160 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	dev-texlive/texlive-basic,
+	dev-texlive/texlive-bibtexextra,
+	dev-texlive/texlive-context,
+	dev-texlive/texlive-documentation-arabic,
+	dev-texlive/texlive-documentation-base,
+	dev-texlive/texlive-documentation-bulgarian,
+	dev-texlive/texlive-documentation-chinese,
+	dev-texlive/texlive-documentation-czechslovak,
+	dev-texlive/texlive-documentation-dutch,
+	dev-texlive/texlive-documentation-english,
+	dev-texlive/texlive-documentation-finnish,
+	dev-texlive/texlive-documentation-french,
+	dev-texlive/texlive-documentation-german,
+	dev-texlive/texlive-documentation-greek,
+	dev-texlive/texlive-documentation-italian,
+	dev-texlive/texlive-documentation-japanese,
+	dev-texlive/texlive-documentation-korean,
+	dev-texlive/texlive-documentation-mongolian,
+	dev-texlive/texlive-documentation-polish,
+	dev-texlive/texlive-documentation-portuguese,
+	dev-texlive/texlive-documentation-russian,
+	dev-texlive/texlive-documentation-serbian,
+	dev-texlive/texlive-documentation-slovenian,
+	dev-texlive/texlive-documentation-spanish,
+	dev-texlive/texlive-documentation-thai,
+	dev-texlive/texlive-documentation-turkish,
+	dev-texlive/texlive-documentation-ukrainian,
+	dev-texlive/texlive-documentation-vietnamese,
+	dev-texlive/texlive-fontsextra,
+	dev-texlive/texlive-fontsrecommended,
+	dev-texlive/texlive-fontutils,
+	dev-texlive/texlive-formatsextra,
+	dev-texlive/texlive-games,
+	dev-texlive/texlive-genericextra,
+	dev-texlive/texlive-genericrecommended,
+	dev-texlive/texlive-htmlxml,
+	dev-texlive/texlive-humanities,
+	dev-texlive/texlive-langafrican,
+	dev-texlive/texlive-langarabic,
+	dev-texlive/texlive-langarmenian,
+	dev-texlive/texlive-langcjk,
+	dev-texlive/texlive-langcroatian,
+	dev-texlive/texlive-langcyrillic,
+	dev-texlive/texlive-langczechslovak,
+	dev-texlive/texlive-langdanish,
+	dev-texlive/texlive-langdutch,
+	dev-texlive/texlive-langenglish,
+	dev-texlive/texlive-langfinnish,
+	dev-texlive/texlive-langfrench,
+	dev-texlive/texlive-langgerman,
+	dev-texlive/texlive-langgreek,
+	dev-texlive/texlive-langhebrew,
+	dev-texlive/texlive-langhungarian,
+	dev-texlive/texlive-langindic,
+	dev-texlive/texlive-langitalian,
+	dev-texlive/texlive-langlatin,
+	dev-texlive/texlive-langlatvian,
+	dev-texlive/texlive-langlithuanian,
+	dev-texlive/texlive-langmongolian,
+	dev-texlive/texlive-langnorwegian,
+	dev-texlive/texlive-langother,
+	dev-texlive/texlive-langpolish,
+	dev-texlive/texlive-langportuguese,
+	dev-texlive/texlive-langspanish,
+	dev-texlive/texlive-langswedish,
+	dev-texlive/texlive-langtibetan,
+	dev-texlive/texlive-langturkmen,
+	dev-texlive/texlive-langvietnamese,
+	dev-texlive/texlive-latex,
+	dev-texlive/texlive-latexextra,
+	dev-texlive/texlive-latexrecommended,
+	dev-texlive/texlive-luatex,
+	dev-texlive/texlive-mathextra,
+	dev-texlive/texlive-metapost,
+	dev-texlive/texlive-music,
+	dev-texlive/texlive-omega,
+	dev-texlive/texlive-pictures,
+	dev-texlive/texlive-plainextra,
+	dev-texlive/texlive-pstricks,
+	dev-texlive/texlive-publishers,
+	dev-texlive/texlive-science,
+	dev-texlive/texlive-texinfo,
+	dev-texlive/texlive-xetex
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
