@@ -51,6 +51,7 @@ packages:
 	dev-lang/orc,
 	dev-lang/parrot,
 	dev-lang/pcc,
+	dev-lang/rakudo,
 	dev-lang/scala,
 	dev-lang/swi-prolog,
 	dev-lang/swig,
