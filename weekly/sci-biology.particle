@@ -1,0 +1,170 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	sci-biology/GBrowse,
+	sci-biology/aaindex,
+	sci-biology/abyss,
+	sci-biology/amos,
+	sci-biology/ariadne,
+	sci-biology/augustus,
+	sci-biology/bfast,
+	sci-biology/biogrep,
+	sci-biology/bioperl,
+	sci-biology/bioperl-db,
+	sci-biology/bioperl-network,
+	sci-biology/bioperl-run,
+	sci-biology/biopython,
+	sci-biology/bioruby,
+	sci-biology/biosql,
+	sci-biology/blat,
+	sci-biology/blossoc,
+	sci-biology/bowtie,
+	sci-biology/bwa,
+	sci-biology/cd-hit,
+	sci-biology/clustal-omega,
+	sci-biology/clustalw,
+	sci-biology/clustalw-mpi,
+	sci-biology/clustalx,
+	sci-biology/cutg,
+	sci-biology/dialign-tx,
+	sci-biology/elph,
+	sci-biology/embassy,
+	sci-biology/emboss,
+	sci-biology/eugene,
+	sci-biology/exonerate,
+	sci-biology/fasta,
+	sci-biology/fasttree,
+	sci-biology/finchtv,
+	sci-biology/foldingathome,
+	sci-biology/gibbs,
+	sci-biology/gmap,
+	sci-biology/goby-cpp,
+	sci-biology/hmmer,
+	sci-biology/iedera,
+	sci-biology/infernal,
+	sci-biology/iqpnni,
+	sci-biology/kalign,
+	sci-biology/lagan,
+	sci-biology/last,
+	sci-biology/mafft,
+	sci-biology/maq,
+	sci-biology/maqview,
+	sci-biology/mcl,
+	sci-biology/meme,
+	sci-biology/mosaik,
+	sci-biology/mothur,
+	sci-biology/mrbayes,
+	sci-biology/mummer,
+	sci-biology/muscle,
+	sci-biology/ncbi-tools,
+	sci-biology/njplot,
+	sci-biology/pals,
+	sci-biology/paml,
+	sci-biology/phylip,
+	sci-biology/phyml,
+	sci-biology/piler,
+	sci-biology/pilercr,
+	sci-biology/plink,
+	sci-biology/poa,
+	sci-biology/prank,
+	sci-biology/primer3,
+	sci-biology/prints,
+	sci-biology/prosite,
+	sci-biology/qrna,
+	sci-biology/raxml,
+	sci-biology/readseq,
+	sci-biology/rebase,
+	sci-biology/recon,
+	sci-biology/rnaview,
+	sci-biology/samtools,
+	sci-biology/shrimp,
+	sci-biology/sibsim4,
+	sci-biology/sim4,
+	sci-biology/snpfile,
+	sci-biology/stride,
+	sci-biology/t-coffee,
+	sci-biology/transfac,
+	sci-biology/tree-puzzle,
+	sci-biology/treeviewx,
+	sci-biology/trnascan-se,
+	sci-biology/ucsc-genome-browser,
+	sci-biology/unafold,
+	sci-biology/vaal,
+	sci-biology/velvet,
+	sci-biology/vienna-rna,
+	sci-biology/wise,
+	sci-biology/yass
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
