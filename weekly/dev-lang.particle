@@ -23,7 +23,6 @@ packages:
 	dev-lang/fpc-ide,
 	dev-lang/gdl,
 	dev-lang/gforth,
-	dev-lang/ghc,
 	dev-lang/gnu-smalltalk,
 	dev-lang/gpc,
 	dev-lang/gprolog,

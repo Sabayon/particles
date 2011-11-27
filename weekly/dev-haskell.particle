@@ -30,7 +30,6 @@ packages:
 	dev-haskell/editline,
 	dev-haskell/fgl,
 	dev-haskell/frown,
-	dev-haskell/ghc-paths,
 	dev-haskell/gio,
 	dev-haskell/glade,
 	dev-haskell/glib,
