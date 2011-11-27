@@ -26,7 +26,6 @@ packages:
 	dev-lang/gnu-smalltalk,
 	dev-lang/gpc,
 	dev-lang/gprolog,
-	dev-lang/icc,
 	dev-lang/icon,
 	dev-lang/idb,
 	dev-lang/ifc,
