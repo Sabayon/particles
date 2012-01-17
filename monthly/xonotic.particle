@@ -4,11 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	~games-util/fteqcc-xonotic-9999,
-	~games-fps/xonotic-data-9999,
-	~games-fps/xonotic-maps-9999,
-	~games-fps/xonotic-9999
-	
+	games-fps/xonotic
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -32,12 +28,12 @@ dependencies: yes
 # Allow package downgrade?
 # Valid values are either "yes" or "no"
 # Default is: no
-downgrade: no
+downgrade: yes
 
 # Allow package rebuild?
 # Valid values are either "yes" or "no"
 # Default is: no
-rebuild: yes
+rebuild: no
 
 # Make possible to continue if one or more packages fail to build?
 # Valid values are either "yes" or "no"
