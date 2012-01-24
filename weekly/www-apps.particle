@@ -67,7 +67,6 @@ packages:
 	www-apps/scgi,
 	www-apps/sitebar,
 	www-apps/swish-e,
-	www-apps/tikiwiki,
 	www-apps/trac,
 	www-apps/trac-accountmanager,
 	www-apps/trac-downloads,
