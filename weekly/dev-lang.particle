@@ -55,8 +55,10 @@ packages:
 	dev-lang/swig,
 	dev-lang/tuprolog,
 	dev-lang/xsb,
-	dev-lang/yap,
 	dev-lang/yasm
+
+# disabled due to infinite loop
+#	dev-lang/yap,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
