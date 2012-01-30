@@ -58,7 +58,6 @@ packages:
 	app-arch/rzip,
 	app-arch/sharutils,
 	app-arch/snappy,
-	app-arch/squeeze,
 	app-arch/star,
 	app-arch/tapeutils,
 	app-arch/tardy,
