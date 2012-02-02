@@ -90,7 +90,6 @@ packages:
         dev-php/PEAR-HTML_QuickForm_ElementGrid,
         dev-php/PEAR-HTML_QuickForm_advmultiselect,
         dev-php/PEAR-HTML_Select,
-        dev-php/PEAR-HTML_Select_Common,
         dev-php/PEAR-HTML_Table,
         dev-php/PEAR-HTML_Table_Matrix,
         dev-php/PEAR-HTML_Template_Flexy,
