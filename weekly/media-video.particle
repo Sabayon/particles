@@ -1,0 +1,256 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+        media-video/2mandvd,
+        media-video/aacskeys,
+        media-video/abby,
+        media-video/acidrip,
+        media-video/aegisub,
+        media-video/alevt,
+        media-video/amdcccle,
+        media-video/aravis,
+        media-video/arista,
+        media-video/asfrecorder,
+        media-video/atomicparsley,
+        media-video/avidemux,
+        media-video/avinfo,
+        media-video/bangarang,
+        media-video/bbtools,
+        media-video/bdsup2sub,
+        media-video/binkplayer,
+        media-video/blinkensim,
+        media-video/blinkenthemes,
+        media-video/blinkentools,
+        media-video/bombono-dvd,
+        media-video/camorama,
+        media-video/camserv,
+        media-video/ccextractor,
+        media-video/cclive,
+        media-video/chaplin,
+        media-video/cheese,
+        media-video/cinelerra,
+        media-video/cinepaint,
+        media-video/clive,
+        media-video/coherence,
+        media-video/coriander,
+        media-video/cpdvd,
+        media-video/cpvts,
+        media-video/cxfe,
+        media-video/devede,
+        media-video/dfbsee,
+        media-video/dirac,
+        media-video/dv2sub,
+        media-video/dvbackup,
+        media-video/dvbsnoop,
+        media-video/dvd-slideshow,
+        media-video/dvd9to5,
+        media-video/dvdauthor,
+        media-video/dvdbackup,
+        media-video/dvdimagecmp,
+        media-video/dvdrip,
+        media-video/dvgrab,
+        media-video/emovix,
+        media-video/episoder,
+        media-video/ffmpeg2theora,
+        media-video/ffmpegthumbnailer,
+        media-video/flumotion,
+        media-video/flvstreamer,
+        media-video/frameworks,
+        media-video/gaupol,
+        media-video/get_flash_videos,
+        media-video/gnome-mplayer,
+        media-video/gnome-subtitles,
+        media-video/gnome-video-effects,
+        media-video/google2srt,
+        media-video/gpac,
+        media-video/griffith,
+        media-video/gtk-recordmydesktop,
+        media-video/guvcview,
+        media-video/gxine,
+        media-video/h264enc,
+        media-video/handbrake,
+        media-video/hasciicam,
+        media-video/hwdecode-demos,
+        media-video/imagination,
+        media-video/isight-firmware-tools,
+        media-video/istanbul,
+        media-video/jubler,
+        media-video/kaffeine,
+        media-video/kamerka,
+        media-video/kazam,
+        media-video/kdenlive,
+        media-video/kffmpegthumbnailer,
+        media-video/kino,
+        media-video/kmplayer,
+        media-video/kplayer,
+        media-video/leechcraft-lmp,
+        media-video/libav,
+        media-video/lives,
+        media-video/loopy,
+        media-video/lsdvd,
+        media-video/luvcview,
+        media-video/lxdvdrip,
+        media-video/m2vrequantizer,
+        media-video/makemkv,
+        media-video/matroxset,
+        media-video/mediainfo,
+        media-video/minitube,
+        media-video/miro,
+        media-video/mjpegtools,
+        media-video/mkvalidator,
+        media-video/mkvtoolnix,
+        media-video/mkvtoolnix-gui,
+        media-video/motion,
+        media-video/motiontrack,
+        media-video/mpeg-tools,
+        media-video/mpeg2vidcodec,
+        media-video/mpglen,
+        media-video/mpgtx,
+        media-video/mplay-sh,
+        media-video/mplayer,
+        media-video/mplayer-resume,
+        media-video/mplayer-sh,
+        media-video/mplayer2,
+        media-video/noad,
+        media-video/nvidia-settings,
+        media-video/ogmrip,
+        media-video/openshot,
+        media-video/parole,
+        media-video/pgmfindclip,
+        media-video/pitivi,
+        media-video/projectx,
+        media-video/pymp,
+        media-video/pyqtrailer,
+        media-video/qnapi,
+        media-video/qt-recordmydesktop,
+        media-video/qx11grab,
+        media-video/recordmydesktop,
+        media-video/replex,
+        media-video/ripmake,
+        media-video/rovclock,
+        media-video/rtmpdump,
+        media-video/setpwc,
+        media-video/shrip,
+        media-video/smplayer,
+        media-video/snappy,
+        media-video/sonic-snap,
+        media-video/sswf,
+        media-video/stk11xx,
+        media-video/streamdvd,
+        media-video/sub2srt,
+        media-video/subcheck,
+        media-video/subdl,
+        media-video/subdownloader,
+        media-video/submux-dvd,
+        media-video/subsync,
+        media-video/subtitlecomposer,
+        media-video/subtitleeditor,
+        media-video/subtitler-yuv,
+        media-video/subtitleripper,
+        media-video/super_demux,
+        media-video/tcmplex-panteltje,
+        media-video/tivodecode,
+        media-video/totem,
+        media-video/tovid,
+        media-video/transcode,
+        media-video/transmageddon,
+        media-video/tsmuxer,
+        media-video/ttcut,
+        media-video/undvd,
+        media-video/v4l2loopback,
+        media-video/vamps,
+        media-video/vcdgear,
+        media-video/vcdimager,
+        media-video/vdr,
+        media-video/vdr2jpeg,
+        media-video/vdrsync,
+        media-video/vdrtools-genindex,
+        media-video/videocut,
+        media-video/videotrans,
+        media-video/vlc,
+        media-video/vmaid,
+        media-video/vobcopy,
+        media-video/vstrip,
+        media-video/winff,
+        media-video/winki,
+        media-video/x264-encoder,
+        media-video/xanim,
+        media-video/xine-ui,
+        media-video/xvattr,
+        media-video/xvid4conf,
+        media-video/xvideoservicethief,
+        media-video/y4mscaler
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
