@@ -107,8 +107,6 @@ packages:
         dev-php/PEAR-HTTP_WebDAV_Server,
         dev-php/PEAR-I18N,
         dev-php/PEAR-I18Nv2,
-        dev-php/PEAR-Image_Canvas,
-        dev-php/PEAR-Image_Color,
         dev-php/PEAR-Image_Color2,
         dev-php/PEAR-Image_GraphViz,
         dev-php/PEAR-Image_IPTC,
