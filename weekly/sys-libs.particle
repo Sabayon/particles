@@ -4,12 +4,8 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-        sys-libs/cracklib,
-        sys-libs/db,
-        sys-libs/e2fsprogs-libs,
         sys-libs/freeipmi,
         sys-libs/gdbm,
-        sys-libs/glibc,
         sys-libs/gpm,
         sys-libs/gwenhywfar,
         sys-libs/lib-compat-loki,
@@ -25,28 +21,20 @@ packages:
         sys-libs/libmath++,
         sys-libs/libraw1394,
         sys-libs/libsafe,
-        sys-libs/libsepol,
         sys-libs/libsmbios,
         sys-libs/libstatgrab,
-        sys-libs/libstdc++-v3,
         sys-libs/libtermcap-compat,
         sys-libs/libtrash,
         sys-libs/libunwind,
         sys-libs/libuser,
-        sys-libs/libutempter,
         sys-libs/lwp,
         sys-libs/ncurses,
         sys-libs/openipmi,
-        sys-libs/pam,
         sys-libs/pwdb,
         sys-libs/readline,
         sys-libs/rvm,
-        sys-libs/slang,
-        sys-libs/system-config-base,
-        sys-libs/talloc,
         sys-libs/tdb,
-        sys-libs/timezone-data,
-        sys-libs/zlib
+        sys-libs/timezone-data
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
