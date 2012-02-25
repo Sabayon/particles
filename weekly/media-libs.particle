@@ -1,0 +1,359 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	media-libs/SoQt,
+	media-libs/a52dec,
+	media-libs/aalib,
+	media-libs/adplug,
+	media-libs/aften,
+	media-libs/aldumb,
+	media-libs/allegro,
+	media-libs/atlas-c++,
+	media-libs/aubio,
+	media-libs/audiofile,
+	media-libs/babl,
+	media-libs/bio2jack,
+	media-libs/blib,
+	media-libs/cal3d,
+	media-libs/celt,
+	media-libs/clutter,
+	media-libs/clutter-gst,
+	media-libs/clutter-gtk,
+	media-libs/clutter-gtk,
+	media-libs/cogl,
+	media-libs/coin,
+	media-libs/compface,
+	media-libs/ctl,
+	media-libs/devil,
+	media-libs/dssi,
+	media-libs/dumb,
+	media-libs/edje,
+	media-libs/esdl,
+	media-libs/ethumb,
+	media-libs/evas,
+	media-libs/exiftool,
+	media-libs/faac,
+	media-libs/faad2,
+	media-libs/ffmpegsource,
+	media-libs/flac,
+	media-libs/flickcurl,
+	media-libs/fluidsynth-dssi,
+	media-libs/fmod,
+	media-libs/fontconfig,
+	media-libs/freealut,
+	media-libs/freeglut,
+	media-libs/freeimage,
+	media-libs/freetype,
+	media-libs/ftgl,
+	media-libs/gavl,
+	media-libs/gd,
+	media-libs/gegl,
+	media-libs/gexiv2,
+	media-libs/giblib,
+	media-libs/giflib,
+	media-libs/glew,
+	media-libs/glfw,
+	media-libs/glpng,
+	media-libs/gluon,
+	media-libs/glyr,
+	media-libs/gmtk,
+	media-libs/gmyth,
+	media-libs/gnonlin,
+	media-libs/grilo,
+	media-libs/gst-plugins-bad,
+	media-libs/gst-plugins-base,
+	media-libs/gst-plugins-good,
+	media-libs/gst-plugins-ugly,
+	media-libs/gstreamer,
+	media-libs/hamlib,
+	media-libs/herqq,
+	media-libs/id3lib,
+	media-libs/ilmbase,
+	media-libs/imlib,
+	media-libs/imlib2,
+	media-libs/jasper,
+	media-libs/jbig2dec,
+	media-libs/jbigkit,
+	media-libs/jpeg,
+	media-libs/ladspa-cmt,
+	media-libs/ladspa-sdk,
+	media-libs/lasi,
+	media-libs/lcms,
+	media-libs/lcms,
+	media-libs/lensfun,
+	media-libs/leptonica,
+	media-libs/lib3ds,
+	media-libs/libao,
+	media-libs/libart_lgpl,
+	media-libs/libass,
+	media-libs/libbs2b,
+	media-libs/libcaca,
+	media-libs/libcanberra,
+	media-libs/libcdaudio,
+	media-libs/libcddb,
+	media-libs/libchamplain,
+	media-libs/libclalsadrv,
+	media-libs/libclthreads,
+	media-libs/libclxclient,
+	media-libs/libcue,
+	media-libs/libcuefile,
+	media-libs/libdc1394,
+	media-libs/libdc1394,
+	media-libs/libdca,
+	media-libs/libdiscid,
+	media-libs/libdmtx,
+	media-libs/libdv,
+	media-libs/libdvb,
+	media-libs/libdvbpsi,
+	media-libs/libdvdcss,
+	media-libs/libdvdnav,
+	media-libs/libdvdplay,
+	media-libs/libdvdread,
+	media-libs/libechonest,
+	media-libs/libemf,
+	media-libs/libexif,
+	media-libs/libexif-gtk,
+	media-libs/libfame,
+	media-libs/libffado,
+	media-libs/libfishsound,
+	media-libs/libflash,
+	media-libs/libfpx,
+	media-libs/libggi,
+	media-libs/libggigcp,
+	media-libs/libggimisc,
+	media-libs/libggiwmh,
+	media-libs/libgig,
+	media-libs/libgii,
+	media-libs/libgiigic,
+	media-libs/libgnome-media-profiles,
+	media-libs/libgphoto2,
+	media-libs/libgpod,
+	media-libs/libharu,
+	media-libs/libicns,
+	media-libs/libid3tag,
+	media-libs/libiec61883,
+	media-libs/libifp,
+	media-libs/libiptcdata,
+	media-libs/libj2k,
+	media-libs/libjpeg-turbo,
+	media-libs/libjsw,
+	media-libs/libkate,
+	media-libs/libkface,
+	media-libs/libkgeomap,
+	media-libs/liblastfm,
+	media-libs/liblingoteach,
+	media-libs/liblo,
+	media-libs/liblqr,
+	media-libs/liblrdf,
+	media-libs/liblscp,
+	media-libs/libmad,
+	media-libs/libmatroska,
+	media-libs/libmediainfo,
+	media-libs/libmediawiki,
+	media-libs/libmikmod,
+	media-libs/libmimic,
+	media-libs/libmms,
+	media-libs/libmng,
+	media-libs/libmodplug,
+	media-libs/libmp3splt,
+	media-libs/libmp4v2,
+	media-libs/libmpd,
+	media-libs/libmpdclient,
+	media-libs/libmpeg2,
+	media-libs/libmpeg3,
+	media-libs/libmtp,
+	media-libs/libnjb,
+	media-libs/libofa,
+	media-libs/libogg,
+	media-libs/liboggz,
+	media-libs/libopendaap,
+	media-libs/libopenraw,
+	media-libs/libpano13,
+	media-libs/libpgf,
+	media-libs/libpng,
+	media-libs/libpqstego,
+	media-libs/libprojectm,
+	media-libs/libprojectm-qt,
+	media-libs/libquicktime,
+	media-libs/libquvi,
+	media-libs/libquvi-scripts,
+	media-libs/libraw,
+	media-libs/libreplaygain,
+	media-libs/libsamplerate,
+	media-libs/libsdl,
+	media-libs/libsfml,
+	media-libs/libshout,
+	media-libs/libsidplay,
+	media-libs/libsidplay,
+	media-libs/libsmf,
+	media-libs/libsndfile,
+	media-libs/libsoundtouch,
+	media-libs/libsvg,
+	media-libs/libtheora,
+	media-libs/libtxc_dxtn,
+	media-libs/libuninameslist,
+	media-libs/libv4l,
+	media-libs/libvisio,
+	media-libs/libvisual,
+	media-libs/libvorbis,
+	media-libs/libvpx,
+	media-libs/libwebp,
+	media-libs/libwmf,
+	media-libs/libxtract,
+	media-libs/libzen,
+	media-libs/lilv,
+	media-libs/lv2-ui,
+	media-libs/lv2core,
+	media-libs/mediastreamer,
+	media-libs/memphis,
+	media-libs/ming,
+	media-libs/mlt,
+	media-libs/musicbrainz,
+	media-libs/mutagen,
+	media-libs/nas,
+	media-libs/netpbm,
+	media-libs/openal,
+	media-libs/opencore-amr,
+	media-libs/opencv,
+	media-libs/openexr,
+	media-libs/openexr_ctl,
+	media-libs/openjpeg,
+	media-libs/paragui,
+	media-libs/phat,
+	media-libs/phonon,
+	media-libs/phonon-gstreamer,
+	media-libs/phonon-vlc,
+	media-libs/phonon-xine,
+	media-libs/plib,
+	media-libs/plotutils,
+	media-libs/pnglite,
+	media-libs/portaudio,
+	media-libs/portmidi,
+	media-libs/prison,
+	media-libs/pymemphis,
+	media-libs/qhull,
+	media-libs/qimageblitz,
+	media-libs/quesoglc,
+	media-libs/quvi,
+	media-libs/raptor,
+	media-libs/raul,
+	media-libs/resid,
+	media-libs/rubberband,
+	media-libs/sampleicc,
+	media-libs/schroedinger,
+	media-libs/sdif,
+	media-libs/sdl-flic,
+	media-libs/sdl-gfx,
+	media-libs/sdl-image,
+	media-libs/sdl-mixer,
+	media-libs/sdl-net,
+	media-libs/sdl-pango,
+	media-libs/sdl-sound,
+	media-libs/sdl-ttf,
+	media-libs/silgraphite,
+	media-libs/sk1libs,
+	media-libs/skstream,
+	media-libs/slv2,
+	media-libs/smpeg,
+	media-libs/spandsp,
+	media-libs/speex,
+	media-libs/stimg,
+	media-libs/stops,
+	media-libs/sublib,
+	media-libs/suil,
+	media-libs/swfdec,
+	media-libs/t1lib,
+	media-libs/taglib,
+	media-libs/taglib-extras,
+	media-libs/tiff,
+	media-libs/tiff,
+	media-libs/tse3,
+	media-libs/tunepimp,
+	media-libs/urt,
+	media-libs/vamp-plugin-sdk,
+	media-libs/varconf,
+	media-libs/vigra,
+	media-libs/vips,
+	media-libs/vo-aacenc,
+	media-libs/vo-amrwbenc,
+	media-libs/win32codecs,
+	media-libs/wxsvg,
+	media-libs/x264,
+	media-libs/xine-lib,
+	media-libs/xvid,
+	media-libs/zita-convolver,
+	media-libs/zita-resampler
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
+# not reflect the name of the failing package, because it could be just a
+# dependency of it.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
