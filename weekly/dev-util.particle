@@ -7,9 +7,15 @@ packages:
 	dev-util/adobe-air-sdk-bin,
 	dev-util/android-sdk-update-manager,
 	dev-util/argouml,
+	dev-util/dirdiff,
+	dev-util/geany,
+	dev-util/geany-plugins,
+	dev-util/meld,
 	dev-util/nvidia-cuda-sdk,
 	dev-util/nvidia-cuda-toolkit,
-	dev-util/weka
+	dev-util/tkdiff,
+	dev-util/weka,
+	dev-util/xxdiff
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
