@@ -7,7 +7,6 @@ packages:
 	dev-util/adobe-air-sdk-bin,
 	dev-util/android-sdk-update-manager,
 	dev-util/argouml,
-	dev-util/astyle,
 	dev-util/nvidia-cuda-sdk,
 	dev-util/nvidia-cuda-toolkit,
 	dev-util/weka
