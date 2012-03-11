@@ -55,6 +55,7 @@ packages:
 	dev-tex/luatex,
 	dev-tex/metapost,
 	dev-tex/mh,
+	dev-tex/mimetex,
 	dev-tex/natbib,
 	dev-tex/newlfm,
 	dev-tex/notoccite,
