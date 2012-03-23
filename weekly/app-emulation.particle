@@ -35,7 +35,6 @@ packages:
 	app-emulation/ganeti-instance-image,
 	app-emulation/gxemul,
 	app-emulation/hercules,
-	app-emulation/lib765,
 	app-emulation/libdsk,
 	app-emulation/libspectrum,
 	app-emulation/libvirt,
