@@ -19,6 +19,7 @@ packages:
 	app-portage/epm,
 	app-portage/esearch,
 	app-portage/etc-proposals,
+	app-portage/euscan,
 	app-portage/euses,
 	app-portage/fetchcommandwrapper,
 	app-portage/flaggie,
