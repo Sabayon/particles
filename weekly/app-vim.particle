@@ -33,6 +33,7 @@ packages:
 	app-vim/dbext,
 	app-vim/detectindent,
 	app-vim/dhcpd-syntax,
+	app-vim/dirdiff,
 	app-vim/easytags,
 	app-vim/ebnf-syntax,
 	app-vim/enhancedcommentify,
