@@ -15,7 +15,6 @@ packages:
         www-client/fetch,
         www-client/htmlview,
         www-client/httrack,
-        www-client/icecat,
         www-client/jd,
         www-client/leechcraft-deadlyrics,
         www-client/leechcraft-poshuku,
