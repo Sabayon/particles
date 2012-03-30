@@ -68,7 +68,6 @@ packages:
         dev-php/PEAR-Crypt_RC4,
         dev-php/PEAR-DB,
         dev-php/PEAR-DB_DataObject,
-        dev-php/PEAR-DB_DataObject_FormBuilder,
         dev-php/PEAR-Date,
         dev-php/PEAR-File,
         dev-php/PEAR-File_Archive,
