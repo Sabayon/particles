@@ -129,7 +129,6 @@ packages:
         media-video/qx11grab,
         media-video/recordmydesktop,
         media-video/replex,
-        media-video/ripmake,
         media-video/rovclock,
         media-video/rtmpdump,
         media-video/setpwc,
