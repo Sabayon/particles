@@ -103,7 +103,6 @@ packages:
 	media-plugins/mediastreamer-amr,
 	media-plugins/mediastreamer-ilbc,
 	media-plugins/mediastreamer-x264,
-	media-plugins/mytharchive,
 	media-plugins/mythvideo,
 	media-plugins/quodlibet-plugins,
 	media-plugins/rev-plugins,
