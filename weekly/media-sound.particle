@@ -277,7 +277,6 @@ packages:
 	media-sound/sox,
 	media-sound/spek,
 	media-sound/splay,
-	media-sound/squeezeboxserver,
 	media-sound/ssrc,
 	media-sound/streamripper,
 	media-sound/streamtranscoder,
