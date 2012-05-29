@@ -49,6 +49,7 @@ packages:
 	app-admin/gnome-system-tools,
 	app-admin/grubconfig,
 	app-admin/gtkdiskfree,
+	app-admin/hardinfo,
 	app-admin/haskell-updater,
 	app-admin/hddtemp,
 	app-admin/hwreport,
