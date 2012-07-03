@@ -56,7 +56,6 @@ packages:
 	www-apps/online-bookmarks,
 	www-apps/otrs,
 	www-apps/phpBB,
-	www-apps/phpgroupware,
 	www-apps/phpmp,
 	www-apps/phpsysinfo,
 	www-apps/phpwiki,
