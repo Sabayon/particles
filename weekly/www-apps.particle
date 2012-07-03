@@ -58,7 +58,6 @@ packages:
 	www-apps/phpBB,
 	www-apps/phpmp,
 	www-apps/phpsysinfo,
-	www-apps/phpwiki,
 	www-apps/postfixadmin,
 	www-apps/pyblosxom,
 	www-apps/roundup,
