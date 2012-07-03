@@ -128,7 +128,6 @@ packages:
 	app-text/hyperestraier,
 	app-text/info2html,
 	app-text/iso-codes,
-	app-text/ispell,
 	app-text/jabref,
 	app-text/jadetex,
 	app-text/jing,
