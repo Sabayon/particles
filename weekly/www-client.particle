@@ -6,7 +6,6 @@
 packages:
         www-client/arora,
         www-client/conkeror,
-        www-client/dillo,
         www-client/dooble,
         www-client/downman,
         www-client/elinks,
