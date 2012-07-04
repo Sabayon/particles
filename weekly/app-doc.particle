@@ -10,7 +10,6 @@ packages:
 	app-doc/blas-docs,
 	app-doc/casting-spels-emacs,
 	app-doc/djbdns-man,
-	app-doc/doc++,
 	app-doc/doxygen,
 	app-doc/ebookmerge,
 	app-doc/edox-data,
