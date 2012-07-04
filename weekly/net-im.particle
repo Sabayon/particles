@@ -58,7 +58,6 @@ packages:
 	net-im/telepathy-logger,
 	net-im/telepathy-mission-control,
 	net-im/tkabber,
-	net-im/tleenx2,
 	net-im/turpial,
 	net-im/twittare,
 	net-im/vacuum,
