@@ -96,6 +96,7 @@ packages:
 	media-sound/glurp,
 	media-sound/gmorgan,
 	media-sound/gmpc,
+	media-sound/gmtp,
 	media-sound/gmusicbrowser,
 	media-sound/gnomad,
 	media-sound/gnome-alsamixer,
