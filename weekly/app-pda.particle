@@ -35,7 +35,6 @@ packages:
 	app-pda/pilot-link,
 	app-pda/synce-connector,
 	app-pda/synce-sync-engine,
-	app-pda/syncevolution,
 	app-pda/usbmuxd
 
 # Entropy repository where to commit packages
