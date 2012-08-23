@@ -23,7 +23,6 @@ packages:
 	gnome-extra/gconf-editor,
 	gnome-extra/gcursor,
 	gnome-extra/gdesklets-core,
-	gnome-extra/genesis,
 	gnome-extra/gnome-audio,
 	gnome-extra/gnome-color-chooser,
 	gnome-extra/gnome-color-manager,
