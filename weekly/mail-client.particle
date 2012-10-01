@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	mail-client/alot,
 	mail-client/alpine,
 	mail-client/balsa,
 	mail-client/claws-mail,
@@ -11,6 +12,7 @@ packages:
 	mail-client/claws-mail-archive,
 	mail-client/claws-mail-att-remover,
 	mail-client/claws-mail-attachwarner,
+	mail-client/claws-mail-clamd,
 	mail-client/claws-mail-fancy,
 	mail-client/claws-mail-fetchinfo,
 	mail-client/claws-mail-gtkhtml,
