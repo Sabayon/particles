@@ -5,8 +5,8 @@
 # Mandatory, cannot be empty
 packages:
 	dev-lisp/abcl,
-	dev-lisp/cl-asdf,
-	dev-lisp/cl-asdf-binary-locations,
+	dev-lisp/asdf,
+	dev-lisp/asdf-binary-locations,
 	dev-lisp/cl-clx,
 	dev-lisp/cl-ppcre,
 	dev-lisp/clisp,

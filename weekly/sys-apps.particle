@@ -79,7 +79,6 @@ packages:
         sys-apps/usermode-utilities,
         sys-apps/util-linux,
         sys-apps/vbetool,
-        sys-apps/vgabios,
         sys-apps/watchdog,
         sys-apps/which,
         sys-apps/x86info,

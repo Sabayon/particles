@@ -8,7 +8,6 @@ packages:
         net-voip/linphone,
         net-voip/sflphone,
         net-voip/telepathy-butterfly,
-        net-voip/telepathy-connection-managers,
         net-voip/telepathy-gabble,
         net-voip/telepathy-haze,
         net-voip/telepathy-rakia,
