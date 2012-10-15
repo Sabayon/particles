@@ -85,7 +85,6 @@ packages:
         media-video/kino,
         media-video/kmplayer,
         media-video/kplayer,
-        media-video/leechcraft-lmp,
         media-video/libav,
         media-video/lives,
         media-video/loopy,

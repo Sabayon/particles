@@ -42,7 +42,7 @@ packages:
 	app-emulation/lxc,
 	app-emulation/playonlinux,
 	app-emulation/q4wine,
-	app-emulation/qemu-kvm,
+	app-emulation/qemu,
 	app-emulation/qemulator,
 	app-emulation/qtemu,
 	app-emulation/simh,

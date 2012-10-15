@@ -11,8 +11,8 @@ packages:
         net-voip/telepathy-connection-managers,
         net-voip/telepathy-gabble,
         net-voip/telepathy-haze,
+        net-voip/telepathy-rakia,
         net-voip/telepathy-salut,
-        net-voip/telepathy-sofiasip,
         net-voip/yate
 
 # Entropy repository where to commit packages

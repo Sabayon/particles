@@ -24,6 +24,7 @@ packages:
 	app-editors/emacs,
 	app-editors/emact,
 	app-editors/fe,
+	app-editors/focuswriter,
 	app-editors/fte,
 	app-editors/gedit,
 	app-editors/gedit-plugins,
@@ -76,6 +77,7 @@ packages:
 	app-editors/xemacs,
 	app-editors/xmlcopyeditor,
 	app-editors/xvile,
+	app-editors/yudit,
 	app-editors/zile,
 	app-editors/znotes,
 	app-editors/zoinks

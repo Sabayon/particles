@@ -15,7 +15,6 @@ packages:
 	app-shells/pdmenu,
 	app-shells/pdsh,
 	app-shells/posh,
-	app-shells/prll,
 	app-shells/psh,
 	app-shells/rc,
 	app-shells/rrs,

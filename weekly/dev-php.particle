@@ -4,7 +4,9 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:         
-	dev-php/PEAR-Archive_Tar,
+        dev-php/DBUnit,
+        dev-php/File_Iterator,
+        dev-php/PEAR-Archive_Tar,
         dev-php/PEAR-Auth,
         dev-php/PEAR-Auth_HTTP,
         dev-php/PEAR-Auth_SASL,
@@ -142,13 +144,15 @@ packages:
         dev-php/PEAR-XML_RSS,
         dev-php/PEAR-XML_Serializer,
         dev-php/PEAR-XML_Util,
+        dev-php/PHP_CodeCoverage,
+        dev-php/PHP_Timer,
+        dev-php/PHP_TokenStream,
         dev-php/Savant2,
+        dev-php/YAML,
         dev-php/ZendFramework,
         dev-php/adodb,
         dev-php/cphplib,
-        dev-php/dbunit,
         dev-php/doctrine,
-        dev-php/file-iterator,
         dev-php/igbinary,
         dev-php/jpgraph,
         dev-php/libchart,
@@ -157,10 +161,7 @@ packages:
         dev-php/mockery,
         dev-php/pear,
         dev-php/pecl-apc,
-        dev-php/php-codecoverage,
         dev-php/php-openid,
-        dev-php/php-timer,
-        dev-php/php-tokenstream,
         dev-php/phpcpd,
         dev-php/phpdepend,
         dev-php/phploc,
@@ -175,7 +176,6 @@ packages:
         dev-php/xdebug,
         dev-php/xdebug-client,
         dev-php/xhprof,
-        dev-php/yaml
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty

@@ -94,7 +94,6 @@ packages:
 	app-text/expander,
 	app-text/fbreader,
 	app-text/flpsed,
-	app-text/focuswriter,
 	app-text/freepwing,
 	app-text/gentoo-guide-xml-dtd,
 	app-text/ghostscript-gpl,
@@ -284,7 +283,6 @@ packages:
 	app-text/xournal,
 	app-text/xpdf,
 	app-text/yagf,
-	app-text/yudit,
 	app-text/zathura,
 	app-text/zemberek-server,
 	app-text/zpspell
