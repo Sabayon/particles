@@ -52,6 +52,7 @@ packages:
 	app-misc/cwiid,
 	app-misc/dailystrips,
 	app-misc/datefudge,
+	app-misc/datovka,
 	app-misc/ddccontrol,
 	app-misc/ddccontrol-db,
 	app-misc/delay,
