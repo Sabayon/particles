@@ -52,6 +52,7 @@ packages:
 	app-text/diction,
 	app-text/diffpdf,
 	app-text/ding,
+	app-text/djview,
 	app-text/djvu,
 	app-text/docbook-dsssl-stylesheets,
 	app-text/docbook-sgml,
