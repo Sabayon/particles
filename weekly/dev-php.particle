@@ -3,7 +3,7 @@
 # List of packages required to be built.
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
-packages:         
+packages:
         dev-php/DBUnit,
         dev-php/File_Iterator,
         dev-php/PEAR-Archive_Tar,
@@ -144,10 +144,13 @@ packages:
         dev-php/PEAR-XML_RSS,
         dev-php/PEAR-XML_Serializer,
         dev-php/PEAR-XML_Util,
+        dev-php/PHPUnit_MockObject,
+        dev-php/PHPUnit_Selenium,
         dev-php/PHP_CodeCoverage,
         dev-php/PHP_Timer,
         dev-php/PHP_TokenStream,
         dev-php/Savant2,
+        dev-php/Text_Template,
         dev-php/YAML,
         dev-php/ZendFramework,
         dev-php/adodb,
