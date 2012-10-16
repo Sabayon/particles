@@ -35,6 +35,7 @@ packages:
 	app-admin/durep,
 	app-admin/ec2-ami-tools,
 	app-admin/ec2-api-tools,
+	app-admin/eclean-kernel,
 	app-admin/emacs-updater,
 	app-admin/fetchlog,
 	app-admin/fifo-cronolog,
