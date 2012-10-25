@@ -203,6 +203,7 @@ packages:
 	games-board/ggz-sdl-games,
 	games-board/ggz-txt-client,
 	games-board/gnome-mastermind,
+	games-board/gnubg,
 	games-board/gnuchess,
 	games-board/gnuchess-book,
 	games-board/gnugo,
