@@ -7,6 +7,7 @@ packages:
         app-forensics/openscap,
         app-forensics/ovaldi,
         app-forensics/scalpel,
+        app-forensics/unhide,
         app-forensics/yasat,
         app-forensics/afflib,
         app-forensics/aide,
