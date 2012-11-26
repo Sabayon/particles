@@ -18,6 +18,7 @@ packages:
 	net-irc/eiwic,
 	net-irc/epic5,
 	net-irc/ezbounce,
+	net-irc/hexchat,
 	net-irc/ii,
 	net-irc/iip,
 	net-irc/inspircd,
