@@ -13,26 +13,32 @@ packages:
 	app-emulation/dosemu,
 	app-emulation/dynamips,
 	app-emulation/e-uae,
-	app-emulation/emul-linux-x86-baselibs,
-	app-emulation/emul-linux-x86-compat,
-	app-emulation/emul-linux-x86-cpplibs,
-	app-emulation/emul-linux-x86-gtklibs,
-	app-emulation/emul-linux-x86-gtkmmlibs,
-	app-emulation/emul-linux-x86-java,
-	app-emulation/emul-linux-x86-medialibs,
-	app-emulation/emul-linux-x86-motif,
-	app-emulation/emul-linux-x86-opengl,
-	app-emulation/emul-linux-x86-qtlibs,
-	app-emulation/emul-linux-x86-sdl,
-	app-emulation/emul-linux-x86-soundlibs,
+
+	# amd64 stuff, group everything together
+	app-emulation/emul-linux-x86-baselibs
+	app-emulation/emul-linux-x86-compat
+	app-emulation/emul-linux-x86-cpplibs
+	app-emulation/emul-linux-x86-gtklibs
+	app-emulation/emul-linux-x86-gtkmmlibs
+	app-emulation/emul-linux-x86-java
+	app-emulation/emul-linux-x86-medialibs
+	app-emulation/emul-linux-x86-motif
+	app-emulation/emul-linux-x86-opengl
+	app-emulation/emul-linux-x86-qtlibs
+	app-emulation/emul-linux-x86-sdl
+	app-emulation/emul-linux-x86-soundlibs
 	app-emulation/emul-linux-x86-xlibs,
+
 	app-emulation/fuse,
 	app-emulation/fuse-utils,
-	app-emulation/ganeti,
-	app-emulation/ganeti-htools,
-	app-emulation/ganeti-instance-debian-etch,
-	app-emulation/ganeti-instance-debootstrap,
+
+	# Ganeti stuff
+	app-emulation/ganeti
+	app-emulation/ganeti-htools
+	app-emulation/ganeti-instance-debian-etch
+	app-emulation/ganeti-instance-debootstrap
 	app-emulation/ganeti-instance-image,
+
 	app-emulation/gxemul,
 	app-emulation/hercules,
 	app-emulation/libdsk,
