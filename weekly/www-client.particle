@@ -4,39 +4,39 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-        www-client/arora,
-        www-client/conkeror,
-        www-client/dooble,
-        www-client/downman,
-        www-client/dwb,
-        www-client/elinks,
-        www-client/epiphany,
-        www-client/epiphany-extensions,
-        www-client/fetch,
-        www-client/htmlview,
-        www-client/httrack,
-        www-client/jd,
-        www-client/leechcraft-deadlyrics,
-        www-client/leechcraft-poshuku,
-        www-client/leechcraft-vgrabber,
-        www-client/links,
-        www-client/luakit,
-        www-client/lynx,
-        www-client/netrik,
-        www-client/opera,
-        www-client/phantomjs,
-        www-client/pybugz,
-        www-client/rekonq,
-        www-client/seamonkey,
-        www-client/seamonkey-bin,
-        www-client/surf,
-        www-client/surfraw,
-        www-client/uget,
-        www-client/uzbl,
-        www-client/w3m,
-        www-client/w3mir,
-        www-client/w3mmee,
-        www-client/xxxterm
+	www-client/arora,
+	www-client/conkeror,
+	www-client/dooble,
+	www-client/downman,
+	www-client/dwb,
+	www-client/elinks,
+	www-client/epiphany,
+	www-client/epiphany-extensions,
+	www-client/fetch,
+	www-client/htmlview,
+	www-client/httrack,
+	www-client/jd,
+	www-client/leechcraft-deadlyrics,
+	www-client/leechcraft-poshuku,
+	www-client/leechcraft-vgrabber,
+	www-client/links,
+	www-client/luakit,
+	www-client/lynx,
+	www-client/netrik,
+	www-client/opera,
+	www-client/phantomjs,
+	www-client/pybugz,
+	www-client/rekonq,
+	www-client/seamonkey,
+	www-client/seamonkey-bin,
+	www-client/surf,
+	www-client/surfraw,
+	www-client/uget,
+	www-client/uzbl,
+	www-client/w3m,
+	www-client/w3mir,
+	www-client/w3mmee,
+	www-client/xxxterm
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -92,19 +92,23 @@ removed-useflags: yes
 # Package pre execution script hook
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
 
 # Package build post execution script hook, executed for each package
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
-# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
-# not reflect the name of the failing package, because it could be just a
-# dependency of it.
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
 # package, the one that triggered the buildfail hook.
 # MATTER_PORTAGE_REPOSITORY = Portage repository from where the package

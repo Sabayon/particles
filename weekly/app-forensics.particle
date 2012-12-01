@@ -4,30 +4,30 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-        app-forensics/openscap,
-        app-forensics/ovaldi,
-        app-forensics/scalpel,
-        app-forensics/unhide,
-        app-forensics/yasat,
-        app-forensics/afflib,
-        app-forensics/aide,
-        app-forensics/autopsy,
-        app-forensics/chkrootkit,
-        app-forensics/cmospwd,
-        app-forensics/examiner,
-        app-forensics/foremost,
-        app-forensics/galleta,
-        app-forensics/libewf,
-        app-forensics/lynis,
-        app-forensics/mac-robber,
-        app-forensics/magicrescue,
-        app-forensics/memdump,
-        app-forensics/pasco,
-        app-forensics/rdd,
-        app-forensics/rifiuti,
-        app-forensics/rkhunter,
-        app-forensics/sleuthkit,
-        app-forensics/zzuf
+	app-forensics/openscap,
+	app-forensics/ovaldi,
+	app-forensics/scalpel,
+	app-forensics/unhide,
+	app-forensics/yasat,
+	app-forensics/afflib,
+	app-forensics/aide,
+	app-forensics/autopsy,
+	app-forensics/chkrootkit,
+	app-forensics/cmospwd,
+	app-forensics/examiner,
+	app-forensics/foremost,
+	app-forensics/galleta,
+	app-forensics/libewf,
+	app-forensics/lynis,
+	app-forensics/mac-robber,
+	app-forensics/magicrescue,
+	app-forensics/memdump,
+	app-forensics/pasco,
+	app-forensics/rdd,
+	app-forensics/rifiuti,
+	app-forensics/rkhunter,
+	app-forensics/sleuthkit,
+	app-forensics/zzuf
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -83,19 +83,23 @@ removed-useflags: yes
 # Package pre execution script hook
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
 
 # Package build post execution script hook, executed for each package
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
-# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
-# not reflect the name of the failing package, because it could be just a
-# dependency of it.
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
 # package, the one that triggered the buildfail hook.
 # MATTER_PORTAGE_REPOSITORY = Portage repository from where the package

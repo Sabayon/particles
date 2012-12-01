@@ -4,46 +4,46 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-        app-accessibility/SphinxTrain,
-        app-accessibility/accerciser,
-        app-accessibility/at-spi2-atk,
-        app-accessibility/at-spi2-core,
-        app-accessibility/brltty,
+	app-accessibility/SphinxTrain,
+	app-accessibility/accerciser,
+	app-accessibility/at-spi2-atk,
+	app-accessibility/at-spi2-core,
+	app-accessibility/brltty,
 	app-accessibility/caribou,
-        app-accessibility/dasher,
-        app-accessibility/eflite,
-        app-accessibility/emacspeak,
-        app-accessibility/emacspeak-ss,
-        app-accessibility/epos,
-        app-accessibility/espeak,
-        app-accessibility/espeakup,
-        app-accessibility/festival,
-        app-accessibility/festival-fi,
-        app-accessibility/festival-freebsoft-utils,
-        app-accessibility/festival-hts,
-        app-accessibility/festival-it,
-        app-accessibility/festival-ru,
-        app-accessibility/flite,
-        app-accessibility/freetts,
-        app-accessibility/gnome-mag,
-        app-accessibility/gnome-speech,
-        app-accessibility/gok,
-        app-accessibility/java-access-bridge,
-        app-accessibility/mbrola,
-        app-accessibility/morseall,
-        app-accessibility/nfbtrans,
-        app-accessibility/orca,
-        app-accessibility/perlbox-voice,
-        app-accessibility/pidgin-festival,
-        app-accessibility/powiedz,
-        app-accessibility/sound-icons,
-        app-accessibility/speakup-utils,
-        app-accessibility/speech-dispatcher,
-        app-accessibility/speech-tools,
-        app-accessibility/speechd,
-        app-accessibility/sphinx2,
-        app-accessibility/sphinx3,
-        app-accessibility/yasr
+	app-accessibility/dasher,
+	app-accessibility/eflite,
+	app-accessibility/emacspeak,
+	app-accessibility/emacspeak-ss,
+	app-accessibility/epos,
+	app-accessibility/espeak,
+	app-accessibility/espeakup,
+	app-accessibility/festival,
+	app-accessibility/festival-fi,
+	app-accessibility/festival-freebsoft-utils,
+	app-accessibility/festival-hts,
+	app-accessibility/festival-it,
+	app-accessibility/festival-ru,
+	app-accessibility/flite,
+	app-accessibility/freetts,
+	app-accessibility/gnome-mag,
+	app-accessibility/gnome-speech,
+	app-accessibility/gok,
+	app-accessibility/java-access-bridge,
+	app-accessibility/mbrola,
+	app-accessibility/morseall,
+	app-accessibility/nfbtrans,
+	app-accessibility/orca,
+	app-accessibility/perlbox-voice,
+	app-accessibility/pidgin-festival,
+	app-accessibility/powiedz,
+	app-accessibility/sound-icons,
+	app-accessibility/speakup-utils,
+	app-accessibility/speech-dispatcher,
+	app-accessibility/speech-tools,
+	app-accessibility/speechd,
+	app-accessibility/sphinx2,
+	app-accessibility/sphinx3,
+	app-accessibility/yasr
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -99,19 +99,23 @@ removed-useflags: yes
 # Package pre execution script hook
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
 
 # Package build post execution script hook, executed for each package
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
-# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
-# not reflect the name of the failing package, because it could be just a
-# dependency of it.
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
 # package, the one that triggered the buildfail hook.
 # MATTER_PORTAGE_REPOSITORY = Portage repository from where the package

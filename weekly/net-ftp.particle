@@ -4,34 +4,34 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-        net-ftp/axyftp,
-        net-ftp/bareftp,
-        net-ftp/cmdftp,
-        net-ftp/filezilla,
-        net-ftp/frox,
-        net-ftp/ftp,
-        net-ftp/ftpbase,
-        net-ftp/ftpcube,
-        net-ftp/gftp,
-        net-ftp/gproftpd,
-        net-ftp/leechcraft-lcftp,
-        net-ftp/lftp,
-        net-ftp/linksys-tftp,
-        net-ftp/ncftp,
-        net-ftp/netkit-ftpd,
-        net-ftp/oftpd,
-        net-ftp/oneclickftp,
-        net-ftp/pftpfxp,
-        net-ftp/proftpd,
-        net-ftp/profxp,
-        net-ftp/pure-ftpd,
-        net-ftp/pureadmin,
-        net-ftp/qshare,
-        net-ftp/scythia,
-        net-ftp/tftp-hpa,
-        net-ftp/tnftp,
-        net-ftp/vsftpd,
-        net-ftp/weex
+	net-ftp/axyftp,
+	net-ftp/bareftp,
+	net-ftp/cmdftp,
+	net-ftp/filezilla,
+	net-ftp/frox,
+	net-ftp/ftp,
+	net-ftp/ftpbase,
+	net-ftp/ftpcube,
+	net-ftp/gftp,
+	net-ftp/gproftpd,
+	net-ftp/leechcraft-lcftp,
+	net-ftp/lftp,
+	net-ftp/linksys-tftp,
+	net-ftp/ncftp,
+	net-ftp/netkit-ftpd,
+	net-ftp/oftpd,
+	net-ftp/oneclickftp,
+	net-ftp/pftpfxp,
+	net-ftp/proftpd,
+	net-ftp/profxp,
+	net-ftp/pure-ftpd,
+	net-ftp/pureadmin,
+	net-ftp/qshare,
+	net-ftp/scythia,
+	net-ftp/tftp-hpa,
+	net-ftp/tnftp,
+	net-ftp/vsftpd,
+	net-ftp/weex
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -87,19 +87,23 @@ removed-useflags: yes
 # Package pre execution script hook
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
 
 # Package build post execution script hook, executed for each package
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
-# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
-# not reflect the name of the failing package, because it could be just a
-# dependency of it.
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
 # package, the one that triggered the buildfail hook.
 # MATTER_PORTAGE_REPOSITORY = Portage repository from where the package

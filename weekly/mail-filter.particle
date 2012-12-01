@@ -4,51 +4,51 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-  	mail-filter/anomy-sanitizer,
-        mail-filter/ask,
-        mail-filter/assp,
-        mail-filter/bmf,
-        mail-filter/bogofilter,
-        mail-filter/clamassassin,
-        mail-filter/clamsmtp,
-        mail-filter/dcc,
-        mail-filter/dk-milter,
-        mail-filter/dkim-milter,
-        mail-filter/dovecot-antispam,
-        mail-filter/dspam,
-        mail-filter/gld,
-        mail-filter/imapfilter,
-        mail-filter/isbg,
-        mail-filter/libmilter,
-        mail-filter/libsieve,
-        mail-filter/libspf2,
-        mail-filter/maildrop,
-        mail-filter/mailfilter,
-        mail-filter/mapson,
-        mail-filter/milter-regex,
-        mail-filter/mimedefang,
-        mail-filter/normalizemime,
-        mail-filter/opendkim,
-        mail-filter/p3scan,
-        mail-filter/policyd,
-        mail-filter/popfile,
-        mail-filter/postgrey,
-        mail-filter/procmail,
-        mail-filter/procmail-lib,
-        mail-filter/pypolicyd-spf,
-        mail-filter/razor,
-        mail-filter/rblcheck,
-        mail-filter/sid-milter,
-        mail-filter/spamass-milter,
-        mail-filter/spamassassin,
-        mail-filter/spamassassin-botnet,
-        mail-filter/spamassassin-fuzzyocr,
-        mail-filter/spambayes,
-        mail-filter/spamdyke,
-        mail-filter/spampd,
-        mail-filter/spamprobe,
-        mail-filter/sqlgrey,
-        mail-filter/tmda
+	mail-filter/anomy-sanitizer,
+	mail-filter/ask,
+	mail-filter/assp,
+	mail-filter/bmf,
+	mail-filter/bogofilter,
+	mail-filter/clamassassin,
+	mail-filter/clamsmtp,
+	mail-filter/dcc,
+	mail-filter/dk-milter,
+	mail-filter/dkim-milter,
+	mail-filter/dovecot-antispam,
+	mail-filter/dspam,
+	mail-filter/gld,
+	mail-filter/imapfilter,
+	mail-filter/isbg,
+	mail-filter/libmilter,
+	mail-filter/libsieve,
+	mail-filter/libspf2,
+	mail-filter/maildrop,
+	mail-filter/mailfilter,
+	mail-filter/mapson,
+	mail-filter/milter-regex,
+	mail-filter/mimedefang,
+	mail-filter/normalizemime,
+	mail-filter/opendkim,
+	mail-filter/p3scan,
+	mail-filter/policyd,
+	mail-filter/popfile,
+	mail-filter/postgrey,
+	mail-filter/procmail,
+	mail-filter/procmail-lib,
+	mail-filter/pypolicyd-spf,
+	mail-filter/razor,
+	mail-filter/rblcheck,
+	mail-filter/sid-milter,
+	mail-filter/spamass-milter,
+	mail-filter/spamassassin,
+	mail-filter/spamassassin-botnet,
+	mail-filter/spamassassin-fuzzyocr,
+	mail-filter/spambayes,
+	mail-filter/spamdyke,
+	mail-filter/spampd,
+	mail-filter/spamprobe,
+	mail-filter/sqlgrey,
+	mail-filter/tmda
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -104,19 +104,23 @@ removed-useflags: yes
 # Package pre execution script hook
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
 
 # Package build post execution script hook, executed for each package
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
-# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
-# not reflect the name of the failing package, because it could be just a
-# dependency of it.
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
 # package, the one that triggered the buildfail hook.
 # MATTER_PORTAGE_REPOSITORY = Portage repository from where the package

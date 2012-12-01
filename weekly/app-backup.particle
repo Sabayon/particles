@@ -4,39 +4,39 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-        app-backup/amanda,
-        app-backup/backintime,
-        app-backup/backup-manager,
-        app-backup/backupninja,
-        app-backup/backuppc,
-        app-backup/bacula,
-        app-backup/boxbackup,
-        app-backup/ccollect,
-        app-backup/cdbackup,
-        app-backup/dar,
-        app-backup/deja-dup,
-        app-backup/dirvish,
-        app-backup/duplicity,
-        app-backup/flexbackup,
-        app-backup/furball,
-        app-backup/hdup,
-        app-backup/kbackup,
-        app-backup/luckybackup,
-        app-backup/mirdir,
-        app-backup/mylvmbackup,
-        app-backup/pdumpfs,
-        app-backup/pybackpack,
-        app-backup/rdiff-backup,
-        app-backup/reoback,
-        app-backup/rsnapshot,
-        app-backup/sarab,
-        app-backup/simplebackup,
-        app-backup/snapback2,
-        app-backup/spideroak-bin,
-        app-backup/tarsnap,
-        app-backup/tob,
-        app-backup/tsm,
-        app-backup/vzdump
+	app-backup/amanda,
+	app-backup/backintime,
+	app-backup/backup-manager,
+	app-backup/backupninja,
+	app-backup/backuppc,
+	app-backup/bacula,
+	app-backup/boxbackup,
+	app-backup/ccollect,
+	app-backup/cdbackup,
+	app-backup/dar,
+	app-backup/deja-dup,
+	app-backup/dirvish,
+	app-backup/duplicity,
+	app-backup/flexbackup,
+	app-backup/furball,
+	app-backup/hdup,
+	app-backup/kbackup,
+	app-backup/luckybackup,
+	app-backup/mirdir,
+	app-backup/mylvmbackup,
+	app-backup/pdumpfs,
+	app-backup/pybackpack,
+	app-backup/rdiff-backup,
+	app-backup/reoback,
+	app-backup/rsnapshot,
+	app-backup/sarab,
+	app-backup/simplebackup,
+	app-backup/snapback2,
+	app-backup/spideroak-bin,
+	app-backup/tarsnap,
+	app-backup/tob,
+	app-backup/tsm,
+	app-backup/vzdump
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -92,19 +92,23 @@ removed-useflags: yes
 # Package pre execution script hook
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
 
 # Package build post execution script hook, executed for each package
 # Valid value is path to executable file
 # Env vars:
-# BUILDER_PACKAGE_NAME       = name of the package that would be built
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
-# MATTER_PACKAGE_NAME       = name of the package that would be built. It does
-# not reflect the name of the failing package, because it could be just a
-# dependency of it.
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
 # package, the one that triggered the buildfail hook.
 # MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
