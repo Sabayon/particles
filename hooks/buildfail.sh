@@ -3,7 +3,8 @@
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = CPV of failed package
 
 DATE_DIR=$(date +%Y-%m-%d)
-SSH_ARGS="-o ConnectTimeout=5 -p 2222"
+SSH_ARGS="-p 2222 -o ConnectTimeout=5"
+SCP_ARGS="-P 2222 -o ConnectTimeout=5"
 
 BUILD_LOG=$(echo -n "${MATTER_PORTAGE_BUILD_LOG_DIR}/${MATTER_PORTAGE_FAILED_PACKAGE_NAME}"*.log)
 if [ -z "${BUILD_LOG}" ]; then
@@ -30,13 +31,13 @@ if [ "${?}" != "0" ]; then
         exit ${?}
 fi
 chmod 640 "${tmp_path}"
-scp ${SSH_ARGS} "${tmp_path}" entropy@tinderbox.sabayon.org:"${REMOTE_DIR}"/
+scp ${SCP_ARGS} "${tmp_path}" entropy@tinderbox.sabayon.org:"${REMOTE_DIR}"/
 if [ "${?}" != "0" ]; then
 	rm "${tmp_path}"
 	exit 1
 fi
 rm "${tmp_path}"
-scp ${SSH_ARGS} "${BUILD_LOG}" entropy@tinderbox.sabayon.org:"${REMOTE_DIR}"/ || exit 1
+scp ${SCP_ARGS} "${BUILD_LOG}" entropy@tinderbox.sabayon.org:"${REMOTE_DIR}"/ || exit 1
 
 exit 0
 
