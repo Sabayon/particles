@@ -45,7 +45,7 @@ downgrade: no
 # Allow package rebuild?
 # Valid values are either "yes" or "no"
 # Default is: no
-rebuild: no
+rebuild: yes
 
 # Make possible to continue if one or more packages fail to build?
 # Valid values are either "yes" or "no"
