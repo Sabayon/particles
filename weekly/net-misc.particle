@@ -1,0 +1,354 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	net-misc/adjtimex:0,
+	net-misc/aget:0,
+	net-misc/aggregate:0,
+	net-misc/aggregate-flim:0,
+	net-misc/aiccu:0,
+	net-misc/apt-cacher-ng:0,
+	net-misc/aria2:0,
+	net-misc/asterisk:0,
+	net-misc/asterisk-core-sounds:0,
+	net-misc/asterisk-extra-sounds:0,
+	net-misc/asterisk-moh-opsound:0,
+	net-misc/astmanproxy:0,
+	net-misc/autossh:0,
+	net-misc/axel:0,
+	net-misc/balance:0,
+	net-misc/bird:0,
+	net-misc/blogtk:0,
+	net-misc/bridge-utils:0,
+	net-misc/bsdwhois:0,
+	net-misc/bti:0,
+	net-misc/bwwhois:0,
+	net-misc/cadaver:0,
+	net-misc/capi4hylafax:0,
+	net-misc/cbqinit:0,
+	net-misc/cfengine:0,
+	net-misc/cfengine:3,
+	net-misc/charm:0,
+	net-misc/chrony:0,
+	net-misc/clamz:0,
+	net-misc/clipgrab:0,
+	net-misc/clockspeed:0,
+	net-misc/clockspeed-conf:0,
+	net-misc/clusterssh:0,
+	net-misc/connect:0,
+	net-misc/connman:0,
+	net-misc/corkscrew:0,
+	net-misc/curl:0,
+	net-misc/dhcp:0,
+	net-misc/dhcpcd:0,
+	net-misc/dhcping:0,
+	net-misc/dibbler:0,
+	net-misc/directvnc:0,
+	net-misc/drivel:0,
+	net-misc/dropbear:0,
+	net-misc/dropbox:0,
+	net-misc/efax:0,
+	net-misc/emirror:0,
+	net-misc/fakeidentd:0,
+	net-misc/fatrat:0,
+	net-misc/fcoe-utils:0,
+	net-misc/fmirror:0,
+	net-misc/freerapid:0,
+	net-misc/freerdp:0,
+	net-misc/gip:0,
+	net-misc/gnome-blog:0,
+	net-misc/gnome-rdp:0,
+	net-misc/gns3:0,
+	net-misc/gofish:0,
+	net-misc/goog-sitemapgen:0,
+	net-misc/googlecl:0,
+	net-misc/grdesktop:0,
+	net-misc/grive:0,
+	net-misc/gsasl:0,
+	net-misc/gupnp-tools:0,
+	net-misc/gwget:0,
+	net-misc/gwhois:0,
+	net-misc/gwibber:0,
+	net-misc/hashcash:0,
+	net-misc/hotot:0,
+	net-misc/hsc:0,
+	net-misc/htbinit:0,
+	net-misc/htpdate:0,
+	net-misc/httptunnel:0,
+	net-misc/icaclient:0,
+	net-misc/icecast:0,
+	net-misc/ices:0,
+	net-misc/ifenslave:0,
+	net-misc/ipcalc:0,
+	net-misc/iperf:0,
+	net-misc/iplist:0,
+	net-misc/ipsc:0,
+	net-misc/iputils:0,
+	net-misc/ipv6calc:0,
+	net-misc/ipx-utils:0,
+	net-misc/jigdo:0,
+	net-misc/jumpgate:0,
+	net-misc/jwhois:0,
+	net-misc/keychain:0,
+	net-misc/knemo:4,
+	net-misc/knock:0,
+	net-misc/kvpnc:4,
+	net-misc/l7-filter-userspace:0,
+	net-misc/l7-protocols:0,
+
+	# Leechcraft stuff
+	net-misc/leechcraft-advancednotifications:0
+	net-misc/leechcraft-auscrie:0
+	net-misc/leechcraft-core:0
+	net-misc/leechcraft-cstp:0
+	net-misc/leechcraft-dbusmanager:0
+	net-misc/leechcraft-full:0
+	net-misc/leechcraft-gacts:0
+	net-misc/leechcraft-glance:0
+	net-misc/leechcraft-historyholder:0
+	net-misc/leechcraft-kinotify:0
+	net-misc/leechcraft-knowhow:0
+	net-misc/leechcraft-lackman:0
+	net-misc/leechcraft-launchy:0
+	net-misc/leechcraft-liznoo:0
+	net-misc/leechcraft-netstoremanager:0
+	net-misc/leechcraft-newlife:0
+	net-misc/leechcraft-otlozhu:0
+	net-misc/leechcraft-pintab:0
+	net-misc/leechcraft-qrosp:0
+	net-misc/leechcraft-secman:0
+	net-misc/leechcraft-sidebar:0
+	net-misc/leechcraft-summary:0
+	net-misc/leechcraft-tabpp:0
+	net-misc/leechcraft-tabsessmanager:0
+	net-misc/leechcraft-tabslist:0,
+
+	net-misc/linux-identd:0,
+	net-misc/lksctp-tools:0,
+	net-misc/lldpad:0,
+	net-misc/logmein-hamachi:0,
+	net-misc/mdidentd:0,
+	net-misc/mediatomb:0,
+	net-misc/memcached:0,
+	net-misc/midentd:0,
+	net-misc/mindterm:0,
+	net-misc/miniupnpd:0,
+	net-misc/miredo:0,
+	net-misc/mobile-broadband-provider-info:0,
+	net-misc/modemmanager:0,
+	net-misc/monmotha:0,
+	net-misc/mosh:0,
+	net-misc/nat-traverse:0,
+	net-misc/ndisc6:0,
+	net-misc/neatx:0,
+	net-misc/nemesis:0,
+	net-misc/netdate:0,
+
+	# Netkit stuff
+	net-misc/netkit-fingerd:0
+	net-misc/netkit-rsh:0
+	net-misc/netkit-rusers:0
+	net-misc/netkit-rwho:0
+	net-misc/netkit-talk:0
+	net-misc/netkit-telnetd:0
+	net-misc/netkit-timed:0,
+
+	net-misc/netpipes:0,
+	net-misc/netsed:0,
+	net-misc/netsniff-ng:0,
+	net-misc/netstat-nat:0,
+
+	# NetworkManager stuff
+	net-misc/networkmanager:0
+	net-misc/networkmanager-openconnect:0
+	net-misc/networkmanager-openswan:0
+	net-misc/networkmanager-openvpn:0
+	net-misc/networkmanager-pptp:0
+	net-misc/networkmanager-vpnc:0,
+
+	net-misc/npapi-sdk:0,
+	net-misc/ntp:0,
+	net-misc/nut-monitor:0,
+	net-misc/nx:0,
+	net-misc/nxclient:0,
+	net-misc/nxnode:0,
+	net-misc/nxserver-freeedition:0,
+	net-misc/nxserver-freenx:0,
+	net-misc/oidentd:0,
+	net-misc/omniORB:0,
+	net-misc/openconnect:0,
+	net-misc/openssh:0,
+	net-misc/openswan:0,
+	net-misc/openvpn:0,
+	net-misc/packETH:0,
+	net-misc/pavuk:0,
+	net-misc/pen:0,
+	net-misc/plowshare:0,
+	net-misc/portfwd:0,
+	net-misc/proxychains:0,
+	net-misc/proxytunnel:0,
+	net-misc/putty:0,
+	net-misc/pyload:0,
+	net-misc/pymazon:0,
+	net-misc/quagga:0,
+	net-misc/rabbitmq-server:0,
+	net-misc/raccess:0,
+	net-misc/radvd:0,
+	net-misc/rdate:0,
+	net-misc/rdesktop:0,
+	net-misc/redir:0,
+	net-misc/remmina:0,
+	net-misc/rsync:0,
+	net-misc/scponly:0,
+	net-misc/secpanel:0,
+	net-misc/sendfile:0,
+	net-misc/ser:0,
+	net-misc/ser2net:0,
+	net-misc/shmux:0,
+	net-misc/sipcalc:0,
+	net-misc/sipsak:0,
+	net-misc/sitecopy:0,
+	net-misc/smb4k:4,
+	net-misc/snarf:0,
+	net-misc/sobby:0,
+	net-misc/socat:0,
+	net-misc/sock:0,
+	net-misc/sparkleshare:0,
+	net-misc/spread:0,
+	net-misc/ssh-askpass-fullscreen:0,
+	net-misc/ssvnc:0,
+	net-misc/stone:0,
+	net-misc/streamtuner:0,
+	net-misc/streamtuner2:0,
+	net-misc/stunnel:0,
+	net-misc/suite3270:0,
+	net-misc/taylor-uucp:0,
+	net-misc/teamviewer:0,
+	net-misc/tiers:0,
+	net-misc/tightvnc:0,
+	net-misc/tinc:0,
+	net-misc/tipcutils:0,
+	net-misc/tn5250:0,
+	net-misc/tokyotyrant:0,
+	net-misc/tor:0,
+	net-misc/tsclient:0,
+	net-misc/tucan:0,
+	net-misc/ucarp:0,
+	net-misc/udpcast:0,
+	net-misc/unison:2.27,
+	net-misc/unison:2.32,
+	net-misc/unix2tcp:0,
+	net-misc/urlview:0,
+	net-misc/usbip:0,
+	net-misc/utelnetd:0,
+	net-misc/valve:0,
+	net-misc/vconfig:0,
+	net-misc/vde:0,
+	net-misc/vidalia:0,
+	net-misc/vinagre:0,
+	net-misc/vino:0,
+	net-misc/vmnet:0,
+	net-misc/vmpsd:0,
+	net-misc/vncsnapshot:0,
+	net-misc/vpnc:0,
+	net-misc/vtun:0,
+	net-misc/wakeonlan:0,
+	net-misc/wget:0,
+	net-misc/whatmask:0,
+	net-misc/whois:0,
+	net-misc/wicd:0,
+	net-misc/wol:0,
+	net-misc/wput:0,
+	net-misc/x11-ssh-askpass:0,
+	net-misc/x2goclient:0,
+	net-misc/x2goserver:0,
+	net-misc/yaydl:0,
+	net-misc/youtube-dl:0,
+	net-misc/youtube-viewer:0,
+	net-misc/ytalk:0,
+	net-misc/zebedee:0,
+	net-misc/zsync:0,
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
