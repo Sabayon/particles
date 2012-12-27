@@ -1,0 +1,306 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	x11-misc/3ddesktop:0,
+	x11-misc/3dfm:0,
+	x11-misc/accessx:0,
+	x11-misc/alacarte:0,
+	x11-misc/alltray:0,
+	x11-misc/alock:0,
+	x11-misc/appmenu-qt:0,
+	x11-misc/apwal:0,
+	x11-misc/arandr:0,
+	x11-misc/autokey:0,
+	x11-misc/bbacpi:0,
+	x11-misc/bbkeys:0,
+	x11-misc/bbpager:0,
+	x11-misc/bbppp:0,
+	x11-misc/bbrun:0,
+	x11-misc/bbsload:0,
+	x11-misc/bbweather:0,
+	x11-misc/bumblebee:0,
+	x11-misc/cairo-clock:0,
+	x11-misc/cairo-dock:0,
+	x11-misc/chgres:0,
+	x11-misc/colord:0,
+	x11-misc/compton:0,
+	x11-misc/dclock:0,
+	x11-misc/devilspie:0,
+	x11-misc/dmenu:0,
+	x11-misc/driconf:0,
+	x11-misc/dxpc:0,
+	x11-misc/dzen:2,
+	x11-misc/e16keyedit:0,
+	x11-misc/e16menuedit2:0,
+	x11-misc/easystroke:0,
+	x11-misc/efax-gtk:0,
+	x11-misc/electricsheep:0,
+	x11-misc/evolvotron:0,
+	x11-misc/fbdesk:0,
+	x11-misc/fbpager:0,
+	x11-misc/fbpanel:0,
+	x11-misc/fireflies:0,
+	x11-misc/fluxter:0,
+	x11-misc/fracplanet:0,
+	x11-misc/fraqtive:0,
+	x11-misc/ftmenu:0,
+	x11-misc/gbase:0,
+	x11-misc/gbdfed:0,
+	x11-misc/gccmakedep:0,
+	x11-misc/gcolor2:0,
+	x11-misc/gdevilspie:0,
+	x11-misc/gigolo:0,
+	x11-misc/gmrun:0,
+	x11-misc/gpaste:0,
+	x11-misc/grabc:0,
+	x11-misc/gromit:0,
+	x11-misc/grsync:0,
+	x11-misc/grun:0,
+	x11-misc/gtkdialog:0,
+	x11-misc/gxmessage:0,
+	x11-misc/gxneur:0,
+	x11-misc/habak:0,
+	x11-misc/hsetroot:0,
+	x11-misc/icewmcp:0,
+	x11-misc/icon-naming-utils:0,
+	x11-misc/iconbox:0,
+	x11-misc/idesk:0,
+	x11-misc/imake:0,
+	x11-misc/imwheel:0,
+	x11-misc/ipager:0,
+	x11-misc/kapow:0,
+	x11-misc/kdocker:0,
+	x11-misc/keytouch:0,
+	x11-misc/keytouch-editor:0,
+	x11-misc/ktsuss:0,
+	x11-misc/lightdm:0,
+	x11-misc/lightdm-gtk-greeter:0,
+	x11-misc/lineak-defaultplugin:0,
+	x11-misc/lineak-xosdplugin:0,
+	x11-misc/lineakd:0,
+	x11-misc/lndir:0,
+	x11-misc/lxmed:0,
+	x11-misc/macopix:0,
+	x11-misc/makedepend:0,
+	x11-misc/matchbox-keyboard:0,
+	x11-misc/matchbox-panel-manager:0,
+	x11-misc/mate-menu-editor:0,
+	x11-misc/menumaker:0,
+	x11-misc/mgm:0,
+	x11-misc/mixer_app:0,
+	x11-misc/netwmpager:0,
+	x11-misc/nitrogen:0,
+	x11-misc/notification-daemon:0,
+	x11-misc/numlockx:0,
+	x11-misc/obapps:0,
+	x11-misc/obconf:0,
+	x11-misc/obkey:0,
+	x11-misc/obmenu:0,
+	x11-misc/obtheme:0,
+	x11-misc/openbox-menu:0,
+	x11-misc/parcellite:0,
+	x11-misc/pathfinder:0,
+	x11-misc/pcmanfm:0,
+	x11-misc/peksystray:0,
+	x11-misc/piedock:0,
+	x11-misc/pogo:0,
+	x11-misc/pypanel:0,
+	x11-misc/pyroom:0,
+	x11-misc/qcomicbook:0,
+	x11-misc/qps:0,
+	x11-misc/qterm:0,
+	x11-misc/read-edid:0,
+	x11-misc/rednotebook:0,
+	x11-misc/redshift:0,
+	x11-misc/rendercheck:0,
+	x11-misc/revelation:0,
+	x11-misc/rss-glx:0,
+	x11-misc/shared-mime-info:0,
+	x11-misc/shutter:0,
+	x11-misc/shutterbug:0,
+	x11-misc/sisctrl:0,
+	x11-misc/skippy:0,
+	x11-misc/slim:0,
+	x11-misc/slimlock:0,
+	x11-misc/slock:0,
+	x11-misc/spacefm:0,
+	x11-misc/stalonetray:0,
+	x11-misc/superswitcher:0,
+	x11-misc/sux:0,
+	x11-misc/suxpanel:0,
+	x11-misc/synergy:0,
+	x11-misc/taskhelm:0,
+	x11-misc/tint2:0,
+	x11-misc/tintwizard:0,
+	x11-misc/touchcal:0,
+	x11-misc/touchfreeze:0,
+	x11-misc/trayer:0,
+	x11-misc/treeline:0,
+	x11-misc/unclutter:0,
+	x11-misc/util-macros:0,
+	x11-misc/vdpauinfo:0,
+	x11-misc/viewglob:0,
+	x11-misc/virtualgl:0,
+	x11-misc/vnc2swf:0,
+	x11-misc/vym:0,
+	x11-misc/wbar:0,
+	x11-misc/wdm:0,
+	x11-misc/wininfo:0,
+	x11-misc/wmakerconf:0,
+	x11-misc/wmctrl:0,
+	x11-misc/wmname:0,
+	x11-misc/x11vnc:0,
+	x11-misc/x2vnc:0,
+	x11-misc/x2x:0,
+	x11-misc/xaos:0,
+	x11-misc/xautolock:0,
+	x11-misc/xautomation:0,
+	x11-misc/xbattbar:0,
+	x11-misc/xbindkeys:0,
+	x11-misc/xbindkeys-config:0,
+	x11-misc/xbitmaps:0,
+	x11-misc/xcalendar:0,
+	x11-misc/xcalib:0,
+	x11-misc/xcb:0,
+	x11-misc/xclip:0,
+	x11-misc/xcompmgr:0,
+	x11-misc/xdaliclock:0,
+	x11-misc/xdesktopwaves:0,
+	x11-misc/xdg-user-dirs:0,
+	x11-misc/xdg-user-dirs-gtk:0,
+	x11-misc/xdg-utils:0,
+	x11-misc/xdialog:0,
+	x11-misc/xdiskusage:0,
+	x11-misc/xdock:0,
+	x11-misc/xdotool:0,
+	x11-misc/xearth:0,
+	x11-misc/xfe:0,
+	x11-misc/xfishtank:0,
+	x11-misc/xfractint:0,
+	x11-misc/xkbd:0,
+	x11-misc/xkeyboard-config:0,
+	x11-misc/xkeycaps:0,
+	x11-misc/xlockmore:0,
+	x11-misc/xmobar:0,
+	x11-misc/xmountains:0,
+	x11-misc/xnee:0,
+	x11-misc/xneur:0,
+	x11-misc/xnots:0,
+	x11-misc/xorg-cf-files:0,
+	x11-misc/xosview:0,
+	x11-misc/xpad:0,
+	x11-misc/xplanet:0,
+	x11-misc/xrestop:0,
+	x11-misc/xrmap:0,
+	x11-misc/xrootconsole:0,
+	x11-misc/xscreensaver:0,
+	x11-misc/xscreensaver-app:0,
+	x11-misc/xsel:0,
+	x11-misc/xsensors:0,
+	x11-misc/xsetleds:0,
+	x11-misc/xsnap:0,
+	x11-misc/xsnow:0,
+	x11-misc/xsri:0,
+	x11-misc/xstroke:0,
+	x11-misc/xteddy:0,
+	x11-misc/xtermcontrol:0,
+	x11-misc/xtoolwait:0,
+	x11-misc/xtrlock:0,
+	x11-misc/xvkbd:0,
+	x11-misc/xwit:0,
+	x11-misc/xwrits:0,
+	x11-misc/xxkb:0,
+	x11-misc/zim:0,
+
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: inherit
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
