@@ -1,0 +1,238 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	x11-plugins/ascpu:0,
+	x11-plugins/asmem:0,
+	x11-plugins/asmon:0,
+	x11-plugins/astime:0,
+	x11-plugins/bfm:0,
+	x11-plugins/cairo-dock-plugins:0,
+	x11-plugins/compiz-plugins-extra:0,
+	x11-plugins/compiz-plugins-main:0,
+	x11-plugins/compiz-plugins-unsupported:0,
+	x11-plugins/desklet-WeeklyCalendar:0,
+	x11-plugins/desklet-ftb:0,
+	x11-plugins/desklet-gauges:0,
+	x11-plugins/desklet-iCalendarEvent:0,
+	x11-plugins/epplets:0,
+	x11-plugins/fsviewer:0,
+	x11-plugins/gkrellaclock:2,
+	x11-plugins/gkrellflynn:0,
+	x11-plugins/gkrellm-bluez:0,
+	x11-plugins/gkrellm-cpufreq:0,
+	x11-plugins/gkrellm-leds:2,
+	x11-plugins/gkrellm-mailwatch:2,
+	x11-plugins/gkrellm-trayicons:0,
+	x11-plugins/gkrellm-volume:2,
+	x11-plugins/gkrellm-xkb:0,
+	x11-plugins/gkrellmlaunch:2,
+	x11-plugins/gkrellmoon:2,
+	x11-plugins/gkrellmss:0,
+	x11-plugins/gkrellmwireless:2,
+	x11-plugins/gkrellshoot:2,
+	x11-plugins/gkrellstock:2,
+	x11-plugins/gkrellsun:1,
+	x11-plugins/gkrelltop:0,
+	x11-plugins/gkrellweather:2,
+	x11-plugins/guifications:0,
+	x11-plugins/matchbox-applet-input-manager:0,
+	x11-plugins/matchbox-applet-startup-monitor:0,
+	x11-plugins/matchbox-applet-volume:0,
+	x11-plugins/pidgin-encryption:0,
+	x11-plugins/pidgin-extprefs:0,
+	x11-plugins/pidgin-gfire:0,
+	x11-plugins/pidgin-hotkeys:0,
+	x11-plugins/pidgin-latex:0,
+	x11-plugins/pidgin-libnotify:0,
+	x11-plugins/pidgin-musictracker:0,
+	x11-plugins/pidgin-otr:0,
+	x11-plugins/pidgin-privacy-please:0,
+	x11-plugins/pidgin-rhythmbox:0,
+	x11-plugins/pidgin-sipe:0,
+	x11-plugins/pidgin-tlen:0,
+	x11-plugins/pidgintex:0,
+	x11-plugins/purple-plugin_pack:0,
+	x11-plugins/screenlets:0,
+	x11-plugins/vicious:0,
+	x11-plugins/wmCalClock:0,
+	x11-plugins/wmDownload:0,
+	x11-plugins/wmMatrix:0,
+	x11-plugins/wmMoonClock:0,
+	x11-plugins/wmSMPmon:0,
+	x11-plugins/wmSpaceWeather:0,
+	x11-plugins/wmSun:0,
+	x11-plugins/wmacpi:0,
+	x11-plugins/wmacpiload-ac:0,
+	x11-plugins/wmail:0,
+	x11-plugins/wmapm:0,
+	x11-plugins/wmapmload:0,
+	x11-plugins/wmappl:0,
+	x11-plugins/wmbiff:0,
+	x11-plugins/wmbinclock:0,
+	x11-plugins/wmbio:0,
+	x11-plugins/wmblob:0,
+	x11-plugins/wmbluecpu:0,
+	x11-plugins/wmbutton:0,
+	x11-plugins/wmcalc:0,
+	x11-plugins/wmcalendar:0,
+	x11-plugins/wmcliphist:0,
+	x11-plugins/wmclock:0,
+	x11-plugins/wmclockmon:0,
+	x11-plugins/wmcms:0,
+	x11-plugins/wmcoincoin:0,
+	x11-plugins/wmcp:0,
+	x11-plugins/wmcpuload:0,
+	x11-plugins/wmcube:0,
+	x11-plugins/wmdate:0,
+	x11-plugins/wmdiskmon:0,
+	x11-plugins/wmdl:0,
+	x11-plugins/wmdots:0,
+	x11-plugins/wmdrawer:0,
+	x11-plugins/wmfire:0,
+	x11-plugins/wmfishtime:0,
+	x11-plugins/wmfortune:0,
+	x11-plugins/wmfrog:0,
+	x11-plugins/wmfsm:0,
+	x11-plugins/wmget:0,
+	x11-plugins/wmhdplop:0,
+	x11-plugins/wmifinfo:0,
+	x11-plugins/wmifs:0,
+	x11-plugins/wminet:0,
+	x11-plugins/wmitime:0,
+	x11-plugins/wmix:0,
+	x11-plugins/wmlaptop:0,
+	x11-plugins/wmlife:0,
+	x11-plugins/wmload:0,
+	x11-plugins/wmmaiload:0,
+	x11-plugins/wmmand:0,
+	x11-plugins/wmmemfree:0,
+	x11-plugins/wmmemload:0,
+	x11-plugins/wmmemmon:0,
+	x11-plugins/wmmenu:0,
+	x11-plugins/wmmisc:0,
+	x11-plugins/wmmon+smp:0,
+	x11-plugins/wmmon:0,
+	x11-plugins/wmmp:0,
+	x11-plugins/wmmp3:0,
+	x11-plugins/wmmsg:0,
+	x11-plugins/wmnd:0,
+	x11-plugins/wmnet:0,
+	x11-plugins/wmnetload:0,
+	x11-plugins/wmnetselect:0,
+	x11-plugins/wmpager:0,
+	x11-plugins/wmpasman:0,
+	x11-plugins/wmpinboard:0,
+	x11-plugins/wmping:0,
+	x11-plugins/wmpop3:0,
+	x11-plugins/wmpop3lb:0,
+	x11-plugins/wmpower:0,
+	x11-plugins/wmppp:0,
+	x11-plugins/wmrack:0,
+	x11-plugins/wmsmixer:0,
+	x11-plugins/wmswallow:0,
+	x11-plugins/wmsysmon:0,
+	x11-plugins/wmsystray:0,
+	x11-plugins/wmtime:0,
+	x11-plugins/wmtimer:0,
+	x11-plugins/wmtop:0,
+	x11-plugins/wmtz:0,
+	x11-plugins/wmupmon:0,
+	x11-plugins/wmweather+:0,
+	x11-plugins/wmweather:0,
+	x11-plugins/wmwifi:0,
+	x11-plugins/wmwork:0,
+	x11-plugins/wmxkb:0,
+	x11-plugins/wmxres:0,
+
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: inherit
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
