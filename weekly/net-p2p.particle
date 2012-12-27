@@ -1,0 +1,144 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	net-p2p/amule:0,
+	net-p2p/bitcoin-qt:0,
+	net-p2p/bitcoind:0,
+	net-p2p/bitstormlite:0,
+	net-p2p/bittorrent:0,
+	net-p2p/btpd:0,
+	net-p2p/createtorrent:0,
+	net-p2p/ctcs:0,
+	net-p2p/ctorrent:0,
+	net-p2p/dbhub:0,
+	net-p2p/dclib:0,
+	net-p2p/deluge:0,
+	net-p2p/ed2k_hash:0,
+	net-p2p/eiskaltdcpp:0,
+	net-p2p/freenet:0,
+	net-p2p/frostwire:0,
+	net-p2p/gift:0,
+	net-p2p/gift-ares:0,
+	net-p2p/gift-fasttrack:0,
+	net-p2p/gift-gnutella:0,
+	net-p2p/gift-openft:0,
+	net-p2p/giftcurs:0,
+	net-p2p/giftui:0,
+	net-p2p/gtk-gnutella:0,
+	net-p2p/gtorrentviewer:0,
+	net-p2p/i2p:0,
+	net-p2p/kmldonkey:4,
+	net-p2p/ktorrent:4,
+	net-p2p/leechcraft-bittorrent:0,
+	net-p2p/linuxdcpp:0,
+	net-p2p/microdc:0,
+	net-p2p/microdc2:0,
+	net-p2p/mktorrent:0,
+	net-p2p/mktorrent-borg:0,
+	net-p2p/mldonkey:0,
+	net-p2p/mutella:0,
+	net-p2p/nicotine+:0,
+	net-p2p/opendchub:0,
+	net-p2p/phex:0,
+	net-p2p/qbittorrent:0,
+	net-p2p/retroshare:0,
+	net-p2p/rtorrent:0,
+	net-p2p/torrent-search:0,
+	net-p2p/torrentinfo:0,
+	net-p2p/transmission:0,
+	net-p2p/transmission-base:0,
+	net-p2p/transmission-cli:0,
+	net-p2p/transmission-daemon:0,
+	net-p2p/transmission-gtk:0,
+	net-p2p/transmission-qt4:0,
+	net-p2p/tribler:0,
+	net-p2p/tvrss:0,
+	net-p2p/valknut:0,
+	net-p2p/vuze:0,
+	net-p2p/vuze-coreplugins:0,
+	net-p2p/yaggui:0,
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
