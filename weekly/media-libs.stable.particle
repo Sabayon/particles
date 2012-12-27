@@ -1,0 +1,399 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	media-libs/SoQt:0,
+	media-libs/a52dec:0,
+	media-libs/aalib:0,
+	media-libs/adplug:0,
+	media-libs/aften:0,
+	media-libs/aldumb:0,
+	media-libs/allegro:0,
+	media-libs/allegro:5,
+	media-libs/alsa-lib:0,
+	media-libs/alure:0,
+	media-libs/atlas-c++:0,
+	media-libs/aubio:0,
+	media-libs/audiofile:0,
+	media-libs/babl:0,
+	media-libs/bio2jack:0,
+	media-libs/blib:0,
+	media-libs/cal3d:0,
+	media-libs/celt:0.5.1,
+	media-libs/celt:0,
+	media-libs/chromaprint:0,
+	media-libs/clutter:1.0,
+	media-libs/clutter-gst:1.0,
+	media-libs/clutter-gtk:1.0,
+	media-libs/cogl:1.0,
+	media-libs/coin:0,
+	media-libs/compface:0,
+	media-libs/ctl:0,
+	media-libs/devil:0,
+	media-libs/dssi:0,
+	media-libs/dumb:0,
+	media-libs/edje:0,
+	media-libs/esdl:0,
+	media-libs/evas:0,
+	media-libs/exiftool:0,
+	media-libs/faac:0,
+	media-libs/faad2:0,
+	media-libs/ffmpegsource:0,
+	media-libs/fidlib:0,
+	media-libs/flac:0,
+	media-libs/flickcurl:0,
+	media-libs/fluidsynth-dssi:0,
+	media-libs/fmod:1,
+	media-libs/fontconfig:1.0,
+	media-libs/fontconfig-infinality:0,
+	media-libs/freealut:0,
+	media-libs/freeglut:0,
+	media-libs/freeimage:0,
+	media-libs/freetype:1,
+	media-libs/freetype:2,
+	media-libs/ftgl:0,
+	media-libs/gavl:0,
+	media-libs/gd:2,
+	media-libs/gegl:0,
+	media-libs/gexiv2:0,
+	media-libs/giblib:0,
+	media-libs/giflib:0,
+	media-libs/glew:0,
+	media-libs/glfw:0,
+	media-libs/glm:0,
+	media-libs/glpng:0,
+	media-libs/glu:0,
+	media-libs/gluon:4,
+	media-libs/glyr:0,
+	media-libs/gmtk:0,
+	media-libs/gnonlin:0.10,
+	media-libs/grilo:0.1,
+	media-libs/grilo:0.2/1,
+	media-libs/gst-plugins-bad:0.10,
+	media-libs/gst-plugins-bad:1.0,
+	media-libs/gst-plugins-base:0.10,
+	media-libs/gst-plugins-base:1.0,
+	media-libs/gst-plugins-good:0.10,
+	media-libs/gst-plugins-good:1.0,
+	media-libs/gst-plugins-ugly:0.10,
+	media-libs/gst-plugins-ugly:1.0,
+	media-libs/gstreamer:0.10,
+	media-libs/gstreamer:1.0,
+	media-libs/hamlib:0,
+	media-libs/herqq:0,
+	media-libs/id3lib:0,
+	media-libs/ilmbase:0,
+	media-libs/imlib:0,
+	media-libs/imlib2:0,
+	media-libs/jackd-firewire:0,
+	media-libs/jasper:0,
+	media-libs/jbig2dec:0,
+	media-libs/jbigkit:0,
+	media-libs/jpeg:62,
+	media-libs/ladspa-cmt:0,
+	media-libs/ladspa-sdk:0,
+	media-libs/lasi:0,
+	media-libs/lcms:0,
+	media-libs/lcms:2,
+	media-libs/lensfun:0,
+	media-libs/leptonica:0,
+	media-libs/lib3ds:0,
+	media-libs/libXcm:0,
+	media-libs/libao:0,
+	media-libs/libart_lgpl:0,
+	media-libs/libass:0,
+	media-libs/libbs2b:0,
+	media-libs/libcaca:0,
+	media-libs/libcanberra:0,
+	media-libs/libcdaudio:0,
+	media-libs/libcddb:0,
+	media-libs/libcdr:0,
+	media-libs/libchamplain:0.10,
+	media-libs/libchamplain:0.12,
+	media-libs/libclalsadrv:0,
+	media-libs/libclthreads:0,
+	media-libs/libclxclient:0,
+	media-libs/libcue:0,
+	media-libs/libcuefile:0,
+	media-libs/libdc1394:2,
+	media-libs/libdca:0,
+	media-libs/libdiscid:0,
+	media-libs/libdmtx:0,
+	media-libs/libdv:0,
+	media-libs/libdvb:0,
+	media-libs/libdvbpsi:0,
+	media-libs/libdvdcss:1.2,
+	media-libs/libdvdnav:0,
+	media-libs/libdvdplay:0,
+	media-libs/libdvdread:0,
+	media-libs/libechonest:0,
+	media-libs/libemf:0,
+	media-libs/libexif:0,
+	media-libs/libexif-gtk:0,
+	media-libs/libfame:0,
+	media-libs/libffado:0,
+	media-libs/libfishsound:0,
+	media-libs/libfpx:0,
+	media-libs/libggi:0,
+	media-libs/libggigcp:0,
+	media-libs/libggimisc:0,
+	media-libs/libggiwmh:0,
+	media-libs/libgig:0,
+	media-libs/libgii:0,
+	media-libs/libgnome-media-profiles:3,
+	media-libs/libgphoto2:0,
+	media-libs/libgpod:0,
+	media-libs/libharu:0,
+	media-libs/libicns:0,
+	media-libs/libid3tag:0,
+	media-libs/libiec61883:0,
+	media-libs/libifp:0,
+	media-libs/libiptcdata:0,
+	media-libs/libj2k:0,
+	media-libs/libjpeg-turbo:0,
+	media-libs/libjsw:0,
+	media-libs/libkate:0,
+	media-libs/libkface:4,
+	media-libs/libkgeomap:4,
+	media-libs/liblastfm:0,
+	media-libs/liblingoteach:0,
+	media-libs/liblo:0,
+	media-libs/liblqr:0,
+	media-libs/liblrdf:0,
+	media-libs/liblscp:0,
+	media-libs/libmad:0,
+	media-libs/libmatroska:0,
+	media-libs/libmediainfo:0,
+	media-libs/libmikmod:0,
+	media-libs/libmimic:0,
+	media-libs/libmms:0,
+	media-libs/libmng:0,
+	media-libs/libmodplug:0,
+	media-libs/libmp3splt:0,
+	media-libs/libmp4v2:1,
+	media-libs/libmp4v2:0,
+	media-libs/libmpd:0,
+	media-libs/libmpdclient:0,
+	media-libs/libmpeg2:0,
+	media-libs/libmpeg3:0,
+	media-libs/libmtp:0,
+	media-libs/libnjb:0,
+	media-libs/libofa:0,
+	media-libs/libogg:0,
+	media-libs/liboggz:0,
+	media-libs/libopendaap:0,
+	media-libs/libopenraw:0,
+	media-libs/libpano13:0,
+	media-libs/libpgf:0,
+	media-libs/libpng:1.2,
+	media-libs/libpng:0,
+	media-libs/libpostproc:0,
+	media-libs/libpqstego:0,
+	media-libs/libprojectm:0,
+	media-libs/libprojectm-qt:0,
+	media-libs/libquicktime:0,
+	media-libs/libquvi:0,
+	media-libs/libquvi-scripts:0,
+	media-libs/libraw:0,
+	media-libs/libreplaygain:0,
+	media-libs/libsamplerate:0,
+	media-libs/libsdl:0,
+	media-libs/libsfml:0,
+	media-libs/libshout:0,
+	media-libs/libsidplay:1,
+	media-libs/libsidplay:2,
+	media-libs/libsmf:0,
+	media-libs/libsndfile:0,
+	media-libs/libsoundtouch:0,
+	media-libs/libsvg:0,
+	media-libs/libtheora:0,
+	media-libs/libtxc_dxtn:0,
+	media-libs/libuninameslist:0,
+	media-libs/libv4l:0,
+	media-libs/libvisio:0,
+	media-libs/libvisual:0.4,
+	media-libs/libvorbis:0,
+	media-libs/libvpx:0,
+	media-libs/libwebp:0,
+	media-libs/libwmf:0,
+	media-libs/libxtract:0,
+	media-libs/libzen:0,
+	media-libs/lilv:0,
+	media-libs/lv2-ui:0,
+	media-libs/lv2core:0,
+	media-libs/mediastreamer:0,
+	media-libs/memphis:0.2,
+	media-libs/mesa:0,
+	media-libs/ming:0,
+	media-libs/mlt:0,
+	media-libs/musicbrainz:1,
+	media-libs/musicbrainz:3,
+	media-libs/musicbrainz:4,
+	media-libs/musicbrainz:5,
+	media-libs/mutagen:0,
+	media-libs/nas:0,
+	media-libs/netpbm:0,
+	media-libs/openal:0,
+	media-libs/opencore-amr:0,
+	media-libs/opencv:0,
+	media-libs/openexr:0,
+	media-libs/openexr_ctl:0,
+	media-libs/openjpeg:0,
+	media-libs/opus:0,
+	media-libs/oyranos:0,
+	media-libs/phat:0,
+	media-libs/phonon:0,
+	media-libs/phonon-gstreamer:0,
+	media-libs/phonon-vlc:0,
+	media-libs/plib:0,
+	media-libs/plotutils:0,
+	media-libs/pnglite:0,
+	media-libs/portaudio:0,
+	media-libs/portmidi:0,
+	media-libs/prison:4,
+	media-libs/pymemphis:0,
+	media-libs/qhull:0,
+	media-libs/qimageblitz:0,
+	media-libs/qt-gstreamer:0,
+	media-libs/quesoglc:0,
+	media-libs/quvi:0,
+	media-libs/raptor:2,
+	media-libs/raul:0,
+	media-libs/resid:0,
+	media-libs/rubberband:0,
+	media-libs/sampleicc:0,
+	media-libs/sbc:0,
+	media-libs/schroedinger:0,
+	media-libs/sdif:0,
+	media-libs/sdl-flic:0,
+	media-libs/sdl-gfx:0,
+	media-libs/sdl-image:0,
+	media-libs/sdl-mixer:0,
+	media-libs/sdl-net:0,
+	media-libs/sdl-pango:0,
+	media-libs/sdl-sound:0,
+	media-libs/sdl-ttf:0,
+	media-libs/silgraphite:0,
+	media-libs/sk1libs:0,
+	media-libs/skstream:0,
+	media-libs/slv2:0,
+	media-libs/smpeg:0,
+	media-libs/spandsp:0,
+	media-libs/speex:0,
+	media-libs/stimg:0,
+	media-libs/stops:0,
+	media-libs/sublib:0,
+	media-libs/suil:0,
+	media-libs/swfdec:0,
+	media-libs/t1lib:5,
+	media-libs/taglib:0,
+	media-libs/taglib-extras:0,
+	media-libs/tiff:3,
+	media-libs/tiff:0,
+	media-libs/tse3:0,
+	media-libs/urt:0,
+	media-libs/vamp-plugin-sdk:0,
+	media-libs/varconf:0,
+	media-libs/vips:1,
+	media-libs/vo-aacenc:0,
+	media-libs/vo-amrwbenc:0,
+	media-libs/webrtc-audio-processing:0,
+	media-libs/win32codecs:0,
+	media-libs/wxsvg:0,
+	media-libs/x264:0,
+	media-libs/xine-lib:1,
+	media-libs/xvid:0,
+	media-libs/zita-convolver:0,
+	media-libs/zita-resampler:0
+
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: yes
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
