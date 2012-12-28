@@ -21,10 +21,10 @@ packages:
 	x11-terms/rxvt-unicode,
 	x11-terms/sakura,
 	x11-terms/st,
-	x11-terms/terminal,
 	x11-terms/terminator,
 	x11-terms/tilda,
 	x11-terms/valaterm,
+	x11-terms/xfce4-terminal,
 	x11-terms/xterm,
 	x11-terms/xvt,
 	x11-terms/yeahconsole
