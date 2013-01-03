@@ -1,0 +1,463 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	dev-python/Babel:0,
+	dev-python/PyQt4:0,
+	dev-python/adns-python:0,
+	dev-python/anyvc:0,
+	dev-python/apipkg:0,
+	dev-python/apptools:0,
+	dev-python/apsw:0,
+	dev-python/astng:0,
+	dev-python/authres:0,
+	dev-python/axiom:0,
+	dev-python/beaker:0,
+	dev-python/beautifulsoup:python-2,
+	dev-python/blinker:0,
+	dev-python/bpython:0,
+	dev-python/brasero-python:0,
+	dev-python/bsddb3:0,
+	dev-python/bug-buddy-python:0,
+	dev-python/cddb-py:0,
+	dev-python/celementtree:0,
+	dev-python/cgkit:0,
+	dev-python/chardet:0,
+	dev-python/cheetah:0,
+	dev-python/cherrypy:0,
+	dev-python/clientcookie:0,
+	dev-python/compizconfig-python:0,
+	dev-python/configobj:0,
+	dev-python/couchdb-python:0,
+	dev-python/coverage:0,
+	dev-python/cssselect:0,
+	dev-python/cssutils:0,
+	dev-python/cython:0,
+	dev-python/d2to1:0,
+	dev-python/dbus-python:0,
+	dev-python/decorator:0,
+	dev-python/decoratortools:0,
+	dev-python/django:0,
+	dev-python/dnspython:0,
+	dev-python/docutils:0,
+	dev-python/dreampie:0,
+	dev-python/dulwich:0,
+	dev-python/egenix-mx-base:0,
+	dev-python/egg-python:0,
+	dev-python/elementtree:0,
+	dev-python/empy:0,
+	dev-python/enthoughtbase:0,
+	dev-python/envisage:0,
+	dev-python/envisagecore:0,
+	dev-python/envisageplugins:0,
+	dev-python/epsilon:0,
+	dev-python/epydoc:0,
+	dev-python/evince-python:0,
+	dev-python/evolution-python:0,
+	dev-python/execnet:0,
+	dev-python/eyeD3:0,
+	dev-python/feedparser:0,
+	dev-python/flask:0,
+	dev-python/flask-babel:0,
+	dev-python/flask-script:0,
+	dev-python/flask-themes:0,
+	dev-python/flup:0,
+	dev-python/fonttools:0,
+	dev-python/formencode:0,
+	dev-python/fpconst:0,
+	dev-python/frozen-flask:0,
+	dev-python/fuse-python:0,
+	dev-python/futures:0,
+	dev-python/gconf-python:2,
+	dev-python/gdata:0,
+	dev-python/gdl-python:0,
+	dev-python/genshi:0,
+	dev-python/geoip-python:0,
+	dev-python/gmpy:0,
+	dev-python/gnome-applets-python:0,
+	dev-python/gnome-desktop-python:0,
+	dev-python/gnome-keyring-python:0,
+	dev-python/gnome-python-base:2,
+	dev-python/gnome-python-desktop-base:0,
+	dev-python/gnome-python-extras-base:0,
+	dev-python/gnome-vfs-python:2,
+	dev-python/graphy:0,
+	dev-python/gst-python:0.10,
+	dev-python/gtkhtml-python:0,
+	dev-python/gtkspell-python:0,
+	dev-python/guppy:0,
+	dev-python/hachoir-core:0,
+	dev-python/hachoir-parser:0,
+	dev-python/hachoir-regex:0,
+	dev-python/hcs-utils:0,
+	dev-python/html2text:0,
+	dev-python/html5lib:0,
+	dev-python/httplib2:0,
+	dev-python/icalendar:0,
+	dev-python/id3-py:0,
+	dev-python/imaging:0,
+	dev-python/imdbpy:0,
+	dev-python/iniparse:0,
+	dev-python/ipy:0,
+	dev-python/ipython:0,
+	dev-python/isodate:0,
+	dev-python/jaxml:0,
+	dev-python/jinja:0,
+	dev-python/jsonpickle:0,
+	dev-python/kaa-base:0,
+	dev-python/kaa-display:0,
+	dev-python/kaa-imlib2:0,
+	dev-python/kaa-metadata:0,
+	dev-python/kid:0,
+	dev-python/kiwi:0,
+	dev-python/libbonobo-python:2,
+	dev-python/libgda-python:0,
+	dev-python/libgksu-python:0,
+	dev-python/libgnome-python:2,
+	dev-python/libgnomecanvas-python:2,
+	dev-python/libgnomeprint-python:0,
+	dev-python/libgtop-python:0,
+	dev-python/librsvg-python:0,
+	dev-python/libwnck-python:0,
+	dev-python/lockfile:0,
+	dev-python/logbook:0,
+	dev-python/logilab-common:0,
+	dev-python/louie:0,
+	dev-python/lxml:0,
+	dev-python/m2crypto:0,
+	dev-python/mako:0,
+	dev-python/manifestdestiny:0,
+	dev-python/markdown:0,
+	dev-python/markupsafe:0,
+	dev-python/matplotlib:0,
+	dev-python/mechanize:0,
+	dev-python/meld3:0,
+	dev-python/morbid:0,
+	dev-python/mozinfo:0,
+	dev-python/mozprocess:0,
+	dev-python/mozprofile:0,
+	dev-python/mozrunner:0,
+	dev-python/mpmath:0,
+	dev-python/mygpoclient:0,
+	dev-python/mysql-python:0,
+	dev-python/nautilus-python:0,
+	dev-python/netifaces:0,
+	dev-python/networkx:0,
+	dev-python/nevow:0,
+	dev-python/nltk:0,
+	dev-python/nose:0,
+	dev-python/notify-python:0,
+	dev-python/numpy:0,
+	dev-python/oauth:0,
+	dev-python/oauth2:0,
+	dev-python/odfpy:0,
+	dev-python/optcomplete:0,
+	dev-python/oursql:0,
+	dev-python/papyon:0,
+	dev-python/paramiko:0,
+	dev-python/paste:0,
+	dev-python/pastedeploy:0,
+	dev-python/pastescript:0,
+	dev-python/pexpect:0,
+	dev-python/pivy:0,
+	dev-python/pkipplib:0,
+	dev-python/ply:0,
+	dev-python/pmw:0,
+	dev-python/polygon:2,
+	dev-python/pp:0,
+	dev-python/progressbar:0,
+	dev-python/psutil:0,
+	dev-python/psycopg:0,
+	dev-python/psycopg:2,
+	dev-python/py:0,
+	dev-python/py-gnupg:0,
+	dev-python/py-smbpasswd:0,
+	dev-python/pyPdf:0,
+	dev-python/pyalsa:0,
+	dev-python/pyalsaaudio:0,
+	dev-python/pyasn1:0,
+	dev-python/pyatspi:0,
+	dev-python/pyaudio:0,
+	dev-python/pyblock:0,
+	dev-python/pybloomfiltermmap:0,
+	dev-python/pybluez:0,
+	dev-python/pycairo:0,
+	dev-python/pychart:0,
+	dev-python/pychecker:0,
+	dev-python/pychm:0,
+	dev-python/pyclamav:0,
+	dev-python/pycrypto:0,
+	dev-python/pycuda:0,
+	dev-python/pycups:0,
+	dev-python/pycurl:0,
+	dev-python/pycxx:0,
+	dev-python/pydns:0,
+	dev-python/pyenchant:0,
+	dev-python/pyface:0,
+	dev-python/pyfits:0,
+	dev-python/pyflakes:0,
+	dev-python/pygame:0,
+	dev-python/pyglet:0,
+	dev-python/pygments:0,
+	dev-python/pygobject:2,
+
+	dev-python/pygobject:3
+	dev-python/pygobject-base:3
+	dev-python/pygobject-cairo:3,
+
+	dev-python/pygoocanvas:0,
+	dev-python/pygpgme:0,
+	dev-python/pygsl:0,
+	dev-python/pygtk:2,
+	dev-python/pygtkglext:0,
+	dev-python/pygtkhelpers:0,
+	dev-python/pygtksourceview:2,
+	dev-python/pyid3lib:0,
+	dev-python/pyifp:0,
+	dev-python/pyinotify:0,
+	dev-python/pylibacl:0,
+	dev-python/pylint:0,
+	dev-python/pylirc:0,
+	dev-python/pylons:0,
+	dev-python/pymad:0,
+	dev-python/pymetar:0,
+	dev-python/pymountboot:0,
+	dev-python/pympler:0,
+	dev-python/pynotifier:0,
+	dev-python/pynut:0,
+	dev-python/pyode:0,
+	dev-python/pyogg:0,
+	dev-python/pyopenal:0,
+	dev-python/pyopencl:0,
+	dev-python/pyopengl:0,
+	dev-python/pyopenssl:0,
+	dev-python/pyorbit:0,
+	dev-python/pypam:0,
+	dev-python/pyparsing:0,
+	dev-python/pyparted:0,
+	dev-python/pypgsql:0,
+	dev-python/pyprotocols:0,
+	dev-python/pyquery:0,
+	dev-python/pyqwt:5,
+	dev-python/pyrex:0,
+	dev-python/pyserial:0,
+	dev-python/pyside:0,
+	dev-python/pysnmp:0,
+	dev-python/pysnmp-apps:0,
+	dev-python/pysnmp-mibs:0,
+	dev-python/pyspf:0,
+	dev-python/pysqlite:0,
+	dev-python/pysqlite:2,
+	dev-python/pysvn:0,
+	dev-python/python-bibtex:0,
+	dev-python/python-bugzilla:0,
+	dev-python/python-cluster:0,
+	dev-python/python-cryptsetup:0,
+	dev-python/python-daap:0,
+	dev-python/python-dateutil:0,
+	dev-python/python-distutils-extra:0,
+	dev-python/python-docs:2.6,
+	dev-python/python-docs:2.7,
+	dev-python/python-dsv:0,
+	dev-python/python-ethtool:0,
+	dev-python/python-exec:0,
+	dev-python/python-fastimport:0,
+	dev-python/python-fchksum:0,
+	dev-python/python-gflags:0,
+	dev-python/python-gudev:0,
+	dev-python/python-ldap:0,
+	dev-python/python-levenshtein:0,
+	dev-python/python-meh:0,
+	dev-python/python-memcached:0,
+	dev-python/python-mpd:0,
+	dev-python/python-musicbrainz:0,
+	dev-python/python-nss:0,
+	dev-python/python-openid:0,
+	dev-python/python-poppler:0,
+	dev-python/python-poppler-qt4:0,
+	dev-python/python-report:0,
+	dev-python/python-slip:0,
+	dev-python/python-uinput:0,
+	dev-python/python-virtkey:0,
+	dev-python/python-xlib:0,
+	dev-python/pythondialog:0,
+	dev-python/pytools:0,
+	dev-python/pytrailer:0,
+	dev-python/pytz:0,
+	dev-python/pyudev:0,
+	dev-python/pyusb:0,
+	dev-python/pyvorbis:0,
+	dev-python/pywebkitgtk:0,
+	dev-python/pyx:0,
+	dev-python/pyxattr:0,
+	dev-python/pyxdg:0,
+	dev-python/pyxml:0,
+	dev-python/pyyaml:0,
+	dev-python/pyzmq:0,
+	dev-python/qscintilla-python:0,
+	dev-python/rdflib:0,
+	dev-python/recaptcha-client:0,
+	dev-python/reportlab:0,
+	dev-python/repoze-lru:0,
+	dev-python/rhpl:0,
+	dev-python/rope:0,
+	dev-python/ropemacs:0,
+	dev-python/ropemode:0,
+	dev-python/routes:0,
+	dev-python/rpy:0,
+	dev-python/ruledispatch:0,
+	dev-python/setproctitle:0,
+	dev-python/setuptools:0,
+	dev-python/shiboken:0,
+	dev-python/shm:0,
+	dev-python/simplegeneric:0,
+	dev-python/simplejson:0,
+	dev-python/sip:0,
+	dev-python/six:0,
+	dev-python/skype4py:0,
+	dev-python/snakeoil:0,
+	dev-python/soappy:0,
+	dev-python/speaklater:0,
+	dev-python/sphinx:0,
+	dev-python/spyder:0,
+	dev-python/sqlalchemy:0,
+	dev-python/sqlalchemy-migrate:0,
+	dev-python/sqlitecachec:0,
+	dev-python/stomper:0,
+	dev-python/stsci-distutils:0,
+	dev-python/subvertpy:0,
+	dev-python/suds:0,
+	dev-python/sudsds:0,
+	dev-python/sympy:0,
+	dev-python/telepathy-python:0,
+	dev-python/tempita:0,
+	dev-python/tinyurl:0,
+	dev-python/totem-python:0,
+	dev-python/traits:0,
+	dev-python/traitsbackendqt:0,
+	dev-python/traitsbackendwx:0,
+	dev-python/traitsgui:0,
+	dev-python/traitsui:0,
+	dev-python/translate-toolkit:0,
+	dev-python/ttfquery:0,
+	dev-python/turbojson:0,
+	dev-python/twisted:0,
+	dev-python/twisted-conch:0,
+	dev-python/twisted-mail:0,
+	dev-python/twisted-names:0,
+	dev-python/twisted-web:0,
+	dev-python/twisted-words:0,
+	dev-python/unittest2:0,
+	dev-python/urlgrabber:0,
+	dev-python/urwid:0,
+	dev-python/utidylib:0,
+	dev-python/vertex:0,
+	dev-python/virtualenv:0,
+	dev-python/visual:0,
+	dev-python/vo:0,
+	dev-python/vobject:0,
+	dev-python/weberror:0,
+	dev-python/webhelpers:0,
+	dev-python/webob:0,
+	dev-python/webtest:0,
+	dev-python/werkzeug:0,
+	dev-python/winpdb:0,
+	dev-python/wstools:0,
+	dev-python/wxpython:2.8,
+	dev-python/xmpppy:0,
+	dev-python/yenc:0,
+	dev-python/yolk:0,
+	dev-python/yolk-portage:0,
+	dev-python/zsi:0,
+
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: yes
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
