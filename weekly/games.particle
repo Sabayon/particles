@@ -212,7 +212,7 @@ packages:
 	games-board/gtkatlantic,
 	games-board/gtkboard,
 	games-board/hexxagon,
-	games-board/jrisk,
+	games-board/domination,
 	games-board/kcheckers,
 	games-board/knights,
 	games-board/mah-jong,
