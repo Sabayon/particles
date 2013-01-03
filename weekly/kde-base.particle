@@ -7,6 +7,7 @@ packages:
 	kde-base/kde-meta,
 	kde-base/kdepim-meta,
 	kde-base/kdesdk-meta,
+	kde-base/kdewebdev-meta,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
