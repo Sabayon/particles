@@ -56,6 +56,47 @@ start() {
 	fi
 }
 
+pkgmove() {
+	local old="${1}"
+	local new="${2}"
+
+	echo "@@@ $old -> $new"
+	oldcat=${old%/*}
+	newcat=${new%/*}
+	# echo "<$oldcat,$newcat>"
+	if [[ ! -f $oldcat.particle ]]; then
+		echo "no-file-old $oldcat.particle, skipping"
+		continue
+	fi
+
+	# modify.pl currently returns success when no entry to be deleted
+	# so we use this to know if new (replaced) entry should be added
+	# or not
+	if egrep -q "^\s*$old(,|$)" "$oldcat.particle"; then
+		# removed even if new name won't be added
+		"$modify_script" --noask --delete "$oldcat.particle" "$old"
+		was_present=1
+	else
+		was_present=0
+	fi
+
+	if [[ ! -f $newcat.particle ]]; then
+		echo "no-file-new $newcat.particle, skipping the rest"
+		continue
+	fi
+
+	if [[ $was_present = 1 ]]; then
+		"$modify_script" --noask "$newcat.particle" "$new"
+	else
+		# if it wasn't there before (and it's not now) and a particle
+		# for this category exists (checked above), inform about it
+		# maybe someone would want to add it
+		if ! egrep -q "^\s*$new(,|$)" "$newcat.particle"; then
+			available_after_move+=( "$new" )
+		fi
+	fi
+}
+
 readfileanddostuff() {
 	local file=$1
 	local old new
@@ -67,41 +108,10 @@ readfileanddostuff() {
 		return 1
 	fi
 	while read op old new; do
-		[[ $op = move ]] || continue
-		echo "@@@ $old -> $new"
-		oldcat=${old%/*}
-		newcat=${new%/*}
-		# echo "<$oldcat,$newcat>"
-		if [[ ! -f $oldcat.particle ]]; then
-			echo "no-file-old $oldcat.particle, skipping"
-			continue
-		fi
-
-		# modify.pl currently returns success when no entry to be deleted
-		# so we use this to know if new (replaced) entry should be added
-		# or not
-		if egrep -q "^\s*$old(,|$)" "$oldcat.particle"; then
-			# removed even if new name won't be added
-			"$modify_script" --noask --delete "$oldcat.particle" "$old"
-			was_present=1
-		else
-			was_present=0
-		fi
-
-		if [[ ! -f $newcat.particle ]]; then
-			echo "no-file-new $newcat.particle, skipping the rest"
-			continue
-		fi
-
-		if [[ $was_present = 1 ]]; then
-			"$modify_script" --noask "$newcat.particle" "$new"
-		else
-			# if it wasn't there before (and it's not now) and a particle
-			# for this category exists (checked above), inform about it
-			# maybe someone would want to add it
-			if ! egrep -q "^\s*$new(,|$)" "$newcat.particle"; then
-				available_after_move+=( "$new" )
-			fi
+		if [[ "$op" = "move" ]]; then
+			pkgmove "${old}" "${new}"
+		elif [[ "$op" = "slotmove" ]]; then
+			echo "slotmove not supported yet, line: ${op} ${old} ${new}"
 		fi
 	done < "$file"
 }
