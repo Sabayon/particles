@@ -18,6 +18,8 @@ particles_dir=${particles_dir:-.}
 available_after_move=()
 
 if [[ $# -eq 0 ]]; then
+	# TODO: automatically generate a list of files, including those available
+	# on the configured overlays
 	echo "$0 FILE [FILE...]" >&2
 	echo "FILE = 4Q-2012, for example" >&2
 	exit 1
@@ -60,6 +62,7 @@ readfileanddostuff() {
 			if [[ "$op" = "move" ]]; then
 				pkgmove "$particle" "$old" "$new"
 			elif [[ "$op" = "slotmove" ]]; then
+				# TODO: add support for slotmove
 				echo "slotmove not supported yet, line: $op $old $new"
 			fi
 		done < "$file"
