@@ -36,15 +36,30 @@ pkgmove() {
 	local old="${2}"
 	local new="${3}"
 
-	echo "@@@ pkgmove: $target, $old -> $new"
 	# handle app-foo/bar,
 	sed -i "s:$old,:$new,:g" "$target" || return 1
 	# handle app-foo/bar:
 	sed -i "s;$old:;$new:;g" "$target" || return 1
 	# handle app-foo/bar$
 	sed -i "s;${old}$;$new;g" "$target" || return 1
-	# TODO: handle versioned <app-foo/bar-9999 without
+	# XXX: handle versioned <app-foo/bar-9999 without
 	# rewriting wrong PN. app-foo/bar-baz-9999 != app-foo/bar-9999.
+	sed -i "s;${old}-;${new}- # verify (was: move $old $new);g" "$target" || return 1
+}
+
+slotmove() {
+	local target="${1}"
+	local dep="${2}"
+	local old="${3}"
+	local new="${4}"
+
+	# handle app-foo/bar:SLOT,
+	sed -i "s;$dep:$old,;$dep:$new,;g" "$target" || return 1
+	# handle app-foo/bar$
+	sed -i "s;$dep:${old}$;$dep:$new;g" "$target" || return 1
+	# XXX: handle versioned <app-foo/bar-9999 without
+	# rewriting wrong PN. app-foo/bar-baz-9999 != app-foo/bar-9999.
+	sed -i "s;$dep:$old;$dep:$new # verify (was: $dep $old $new);g" "$target" || return 1
 }
 
 readfileanddostuff() {
@@ -62,8 +77,7 @@ readfileanddostuff() {
 			if [[ "$op" = "move" ]]; then
 				pkgmove "$particle" "$old" "$new"
 			elif [[ "$op" = "slotmove" ]]; then
-				# TODO: add support for slotmove
-				echo "slotmove not supported yet, line: $op $old $new"
+				slotmove "$particle" "$old" $new # this contains 2 vals
 			fi
 		done < "$file"
 	done
