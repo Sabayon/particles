@@ -1,0 +1,34 @@
+#!/bin/bash
+# This script uses antimatter to generate a matter template
+# containing a list of packages that are not installed on the
+# system.
+# The argv passed will be forwarded to matter.
+
+# TODO: add allow-conflicts flag?
+
+set -e
+
+ANTIMATTER=${ANTIMATTER:-/usr/sbin/antimatter}
+MATTER=${MATTER:-/usr/sbin/matter}
+SCRIPT_DIR=$(dirname "${0}")
+COSMOS_DIR=${COSMOS_DIR:-${SCRIPT_DIR}}
+COSMOS_PARTICLE_SKEL="${COSMOS_PARTICLE_SKEL:-cosmos.particle.skel}"
+COSMOS_PARTICLE_SKEL_PATH="${COSMOS_DIR}/${COSMOS_PARTICLE_SKEL}"
+
+if [ "$(whoami)" != "root" ]; then
+    echo "Run this as root" >&2
+    exit 1
+fi
+
+# Get a list of new packages, huge list
+echo "Generating a list of new packages..."
+packages=$("${ANTIMATTER}" --new --quiet | sed "s:$:,:" | xargs)
+
+# Take the skel, create a new temp file, append the list
+# and call matter
+echo "Spawning matter ${*}"
+particle_path="${COSMOS_DIR}/cosmos.particle"
+cp "${COSMOS_PARTICLE_SKEL_PATH}" "${particle_path}"
+sed -i "s;packages:;packages: ${packages};" "${particle_path}"
+
+"${MATTER}" "${@}" "${particle_path}"
