@@ -4,8 +4,6 @@
 # system.
 # The argv passed will be forwarded to matter.
 
-# TODO: add allow-conflicts flag?
-
 set -e
 
 ANTIMATTER=${ANTIMATTER:-/usr/sbin/antimatter}

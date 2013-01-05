@@ -31,6 +31,11 @@ spm-repository-change-if-upstreamed: yes
 # Default is: no
 not-installed: yes
 
+# Allow soft-blockers in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+soft-blocker: no
+
 # Allow dependencies to be pulled in?
 # Valid values are either "yes" or "no"
 # Default is: no
