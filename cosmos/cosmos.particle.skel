@@ -39,7 +39,7 @@ soft-blocker: no
 # Allow package unmerges in the merge queue? Packages will be unmerged if yes.
 # Valid values are either "yes" or "no"
 # Default is: yes
-unmerge: yes
+unmerge: no
 
 # Allow dependencies to be pulled in?
 # Valid values are either "yes" or "no"
