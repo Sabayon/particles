@@ -1,0 +1,211 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	x11-libs/agg:0,
+	x11-libs/c++-gtk-utils:3,
+	x11-libs/colord-gtk:0/1,
+	x11-libs/compiz-bcop:0,
+	x11-libs/compizconfig-backend-gconf:0,
+	x11-libs/dnd:0,
+	x11-libs/flowcanvas:0,
+	x11-libs/fltk:1,
+	x11-libs/fox:1.6,
+	x11-libs/fox:1.7,
+	x11-libs/fox-wrapper:0,
+	x11-libs/fxscintilla:0,
+	x11-libs/gdk-pixbuf:2,
+	x11-libs/gksu:0,
+	x11-libs/gl2ps:0,
+	x11-libs/gnome-pty-helper:0,
+	x11-libs/goffice:0.10,
+	x11-libs/goffice:0.8,
+	x11-libs/goocanvas:0,
+	x11-libs/gtk+extra:0,
+	x11-libs/gtkdatabox:0,
+	x11-libs/gtkglarea:2,
+	x11-libs/gtkglext:0,
+	x11-libs/gtkhotkey:0,
+	x11-libs/gtkmathview:0,
+	x11-libs/gtksourceview:2.0,
+	x11-libs/gtksourceview:3.0,
+	x11-libs/guile-gtk:0,
+	x11-libs/hippo-canvas:0,
+	x11-libs/libast:0,
+	x11-libs/libcompizconfig:0,
+	x11-libs/libdesktop-agnostic:0,
+	x11-libs/libdmx:0,
+	x11-libs/libdockapp:0,
+	x11-libs/libdrm:0,
+	x11-libs/libfakekey:0,
+	x11-libs/libfm:0,
+	x11-libs/libfontenc:0,
+	x11-libs/libgksu:2,
+	x11-libs/libgxim:0,
+	x11-libs/libiterm-mbt:0,
+	x11-libs/libmatchbox:0,
+	x11-libs/libmatenotify:0,
+	x11-libs/libmatewnck:1,
+	x11-libs/libnotify:0,
+	x11-libs/liboglappth:0,
+	x11-libs/libpciaccess:0,
+	x11-libs/libproplist:0,
+	x11-libs/libqxt:0,
+	x11-libs/libsexy:0,
+	x11-libs/libsvg-cairo:0,
+	x11-libs/libva:0,
+	x11-libs/libva-intel-driver:0,
+	x11-libs/libva-vdpau-driver:0,
+	x11-libs/libvdpau:0,
+	x11-libs/libview:0,
+	x11-libs/libwnck:1,
+	x11-libs/libwnck:3,
+	x11-libs/libxcb:0,
+	x11-libs/libxkbfile:0,
+	x11-libs/libxkbui:0,
+	x11-libs/libxklavier:0,
+	x11-libs/libxsettings-client:0,
+	x11-libs/motif:0,
+	x11-libs/mx:1.0,
+	x11-libs/neXtaw:0,
+	x11-libs/pango:0,
+	x11-libs/pangox-compat:0,
+	x11-libs/pixman:0,
+	x11-libs/qscintilla:0,
+	x11-libs/qt-assistant:4,
+	x11-libs/qt-core:4,
+	x11-libs/qt-dbus:4,
+	x11-libs/qt-declarative:4,
+	x11-libs/qt-demo:4,
+	x11-libs/qt-gui:4,
+	x11-libs/qt-multimedia:4,
+	x11-libs/qt-opengl:4,
+	x11-libs/qt-qt3support:4,
+	x11-libs/qt-script:4,
+	x11-libs/qt-sql:4,
+	x11-libs/qt-svg:4,
+	x11-libs/qt-test:4,
+	x11-libs/qt-webkit:4,
+	x11-libs/qt-xmlpatterns:4,
+	x11-libs/qtscriptgenerator:0,
+	x11-libs/qtstatemachine:4,
+	x11-libs/qwt:5,
+	x11-libs/qwt:6,
+	x11-libs/qwtplot3d:0,
+	x11-libs/qwtpolar:0,
+	x11-libs/rep-gtk:gtk-2.0,
+	x11-libs/startup-notification:0,
+	x11-libs/tslib:0,
+	x11-libs/vte:0,
+	x11-libs/vte:2.90,
+	x11-libs/wxGTK:2.8,
+	x11-libs/xbae:0,
+	x11-libs/xforms:0,
+	x11-libs/xosd:0,
+	x11-libs/xpa:0,
+	x11-libs/xpyb:0,
+	x11-libs/xtrans:0,
+	x11-libs/xvba-sdk:0,
+	x11-libs/xvba-video:0,
+
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: inherit
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow soft-blockers in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+soft-blocker: yes
+
+# Allow package unmerges in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+unmerge: yes
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
