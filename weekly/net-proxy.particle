@@ -28,6 +28,7 @@ packages:
 	net-proxy/squidclamav,
 	net-proxy/squidguard,
 	net-proxy/tinyproxy,
+	net-proxy/torsocks,
 	net-proxy/tsocks,
 	net-proxy/webscarab,
 	net-proxy/wwwoffle,
