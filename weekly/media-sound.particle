@@ -146,7 +146,6 @@ packages:
 	media-sound/lash,
 	media-sound/lastfmplayer,
 	media-sound/leechcraft-lmp,
-	media-sound/lilypond,
 	media-sound/line6usb,
 	media-sound/lingot,
 	media-sound/linuxsampler,
@@ -328,6 +327,9 @@ packages:
 	media-sound/xnoise,
 	media-sound/yoshimi,
 	media-sound/zynaddsubfx
+
+# Disabled due to stalls:
+# media-sound/lilypond,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
