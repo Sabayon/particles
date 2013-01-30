@@ -4,10 +4,18 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	kde-base/kde-meta,
-	kde-base/kdepim-meta,
-	kde-base/kdesdk-meta,
+	kde-base/kde-meta
+	kde-base/kdepim-meta
+	kde-base/kdesdk-meta
 	kde-base/kdewebdev-meta,
+
+	kde-base/cervisia
+	kde-base/kfloppy
+	kde-base/kppp
+	kde-base/kremotecontrol
+	kde-base/krossjava
+	kde-base/smokegen
+	kde-base/smokeqt,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
