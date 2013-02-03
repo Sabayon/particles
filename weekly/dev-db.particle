@@ -9,7 +9,6 @@ packages:
 	dev-db/db-je:3.3,
 	dev-db/drizzle:0,
 	dev-db/fastdb:0,
-	dev-db/firebird:0,
 	dev-db/hsqldb:0,
 	dev-db/libdbi:0,
 	dev-db/libdbi-drivers:0,
@@ -51,6 +50,9 @@ packages:
 	dev-db/unixODBC:0,
 	dev-db/virtuoso-odbc:0,
 	dev-db/virtuoso-server:0,
+
+# 2013-02-03: dropped because make locks forever
+#	dev-db/firebird:0,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
