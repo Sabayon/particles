@@ -6,6 +6,8 @@
 packages:
 	app-shells/autojump,
 	app-shells/bashish,
+	app-shells/bash-completion,
+	app-shells/ccsh,
 	app-shells/dash,
 	app-shells/dsh,
 	app-shells/fish,
@@ -20,6 +22,7 @@ packages:
 	app-shells/rrs,
 	app-shells/rssh,
 	app-shells/sash,
+	app-shells/shish,
 	app-shells/smrsh,
 	app-shells/soapbox,
 	app-shells/squirrelsh,
