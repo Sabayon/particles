@@ -10,7 +10,11 @@ packages:
 	app-office/billreminder,
 	app-office/borg,
 	app-office/calcurse,
-	app-office/calligra,
+
+	# Calligra stuff
+	app-office/calligra
+	app-office/calligra-l10n,
+
 	app-office/dia,
 	app-office/dia2code,
 	app-office/eqe,
