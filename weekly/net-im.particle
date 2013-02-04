@@ -25,6 +25,21 @@ packages:
 	net-im/kadu,
 	net-im/kde-telepathy-meta,
 	net-im/kmess,
+
+        # KDE Telepathy, individual packages
+	net-im/ktp-accounts-kcm:4
+	net-im/ktp-approver:4
+	net-im/ktp-auth-handler:4
+	net-im/ktp-common-internals:4
+	net-im/ktp-contact-applet:4
+	net-im/ktp-contact-list:4
+	net-im/ktp-contact-runner:4
+	net-im/ktp-filetransfer-handler:4
+	net-im/ktp-kded-module:4
+	net-im/ktp-presence-applet:4
+	net-im/ktp-send-file:4
+	net-im/ktp-text-ui:4,
+
 	net-im/kouchat,
 	net-im/librvp,
 	net-im/licq,
