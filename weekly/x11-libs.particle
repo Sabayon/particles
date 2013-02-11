@@ -94,7 +94,6 @@ packages:
 	x11-libs/qwt:5,
 	x11-libs/qwt:6,
 	x11-libs/qwtplot3d:0,
-	x11-libs/qwtpolar:0,
 	x11-libs/rep-gtk:gtk-2.0,
 	x11-libs/startup-notification:0,
 	x11-libs/tslib:0,

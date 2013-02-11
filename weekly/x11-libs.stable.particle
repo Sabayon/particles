@@ -41,6 +41,7 @@ packages:
 	x11-libs/libXxf86dga:0,
 	x11-libs/libXxf86misc:0,
 	x11-libs/libXxf86vm:0,
+	x11-libs/qwtpolar:0,
 	x11-libs/xcb-util:0,
 	x11-libs/xcb-util-image:0,
 	x11-libs/xcb-util-keysyms:0,
