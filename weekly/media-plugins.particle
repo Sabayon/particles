@@ -8,8 +8,6 @@ packages:
 	media-plugins/alsaequal,
 	media-plugins/amb-plugins,
 	media-plugins/audacious-dumb,
-	media-plugins/audacious-plugins,
-	media-plugins/audacious-plugins:0,
 	media-plugins/banshee-community-extensions,
 	media-plugins/blop,
 	media-plugins/caps-plugins,
