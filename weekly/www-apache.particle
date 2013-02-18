@@ -1,0 +1,164 @@
+# Entropy Matter, Automated Entropy Packages Build Service, example spec file
+
+# List of packages required to be built.
+# Comma separated, example: app-foo/bar, bar-baz/foo
+# Mandatory, cannot be empty
+packages:
+	www-apache/anyterm:0,
+	www-apache/libapreq2:2,
+	www-apache/mod_access_dnsbl:0,
+	www-apache/mod_auth_cookie_mysql2:0,
+	www-apache/mod_auth_imap2:0,
+	www-apache/mod_auth_kerb:0,
+	www-apache/mod_auth_mysql:0,
+	www-apache/mod_auth_nufw:0,
+	www-apache/mod_auth_openid:0,
+	www-apache/mod_auth_pgsql:2,
+	www-apache/mod_auth_tkt:0,
+	www-apache/mod_authnz_external:2,
+	www-apache/mod_bw:0,
+	www-apache/mod_caucho:0,
+	www-apache/mod_cband:0,
+	www-apache/mod_common_redirect:0,
+	www-apache/mod_dav_svn:0,
+	www-apache/mod_depends:0,
+	www-apache/mod_dnsbl_lookup:0,
+	www-apache/mod_dnssd:0,
+	www-apache/mod_evasive:0,
+	www-apache/mod_extract_forwarded:0,
+	www-apache/mod_fastcgi:0,
+	www-apache/mod_fastcgi_handler:0,
+	www-apache/mod_fcgid:0,
+	www-apache/mod_flvx:0,
+	www-apache/mod_ftpd:0,
+	www-apache/mod_gnutls:0,
+	www-apache/mod_jk:0,
+	www-apache/mod_layout:2,
+	www-apache/mod_ldap_userdir:0,
+	www-apache/mod_limitipconn:2,
+	www-apache/mod_lisp2:0,
+	www-apache/mod_loadavg:0,
+	www-apache/mod_log_rotate:0,
+	www-apache/mod_log_sql:0,
+	www-apache/mod_macro:0,
+	www-apache/mod_mono:0,
+	www-apache/mod_musicindex:0,
+	www-apache/mod_nss:0,
+	www-apache/mod_perl:1,
+	www-apache/mod_proxy_html:0,
+	www-apache/mod_python:0,
+	www-apache/mod_qos:0,
+	www-apache/mod_rpaf:0,
+	www-apache/mod_ruby:0,
+	www-apache/mod_scgi:0,
+	www-apache/mod_security:0,
+	www-apache/mod_suphp:0,
+	www-apache/mod_tcl:0,
+	www-apache/mod_tidy:0,
+	www-apache/mod_umask:0,
+	www-apache/mod_vhost_ldap:0,
+	www-apache/mod_wsgi:0,
+	www-apache/mod_xml2enc:0,
+	www-apache/mod_xsendfile:0,
+	www-apache/modsecurity-crs:0,
+	www-apache/pwauth:0
+
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: inherit
+
+# Entropy repository where to commit packages
+# Mandatory, cannot be empty
+repository: sabayon-hell
+
+# Allow Source Package Manager (Portage) repository change?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change: no
+
+# In case of Source Package Manager repository change, allow
+# execution if the original repository does not contain
+# the package anymore?
+# Valid values are either "yes" or "no"
+# Default is: no
+spm-repository-change-if-upstreamed: yes
+
+# Allow compiling package even if it's not actually installed on system?
+# Valid values are either "yes" or "no"
+# Default is: no
+not-installed: no
+
+# Allow soft-blockers in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+soft-blocker: yes
+
+# Allow package unmerges in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+unmerge: yes
+
+# Allow dependencies to be pulled in?
+# Valid values are either "yes" or "no"
+# Default is: no
+dependencies: yes
+
+# Allow package downgrade?
+# Valid values are either "yes" or "no"
+# Default is: no
+downgrade: no
+
+# Allow package rebuild?
+# Valid values are either "yes" or "no"
+# Default is: no
+rebuild: no
+
+# Make possible to continue if one or more packages fail to build?
+# Valid values are either "yes" or "no"
+# Default is: no
+keep-going: yes
+
+# Allow new USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+new-useflags: yes
+
+# Allow removed USE flags?
+# Valid values are either "yes" or "no"
+# Default is: no
+removed-useflags: yes
+
+# Package pre execution script hook
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpre: /home/fabio/repos/entropy/services/matter_examples/pkgpre.sh
+
+# Package build post execution script hook, executed for each package
+# Valid value is path to executable file
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
+
+# Env vars:
+# MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
+# that would be built. It does not reflect the name of the failing packages,
+# because they could be just dependencies of them.
+# MATTER_PORTAGE_FAILED_PACKAGE_NAME = exact name (atom, CPV) of the failing
+# package, the one that triggered the buildfail hook.
+# MATTER_PORTAGE_REPOSITORY = Portage repository from where the package
+# comes from
+# MATTER_PORTAGE_BUILD_LOG_DIR = directory containing all the build logs of
+# the failed package
+buildfail: /particles/hooks/buildfail.sh
+
+# For more info regarding exported environment variables, please see:
+# matter --help
