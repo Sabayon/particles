@@ -10,6 +10,7 @@ packages:
 	dev-db/drizzle:0,
 	dev-db/fastdb:0,
 	dev-db/hsqldb:0,
+	dev-db/innotop:0,
 	dev-db/libdbi:0,
 	dev-db/libdbi-drivers:0,
 	dev-db/libiodbc:0,
