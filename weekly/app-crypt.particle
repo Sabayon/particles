@@ -53,6 +53,7 @@ packages:
 	app-crypt/openvpn-blacklist,
 	app-crypt/ophcrack,
 	app-crypt/ophcrack-tables,
+	app-crypt/p11-kit,
 	app-crypt/pdfcrack,
 	app-crypt/pgpdump,
 	app-crypt/pinentry,
