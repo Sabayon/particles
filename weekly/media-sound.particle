@@ -27,6 +27,7 @@ packages:
 	media-sound/aseqview,
 	media-sound/asunder,
 	media-sound/atunes,
+	media-sound/cantata,
 
 	# Audacious
 	media-sound/audacious
