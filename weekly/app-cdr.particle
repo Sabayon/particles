@@ -17,7 +17,7 @@ packages:
 	app-cdr/ccd2iso,
 	app-cdr/cdck,
 	app-cdr/cdemu,
-	app-cdr/cdemud,
+	app-cdr/cdemu-daemon,
 	app-cdr/cdlabelgen,
 	app-cdr/cdrdao,
 	app-cdr/cdrtools,

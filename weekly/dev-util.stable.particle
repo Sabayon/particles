@@ -168,7 +168,7 @@ packages:
 	dev-util/premake:0,
 	dev-util/pykickstart:0,
 	dev-util/qdevelop:0,
-	dev-util/qt-creator:0,
+	dev-qt/qt-creator:0,
 	dev-util/quilt:0,
 	dev-util/ragel:0,
 	dev-util/rats:0,

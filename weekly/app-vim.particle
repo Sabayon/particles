@@ -13,7 +13,7 @@ packages:
 	app-vim/bnf-syntax,
 	app-vim/brainfuck-syntax,
 	app-vim/breakpts,
-	app-vim/bufferexplorer,
+	app-vim/bufexplorer,
 	app-vim/c-support,
 	app-vim/calendar,
 	app-vim/cctree,

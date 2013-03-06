@@ -74,7 +74,7 @@ packages:
 	media-fonts/font-winitzki-cyrillic,
 	media-fonts/font-xfree86-type1,
 	media-fonts/free-bangla-font,
-	media-fonts/freefont-ttf,
+	media-fonts/freefont,
 	media-fonts/freefonts,
 	media-fonts/fs-fonts,
 	media-fonts/heuristica,

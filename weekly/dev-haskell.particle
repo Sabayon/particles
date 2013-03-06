@@ -58,7 +58,7 @@ packages:
 	dev-haskell/hsql-mysql,
 	dev-haskell/hsql-odbc,
 	dev-haskell/hsql-postgresql,
-	dev-haskell/hsql-sqlite,
+	dev-haskell/hsql-sqlite3,
 	dev-haskell/html,
 	dev-haskell/http,
 	dev-haskell/hunit,
