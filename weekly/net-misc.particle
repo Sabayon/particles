@@ -225,7 +225,7 @@ packages:
 	net-misc/stunnel:0,
 	net-misc/suite3270:0,
 	net-misc/taylor-uucp:0,
-	net-misc/teamviewer:0,
+	net-misc/teamviewer:7,
 	net-misc/tiers:0,
 	net-misc/tightvnc:0,
 	net-misc/tinc:0,
