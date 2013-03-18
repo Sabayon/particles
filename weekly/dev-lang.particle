@@ -49,6 +49,8 @@ packages:
 	dev-lang/orc,
 	dev-lang/parrot,
 	dev-lang/pcc,
+	dev-lang/php:5.3,
+	dev-lang/php:5.4,
 	dev-lang/rakudo,
 	dev-lang/scala,
 	dev-lang/swi-prolog,
