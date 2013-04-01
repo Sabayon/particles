@@ -10,6 +10,7 @@ packages:
 	sci-misc/h5utils:0,
 	sci-misc/ncview:0,
 	sci-misc/netlogo-bin:0,
+	sci-misc/oww:0,
 	sci-misc/pythoncad:0,
 
 # Enforce stable or unstable packages on emerge.
