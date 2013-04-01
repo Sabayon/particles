@@ -4,7 +4,44 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sci-mathematics/octave
+	sci-mathematics/axiom:0,
+	sci-mathematics/calc:0,
+	sci-mathematics/cgal:0,
+	sci-mathematics/coq:0,
+	sci-mathematics/drgeo:0,
+	sci-mathematics/euler:0,
+	sci-mathematics/fann:0,
+	sci-mathematics/freemat:0,
+	sci-mathematics/geomview:0,
+	sci-mathematics/gimps:0,
+	sci-mathematics/ginac:0,
+	sci-mathematics/glpk:0,
+	sci-mathematics/gmm:0,
+	sci-mathematics/gretl:0,
+	sci-mathematics/lpsolve:0,
+	sci-mathematics/mathomatic:0,
+	sci-mathematics/maxima:0,
+	sci-mathematics/octave:0,
+	sci-mathematics/otter:0,
+	sci-mathematics/pari:0,
+	sci-mathematics/pspp:0,
+	sci-mathematics/qtoctave:0,
+	sci-mathematics/rkward:4,
+	sci-mathematics/rngstreams:0,
+	sci-mathematics/singular:0,
+	sci-mathematics/snns:0,
+	sci-mathematics/unuran:0,
+	sci-mathematics/wxmaxima:0,
+	sci-mathematics/xmds:0,
+	sci-mathematics/yacas:0,
+
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: inherit
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -12,7 +49,18 @@ repository: sabayon-hell
 
 # Provide custom build arguments to Portage.
 # Default is: --verbose --nospinner
+# --ask and --buildpkgonly are not allowed and automatically filtered.
 build-args: --verbose --oneshot --nospinner --quiet-build=y --fail-clean=y
+
+# Only build the packages without merging them into the system.
+# Valid values are either "yes" or "no"
+# Default is: no
+# build-only: no
+
+# Drop older packages in the same slot when adding an injected package.
+# Injected packages come into play when 'build-only: yes'
+# Default is: no
+# drop-old-injected: no
 
 # Allow Source Package Manager (Portage) repository change?
 # Valid values are either "yes" or "no"
@@ -30,6 +78,16 @@ spm-repository-change-if-upstreamed: yes
 # Valid values are either "yes" or "no"
 # Default is: no
 not-installed: no
+
+# Allow soft-blockers in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+soft-blocker: yes
+
+# Allow package unmerges in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+unmerge: yes
 
 # Allow dependencies to be pulled in?
 # Valid values are either "yes" or "no"
