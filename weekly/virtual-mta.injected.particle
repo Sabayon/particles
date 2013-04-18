@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	mail-mta/courier,
+	net-mail/courier-imap,
 	mail-mta/esmtp,
 	mail-mta/exim,
 	mail-mta/mini-qmail,
