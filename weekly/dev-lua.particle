@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	dev-lua/LuaBitOp,
+	dev-lua/lgi,
 	dev-lua/lua-zlib,
 	dev-lua/luadoc,
 	dev-lua/luaevent,
