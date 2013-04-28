@@ -46,7 +46,9 @@ packages:
 	dev-ml/ocurl,
 	dev-ml/odns,
 	dev-ml/ounit,
+	dev-ml/pa_ounit,
 	dev-ml/pcre-ocaml,
+	dev-ml/pipebang,
 	dev-ml/pomap,
 	dev-ml/postgresql-ocaml,
 	dev-ml/pxp,
@@ -55,7 +57,8 @@ packages:
 	dev-ml/sexplib,
 	dev-ml/type-conv,
 	dev-ml/ulex,
-	dev-ml/xmlm
+	dev-ml/variantslib,
+	dev-ml/xmlm,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
