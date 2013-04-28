@@ -18,6 +18,7 @@ packages:
 	app-backup/dirvish,
 	app-backup/duplicity,
 	app-backup/flexbackup,
+	app-backup/fsarchiver,
 	app-backup/furball,
 	app-backup/hdup,
 	app-backup/kbackup,
