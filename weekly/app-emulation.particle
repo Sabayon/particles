@@ -68,6 +68,7 @@ packages:
 	app-emulation/virt-manager,
 	app-emulation/virt-what,
 	app-emulation/virtinst,
+	app-emulation/vmware-player,
 	app-emulation/vmware-server-console,
 	app-emulation/vmware-tools,
 	app-emulation/vmware-view-open-client,
