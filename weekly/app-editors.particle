@@ -21,6 +21,8 @@ packages:
 	app-editors/ee,
 	app-editors/efte,
 	app-editors/elvis,
+	app-editors/emacs:23,
+	app-editors/emacs:24,
 	app-editors/emacs,
 	app-editors/emact,
 	app-editors/fe,
@@ -33,7 +35,6 @@ packages:
 	app-editors/gobby,
 	app-editors/gphpedit,
 	app-editors/gummi,
-	app-editors/gvim,
 	app-editors/hexcurse,
 	app-editors/hexedit,
 	app-editors/hteditor,
@@ -70,9 +71,12 @@ packages:
 	app-editors/ted,
 	app-editors/uemacs-pk,
 	app-editors/vile,
-	app-editors/vim,
-	app-editors/vim-core,
+
+	app-editors/vim
+	app-editors/gvim
+	app-editors/vim-core
 	app-editors/vim-qt,
+
 	app-editors/wily,
 	app-editors/wxhexeditor,
 	app-editors/xemacs,
