@@ -28,6 +28,7 @@ packages:
 	sci-mathematics/qtoctave:0,
 	sci-mathematics/rkward:4,
 	sci-mathematics/rngstreams:0,
+	sci-mathematics/rstudio:0,
 	sci-mathematics/singular:0,
 	sci-mathematics/snns:0,
 	sci-mathematics/unuran:0,
