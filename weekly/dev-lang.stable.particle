@@ -4,66 +4,15 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	dev-lang/R,
-	dev-lang/bas,
-	dev-lang/bff,
-	dev-lang/boo,
-	dev-lang/c-intercal,
-	dev-lang/cfortran,
-	dev-lang/cilk,
-	dev-lang/clojure,
-	dev-lang/cm3-bin,
-	dev-lang/confluence,
-	dev-lang/dmd-bin,
-	dev-lang/f2c,
-	dev-lang/falcon,
-	dev-lang/ferite,
-	dev-lang/fpc,
-	dev-lang/fpc-ide,
-	dev-lang/gdl,
-	dev-lang/gforth,
-	dev-lang/gnu-smalltalk,
-	dev-lang/gpc,
-	dev-lang/gprolog,
-	dev-lang/icon,
-	dev-lang/idb,
-	dev-lang/ifc,
-	dev-lang/inform,
-	dev-lang/interprolog,
-	dev-lang/io,
-	dev-lang/jimtcl,
-	dev-lang/lazarus,
-	dev-lang/lisaac,
-	dev-lang/logtalk,
-	dev-lang/lua,
-	dev-lang/luajit,
-	dev-lang/maude,
-	dev-lang/mmix,
-	dev-lang/mosml,
-	dev-lang/nasm,
-	dev-lang/nqc,
-	dev-lang/nqp,
-	dev-lang/ocaml,
-	dev-lang/open-cobol,
-	dev-lang/orc,
-	dev-lang/parrot,
-	dev-lang/pcc,
-	dev-lang/php:5.3,
-	dev-lang/php:5.4,
-	dev-lang/python:2.6,
-	dev-lang/python:2.7,
-	dev-lang/python:3.2,
-	dev-lang/python:3.3,
-	dev-lang/rakudo,
-	dev-lang/scala,
-	dev-lang/swi-prolog,
-	dev-lang/swig,
-	dev-lang/tuprolog,
-	dev-lang/xsb,
-	dev-lang/yasm
+	dev-lang/erlang,
 
-# disabled due to infinite loop
-#	dev-lang/yap,
+# Enforce stable or unstable packages on emerge.
+# yes = only stable packages are accepted
+# no  = both stable and unstable packages are accepted
+# inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
+# Valid values are either "yes" or "no", "inherit"
+# Default is: inherit
+stable: yes
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
@@ -71,7 +20,18 @@ repository: sabayon-hell
 
 # Provide custom build arguments to Portage.
 # Default is: --verbose --nospinner
+# --ask and --buildpkgonly are not allowed and automatically filtered.
 build-args: --verbose --oneshot --nospinner --quiet-build=y --fail-clean=y
+
+# Only build the packages without merging them into the system.
+# Valid values are either "yes" or "no"
+# Default is: no
+# build-only: no
+
+# Drop older packages in the same slot when adding an injected package.
+# Injected packages come into play when 'build-only: yes'
+# Default is: no
+# drop-old-injected: no
 
 # Allow Source Package Manager (Portage) repository change?
 # Valid values are either "yes" or "no"
@@ -89,6 +49,16 @@ spm-repository-change-if-upstreamed: yes
 # Valid values are either "yes" or "no"
 # Default is: no
 not-installed: no
+
+# Allow soft-blockers in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+soft-blocker: yes
+
+# Allow package unmerges in the merge queue? Packages will be unmerged if yes.
+# Valid values are either "yes" or "no"
+# Default is: yes
+unmerge: yes
 
 # Allow dependencies to be pulled in?
 # Valid values are either "yes" or "no"
