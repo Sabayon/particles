@@ -524,12 +524,14 @@ packages:
 	dev-python/tvdb_api:0,
 	dev-python/tweepy:0,
 	dev-python/twill:0,
-	dev-python/twisted:0,
-	dev-python/twisted-conch:0,
-	dev-python/twisted-mail:0,
-	dev-python/twisted-names:0,
-	dev-python/twisted-web:0,
+
+	dev-python/twisted:0
+	dev-python/twisted-conch:0
+	dev-python/twisted-mail:0
+	dev-python/twisted-names:0
+	dev-python/twisted-web:0
 	dev-python/twisted-words:0,
+
 	dev-python/txAMQP:0,
 	dev-python/unittest2:0,
 	dev-python/urlgrabber:0,
