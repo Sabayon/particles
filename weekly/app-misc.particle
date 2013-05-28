@@ -191,7 +191,7 @@ packages:
 	app-misc/sabayon-music,
 	app-misc/sabayon-skel,
 	app-misc/sabayon-version,
-	app-misc/sabayonlive-tools,
+	app-misc/sabayon-live,
 	app-misc/scope,
 	app-misc/screen,
 	app-misc/screenie,
