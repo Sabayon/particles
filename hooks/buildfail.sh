@@ -3,8 +3,8 @@
 # MATTER_PORTAGE_FAILED_PACKAGE_NAME = CPV of failed package
 
 DATE_DIR=$(date +%Y-%m-%d)
-SSH_ARGS="-p 2222 -o ConnectTimeout=5"
-SCP_ARGS="-P 2222 -o ConnectTimeout=5"
+SSH_ARGS="-p 2222 -o ConnectTimeout=5 -o StrictHostKeyChecking=no"
+SCP_ARGS="-P 2222 -o ConnectTimeout=5 -o StrictHostKeyChecking=no"
 
 BUILD_LOG=$(echo -n "${MATTER_PORTAGE_BUILD_LOG_DIR}/${MATTER_PORTAGE_FAILED_PACKAGE_NAME}"*.log)
 if [ -z "${BUILD_LOG}" ]; then
