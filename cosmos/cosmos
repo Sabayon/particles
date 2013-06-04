@@ -12,6 +12,7 @@ SCRIPT_DIR=$(dirname "${0}")
 COSMOS_DIR=${COSMOS_DIR:-${SCRIPT_DIR}}
 COSMOS_PARTICLE_SKEL="${COSMOS_PARTICLE_SKEL:-cosmos.particle.skel}"
 COSMOS_PARTICLE_SKEL_PATH="${COSMOS_DIR}/${COSMOS_PARTICLE_SKEL}"
+ANTIMATTER_ARGS="${ANTIMATTER_ARGS:---not-installed}"
 
 if [ "$(whoami)" != "root" ]; then
     echo "Run this as root" >&2
@@ -20,7 +21,7 @@ fi
 
 # Get a list of new packages, huge list
 echo "Generating a list of new packages..."
-packages=$("${ANTIMATTER}" --new --quiet | sed "s:$:,:" | xargs)
+packages=$("${ANTIMATTER}" ${ANTIMATTER_ARGS} --quiet | sed "s:$:,:" | xargs)
 
 # Take the skel, create a new temp file, append the list
 # and call matter
