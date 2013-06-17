@@ -130,7 +130,7 @@ packages:
 # inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
 # Valid values are either "yes" or "no", "inherit"
 # Default is: inherit
-stable: yes
+stable: inherit
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
