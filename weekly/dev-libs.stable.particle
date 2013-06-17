@@ -287,6 +287,7 @@ packages:
 	dev-libs/xmlrpc-epi:0,
 	dev-libs/xmlsec:0,
 	dev-libs/xplc:0,
+	dev-libs/xqilla:0,
 	dev-libs/yajl:0,
 	dev-libs/yaz:0,
 	dev-libs/zthread:0,
