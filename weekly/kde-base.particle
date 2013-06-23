@@ -4,7 +4,9 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	kde-base/kdeaccessibility-meta
 	kde-base/kde-meta
+	kde-base/kdebindings-meta
 	kde-base/kdepim-meta
 	kde-base/kdesdk-meta
 	kde-base/kdewebdev-meta,
