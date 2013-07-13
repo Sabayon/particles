@@ -8,7 +8,6 @@ packages:
 	www-misc/fcgiwrap,
 	www-misc/gurlchecker,
 	www-misc/htdig,
-	www-misc/leechcraft-seekthru,
 	www-misc/log-toolkit,
 	www-misc/mergelog,
 	www-misc/reflector,

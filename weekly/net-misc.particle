@@ -97,34 +97,6 @@ packages:
 	net-misc/kvpnc:4,
 	net-misc/l7-filter-userspace:0,
 	net-misc/l7-protocols:0,
-
-	# Leechcraft stuff
-	net-misc/leechcraft-advancednotifications:0
-	net-misc/leechcraft-auscrie:0
-	net-misc/leechcraft-core:0
-	net-misc/leechcraft-cstp:0
-	net-misc/leechcraft-dbusmanager:0
-	net-misc/leechcraft-full:0
-	net-misc/leechcraft-gacts:0
-	net-misc/leechcraft-glance:0
-	net-misc/leechcraft-historyholder:0
-	net-misc/leechcraft-kinotify:0
-	net-misc/leechcraft-knowhow:0
-	net-misc/leechcraft-lackman:0
-	net-misc/leechcraft-launchy:0
-	net-misc/leechcraft-liznoo:0
-	net-misc/leechcraft-netstoremanager:0
-	net-misc/leechcraft-newlife:0
-	net-misc/leechcraft-otlozhu:0
-	net-misc/leechcraft-pintab:0
-	net-misc/leechcraft-qrosp:0
-	net-misc/leechcraft-secman:0
-	net-misc/leechcraft-sidebar:0
-	net-misc/leechcraft-summary:0
-	net-misc/leechcraft-tabpp:0
-	net-misc/leechcraft-tabsessmanager:0
-	net-misc/leechcraft-tabslist:0,
-
 	net-misc/linux-identd:0,
 	net-misc/lksctp-tools:0,
 	net-misc/lldpad:0,

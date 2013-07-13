@@ -14,7 +14,6 @@ packages:
 	net-ftp/ftpcube,
 	net-ftp/gftp,
 	net-ftp/gproftpd,
-	net-ftp/leechcraft-lcftp,
 	net-ftp/lftp,
 	net-ftp/linksys-tftp,
 	net-ftp/ncftp,

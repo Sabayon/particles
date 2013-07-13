@@ -24,7 +24,6 @@ packages:
 	sys-fs/hfsutils:0,
 	sys-fs/inotify-tools:0,
 	sys-fs/jfsutils:0,
-	sys-fs/leechcraft-vrooby:0,
 	sys-fs/lvm2:0,
 	sys-fs/mdadm:0,
 	sys-fs/mp3fs:0,

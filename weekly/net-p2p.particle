@@ -32,7 +32,6 @@ packages:
 	net-p2p/i2p:0,
 	net-p2p/kmldonkey:4,
 	net-p2p/ktorrent:4,
-	net-p2p/leechcraft-bittorrent:0,
 	net-p2p/linuxdcpp:0,
 	net-p2p/microdc:0,
 	net-p2p/microdc2:0,
