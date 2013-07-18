@@ -19,8 +19,6 @@ packages:
 	sys-devel/automake-wrapper:0,
 	sys-devel/bc:0,
 	sys-devel/bin86:0,
-	sys-devel/binutils:0,
-	sys-devel/binutils-config:0,
 	sys-devel/bison:0,
 	sys-devel/boost-m4:0,
 	sys-devel/clang:0,
