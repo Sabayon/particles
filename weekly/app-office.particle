@@ -36,7 +36,6 @@ packages:
 	app-office/openerp-client,
 	app-office/openerp-server,
 	app-office/orage,
-	app-office/osmo,
 	app-office/passepartout,
 	app-office/plan,
 	app-office/planner,
