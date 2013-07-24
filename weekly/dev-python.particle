@@ -142,7 +142,6 @@ packages:
 	dev-python/graphy:0,
 	dev-python/greenlet:0,
 	dev-python/gst-python:0.10,
-	dev-python/gtkhtml-python:0,
 	dev-python/gtkspell-python:0,
 	dev-python/guppy:0,
 	dev-python/h5py:0,
