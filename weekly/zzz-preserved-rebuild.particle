@@ -44,7 +44,7 @@ dependencies: yes
 # Allow package downgrade?
 # Valid values are either "yes" or "no"
 # Default is: no
-downgrade: no
+downgrade: yes
 
 # Allow package rebuild?
 # Valid values are either "yes" or "no"
