@@ -307,7 +307,7 @@ repository: sabayon-hell
 
 # Provide custom build arguments to Portage.
 # Default is: --verbose --nospinner
-build-args: --verbose --oneshot --nospinner --quiet-build=y --fail-clean=y --complete-graph
+build-args: --verbose --oneshot --nospinner --quiet-build=y --quiet-fail --fail-clean=y --complete-graph
 
 # Allow Source Package Manager (Portage) repository change?
 # Valid values are either "yes" or "no"
