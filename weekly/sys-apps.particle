@@ -25,6 +25,7 @@ packages:
 	sys-apps/gptfdisk,
 	sys-apps/grep,
 	sys-apps/groff,
+	sys-apps/gsmartcontrol,
 	sys-apps/hbaapi,
 	sys-apps/hdparm,
 	sys-apps/help2man,
