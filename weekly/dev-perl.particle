@@ -209,7 +209,6 @@ packages:
 	dev-perl/Data-Visitor,
 	dev-perl/Date-Calc,
 	dev-perl/Date-ICal,
-	dev-perl/Date-ISO,
 	dev-perl/Date-Leapyear,
 	dev-perl/Date-Pcalc,
 	dev-perl/Date-Simple,
