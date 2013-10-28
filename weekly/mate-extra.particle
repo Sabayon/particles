@@ -4,19 +4,19 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	mate-extra/mate-calc:0,
-	mate-extra/mate-character-map:0,
-	mate-extra/mate-conf-editor:0,
-	mate-extra/mate-dialogs:0,
-	mate-extra/mate-file-manager-open-terminal:0,
-	mate-extra/mate-file-manager-sendto:0,
-	mate-extra/mate-media:0,
-	mate-extra/mate-polkit:0,
-	mate-extra/mate-power-manager:0,
-	mate-extra/mate-screensaver:0,
-	mate-extra/mate-system-monitor:0,
-	mate-extra/mate-user-share:0,
-	mate-extra/mate-utils:0,
+	mate-extra/mate-calc,
+	mate-extra/mate-character-map,
+	mate-extra/mate-conf-editor,
+	mate-extra/mate-dialogs,
+	mate-extra/mate-file-manager-open-terminal,
+	mate-extra/mate-file-manager-sendto,
+	mate-extra/mate-media,
+	mate-extra/mate-polkit,
+	mate-extra/mate-power-manager,
+	mate-extra/mate-screensaver,
+	mate-extra/mate-system-monitor,
+	mate-extra/mate-user-share,
+	mate-extra/mate-utils,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

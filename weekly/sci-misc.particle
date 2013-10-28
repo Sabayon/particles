@@ -4,14 +4,14 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sci-misc/boinc:0,
-	sci-misc/gato:0,
-	sci-misc/gcam:0,
-	sci-misc/h5utils:0,
-	sci-misc/ncview:0,
-	sci-misc/netlogo-bin:0,
-	sci-misc/oww:0,
-	sci-misc/pythoncad:0,
+	sci-misc/boinc,
+	sci-misc/gato,
+	sci-misc/gcam,
+	sci-misc/h5utils,
+	sci-misc/ncview,
+	sci-misc/netlogo-bin,
+	sci-misc/oww,
+	sci-misc/pythoncad,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

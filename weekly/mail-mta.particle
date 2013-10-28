@@ -4,7 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	mail-mta/postfix:0,
+	mail-mta/postfix,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

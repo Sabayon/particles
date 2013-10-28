@@ -4,19 +4,19 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sci-physics/bullet:0,
-	sci-physics/cernlib:0,
-	sci-physics/cernlib-montecarlo:0,
-	sci-physics/clhep:2,
-	sci-physics/geant:4,
-	sci-physics/jaxodraw:0,
-	sci-physics/lhapdf:0,
-	sci-physics/lightspeed:0,
-	sci-physics/mpb:0,
-	sci-physics/paw:0,
-	sci-physics/phun:0,
-	sci-physics/root:0,
-	sci-physics/xfoil:0,
+	sci-physics/bullet,
+	sci-physics/cernlib,
+	sci-physics/cernlib-montecarlo,
+	sci-physics/clhep,
+	sci-physics/geant,
+	sci-physics/jaxodraw,
+	sci-physics/lhapdf,
+	sci-physics/lightspeed,
+	sci-physics/mpb,
+	sci-physics/paw,
+	sci-physics/phun,
+	sci-physics/root,
+	sci-physics/xfoil,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

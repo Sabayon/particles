@@ -4,20 +4,20 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-nds/389-admin:0,
-	net-nds/389-ds-base:0,
-	net-nds/adtool:0,
-	net-nds/jxplorer:0,
-	net-nds/ldapvi:0,
-	net-nds/led:0,
-	net-nds/openldap:0,
+	net-nds/389-admin,
+	net-nds/389-ds-base,
+	net-nds/adtool,
+	net-nds/jxplorer,
+	net-nds/ldapvi,
+	net-nds/led,
+	net-nds/openldap,
 	net-nds/phpldapadmin,
-	net-nds/rpcbind:0,
-	net-nds/smbldap-tools:0,
-	net-nds/tac_plus:0,
-	net-nds/yp-tools:0,
-	net-nds/ypbind:0,
-	net-nds/ypserv:0,
+	net-nds/rpcbind,
+	net-nds/smbldap-tools,
+	net-nds/tac_plus,
+	net-nds/yp-tools,
+	net-nds/ypbind,
+	net-nds/ypserv,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

@@ -4,19 +4,19 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-news/amphetadesk:0,
-	net-news/blam:0,
-	net-news/canto:0,
-	net-news/liferea:0,
-	net-news/newsbeuter:0,
-	net-news/rawdog:0,
-	net-news/rssguard:0,
-	net-news/rsstail:0,
-	net-news/rsstool:0,
-	net-news/snownews:0,
-	net-news/yarssr:0,
-	net-news/yencode:0,
-	net-news/yydecode:0,
+	net-news/amphetadesk,
+	net-news/blam,
+	net-news/canto,
+	net-news/liferea,
+	net-news/newsbeuter,
+	net-news/rawdog,
+	net-news/rssguard,
+	net-news/rsstail,
+	net-news/rsstool,
+	net-news/snownews,
+	net-news/yarssr,
+	net-news/yencode,
+	net-news/yydecode,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty

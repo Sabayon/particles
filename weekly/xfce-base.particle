@@ -4,20 +4,20 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	xfce-base/exo:0,
-	xfce-base/garcon:0,
-	xfce-base/libxfce4ui:0,
-	xfce-base/libxfce4util:0,
-	xfce-base/libxfcegui4:0,
-	xfce-base/thunar:0,
-	xfce-base/xfce4-appfinder:0,
-	xfce-base/xfce4-meta:0,
-	xfce-base/xfce4-panel:0,
-	xfce-base/xfce4-session:0,
-	xfce-base/xfce4-settings:0,
-	xfce-base/xfconf:0,
-	xfce-base/xfdesktop:0,
-	xfce-base/xfwm4:0,
+	xfce-base/exo,
+	xfce-base/garcon,
+	xfce-base/libxfce4ui,
+	xfce-base/libxfce4util,
+	xfce-base/libxfcegui4,
+	xfce-base/thunar,
+	xfce-base/xfce4-appfinder,
+	xfce-base/xfce4-meta,
+	xfce-base/xfce4-panel,
+	xfce-base/xfce4-session,
+	xfce-base/xfce4-settings,
+	xfce-base/xfconf,
+	xfce-base/xfdesktop,
+	xfce-base/xfwm4,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

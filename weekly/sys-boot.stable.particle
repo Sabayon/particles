@@ -4,14 +4,14 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sys-boot/dvhtool:0,
-	sys-boot/efibootmgr:0,
-	sys-boot/gnu-efi:0,
-	sys-boot/lilo:0,
-	sys-boot/makebootfat:0,
-	sys-boot/os-prober:0,
-	sys-boot/syslinux:0,
-	sys-boot/unetbootin:0,
+	sys-boot/dvhtool,
+	sys-boot/efibootmgr,
+	sys-boot/gnu-efi,
+	sys-boot/lilo,
+	sys-boot/makebootfat,
+	sys-boot/os-prober,
+	sys-boot/syslinux,
+	sys-boot/unetbootin,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

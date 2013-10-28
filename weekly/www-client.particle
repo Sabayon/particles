@@ -15,7 +15,7 @@ packages:
 	www-client/epiphany-extensions,
 	www-client/fetch,
 	www-client/firefox,
-	www-client/google-chrome:stable,
+	www-client/google-chrome,
 	www-client/htmlview,
 	www-client/httrack,
 	www-client/jd,

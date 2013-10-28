@@ -4,15 +4,15 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-fs/autofs:0,
-	net-fs/cifs-utils:0,
-	net-fs/curlftpfs:0,
-	net-fs/davfs2:0,
-	net-fs/netatalk:0,
-	net-fs/nfs-utils:0,
-	net-fs/nfs4-acl-tools:0,
-	net-fs/samba:0,
-	net-fs/wdfs:0,
+	net-fs/autofs,
+	net-fs/cifs-utils,
+	net-fs/curlftpfs,
+	net-fs/davfs2,
+	net-fs/netatalk,
+	net-fs/nfs-utils,
+	net-fs/nfs4-acl-tools,
+	net-fs/samba,
+	net-fs/wdfs,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

@@ -4,20 +4,20 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-nntp/brag:0,
-	net-nntp/hellanzb:0,
-	net-nntp/inn:0,
-	net-nntp/kwooty:4,
-	net-nntp/newspost:0,
-	net-nntp/nntpgrab:0,
-	net-nntp/nzbget:0,
-	net-nntp/pan:0,
-	net-nntp/sabnzbd:0,
-	net-nntp/slrn:0,
-	net-nntp/slrnconf:0,
-	net-nntp/suck:0,
-	net-nntp/tin:0,
-	net-nntp/ubh:0,
+	net-nntp/brag,
+	net-nntp/hellanzb,
+	net-nntp/inn,
+	net-nntp/kwooty,
+	net-nntp/newspost,
+	net-nntp/nntpgrab,
+	net-nntp/nzbget,
+	net-nntp/pan,
+	net-nntp/sabnzbd,
+	net-nntp/slrn,
+	net-nntp/slrnconf,
+	net-nntp/suck,
+	net-nntp/tin,
+	net-nntp/ubh,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

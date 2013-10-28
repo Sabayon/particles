@@ -4,21 +4,21 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sys-cluster/ccs:0,
-	sys-cluster/cman-lib:0,
-	sys-cluster/dlm:0,
-	sys-cluster/dlm-lib:0,
-	sys-cluster/glusterfs:0,
-	sys-cluster/ipvsadm:0,
-	sys-cluster/keepalived:0,
-	sys-cluster/onesis:0,
-	sys-cluster/openmpi:0,
-	sys-cluster/pconsole:0,
-	sys-cluster/ploop:0,
-	sys-cluster/polysh:0,
-	sys-cluster/torque:0,
-	sys-cluster/util-vserver:0,
-	sys-cluster/vzctl:0,
+	sys-cluster/ccs,
+	sys-cluster/cman-lib,
+	sys-cluster/dlm,
+	sys-cluster/dlm-lib,
+	sys-cluster/glusterfs,
+	sys-cluster/ipvsadm,
+	sys-cluster/keepalived,
+	sys-cluster/onesis,
+	sys-cluster/openmpi,
+	sys-cluster/pconsole,
+	sys-cluster/ploop,
+	sys-cluster/polysh,
+	sys-cluster/torque,
+	sys-cluster/util-vserver,
+	sys-cluster/vzctl,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

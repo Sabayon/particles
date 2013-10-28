@@ -38,7 +38,7 @@ packages:
 	net-im/ktp-kded-module:4
 	net-im/ktp-presence-applet:4
 	net-im/ktp-send-file:4
-	net-im/ktp-text-ui:4,
+	net-im/ktp-text-ui,
 
 	net-im/kouchat,
 	net-im/librvp,
