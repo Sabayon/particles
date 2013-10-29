@@ -15,7 +15,9 @@ packages:
 	dev-lisp/ecls,
 	dev-lisp/emacs-cl,
 	dev-lisp/gentoo-init,
-	dev-lisp/sbcl
+
+# This will get stuck forever on x86:
+#	dev-lisp/sbcl
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
