@@ -9,7 +9,9 @@ packages:
 	mail-mta/esmtp,
 	mail-mta/exim,
 	mail-mta/mini-qmail,
+	mail-mta/msmtp,
 	mail-mta/netqmail,
+	mail-mta/nullmailer,
 	mail-mta/qmail-ldap,
 	mail-mta/sendmail,
 	mail-mta/opensmtpd
