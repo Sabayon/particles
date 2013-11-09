@@ -98,7 +98,7 @@ packages:
 	x11-themes/produkt,
 	x11-themes/psi-themes,
 	x11-themes/pulse-glass,
-	x11-themes/qtcurve-qt4,
+	x11-themes/qtcurve,
 	x11-themes/redhat-artwork,
 	x11-themes/sabayon-artwork-core,
 	x11-themes/sabayon-artwork-extra,

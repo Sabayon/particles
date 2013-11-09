@@ -161,7 +161,7 @@ packages:
 	app-emacs/emacs-w3m,
 	app-emacs/ess,
 	app-emacs/flim,
-	app-emacs/gentoo-syntax,
+	app-emacs/ebuild-mode,
 	app-emacs/matlab,
 	app-emacs/mmm-mode,
 	app-emacs/moccur-edit,
