@@ -241,6 +241,7 @@ packages:
 	net-misc/youtube-viewer,
 	net-misc/ytalk,
 	net-misc/zebedee,
+	net-misc/zssh,
 	net-misc/zsync,
 
 # Entropy repository where to commit packages
