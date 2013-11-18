@@ -10,6 +10,16 @@ packages:
 	gnome-extra/avant-window-navigator,
 	gnome-extra/avant-window-navigator-extras,
 	gnome-extra/bug-buddy,
+
+	# Cinnamon
+	gnome-extra/cinnamon,
+	gnome-extra/cinnamon-control-center,
+	gnome-extra/cinnamon-desktop,
+	gnome-extra/cinnamon-screensaver,
+	gnome-extra/cinnamon-session,
+	gnome-extra/cinnamon-settings-daemon,
+	gnome-extra/cinnamon-translations,
+
 	gnome-extra/connman-gnome,
 	gnome-extra/contacts,
 	gnome-extra/docky,
