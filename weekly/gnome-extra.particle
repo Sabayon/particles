@@ -13,6 +13,7 @@ packages:
 
 	# Cinnamon
 	gnome-extra/cinnamon,
+	gnome-extra/nemo,
 	gnome-extra/cinnamon-control-center,
 	gnome-extra/cinnamon-desktop,
 	gnome-extra/cinnamon-screensaver,
