@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#world=/var/lib/portage/world
+. /etc/profile
 
-#echo "Zeroing the world file ${world}"
+eix-update
 
-#echo > ${world}
+exit 0
