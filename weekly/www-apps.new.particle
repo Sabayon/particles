@@ -8,6 +8,8 @@ packages:
 	www-apps/drupal,
 	www-apps/joomla,
 	www-apps/mediawiki,
+	www-apps/mythweb,
+	www-apps/owncloud,
 	www-apps/phpmyadmin,
 	www-apps/wordpress,
 
