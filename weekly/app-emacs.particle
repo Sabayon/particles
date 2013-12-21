@@ -145,6 +145,7 @@ packages:
 	app-emacs/vhdl-mode,
 	app-emacs/view-process,
 	app-emacs/volume,
+	app-emacs/yaml-mode,
 	app-emacs/yasnippet,
 	app-emacs/yatex,
 	app-emacs/yc,
