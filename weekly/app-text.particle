@@ -162,7 +162,6 @@ packages:
 	app-text/noweb,
 	app-text/o3read,
 	app-text/ocrad,
-	app-text/odt2txt,
 	app-text/openjade,
 	app-text/opensp,
 	app-text/ots,
