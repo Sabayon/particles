@@ -23,6 +23,7 @@ packages:
 	dev-lang/gdl,
 	dev-lang/gforth,
 	dev-lang/gnu-smalltalk,
+	dev-lang/go,
 	dev-lang/gpc,
 	dev-lang/gprolog,
 	dev-lang/icon,
