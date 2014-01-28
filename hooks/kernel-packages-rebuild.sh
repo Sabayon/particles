@@ -22,6 +22,7 @@ for pkg in ${MATTER_BUILT_PACKAGES}; do
     rel_path="/etc/kernels/${p}/RELEASE_LEVEL"
     if [ ! -e "${rel_path}" ]; then
         echo "No ${rel_path}, skipping..."
+        continue
     fi
 
     tag=$(cat "${rel_path}")
