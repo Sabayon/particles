@@ -3,6 +3,8 @@
 echo "MATTER_BUILT_PACKAGES: ${MATTER_BUILT_PACKAGES}"
 echo "MATTER_REPOSITORY_ID: ${MATTER_REPOSITORY_ID}"
 
+export EIT_NO_RESOURCES_LOCK=1
+
 if [ -z "${MATTER_BUILT_PACKAGES}" ]; then
     echo "No kernel module packages to rebuild, exiting..."
     exit 0
