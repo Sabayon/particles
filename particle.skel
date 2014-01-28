@@ -103,6 +103,14 @@ removed-useflags: yes
 # MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
 # that would be built. It does not reflect the name of the failing packages,
 # because they could be just dependencies of them.
+# MATTER_BUILT_PACKAGES      = space sep. list of names of the packages
+# that have been built.
+# MATTER_FAILED_PACKAGES     = space sep. list of names of the packages
+# that failed to be built.
+# MATTER_NOT_FOUND_PACKAGES  = space sep. list of names of the packages
+# that haven't been found.
+# MATTER_NOT_INSTALLED_PACKAGES = space sep. list of names of the packages
+# that are not installed.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
