@@ -53,6 +53,7 @@ packages:
 	app-editors/levee,
 	app-editors/lfhex,
 	app-editors/lpe,
+	app-editors/mate-text-editor,
 	app-editors/mg,
 	app-editors/mlview,
 	app-editors/mp,
