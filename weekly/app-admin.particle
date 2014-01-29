@@ -123,6 +123,7 @@ packages:
 	app-admin/rsyslog,
 	app-admin/rudy,
 	app-admin/sagan,
+	app-admin/sagan-rules,
 	app-admin/salt,
 	app-admin/showconsole,
 	app-admin/smolt,
