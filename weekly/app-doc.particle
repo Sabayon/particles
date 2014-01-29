@@ -9,6 +9,7 @@ packages:
 	app-doc/autobook,
 	app-doc/blas-docs,
 	app-doc/casting-spels-emacs,
+	app-doc/devmanual,
 	app-doc/djbdns-man,
 	app-doc/doxygen,
 	app-doc/ebookmerge,
