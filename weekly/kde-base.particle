@@ -19,6 +19,15 @@ packages:
 	kde-base/smokegen
 	kde-base/smokeqt,
 
+	kde-base/freespacenotifier,
+	kde-base/kde-base-artwork,
+	kde-base/kinfocenter,
+	kde-base/klipper,
+	kde-base/kmenuedit,
+	kde-base/kreadconfig,
+	kde-base/kscreensaver,
+	kde-base/qguiplatformplugin_kde,
+
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
 repository: sabayon-hell
