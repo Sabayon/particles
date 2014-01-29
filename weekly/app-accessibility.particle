@@ -45,6 +45,7 @@ packages:
 	app-accessibility/speechd,
 	app-accessibility/sphinx2,
 	app-accessibility/sphinx3,
+	app-accessibility/sphinxbase,
 	app-accessibility/yasr
 
 # Entropy repository where to commit packages
