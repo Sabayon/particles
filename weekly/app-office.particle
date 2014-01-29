@@ -35,6 +35,7 @@ packages:
 	app-office/multitalk,
 	app-office/openerp-client,
 	app-office/openerp-server,
+	app-office/openproj-bin,
 	app-office/orage,
 	app-office/passepartout,
 	app-office/plan,

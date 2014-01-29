@@ -16,6 +16,7 @@ packages:
 	app-portage/elogv,
 	app-portage/elogviewer,
 	app-portage/emerge-delta-webrsync,
+	app-portage/epkg,
 	app-portage/epm,
 	app-portage/esearch,
 	app-portage/etc-proposals,
