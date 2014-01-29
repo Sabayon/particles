@@ -68,6 +68,7 @@ packages:
 	app-crypt/rainbowcrack,
 	app-crypt/rotix,
 	app-crypt/seahorse,
+	app-crypt/sbsigntool,
 	app-crypt/sgeps,
 	app-crypt/shash,
 	app-crypt/sign,
