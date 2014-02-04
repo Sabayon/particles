@@ -71,16 +71,6 @@ packages:
 	media-libs/gnonlin,
 	media-libs/grilo,
 	media-libs/grilo,
-	media-libs/gst-plugins-bad,
-	media-libs/gst-plugins-bad,
-	media-libs/gst-plugins-base,
-	media-libs/gst-plugins-base,
-	media-libs/gst-plugins-good,
-	media-libs/gst-plugins-good,
-	media-libs/gst-plugins-ugly,
-	media-libs/gst-plugins-ugly,
-	media-libs/gstreamer,
-	media-libs/gstreamer,
 	media-libs/hamlib,
 	media-libs/herqq,
 	media-libs/id3lib,
@@ -291,7 +281,6 @@ packages:
 	media-libs/taglib,
 	media-libs/taglib-extras,
 	media-libs/tiff,
-	media-libs/tiff,
 	media-libs/tse3,
 	media-libs/urt,
 	media-libs/vamp-plugin-sdk,
@@ -306,7 +295,7 @@ packages:
 	media-libs/xine-lib,
 	media-libs/xvid,
 	media-libs/zita-convolver,
-	media-libs/zita-resampler:0
+	media-libs/zita-resampler:0,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
