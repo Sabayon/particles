@@ -6,11 +6,13 @@
 packages:
 	dev-lang/R,
 	dev-lang/bas,
+	dev-lang/bashforth,
 	dev-lang/bff,
 	dev-lang/boo,
 	dev-lang/c-intercal,
 	dev-lang/cfortran,
 	dev-lang/cilk,
+	dev-lang/cll1h,
 	dev-lang/clojure,
 	dev-lang/cm3-bin,
 	dev-lang/confluence,
@@ -27,13 +29,18 @@ packages:
 	dev-lang/gpc,
 	dev-lang/gprolog,
 	dev-lang/icon,
-	dev-lang/idb,
+
+	dev-lang/icc
+	dev-lang/idb
 	dev-lang/ifc,
+
+	dev-lang/ispc,
 	dev-lang/inform,
 	dev-lang/interprolog,
 	dev-lang/io,
 	dev-lang/jimtcl,
 	dev-lang/lazarus,
+	dev-lang/libcilkrts,
 	dev-lang/lisaac,
 	dev-lang/logtalk,
 	dev-lang/lua,
@@ -41,6 +48,7 @@ packages:
 	dev-lang/maude,
 	dev-lang/mmix,
 	dev-lang/mosml,
+	dev-lang/nacl-toolchain-newlib,
 	dev-lang/nasm,
 	dev-lang/nqc,
 	dev-lang/nqp,
@@ -52,14 +60,20 @@ packages:
 	dev-lang/php,
 	dev-lang/php,
 	dev-lang/python,
-	dev-lang/python,
-	dev-lang/python,
-	dev-lang/python,
+	dev-lang/python-exec,
 	dev-lang/rakudo,
+	dev-lang/ruby:1.9,
 	dev-lang/scala,
+	dev-lang/snobol,
+	dev-lang/spidermonkey,
 	dev-lang/swi-prolog,
 	dev-lang/swig,
+
+	dev-lang/tcl
+	dev-lang/tk,
+
 	dev-lang/tuprolog,
+	dev-lang/vala,
 	dev-lang/xsb,
 	dev-lang/yasm
 
