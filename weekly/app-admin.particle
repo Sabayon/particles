@@ -97,6 +97,12 @@ packages:
 	app-admin/monit,
 	app-admin/newsyslog,
 	app-admin/osiris,
+
+	app-admin/packagekit-base
+	app-admin/packagekit-gtk
+	app-admin/packagekit-qt4
+	app-admin/packagekit,
+
 	app-admin/passook,
 	app-admin/paxtest,
 	app-admin/perl-cleaner,
