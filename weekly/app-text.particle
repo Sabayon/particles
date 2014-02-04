@@ -153,6 +153,7 @@ packages:
 	app-text/linuxdoc-tools,
 	app-text/lodgeit,
 	app-text/lout,
+	app-text/mate-document-viewer,
 	app-text/mathtex,
 	app-text/mbtpdfasm,
 	app-text/mecab,
