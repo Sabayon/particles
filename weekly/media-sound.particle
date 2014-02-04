@@ -284,6 +284,7 @@ packages:
 	media-sound/sox,
 	media-sound/spek,
 	media-sound/splay,
+	media-sound/spotify,
 	media-sound/ssrc,
 	media-sound/streamripper,
 	media-sound/streamtranscoder,
@@ -294,7 +295,10 @@ packages:
 	media-sound/tagtool,
 	media-sound/takcd,
 	media-sound/tap-reverbed,
+
+	media-sound/teamspeak-server-bin
 	media-sound/teamspeak-client-bin,
+
 	media-sound/tempest_for_eliza,
 	media-sound/terminatorx,
 	media-sound/timemachine,
