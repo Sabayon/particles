@@ -357,6 +357,7 @@ packages:
 	dev-python/pypax,
 	dev-python/pypgsql,
 	dev-python/pyprotocols,
+	dev-python/pypy,
 	dev-python/pyquery,
 	dev-python/pyqwt,
 	dev-python/pyrex,
