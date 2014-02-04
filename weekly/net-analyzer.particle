@@ -123,6 +123,7 @@ packages:
 	net-analyzer/nagios-plugins-snmp,
 	net-analyzer/nagios-sap-ccms-plugin,
 	net-analyzer/nagircbot,
+	net-analyzer/namebench,
 	net-analyzer/nast,
 	net-analyzer/nb,
 	net-analyzer/nbaudit,
