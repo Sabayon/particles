@@ -39,6 +39,7 @@ packages:
 	app-arch/lzop,
 	app-arch/macutil,
 	app-arch/makeself,
+	app-arch/mate-file-archiver,
 	app-arch/mscompress,
 	app-arch/mt-st,
 	app-arch/ncompress,
