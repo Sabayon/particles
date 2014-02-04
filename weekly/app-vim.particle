@@ -86,6 +86,7 @@ packages:
 	app-vim/securemodelines,
 	app-vim/selinux-syntax,
 	app-vim/showmarks,
+	app-vim/sleuth,
 	app-vim/slimv,
 	app-vim/snipmate,
 	app-vim/supertab,
