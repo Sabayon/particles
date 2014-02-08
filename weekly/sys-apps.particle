@@ -59,6 +59,7 @@ packages:
 	sys-apps/pkgcore,
 	sys-apps/pmount,
 	sys-apps/preload,
+	sys-apps/proot,
 	sys-apps/pv,
 	sys-apps/qdiskusage,
 	sys-apps/qingy,
