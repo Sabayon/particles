@@ -20,6 +20,7 @@ packages:
 	net-firewall/itval,
 	net-firewall/lutelwall,
 	net-firewall/psad,
+	net-firewall/pglinux,
 	net-firewall/quicktables,
 	net-firewall/shapecfg,
 
