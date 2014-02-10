@@ -4,6 +4,9 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	net-wireless/aircrack-ng,
+	net-wireless/iw,
+
 	sys-firmware/atmel-firmware,
 
 	sys-firmware/b43-firmware

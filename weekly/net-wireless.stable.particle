@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-wireless/aircrack-ng,
 	net-wireless/airsnort,
 	net-wireless/airtraf,
 	net-wireless/ap-utils,
@@ -24,7 +23,6 @@ packages:
 	net-wireless/hostap-utils,
 	net-wireless/hostapd,
 	net-wireless/irda-utils,
-	net-wireless/iw,
 	net-wireless/kismet,
 	net-wireless/madwifi-ng-tools,
 	net-wireless/mate-bluetooth,
