@@ -8,6 +8,7 @@ packages:
 	net-fs/cifs-utils,
 	net-fs/curlftpfs,
 	net-fs/davfs2,
+	net-fs/libnfs,
 	net-fs/netatalk,
 	net-fs/nfs-utils,
 	net-fs/nfs4-acl-tools,
