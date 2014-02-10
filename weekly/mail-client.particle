@@ -18,7 +18,8 @@ packages:
 	mail-client/pinepgp,
 	mail-client/squirrelmail,
 	mail-client/sylpheed,
-	mail-client/thunderbird
+	mail-client/thunderbird,
+	mail-client/thunderbird-bin,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
