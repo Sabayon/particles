@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	kde-base/kdeaccessibility-meta
+	kde-base/kde-l10n
 	kde-base/kde-meta
 	kde-base/kdebindings-meta
 	kde-base/kdepim-meta
