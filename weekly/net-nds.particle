@@ -4,7 +4,19 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-nds/openldap,
+	net-nds/389-admin,
+	net-nds/389-ds-base,
+	net-nds/adtool,
+	net-nds/jxplorer,
+	net-nds/ldapvi,
+	net-nds/led,
+	net-nds/phpldapadmin,
+	net-nds/rpcbind,
+	net-nds/smbldap-tools,
+	net-nds/tac_plus,
+	net-nds/yp-tools,
+	net-nds/ypbind,
+	net-nds/ypserv,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
@@ -12,7 +24,7 @@ packages:
 # inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
 # Valid values are either "yes" or "no", "inherit"
 # Default is: inherit
-stable: yes
+stable: inherit
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
