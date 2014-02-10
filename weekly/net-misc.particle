@@ -119,12 +119,13 @@ packages:
 	net-misc/netdate,
 
 	# Netkit stuff
-	net-misc/netkit-fingerd:0
-	net-misc/netkit-rsh:0
-	net-misc/netkit-rusers:0
-	net-misc/netkit-rwho:0
-	net-misc/netkit-talk:0
-	net-misc/netkit-telnetd:0
+	net-misc/netkit-fingerd
+	net-misc/netkit-rsh
+	net-misc/netkit-rusers
+	net-misc/netkit-rwall
+	net-misc/netkit-rwho
+	net-misc/netkit-talk
+	net-misc/netkit-telnetd
 	net-misc/netkit-timed,
 
 	net-misc/netpipes,
@@ -133,11 +134,12 @@ packages:
 	net-misc/netstat-nat,
 
 	# NetworkManager stuff
-	net-misc/networkmanager:0
-	net-misc/networkmanager-openconnect:0
-	net-misc/networkmanager-openswan:0
-	net-misc/networkmanager-openvpn:0
-	net-misc/networkmanager-pptp:0
+	net-misc/networkmanager
+	net-misc/networkmanager-openconnect
+	net-misc/networkmanager-openswan
+	net-misc/networkmanager-openvpn
+	net-misc/networkmanager-pptp
+	net-misc/networkmanager-sstp
 	net-misc/networkmanager-vpnc,
 
 	net-misc/npapi-sdk,
@@ -161,6 +163,7 @@ packages:
 	net-misc/portfwd,
 	net-misc/proxychains,
 	net-misc/proxytunnel,
+	net-misc/ps3mediaserver,
 	net-misc/putty,
 	net-misc/pyload,
 	net-misc/pymazon,
@@ -223,6 +226,7 @@ packages:
 	net-misc/vino,
 	net-misc/vmnet,
 	net-misc/vmpsd,
+	net-misc/vncrec,
 	net-misc/vncsnapshot,
 	net-misc/vpnc,
 	net-misc/vtun,
