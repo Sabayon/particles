@@ -6,6 +6,8 @@
 packages:
 	net-wireless/aircrack-ng,
 	net-wireless/iw,
+	net-wireless/wepdecrypt,
+	net-wireless/wireless-regdb,
 
 	sys-firmware/atmel-firmware,
 

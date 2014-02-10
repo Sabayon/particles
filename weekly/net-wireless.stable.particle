@@ -33,11 +33,9 @@ packages:
 	net-wireless/spectools,
 	net-wireless/wavemon,
 	net-wireless/wepattack,
-	net-wireless/wepdecrypt,
 	net-wireless/wifi-radar,
 	net-wireless/wimax,
 	net-wireless/wimax-tools,
-	net-wireless/wireless-regdb,
 	net-wireless/wireless-tools,
 	net-wireless/wpa_supplicant,
 
