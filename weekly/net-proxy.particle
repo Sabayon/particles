@@ -29,6 +29,7 @@ packages:
 	net-proxy/tinyproxy,
 	net-proxy/torsocks,
 	net-proxy/tsocks,
+	net-proxy/ufdbguard,
 	net-proxy/webscarab,
 	net-proxy/wwwoffle,
 	net-proxy/ziproxy
