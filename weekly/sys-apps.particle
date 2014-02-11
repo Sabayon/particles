@@ -5,6 +5,8 @@
 # Mandatory, cannot be empty
 packages:
 	sys-apps/915resolution,
+	sys-apps/bleachbit,
+	sys-apps/ccs-tools,
 	sys-apps/cookbug,
 	sys-apps/ddcxinfo-knoppix,
 	sys-apps/debianutils,
@@ -16,6 +18,7 @@ packages:
 	sys-apps/dstat,
 	sys-apps/dtc,
 	sys-apps/ed,
+	sys-apps/ethtool,
 	sys-apps/fakechroot,
 	sys-apps/fakeroot,
 	sys-apps/file,
@@ -30,6 +33,7 @@ packages:
 	sys-apps/hdparm,
 	sys-apps/help2man,
 	sys-apps/hwdata-gentoo,
+	sys-apps/hwids,
 	sys-apps/hwinfo,
 	sys-apps/hwloc,
 	sys-apps/i2c-tools,
@@ -65,6 +69,7 @@ packages:
 	sys-apps/qingy,
 	sys-apps/raidutils,
 	sys-apps/readahead-list,
+	sys-apps/rescan-scsi-bus,
 	sys-apps/sdparm,
 	sys-apps/sed,
 	sys-apps/setserial,
@@ -84,7 +89,8 @@ packages:
 	sys-apps/watchdog,
 	sys-apps/which,
 	sys-apps/x86info,
-	sys-apps/xmbmon
+	sys-apps/xmbmon,
+	sys-apps/yum,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
