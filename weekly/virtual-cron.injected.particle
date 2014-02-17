@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sys-process/bcron,
 	sys-process/cronie,
 	sys-process/dcron,
 	sys-process/fcron
