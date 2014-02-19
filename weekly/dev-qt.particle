@@ -4,95 +4,22 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	x11-libs/agg,
-	x11-libs/c++-gtk-utils,
-	x11-libs/colord-gtk,
-	x11-libs/compiz-bcop,
-	x11-libs/compizconfig-backend-gconf,
-	x11-libs/dnd,
-	x11-libs/flowcanvas,
-	x11-libs/fltk,
-	x11-libs/fox,
-	x11-libs/fox,
-	x11-libs/fox-wrapper,
-	x11-libs/fxscintilla,
-	x11-libs/gdk-pixbuf,
-	x11-libs/gksu,
-	x11-libs/gl2ps,
-	x11-libs/gnome-pty-helper,
-	x11-libs/goffice,
-	x11-libs/goffice,
-	x11-libs/goocanvas,
-	x11-libs/gtk+extra,
-	x11-libs/gtkdatabox,
-	x11-libs/gtkglarea,
-	x11-libs/gtkglext,
-	x11-libs/gtkhotkey,
-	x11-libs/gtkmathview,
-	x11-libs/gtksourceview,
-	x11-libs/gtksourceview,
-	x11-libs/guile-gtk,
-	x11-libs/hippo-canvas,
-	x11-libs/libast,
-	x11-libs/libcompizconfig,
-	x11-libs/libdesktop-agnostic,
-	x11-libs/libdmx,
-	x11-libs/libdockapp,
-	x11-libs/libdrm,
-	x11-libs/libfakekey,
-	x11-libs/libfm,
-	x11-libs/libfontenc,
-	x11-libs/libgksu,
-	x11-libs/libgxim,
-	x11-libs/libiterm-mbt,
-	x11-libs/libmatchbox,
-	x11-libs/libmatenotify,
-	x11-libs/libmatewnck,
-	x11-libs/libnotify,
-	x11-libs/liboglappth,
-	x11-libs/libpciaccess,
-	x11-libs/libproplist,
-	x11-libs/libqxt,
-	x11-libs/libsexy,
-	x11-libs/libsvg-cairo,
-	x11-libs/libva,
-	x11-libs/libva-intel-driver,
-	x11-libs/libva-vdpau-driver,
-	x11-libs/libvdpau,
-	x11-libs/libview,
-	x11-libs/libwnck,
-	x11-libs/libwnck,
-	x11-libs/libxcb,
-	x11-libs/libxkbfile,
-	x11-libs/libxkbui,
-	x11-libs/libxklavier,
-	x11-libs/libxsettings-client,
-	x11-libs/motif,
-	x11-libs/mx,
-	x11-libs/neXtaw,
-	x11-libs/pango,
-	x11-libs/pangox-compat,
-	x11-libs/pixman,
-	x11-libs/qscintilla,
-	x11-libs/qtscriptgenerator,
-	x11-libs/qtstatemachine,
-	x11-libs/qwt,
-	x11-libs/qwt,
-	x11-libs/qwtplot3d,
-	x11-libs/rep-gtk,
-	x11-libs/startup-notification,
-	x11-libs/tslib,
-	x11-libs/vte,
-	x11-libs/vte,
-	x11-libs/wxGTK,
-	x11-libs/xbae,
-	x11-libs/xforms,
-	x11-libs/xosd,
-	x11-libs/xpa,
-	x11-libs/xpyb,
-	x11-libs/xtrans,
-	x11-libs/xvba-sdk,
-	x11-libs/xvba-video,
+	dev-qt/qlockedfile,
+	dev-qt/qthelp,
+	dev-qt/qtcore,
+	dev-qt/qtdbus,
+	dev-qt/qtdeclarative,
+	dev-qt/qtdemo,
+	dev-qt/qtgui,
+	dev-qt/qtmultimedia,
+	dev-qt/qtopengl,
+	dev-qt/qt3support,
+	dev-qt/qtscript,
+	dev-qt/qtsql,
+	dev-qt/qtsvg,
+	dev-qt/qttest,
+	dev-qt/qtwebkit,
+	dev-qt/qtxmlpatterns,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
@@ -108,7 +35,18 @@ repository: sabayon-hell
 
 # Provide custom build arguments to Portage.
 # Default is: --verbose --nospinner
+# --ask and --buildpkgonly are not allowed and automatically filtered.
 build-args: --verbose --oneshot --nospinner --quiet-build=y --quiet-fail --fail-clean=y --complete-graph
+
+# Only build the packages without merging them into the system.
+# Valid values are either "yes" or "no"
+# Default is: no
+# build-only: no
+
+# Drop older packages in the same slot when adding an injected package.
+# Injected packages come into play when 'build-only: yes'
+# Default is: no
+# drop-old-injected: no
 
 # Allow Source Package Manager (Portage) repository change?
 # Valid values are either "yes" or "no"
@@ -181,6 +119,14 @@ removed-useflags: yes
 # MATTER_PACKAGE_NAMES       = space sep. list of names of the packages
 # that would be built. It does not reflect the name of the failing packages,
 # because they could be just dependencies of them.
+# MATTER_BUILT_PACKAGES      = space sep. list of names of the packages
+# that have been built.
+# MATTER_FAILED_PACKAGES     = space sep. list of names of the packages
+# that failed to be built.
+# MATTER_NOT_FOUND_PACKAGES  = space sep. list of names of the packages
+# that haven't been found.
+# MATTER_NOT_INSTALLED_PACKAGES = space sep. list of names of the packages
+# that are not installed.
 # pkgpost: /home/fabio/repos/entropy/services/matter_examples/pkgpost.sh
 
 # Env vars:
