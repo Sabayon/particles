@@ -24,6 +24,7 @@ packages:
 	app-portage/euses,
 	app-portage/fetchcommandwrapper,
 	app-portage/flaggie,
+	app-portage/fquery,
 	app-portage/g-cpan,
 	app-portage/g-octave,
 	app-portage/genlop,
