@@ -172,6 +172,7 @@ packages:
 	app-misc/openjnlp,
 	app-misc/pal,
 	app-misc/pax-utils,
+	app-misc/pdfpc,
 	app-misc/perltrash,
 	app-misc/pip,
 	app-misc/pipeworks,
