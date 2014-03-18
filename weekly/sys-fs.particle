@@ -4,29 +4,36 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sys-fs/avfs,
-	sys-fs/copyfs,
-	sys-fs/cryptsetup,
-	sys-fs/diskdev_cmds,
-	sys-fs/dmraid,
-	sys-fs/ecryptfs-utils,
-	sys-fs/encfs,
-	sys-fs/lvm2,
-	sys-fs/mdadm,
-	sys-fs/quota,
-	sys-fs/quotatool,
-	sys-fs/safecopy,
-	sys-fs/shake,
-	sys-fs/siefs,
-	sys-fs/sysfsutils,
-	sys-fs/udev,
-	sys-fs/udev-init-scripts,
-	sys-fs/udftools,
-	sys-fs/udisks,
-	sys-fs/vhba,
-	sys-fs/vzquota,
-	sys-fs/zerofree,
-	sys-fs/zfs-userspace,
+	sys-fs/btrfs-progs,
+	sys-fs/dd-rescue,
+	sys-fs/ddrescue,
+	sys-fs/dosfstools,
+	sys-fs/e2fsprogs,
+	sys-fs/extundelete,
+	sys-fs/fatsort,
+	sys-fs/fuse,
+	sys-fs/fuse-exfat,
+	sys-fs/fuseiso,
+	sys-fs/hfsutils,
+	sys-fs/inotify-tools,
+	sys-fs/jfsutils,
+	sys-fs/mp3fs,
+	sys-fs/mtd-utils,
+	sys-fs/mtools,
+	sys-fs/mtpfs,
+	sys-fs/multipath-tools,
+	sys-fs/ncdu,
+	sys-fs/nilfs-utils,
+	sys-fs/ntfs3g,
+	sys-fs/obexfs,
+	sys-fs/owfs,
+	sys-fs/progsreiserfs,
+	sys-fs/reiser4progs,
+	sys-fs/reiserfsprogs,
+	sys-fs/squashfs-tools,
+	sys-fs/sshfs-fuse,
+	sys-fs/xfsdump,
+	sys-fs/xfsprogs,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
@@ -34,7 +41,7 @@ packages:
 # inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
 # Valid values are either "yes" or "no", "inherit"
 # Default is: inherit
-stable: yes
+stable: inherit
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
