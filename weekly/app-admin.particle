@@ -107,7 +107,6 @@ packages:
 	app-admin/phpsyslogng,
 	app-admin/pprocm,
 	app-admin/procinfo,
-	app-admin/profiler,
 	app-admin/psmon,
 	app-admin/puppet,
 	app-admin/pwcrypt,
