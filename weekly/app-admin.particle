@@ -106,7 +106,6 @@ packages:
 	app-admin/petrovich,
 	app-admin/phpsyslogng,
 	app-admin/pprocm,
-	app-admin/prelude-lml,
 	app-admin/prelude-manager,
 	app-admin/procinfo,
 	app-admin/profiler,
