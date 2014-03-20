@@ -7,7 +7,6 @@ packages:
 	app-admin/389-admin-console,
 	app-admin/389-console,
 	app-admin/389-ds-console,
-	app-admin/addpatches,
 	app-admin/amazon-ec2-init,
 	app-admin/analog,
 	app-admin/ansible,
