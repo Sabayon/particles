@@ -60,7 +60,6 @@ packages:
 	kde-misc/plasma-mpd-nowplaying,
 	kde-misc/plasma-widget-message-indicator,
 	kde-misc/plasmatvgr,
-	kde-misc/polkit-kde-kcmodules,
 	kde-misc/pyrad,
 	kde-misc/qtrans,
 	kde-misc/quadkonsole,
