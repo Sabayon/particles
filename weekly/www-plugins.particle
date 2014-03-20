@@ -9,7 +9,6 @@ packages:
 	www-plugins/gnash,
 	www-plugins/google-talkplugin,
 	www-plugins/lightspark,
-	www-plugins/mozplugger,
 	www-plugins/nspluginwrapper,
 	www-plugins/swfdec-mozilla
 
