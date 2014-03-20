@@ -34,8 +34,7 @@ packages:
 	www-client/uzbl,
 	www-client/w3m,
 	www-client/w3mir,
-	www-client/w3mmee,
-	www-client/xxxterm
+	www-client/w3mmee
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
