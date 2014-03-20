@@ -7,7 +7,6 @@ packages:
 	www-client/chromium,
 	www-client/conkeror,
 	www-client/dooble,
-	www-client/downman,
 	www-client/dwb,
 	www-client/elinks,
 	www-client/epiphany,
