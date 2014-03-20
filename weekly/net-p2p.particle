@@ -7,7 +7,6 @@ packages:
 	net-p2p/amule,
 	net-p2p/bitcoin-qt,
 	net-p2p/bitcoind,
-	net-p2p/bitstormlite,
 	net-p2p/bittorrent,
 	net-p2p/btpd,
 	net-p2p/createtorrent,
