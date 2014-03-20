@@ -54,7 +54,6 @@ packages:
 	app-admin/eselect-xvmc,
 	app-admin/fetchlog,
 	app-admin/fifo-cronolog,
-	app-admin/flexlm,
 	app-admin/fsarchiver,
 	app-admin/fsvs,
 	app-admin/gam-server,
