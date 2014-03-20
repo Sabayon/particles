@@ -38,7 +38,6 @@ packages:
 	net-p2p/mktorrent,
 	net-p2p/mktorrent-borg,
 	net-p2p/mldonkey,
-	net-p2p/mutella,
 	net-p2p/nicotine+,
 	net-p2p/opendchub,
 	net-p2p/phex,
