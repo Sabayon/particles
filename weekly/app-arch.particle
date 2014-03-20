@@ -82,7 +82,6 @@ packages:
 	app-arch/upm,
 	app-arch/upx-bin,
 	app-arch/xar,
-	app-arch/xarchiver,
 	app-arch/xdms,
 	app-arch/xz-utils,
 	app-arch/zip,
