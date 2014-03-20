@@ -41,7 +41,6 @@ packages:
 	app-accessibility/sound-icons,
 	app-accessibility/speech-dispatcher,
 	app-accessibility/speech-tools,
-	app-accessibility/speechd,
 	app-accessibility/sphinx2,
 	app-accessibility/sphinx3,
 	app-accessibility/sphinxbase,
