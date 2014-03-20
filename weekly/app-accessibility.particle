@@ -39,7 +39,6 @@ packages:
 	app-accessibility/powiedz,
 	app-accessibility/simon,
 	app-accessibility/sound-icons,
-	app-accessibility/speakup-utils,
 	app-accessibility/speech-dispatcher,
 	app-accessibility/speech-tools,
 	app-accessibility/speechd,
