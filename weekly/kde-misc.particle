@@ -61,7 +61,6 @@ packages:
 	kde-misc/plasma-widget-message-indicator,
 	kde-misc/plasmatvgr,
 	kde-misc/pyrad,
-	kde-misc/qtrans,
 	kde-misc/quadkonsole,
 	kde-misc/quickaccess,
 	kde-misc/rsibreak,
