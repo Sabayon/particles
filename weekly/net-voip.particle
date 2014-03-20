@@ -7,7 +7,6 @@ packages:
 	net-voip/ekiga,
 	net-voip/linphone,
 	net-voip/sflphone,
-	net-voip/telepathy-butterfly,
 	net-voip/telepathy-gabble,
 	net-voip/telepathy-haze,
 	net-voip/telepathy-rakia,
