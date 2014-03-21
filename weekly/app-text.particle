@@ -171,6 +171,7 @@ packages:
 	app-text/openjade,
 	app-text/opensp,
 	app-text/ots,
+	app-text/pandoc,
 	app-text/paps,
 	app-text/passivetex,
 	app-text/pastebin,
