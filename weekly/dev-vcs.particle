@@ -31,6 +31,7 @@ packages:
 	dev-vcs/fossil,
 	dev-vcs/giggle,
 	dev-vcs/git,
+	dev-vcs/git-annex,
 	dev-vcs/git-bz,
 	dev-vcs/git-bzr-ng,
 	dev-vcs/git-cola,
@@ -48,7 +49,9 @@ packages:
 	dev-vcs/hgsubversion,
 	dev-vcs/hgsvn,
 	dev-vcs/hgview,
+	dev-vcs/hub,
 	dev-vcs/kdesvn,
+	dev-vcs/mercurial,
 	dev-vcs/mercurial-server,
 	dev-vcs/monotone,
 	dev-vcs/mr,
@@ -73,6 +76,7 @@ packages:
 	dev-vcs/tig,
 	dev-vcs/tkcvs,
 	dev-vcs/topgit,
+	dev-vcs/tortoisehg,
 	dev-vcs/veracity
 
 # Entropy repository where to commit packages
