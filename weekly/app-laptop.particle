@@ -13,7 +13,6 @@ packages:
 	app-laptop/i8kutils,
 	app-laptop/ibam,
 	app-laptop/laptop-mode-tools,
-	app-laptop/macbook-backlight,
 	app-laptop/pbbuttonsd,
 	app-laptop/pommed,
 	app-laptop/powerprefs,
