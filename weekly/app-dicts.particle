@@ -48,7 +48,6 @@ packages:
 	app-dicts/bookview,
 	app-dicts/canna-2ch,
 	app-dicts/canna-cannadic,
-	app-dicts/canna-shion,
 	app-dicts/canna-zipcode,
 	app-dicts/dictd-devils,
 	app-dicts/dictd-dicts,
