@@ -117,6 +117,7 @@ packages:
 	net-misc/neatx,
 	net-misc/nemesis,
 	net-misc/netdate,
+	net-misc/netifrc,
 
 	# Netkit stuff
 	net-misc/netkit-fingerd
