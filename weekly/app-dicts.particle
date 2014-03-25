@@ -62,7 +62,6 @@ packages:
 	app-dicts/duali-data,
 	app-dicts/eblook,
 	app-dicts/edictionary,
-	app-dicts/fantasdic,
 	app-dicts/freedict-deu-eng,
 	app-dicts/freedict-eng-fra,
 	app-dicts/freedict-eng-ita,
