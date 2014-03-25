@@ -90,6 +90,7 @@ packages:
 	app-admin/mcelog,
 	app-admin/mcollective,
 	app-admin/metalog,
+	app-admin/mktwpol,
 	app-admin/monit,
 	app-admin/newsyslog,
 	app-admin/osiris,

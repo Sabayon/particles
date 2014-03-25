@@ -139,6 +139,7 @@ packages:
 	app-text/landslide,
 	app-text/lcdf-typetools,
 	app-text/letterize,
+	app-text/libabw,
 	app-text/libetonyek,
 	app-text/libexttextcat,
 	app-text/liblangtag,
