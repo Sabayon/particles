@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	x11-misc/3ddesktop,
+	x11-misc/3dfb,
 	x11-misc/3dfm,
 	x11-misc/accessx,
 	x11-misc/alacarte,
