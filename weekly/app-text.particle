@@ -291,7 +291,6 @@ packages:
 	app-text/xmlstarlet,
 	app-text/xmlto,
 	app-text/xournal,
-	app-text/xpdf,
 	app-text/yagf,
 	app-text/zathura,
 	app-text/zathura-cb,
