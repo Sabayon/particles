@@ -21,8 +21,7 @@ packages:
 	mate-base/mate-menus,
 	mate-base/mate-panel,
 	mate-base/mate-session-manager,
-	mate-base/mate-settings-daemon,
-	mate-base/mate-vfs,
+	mate-base/mate-settings-daemon
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
