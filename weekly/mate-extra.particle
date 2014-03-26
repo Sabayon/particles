@@ -6,7 +6,6 @@
 packages:
 	mate-extra/mate-calc,
 	mate-extra/mate-character-map,
-	mate-extra/mate-conf-editor,
 	mate-extra/mate-dialogs,
 	mate-extra/mate-file-manager-open-terminal,
 	mate-extra/mate-file-manager-sendto,
