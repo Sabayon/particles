@@ -10,7 +10,6 @@ packages:
 	mate-base/libmatecomponentui,
 	mate-base/libmatekbd,
 	mate-base/libmatekeyring,
-	mate-base/libmateui,
 	mate-base/mate,
 	mate-base/mate-applets,
 	mate-base/mate-common,
