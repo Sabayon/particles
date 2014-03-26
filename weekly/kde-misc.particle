@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	kde-misc/about-distro,
 	kde-misc/adjustableclock,
 	kde-misc/basket,
 	kde-misc/bkodama,
