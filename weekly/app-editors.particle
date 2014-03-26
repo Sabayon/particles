@@ -46,7 +46,6 @@ packages:
 	app-editors/jove,
 	app-editors/juffed,
 	app-editors/kile,
-	app-editors/kompozer,
 	app-editors/latexila,
 	app-editors/le,
 	app-editors/leafpad,
