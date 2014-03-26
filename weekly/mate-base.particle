@@ -19,7 +19,6 @@ packages:
 	mate-base/mate-file-manager,
 	mate-base/mate-keyring,
 	mate-base/mate-menus,
-	mate-base/mate-mime-data,
 	mate-base/mate-panel,
 	mate-base/mate-session-manager,
 	mate-base/mate-settings-daemon,
