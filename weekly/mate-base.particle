@@ -16,7 +16,6 @@ packages:
 	mate-base/mate-common,
 	mate-base/mate-conf,
 	mate-base/mate-control-center,
-	mate-base/mate-corba,
 	mate-base/mate-desktop,
 	mate-base/mate-file-manager,
 	mate-base/mate-keyring,
