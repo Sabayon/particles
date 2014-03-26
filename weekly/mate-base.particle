@@ -14,7 +14,6 @@ packages:
 	mate-base/mate,
 	mate-base/mate-applets,
 	mate-base/mate-common,
-	mate-base/mate-conf,
 	mate-base/mate-control-center,
 	mate-base/mate-desktop,
 	mate-base/mate-file-manager,
