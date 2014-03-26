@@ -4,10 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	mate-base/libmate,
-	mate-base/libmatecanvas,
-	mate-base/libmatecomponent,
-	mate-base/libmatecomponentui,
 	mate-base/libmatekbd,
 	mate-base/libmatekeyring,
 	mate-base/mate,
