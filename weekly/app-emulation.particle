@@ -6,7 +6,6 @@
 packages:
 	app-emulation/aranym,
 	app-emulation/bochs,
-	app-emulation/cedega,
 	app-emulation/coldfire,
 	app-emulation/dinero,
 	app-emulation/dlx,
