@@ -4,26 +4,11 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sys-kernel/linux-sabayon:3.4
-	sys-kernel/sabayon-sources:3.4,
+	sys-kernel/linux-sabayon
+	sys-kernel/sabayon-sources,
 
-	sys-kernel/sabayon-sources:3.10
-	sys-kernel/linux-sabayon:3.10,
-
-	sys-kernel/sabayon-sources:3.12
-	sys-kernel/linux-sabayon:3.12,
-
-	sys-kernel/sabayon-sources:3.13
-	sys-kernel/linux-sabayon:3.13,
-
-	sys-kernel/ec2-sources:3.10
-	sys-kernel/linux-ec2:3.10,
-
-	sys-kernel/ec2-sources:3.12
-	sys-kernel/linux-ec2:3.12,
-
-	sys-kernel/ec2-sources:3.13
-	sys-kernel/linux-ec2:3.13,
+	sys-kernel/ec2-sources
+	sys-kernel/linux-ec2,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
