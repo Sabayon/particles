@@ -15,6 +15,7 @@ packages:
 	mate-base/mate-keyring,
 	mate-base/mate-menus,
 	mate-base/mate-panel,
+	mate-base/mate-screensaver,
 	mate-base/mate-session-manager,
 	mate-base/mate-settings-daemon
 
