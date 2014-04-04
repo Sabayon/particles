@@ -15,6 +15,7 @@ packages:
 	sys-process/latencytop,
 	sys-process/lsof,
 	sys-process/numactl,
+	sys-process/parallel,
 	sys-process/prll,
 	sys-process/procps,
 	sys-process/psmisc,
