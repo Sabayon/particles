@@ -10,7 +10,6 @@ packages:
 	net-irc/bnc,
 	net-irc/bobotpp,
 	net-irc/cgiirc,
-	net-irc/conspire,
 	net-irc/ctrlproxy,
 	net-irc/cwirc,
 	net-irc/dircproxy,
