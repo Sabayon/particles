@@ -22,7 +22,6 @@ packages:
 	rox-base/zeroinstall-injector,
 	rox-extra/archive,
 	rox-extra/clock,
-	rox-extra/comicthumb,
 	rox-extra/contacts,
 	rox-extra/diff,
 	rox-extra/edit,
