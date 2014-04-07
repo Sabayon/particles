@@ -242,7 +242,6 @@ packages:
 	media-plugins/vdr-wapd,
 	media-plugins/vdr-weatherng,
 	media-plugins/vdr-xineliboutput,
-	media-plugins/vdr-xxvautotimer,
 	media-plugins/vdr-yaepg,
 	media-plugins/vdr-zappilot,
 	media-plugins/xsynth-dssi
