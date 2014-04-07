@@ -56,7 +56,6 @@ packages:
 	net-irc/weechat,
 	net-irc/xaric,
 	net-irc/xchat-gnome,
-	net-irc/xchat-otr,
 	net-irc/xchat-xsys,
 	net-irc/xchatosd,
 	net-irc/znc
