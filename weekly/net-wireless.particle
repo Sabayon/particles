@@ -8,12 +8,9 @@ packages:
 	net-wireless/iw,
 	net-wireless/wepdecrypt,
 	net-wireless/wireless-regdb,
-
 	sys-firmware/atmel-firmware,
-
 	sys-firmware/b43-firmware
 	net-wireless/b43-fwcutter,
-
 	net-wireless/bcm43xx-firmware,
 	sys-firmware/bluez-firmware,
 	sys-firmware/ipw2100-firmware,
