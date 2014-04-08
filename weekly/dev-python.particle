@@ -143,7 +143,6 @@ packages:
 	dev-python/gnome-python-extras-base,
 	dev-python/gnome-vfs-python,
 	dev-python/gntp,
-	dev-python/graph-tool,
 	dev-python/graphy,
 	dev-python/greenlet,
 	dev-python/gst-python,
@@ -574,6 +573,10 @@ packages:
 	dev-python/yolk,
 	dev-python/yolk-portage,
 	dev-python/zsi,
+
+# Takes 12+ hours to compile
+#	dev-python/graph-tool,
+
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
