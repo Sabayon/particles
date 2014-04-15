@@ -18,7 +18,7 @@ for pkg in ${MATTER_BUILT_PACKAGES}; do
         continue
     fi
 
-    p=$(basename "${atom}")
+    p=$(portageq metadata / "installed" "${atom}" P)
     rel_path="/etc/kernels/${p}/RELEASE_LEVEL"
     if [ ! -e "${rel_path}" ]; then
         echo "No ${rel_path}, skipping..."
