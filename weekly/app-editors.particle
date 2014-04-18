@@ -65,6 +65,7 @@ packages:
 	app-editors/qemacs,
 	app-editors/qwriter,
 	app-editors/qxmledit,
+	app-editors/retext,
 	app-editors/scite,
 	app-editors/shed,
 	app-editors/tea,
