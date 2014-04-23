@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	mate-extra/caja-dropbox,
 	mate-extra/mate-calc,
 	mate-extra/mate-character-map,
 	mate-extra/mate-dialogs,
