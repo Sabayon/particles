@@ -214,6 +214,7 @@ packages:
 	app-text/recode,
 	app-text/reed,
 	app-text/refbase,
+	app-text/referencer,
 	app-text/rfcutil,
 	app-text/rhyme,
 	app-text/rman,
