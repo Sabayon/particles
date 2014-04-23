@@ -29,6 +29,7 @@ packages:
 	sys-apps/grep,
 	sys-apps/groff,
 	sys-apps/gsmartcontrol,
+	sys-apps/haveged,
 	sys-apps/hbaapi,
 	sys-apps/hdparm,
 	sys-apps/help2man,
