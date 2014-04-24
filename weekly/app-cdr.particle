@@ -43,7 +43,6 @@ packages:
 	app-cdr/k3b,
 	app-cdr/k9copy,
 	app-cdr/kcdemu,
-	app-cdr/lightscribe-simplelabeler,
 	app-cdr/lightscribe-template,
 	app-cdr/mirage2iso,
 	app-cdr/mkcdtoc,
