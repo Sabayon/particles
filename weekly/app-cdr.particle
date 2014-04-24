@@ -55,7 +55,6 @@ packages:
 	app-cdr/qmultirecord,
 	app-cdr/qpxtool,
 	app-cdr/recorder,
-	app-cdr/serpentine,
 	app-cdr/sync2cd,
 	app-cdr/tkdvd,
 	app-cdr/uif2iso,
