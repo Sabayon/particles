@@ -33,7 +33,6 @@ packages:
 	app-pda/orange,
 	app-pda/p3nfs,
 	app-pda/pilot-link,
-	app-pda/synce-connector,
 	app-pda/synce-sync-engine,
 	app-pda/usbmuxd
 
