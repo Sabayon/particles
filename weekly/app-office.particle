@@ -45,7 +45,6 @@ packages:
 	app-office/pybliographer,
 	app-office/qcharselect,
 	app-office/qchartdiary,
-	app-office/rabbit,
 	app-office/sc,
 	app-office/scribus,
 	app-office/skrooge,
