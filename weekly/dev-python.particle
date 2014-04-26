@@ -47,6 +47,7 @@ packages:
 	dev-python/cddb-py,
 	dev-python/celementtree,
 	dev-python/celery,
+	dev-python/cffi,
 	dev-python/cfgparse,
 	dev-python/cgkit,
 	dev-python/chameleon,
