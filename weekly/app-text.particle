@@ -88,7 +88,6 @@ packages:
 	app-text/ebook-tools,
 	app-text/enchant,
 	app-text/enscript,
-	app-text/epdfview,
 	app-text/epstool,
 	app-text/evince,
 	app-text/expander,
