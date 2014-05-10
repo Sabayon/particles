@@ -163,7 +163,6 @@ packages:
 	dev-php/pecl-uploadprogress,
 	dev-php/php-openid,
 	dev-php/phpdepend,
-	dev-php/phploc,
 	dev-php/phpmd,
 	dev-php/phptal,
 	dev-php/phpunit,
