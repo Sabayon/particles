@@ -102,7 +102,6 @@ packages:
 	dev-php/PEAR-PEAR,
 	dev-php/PEAR-PEAR_Info,
 	dev-php/PEAR-PEAR_PackageFileManager,
-	dev-php/PEAR-PEAR_PackageFileManager_Cli,
 	dev-php/PEAR-PHP_Beautifier,
 	dev-php/PEAR-PHP_CodeSniffer,
 	dev-php/PEAR-PHP_CompatInfo,
