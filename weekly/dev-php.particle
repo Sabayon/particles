@@ -32,7 +32,6 @@ packages:
 	dev-php/PEAR-File_Find,
 	dev-php/PEAR-File_Fortune,
 	dev-php/PEAR-File_Gettext,
-	dev-php/PEAR-File_PDF,
 	dev-php/PEAR-File_Passwd,
 	dev-php/PEAR-File_SMBPasswd,
 	dev-php/PEAR-HTML_AJAX,
