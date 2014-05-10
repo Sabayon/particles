@@ -145,7 +145,6 @@ packages:
 	dev-php/Text_Template,
 	dev-php/YAML,
 	dev-php/ZendFramework,
-	dev-php/adobe-ext,
 	dev-php/adodb,
 	dev-php/adodb-ext,
 	dev-php/cphplib,
