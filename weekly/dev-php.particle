@@ -162,7 +162,6 @@ packages:
 	dev-php/pecl-memcache,
 	dev-php/pecl-uploadprogress,
 	dev-php/php-openid,
-	dev-php/phpcpd,
 	dev-php/phpdepend,
 	dev-php/phploc,
 	dev-php/phpmd,
