@@ -138,7 +138,6 @@ packages:
 	dev-php/PEAR-XML_RSS,
 	dev-php/PEAR-XML_Serializer,
 	dev-php/PEAR-XML_Util,
-	dev-php/PHPUnit_Selenium,
 	dev-php/PHP_CodeCoverage,
 	dev-php/PHP_Timer,
 	dev-php/PHP_TokenStream,
