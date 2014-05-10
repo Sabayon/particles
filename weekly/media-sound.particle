@@ -37,7 +37,6 @@ packages:
 	media-sound/audio-entropyd,
 	media-sound/audiocompress,
 	media-sound/audiotag,
-	media-sound/audtty,
 	media-sound/aumix,
 	media-sound/awesfx,
 	media-sound/aylet,
