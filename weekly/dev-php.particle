@@ -130,7 +130,6 @@ packages:
 	dev-php/PEAR-Text_Wiki_BBCode,
 	dev-php/PEAR-Text_Wiki_Mediawiki,
 	dev-php/PEAR-Translation2,
-	dev-php/PEAR-Tree,
 	dev-php/PEAR-Validate,
 	dev-php/PEAR-Var_Dump,
 	dev-php/PEAR-VersionControl_SVN,
