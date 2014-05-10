@@ -126,7 +126,6 @@ packages:
 	net-libs/webkit-gtk,
 	net-libs/webkit-gtk,
 	net-libs/wvstreams,
-	net-libs/xulrunner,
 	net-libs/zeromq,
 
 # Enforce stable or unstable packages on emerge.
