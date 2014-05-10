@@ -35,7 +35,6 @@ packages:
 	dev-php/PEAR-File_Passwd,
 	dev-php/PEAR-File_SMBPasswd,
 	dev-php/PEAR-HTML_AJAX,
-	dev-php/PEAR-HTML_BBCodeParser,
 	dev-php/PEAR-HTML_CSS,
 	dev-php/PEAR-HTML_Common,
 	dev-php/PEAR-HTML_Common2,
