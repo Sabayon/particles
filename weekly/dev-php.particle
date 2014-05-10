@@ -42,7 +42,6 @@ packages:
 	dev-php/PEAR-HTML_QuickForm,
 	dev-php/PEAR-HTML_QuickForm2,
 	dev-php/PEAR-HTML_QuickForm_Controller,
-	dev-php/PEAR-HTML_QuickForm_ElementGrid,
 	dev-php/PEAR-HTML_QuickForm_advmultiselect,
 	dev-php/PEAR-HTML_Select,
 	dev-php/PEAR-HTML_Table,
