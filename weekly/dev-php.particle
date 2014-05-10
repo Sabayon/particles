@@ -58,7 +58,6 @@ packages:
 	dev-php/PEAR-HTTP_Request,
 	dev-php/PEAR-HTTP_Request2,
 	dev-php/PEAR-HTTP_Session2,
-	dev-php/PEAR-HTTP_WebDAV_Server,
 	dev-php/PEAR-I18Nv2,
 	dev-php/PEAR-Image_Color2,
 	dev-php/PEAR-Image_GraphViz,
