@@ -20,6 +20,7 @@ packages:
 	kde-misc/kcm-grub2,
 	kde-misc/kcm-ufw,
 	kde-misc/kcm_touchpad,
+	kde-misc/kcmsystemd,
 	kde-misc/kcollectd,
 	kde-misc/kcometen4,
 	kde-misc/kde-gtk-config,
