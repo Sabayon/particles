@@ -108,7 +108,6 @@ packages:
 	x11-misc/pcmanfm,
 	x11-misc/peksystray,
 	x11-misc/piedock,
-	x11-misc/pogo,
 	x11-misc/pypanel,
 	x11-misc/pyroom,
 	x11-misc/qcomicbook,
