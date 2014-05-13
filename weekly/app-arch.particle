@@ -79,7 +79,6 @@ packages:
 	app-arch/unrar-gpl,
 	app-arch/unshield,
 	app-arch/unzip,
-	app-arch/upm,
 	app-arch/upx-bin,
 	app-arch/xar,
 	app-arch/xdms,
