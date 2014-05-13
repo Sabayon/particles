@@ -116,7 +116,6 @@ packages:
 	kde-base/kdialog,
 	kde-base/kdiamond,
 	kde-base/kdm,
-	kde-base/kdnssd,
 	kde-base/kdontchangethehostname,
 	kde-base/keditbookmarks,
 	kde-base/keditfiletype,
