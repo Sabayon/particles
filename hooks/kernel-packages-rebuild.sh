@@ -32,7 +32,7 @@ for pkg in ${MATTER_BUILT_PACKAGES}; do
 
     echo "Rebuilding for tag: ${tag}"
     /sabayon/bin/bump_kernel_packages "${tag}" "${tag}" \
-        "${MATTER_REPOSITORY_ID}" --non-interactive
+        "${MATTER_REPOSITORY_ID}" --non-interactive --disable-shell-wrap
 done
 
 exit 0
