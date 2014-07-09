@@ -29,6 +29,7 @@ packages:
 	media-libs/elementary,
 	media-libs/faac,
 	media-libs/faad2,
+	media-libs/flickcurl,
 	media-libs/gst-plugins-bad,
 	media-libs/gst-plugins-base,
 	media-libs/gst-plugins-good,

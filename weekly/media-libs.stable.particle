@@ -17,7 +17,6 @@ packages:
 	media-libs/ffmpegsource,
 	media-libs/fidlib,
 	media-libs/flac,
-	media-libs/flickcurl,
 	media-libs/fluidsynth-dssi,
 	media-libs/fmod,
 	media-libs/fontconfig,
