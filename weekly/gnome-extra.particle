@@ -30,7 +30,7 @@ packages:
 	gnome-extra/evolution-exchange,
 	gnome-extra/evolution-rss,
 	gnome-extra/evolution-webcal,
-	gnome-extra/gcalctool,
+	gnome-extra/gnome-calculator,
 	gnome-extra/gconf-editor,
 	gnome-extra/gcursor,
 	gnome-extra/gdesklets-core,
