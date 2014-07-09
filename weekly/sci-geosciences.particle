@@ -8,6 +8,7 @@ packages:
 	sci-geosciences/aweather,
 	sci-geosciences/gebabbel,
 	sci-geosciences/geocode-glib,
+	sci-geosciences/gnome-maps,
 	sci-geosciences/gmapcatcher,
 	sci-geosciences/gmt,
 	sci-geosciences/googleearth,
