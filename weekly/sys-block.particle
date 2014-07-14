@@ -4,11 +4,29 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sys-block/gpart,
-	sys-block/gparted,
-	sys-block/iscsitarget,
+	sys-block/aoetools,
+	sys-block/btrace,
+	sys-block/buffer,
+	sys-block/devio,
+	sys-block/di,
+	sys-block/disktype,
+	sys-block/endpoint,
+	sys-block/fio,
 	sys-block/mbuffer,
-	sys-block/thin-provisioning-tools,
+	sys-block/megarc,
+	sys-block/mpt-status,
+	sys-block/mtx,
+	sys-block/nbd,
+	sys-block/noflushd,
+	sys-block/partimage,
+	sys-block/partitionmanager,
+	sys-block/scsiadd,
+	sys-block/scsiping,
+	sys-block/scsirastools,
+	sys-block/smp_utils,
+	sys-block/tapecat,
+	sys-block/vblade,
+	sys-block/viaideinfo,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
@@ -16,7 +34,7 @@ packages:
 # inherit = inherit portage make.conf.* settings for ACCEPT_KEYWORDS
 # Valid values are either "yes" or "no", "inherit"
 # Default is: inherit
-stable: yes
+stable: inherit
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
