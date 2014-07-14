@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	x11-base/xorg-drivers,
 	x11-base/xorg-server,
 
 # Enforce stable or unstable packages on emerge.
