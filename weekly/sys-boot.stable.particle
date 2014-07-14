@@ -10,8 +10,6 @@ packages:
 	sys-boot/lilo,
 	sys-boot/makebootfat,
 	sys-boot/os-prober,
-	sys-boot/syslinux,
-	sys-boot/unetbootin,
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted

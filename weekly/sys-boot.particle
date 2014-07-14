@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	sys-boot/syslinux,
 	sys-boot/unetbootin,
 
 # Enforce stable or unstable packages on emerge.
