@@ -8,6 +8,7 @@ packages:
 	sci-misc/gato,
 	sci-misc/gcam,
 	sci-misc/h5utils,
+	sci-misc/mendeleydesktop,
 	sci-misc/ncview,
 	sci-misc/netlogo-bin,
 	sci-misc/oww,
