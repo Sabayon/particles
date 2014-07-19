@@ -31,6 +31,7 @@ packages:
 	app-emulation/emul-linux-x86-soundlibs
 	app-emulation/emul-linux-x86-xlibs,
 
+	app-emulation/free42,
 	app-emulation/fuse,
 	app-emulation/fuse-utils,
 
@@ -88,6 +89,7 @@ packages:
 	app-emulation/xen-tools,
 
 	app-emulation/xen-pvgrub,
+	app-emulation/xtrs,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
