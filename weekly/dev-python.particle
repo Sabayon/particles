@@ -154,6 +154,7 @@ packages:
 	dev-python/hachoir-parser,
 	dev-python/hachoir-regex,
 	dev-python/hcs-utils,
+	dev-python/hgdistver,
 	dev-python/hgtools,
 	dev-python/html2text,
 	dev-python/html5lib,
@@ -197,6 +198,7 @@ packages:
 	dev-python/libgtop-python,
 	dev-python/liblarch,
 	dev-python/librsvg-python,
+	dev-python/libvirt-python,
 	dev-python/libwnck-python,
 	dev-python/llfuse,
 	dev-python/lockfile,
@@ -546,6 +548,7 @@ packages:
 	dev-python/twisted-words,
 
 	dev-python/txAMQP,
+	dev-python/unidecode,
 	dev-python/unittest2,
 	dev-python/urlgrabber,
 	dev-python/urllib3,
