@@ -43,6 +43,7 @@ packages:
 	app-admin/eselect-ctags,
 	app-admin/eselect-emacs,
 	app-admin/eselect-lcdfilter,
+	app-admin/eselect-opencl,
 	app-admin/eselect-opengl,
 	app-admin/eselect-php,
 	app-admin/eselect-pinentry,
