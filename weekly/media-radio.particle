@@ -9,6 +9,7 @@ packages:
 	media-radio/ax25-tools,
 	media-radio/cwdaemon,
 	media-radio/dxcc,
+	media-radio/fldigi,
 	media-radio/flrig,
 	media-radio/gpredict,
 	media-radio/ibp,
