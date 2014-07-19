@@ -48,6 +48,7 @@ packages:
 	kde-misc/krename,
 	kde-misc/krunner-kopete-contacts,
 	kde-misc/krusader,
+	kde-misc/kscreen,
 	kde-misc/kshutdown,
 	kde-misc/ksplasher,
 	kde-misc/ktrafficanalyzer,
