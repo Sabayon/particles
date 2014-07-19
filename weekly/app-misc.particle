@@ -20,6 +20,7 @@ packages:
 	app-misc/beep,
 	app-misc/bfm,
 	app-misc/bfr,
+	app-misc/bijiben,
 	app-misc/binclock,
 	app-misc/bins,
 	app-misc/binwalk,
