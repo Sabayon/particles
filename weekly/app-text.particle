@@ -273,6 +273,7 @@ packages:
 	app-text/wscr,
 	app-text/wv,
 	app-text/wv2,
+	app-text/xapian-omega,
 	app-text/xchm,
 	app-text/xdvik,
 	app-text/xdvipdfmx,
