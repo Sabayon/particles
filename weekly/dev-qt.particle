@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	dev-qt/qt-creator,
+	dev-qt/qt-mobility,
 	dev-qt/qlockedfile,
 	dev-qt/qthelp,
 	dev-qt/qtcore,
@@ -12,6 +13,7 @@ packages:
 	dev-qt/qtdeclarative,
 	dev-qt/qtdemo,
 	dev-qt/qtgui,
+	dev-qt/qtlockedfile,
 	dev-qt/qtmultimedia,
 	dev-qt/qtopengl,
 	dev-qt/qt3support,
