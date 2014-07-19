@@ -9,6 +9,7 @@ packages:
 	app-officeext/dmaths,
 	app-officeext/languagetool,
 	app-officeext/ooo2gd,
+	app-officeext/ooofbtools,
 	app-officeext/texmaths,
 
 # Enforce stable or unstable packages on emerge.
