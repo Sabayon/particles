@@ -20,6 +20,7 @@ packages:
 	mail-client/sylpheed,
 	mail-client/thunderbird,
 	mail-client/thunderbird-bin,
+	mail-client/trojita,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
