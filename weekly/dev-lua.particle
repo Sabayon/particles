@@ -11,6 +11,7 @@ packages:
 	dev-lua/luaevent,
 	dev-lua/luaexpat,
 	dev-lua/luafilesystem,
+	dev-lua/luajson,
 	dev-lua/luarocks,
 	dev-lua/luasec,
 	dev-lua/luasocket,
