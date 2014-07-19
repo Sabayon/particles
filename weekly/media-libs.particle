@@ -12,6 +12,7 @@ packages:
 	media-libs/aldumb,
 	media-libs/allegro,
 	media-libs/alsa-lib,
+	media-libs/alsa-oss,
 	media-libs/alure,
 	media-libs/atlas-c++,
 	media-libs/aubio,
