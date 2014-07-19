@@ -24,6 +24,7 @@ packages:
 	app-crypt/ekeyd,
 	app-crypt/elettra,
 	app-crypt/fcrackzip,
+	app-crypt/gcr,
 	app-crypt/gifshuffle,
 	app-crypt/gnupg,
 	app-crypt/gnupg-pkcs11-scd,
