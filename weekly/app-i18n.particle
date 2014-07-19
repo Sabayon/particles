@@ -54,6 +54,7 @@ packages:
 	app-i18n/jfbterm,
 	app-i18n/kakasi,
 	app-i18n/kanjipad,
+	app-i18n/kcm-fcitx,
 	app-i18n/kimera,
 	app-i18n/kinput2,
 	app-i18n/libguess,
