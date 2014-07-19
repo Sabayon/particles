@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	dev-ml/ANSITerminal,
+	dev-ml/batteries,
 	dev-ml/bin-prot,
 	dev-ml/bolt,
 	dev-ml/camlidl,
