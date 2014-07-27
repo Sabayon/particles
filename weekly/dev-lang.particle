@@ -21,7 +21,6 @@ packages:
 	dev-lang/falcon,
 	dev-lang/ferite,
 	dev-lang/fpc,
-	dev-lang/fpc-ide,
 	dev-lang/gdl,
 	dev-lang/gforth,
 	dev-lang/gnu-smalltalk,
