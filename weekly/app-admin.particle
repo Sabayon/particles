@@ -76,7 +76,6 @@ packages:
 	app-admin/keepass,
 	app-admin/keepassx,
 	app-admin/killproc,
-	app-admin/lcap,
 	app-admin/lib_users,
 	app-admin/listadmin,
 	app-admin/localepurge,
