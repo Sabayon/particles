@@ -93,7 +93,6 @@ packages:
 	app-admin/mktwpol,
 	app-admin/monit,
 	app-admin/newsyslog,
-	app-admin/osiris,
 
 	app-admin/packagekit-base
 	app-admin/packagekit-gtk
