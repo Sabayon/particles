@@ -125,7 +125,6 @@ packages:
 	app-admin/sagan-rules,
 	app-admin/salt,
 	app-admin/showconsole,
-	app-admin/smolt,
 	app-admin/socklog,
 	app-admin/sshguard,
 	app-admin/stow,
