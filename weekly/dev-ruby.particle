@@ -62,7 +62,6 @@ packages:
 	dev-ruby/fakeweb,
 	dev-ruby/faraday,
 	dev-ruby/fast_xs,
-	dev-ruby/fastthread,
 	dev-ruby/fattr,
 	dev-ruby/fcgi,
 	dev-ruby/ffi,
