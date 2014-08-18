@@ -74,7 +74,6 @@ packages:
 	media-plugins/gst-plugins-mpeg2enc,
 	media-plugins/gst-plugins-mplex,
 	media-plugins/gst-plugins-musepack,
-	media-plugins/gst-plugins-mythtv,
 	media-plugins/gst-plugins-neon,
 	media-plugins/gst-plugins-ofa,
 	media-plugins/gst-plugins-ogg,
