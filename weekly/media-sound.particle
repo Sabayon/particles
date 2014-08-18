@@ -307,7 +307,6 @@ packages:
 	media-sound/timidity++,
 	media-sound/timidity-eawpatches,
 	media-sound/timidity-freepats,
-	media-sound/timidity-shompatches,
 	media-sound/tk707,
 	media-sound/tomahawk,
 	media-sound/toolame,
