@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	mate-base/caja,
 	mate-base/libmatekbd,
 	mate-base/libmatekeyring,
 	mate-base/mate,
