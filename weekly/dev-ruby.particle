@@ -220,7 +220,6 @@ packages:
 	dev-ruby/rubyzip,
 	dev-ruby/rye,
 	dev-ruby/samuel,
-	dev-ruby/sary-ruby,
 	dev-ruby/sass,
 	dev-ruby/sass-rails,
 	dev-ruby/selenium-webdriver,
