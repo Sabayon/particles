@@ -127,7 +127,6 @@ packages:
 	media-plugins/vdr-admin,
 	media-plugins/vdr-alcd,
 	media-plugins/vdr-arghdirector,
-	media-plugins/vdr-atmo,
 	media-plugins/vdr-atscepg,
 	media-plugins/vdr-autosort,
 	media-plugins/vdr-avards,
