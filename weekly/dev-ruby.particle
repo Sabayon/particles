@@ -251,7 +251,6 @@ packages:
 	dev-ruby/test-unit,
 	dev-ruby/test-unit-rr,
 	dev-ruby/test_declarative,
-	dev-ruby/text-format,
 	dev-ruby/text-hyphen,
 	dev-ruby/textpow,
 	dev-ruby/thor,
