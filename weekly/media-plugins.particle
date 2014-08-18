@@ -123,7 +123,6 @@ packages:
 	media-plugins/vamp-aubio-plugins,
 	media-plugins/vamp-libxtract-plugins,
 	media-plugins/vco-plugins,
-	media-plugins/vdr-ac3mode,
 	media-plugins/vdr-actuator,
 	media-plugins/vdr-admin,
 	media-plugins/vdr-alcd,
