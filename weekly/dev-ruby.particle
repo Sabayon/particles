@@ -150,7 +150,6 @@ packages:
 	dev-ruby/prawn-core,
 	dev-ruby/prawn-layout,
 	dev-ruby/prawn-security,
-	dev-ruby/programming-ruby,
 	dev-ruby/racc,
 	dev-ruby/rack,
 	dev-ruby/rack,
