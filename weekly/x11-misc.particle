@@ -92,6 +92,7 @@ packages:
 	x11-misc/menumaker,
 	x11-misc/mgm,
 	x11-misc/mixer_app,
+	x11-misc/mozo,
 	x11-misc/netwmpager,
 	x11-misc/nitrogen,
 	x11-misc/notification-daemon,
