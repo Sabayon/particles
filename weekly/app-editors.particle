@@ -60,6 +60,7 @@ packages:
 	app-editors/nedit,
 	app-editors/nvi,
 	app-editors/padre,
+	app-editors/pluma,
 	app-editors/qemacs,
 	app-editors/qwriter,
 	app-editors/qxmledit,
