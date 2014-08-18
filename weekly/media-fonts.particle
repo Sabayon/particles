@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	media-fonts/adi-dsp-fonts,
 	media-fonts/alee-fonts,
 	media-fonts/animal-tracks,
 	media-fonts/anonymous-pro,
