@@ -19,7 +19,6 @@ packages:
 	app-office/dia2code,
 	app-office/eqe,
 	app-office/glabels,
-	app-office/gnotime,
 	app-office/gnucash,
 	app-office/gnumeric,
 	app-office/grisbi,
