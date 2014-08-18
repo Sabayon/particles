@@ -31,7 +31,6 @@ packages:
 	x11-wm/matchbox-desktop,
 	x11-wm/matchbox-panel,
 	x11-wm/matchbox-window-manager,
-	x11-wm/mate-window-manager,
 	x11-wm/matwm2,
 	x11-wm/metacity,
 	x11-wm/muffin,
