@@ -75,7 +75,6 @@ packages:
 	dev-perl/CPAN-Checksums,
 	dev-perl/CPAN-Mini,
 	dev-perl/CPAN-Mini-Inject,
-	dev-perl/CPAN-Mini-Phalanx,
 	dev-perl/CQL-Parser,
 	dev-perl/CSS-Minifier,
 	dev-perl/CSS-Squish,
