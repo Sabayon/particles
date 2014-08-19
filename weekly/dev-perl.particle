@@ -242,7 +242,6 @@ packages:
 	dev-perl/Devel-GlobalDestruction,
 	dev-perl/Devel-LexAlias,
 	dev-perl/Devel-NYTProf,
-	dev-perl/Devel-Profiler,
 	dev-perl/Devel-REPL,
 	dev-perl/Devel-Refactor,
 	dev-perl/Devel-Size,
