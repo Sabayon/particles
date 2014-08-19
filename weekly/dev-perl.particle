@@ -427,7 +427,6 @@ packages:
 	dev-perl/IO-HTML,
 	dev-perl/IO-Interface,
 	dev-perl/IO-LockedFile,
-	dev-perl/IO-Moose,
 	dev-perl/IO-Multiplex,
 	dev-perl/IO-Pager,
 	dev-perl/IO-Socket-INET6,
