@@ -6,7 +6,6 @@
 packages:
 	dev-qt/qt-creator,
 	dev-qt/qt-mobility,
-	dev-qt/qlockedfile,
 	dev-qt/qthelp,
 	dev-qt/qtcore,
 	dev-qt/qtdbus,
