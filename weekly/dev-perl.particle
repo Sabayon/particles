@@ -116,7 +116,6 @@ packages:
 	dev-perl/Class-Factory-Util,
 	dev-perl/Class-Inspector,
 	dev-perl/Class-Load,
-	dev-perl/Class-MOP,
 	dev-perl/Class-MakeMethods,
 	dev-perl/Class-Member,
 	dev-perl/Class-Method-Modifiers,
