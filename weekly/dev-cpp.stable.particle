@@ -31,7 +31,6 @@ packages:
 	dev-cpp/libgnomemm,
 	dev-cpp/libgnomeuimm,
 	dev-cpp/libmcpp,
-	dev-cpp/libsexymm,
 	dev-cpp/libxmlpp,
 	dev-cpp/mm-common,
 	dev-cpp/muParser,
