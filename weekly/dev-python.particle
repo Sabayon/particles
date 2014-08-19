@@ -256,6 +256,7 @@ packages:
 	dev-python/odfpy,
 	dev-python/oosuite,
 	dev-python/optcomplete,
+	dev-python/oslo-config,
 	dev-python/orm,
 	dev-python/oursql,
 	dev-python/pandas,
