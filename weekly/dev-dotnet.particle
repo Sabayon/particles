@@ -35,7 +35,6 @@ packages:
 	dev-dotnet/ndesk-dbus,
 	dev-dotnet/ndesk-dbus-glib,
 	dev-dotnet/nini,
-	dev-dotnet/njb-sharp,
 	dev-dotnet/notify-sharp,
 	dev-dotnet/pango-sharp,
 	dev-dotnet/pe-format,
