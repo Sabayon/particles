@@ -7,6 +7,7 @@ packages:
 	dev-tex/aastex,
 	dev-tex/abntex,
 	dev-tex/bera,
+	dev-tex/biber,
 	dev-tex/biblatex,
 	dev-tex/bibtex2html,
 	dev-tex/bibtexu,
