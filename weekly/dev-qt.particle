@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	dev-qt/qdbusviewer,
 	dev-qt/qt-creator,
 	dev-qt/qt-mobility,
 	dev-qt/qthelp,
