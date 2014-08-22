@@ -47,7 +47,6 @@ packages:
 	app-emacs/emacs-wiki-blog,
 	app-emacs/emhacks,
 	app-emacs/emms,
-	app-emacs/eperiodic,
 	app-emacs/erc,
 	app-emacs/erobot,
 	app-emacs/fff,
