@@ -21,7 +21,6 @@ packages:
 	app-emacs/cldoc,
 	app-emacs/color-browser,
 	app-emacs/company-mode,
-	app-emacs/cperl-mode,
 	app-emacs/crontab-mode,
 	app-emacs/crypt++,
 	app-emacs/csharp-mode,
