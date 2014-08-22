@@ -27,7 +27,6 @@ packages:
 	app-emacs/css-mode,
 	app-emacs/csv-mode,
 	app-emacs/ddskk,
-	app-emacs/delicious,
 	app-emacs/develock,
 	app-emacs/df-mode,
 	app-emacs/dictionary,
