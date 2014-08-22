@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	app-emacs/alt-font-menu,
 	app-emacs/analog,
 	app-emacs/apache-mode,
 	app-emacs/auto-complete,
