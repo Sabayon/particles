@@ -21,7 +21,6 @@ packages:
 	sci-geosciences/mapnik-world-boundaries,
 	sci-geosciences/mapserver,
 	sci-geosciences/merkaartor,
-	sci-geosciences/openstreetmap-icons,
 	sci-geosciences/osmosis,
 	sci-geosciences/qgis,
 	sci-geosciences/qlandkartegt,
