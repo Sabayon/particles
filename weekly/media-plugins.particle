@@ -145,7 +145,6 @@ packages:
 	media-plugins/vdr-devstatus,
 	media-plugins/vdr-dummydevice,
 	media-plugins/vdr-dvd,
-	media-plugins/vdr-dvdconvert,
 	media-plugins/vdr-dvdswitch,
 	media-plugins/vdr-eggtimer,
 	media-plugins/vdr-epgsearch,
