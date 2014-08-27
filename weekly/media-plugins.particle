@@ -137,7 +137,6 @@ packages:
 	media-plugins/vdr-calc,
 	media-plugins/vdr-chanman,
 	media-plugins/vdr-channelblocker,
-	media-plugins/vdr-channelscan,
 	media-plugins/vdr-cinebars,
 	media-plugins/vdr-clock,
 	media-plugins/vdr-console,
