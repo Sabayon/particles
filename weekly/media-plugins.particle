@@ -135,7 +135,6 @@ packages:
 	media-plugins/vdr-burn-templates,
 	media-plugins/vdr-burn,
 	media-plugins/vdr-calc,
-	media-plugins/vdr-cdda,
 	media-plugins/vdr-chanman,
 	media-plugins/vdr-channelblocker,
 	media-plugins/vdr-channelscan,
