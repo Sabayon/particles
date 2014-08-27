@@ -143,7 +143,6 @@ packages:
 	media-plugins/vdr-cpumon,
 	media-plugins/vdr-decruft,
 	media-plugins/vdr-devstatus,
-	media-plugins/vdr-director,
 	media-plugins/vdr-dummydevice,
 	media-plugins/vdr-dvd,
 	media-plugins/vdr-dvdconvert,
