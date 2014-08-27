@@ -130,7 +130,6 @@ packages:
 	media-plugins/vdr-autosort,
 	media-plugins/vdr-avards,
 	media-plugins/vdr-beep,
-	media-plugins/vdr-bitstreamout,
 	media-plugins/vdr-browse,
 	media-plugins/vdr-burn,
 	media-plugins/vdr-burn-templates,
