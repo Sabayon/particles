@@ -981,7 +981,6 @@ packages:
 	dev-perl/gimp-perl,
 	dev-perl/glib-perl,
 	dev-perl/gnome2-canvas,
-	dev-perl/gnome2-gconf,
 	dev-perl/gnome2-perl,
 	dev-perl/gnome2-vfs-perl,
 	dev-perl/gnome2-wnck,
