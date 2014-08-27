@@ -58,7 +58,6 @@ packages:
 	net-misc/freerapid,
 	net-misc/freerdp,
 	net-misc/gip,
-	net-misc/gnome-blog,
 	net-misc/gnome-rdp,
 	net-misc/gns3,
 	net-misc/gofish,
