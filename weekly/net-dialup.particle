@@ -14,7 +14,6 @@ packages:
 	net-dialup/fbgetty,
 	net-dialup/freeradius,
 	net-dialup/globespan-adsl,
-	net-dialup/gnome-ppp,
 	net-dialup/gtk-imonc,
 	net-dialup/isdn-firmware,
 	net-dialup/itund,
