@@ -145,6 +145,7 @@ packages:
 	dev-libs/libgee,
 	dev-libs/libgee,
 	dev-libs/libgeier,
+	dev-libs/libgit2,
 	dev-libs/libgpg-error,
 	dev-libs/libgringotts,
 	dev-libs/libgusb,
