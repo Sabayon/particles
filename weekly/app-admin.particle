@@ -69,7 +69,6 @@ packages:
 	app-admin/hardinfo,
 	app-admin/haskell-updater,
 	app-admin/hddtemp,
-	app-admin/hwreport,
 	app-admin/ide-smart,
 	app-admin/integrit,
 	app-admin/kedpm,
