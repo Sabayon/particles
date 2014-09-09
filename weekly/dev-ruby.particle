@@ -256,7 +256,6 @@ packages:
 	dev-ruby/thor,
 	dev-ruby/tidy-ext,
 	dev-ruby/tidy_table,
-	dev-ruby/tilt,
 	dev-ruby/tins,
 	dev-ruby/tmail,
 	dev-ruby/transaction-simple,
