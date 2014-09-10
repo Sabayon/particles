@@ -46,7 +46,6 @@ packages:
 	perl-core/Module-CoreList,
 	perl-core/Module-Load,
 	perl-core/Module-Load-Conditional,
-	perl-core/Module-Loaded,
 	perl-core/Module-Metadata,
 	perl-core/Module-Pluggable,
 	perl-core/Package-Constants,
