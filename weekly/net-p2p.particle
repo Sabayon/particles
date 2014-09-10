@@ -25,7 +25,6 @@ packages:
 	net-p2p/gift-gnutella,
 	net-p2p/gift-openft,
 	net-p2p/giftcurs,
-	net-p2p/giftui,
 	net-p2p/gtk-gnutella,
 	net-p2p/gtorrentviewer,
 	net-p2p/i2p,
