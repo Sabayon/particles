@@ -49,7 +49,6 @@ packages:
 	app-crypt/mhash,
 	app-crypt/nasty,
 	app-crypt/onak,
-	app-crypt/opencdk,
 	app-crypt/openssl-blacklist,
 	app-crypt/openssl-tpm-engine,
 	app-crypt/openvpn-blacklist,
