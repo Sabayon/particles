@@ -32,7 +32,6 @@ packages:
 	dev-db/pgbouncer,
 	dev-db/phpmyadmin,
 	dev-db/phppgadmin,
-	dev-db/phppgadmin,
 	dev-db/postgis,
 	dev-db/postgresql-base,
 	dev-db/postgresql-docs,
