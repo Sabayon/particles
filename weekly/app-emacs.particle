@@ -114,7 +114,6 @@ packages:
 	app-emacs/rst,
 	app-emacs/ruby-mode,
 	app-emacs/rudel,
-	app-emacs/sawfish,
 	app-emacs/scala-mode,
 	app-emacs/session,
 	app-emacs/setnu,
