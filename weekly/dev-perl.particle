@@ -369,7 +369,6 @@ packages:
 	dev-perl/Goo-Canvas,
 	dev-perl/Graph,
 	dev-perl/GraphViz,
-	dev-perl/Graphics-ColorNames,
 	dev-perl/Graphics-ColorObject,
 	dev-perl/Gtk2-Ex-PodViewer,
 	dev-perl/Gtk2-Ex-PrintDialog,
