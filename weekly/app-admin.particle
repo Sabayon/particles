@@ -157,7 +157,6 @@ packages:
 	app-admin/verynice,
 	app-admin/watchfolder,
 	app-admin/webalizer,
-	app-admin/webalizer-xtended,
 	app-admin/webapp-config,
 	app-admin/webmin,
 	app-admin/whowatch,
