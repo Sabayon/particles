@@ -58,7 +58,6 @@ packages:
 	media-sound/cmus,
 	media-sound/codecgraph,
 	media-sound/combine_wave,
-	media-sound/cowbell,
 	media-sound/cplay,
 	media-sound/cvoicecontrol,
 	media-sound/dagrab,
