@@ -158,7 +158,6 @@ packages:
 	media-libs/libtxc_dxtn,
 	media-libs/libuninameslist,
 	media-libs/libv4l,
-	media-libs/libvisio,
 	media-libs/libvisual,
 	media-libs/libvorbis,
 	media-libs/libvpx,
