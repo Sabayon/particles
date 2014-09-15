@@ -241,7 +241,6 @@ packages:
 	dev-libs/ntl,
 	dev-libs/oniguruma,
 	dev-libs/openct,
-	dev-libs/openobex,
 	dev-libs/opensc,
 	dev-libs/openssl,
 	dev-libs/openssl,
