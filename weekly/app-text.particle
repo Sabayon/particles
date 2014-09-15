@@ -140,7 +140,6 @@ packages:
 	app-text/libetonyek,
 	app-text/libexttextcat,
 	app-text/liblangtag,
-	app-text/libmwaw,
 	app-text/libpaper,
 	app-text/libspectre,
 	app-text/libwpd,
