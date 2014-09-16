@@ -6,6 +6,7 @@
 packages:
 	sys-boot/syslinux,
 	sys-boot/unetbootin,
+	sys-boot/winusb
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
