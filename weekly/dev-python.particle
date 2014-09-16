@@ -13,7 +13,6 @@ packages:
 	dev-python/PyQt4,
 	dev-python/adns-python,
 	dev-python/adodb-py,
-	dev-python/amara,
 	dev-python/amqplib,
 	dev-python/ansi2html,
 	dev-python/anyjson,
