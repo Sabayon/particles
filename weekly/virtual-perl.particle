@@ -29,7 +29,6 @@ packages:
 	virtual/perl-File-Path,
 	virtual/perl-File-Spec,
 	virtual/perl-File-Temp,
-	virtual/perl-Filter,
 	virtual/perl-Getopt-Long,
 	virtual/perl-IO,
 	virtual/perl-IO-Compress,
