@@ -36,7 +36,6 @@ packages:
 	www-apache/mod_layout,
 	www-apache/mod_ldap_userdir,
 	www-apache/mod_limitipconn,
-	www-apache/mod_lisp2,
 	www-apache/mod_loadavg,
 	www-apache/mod_log_rotate,
 	www-apache/mod_log_sql,
