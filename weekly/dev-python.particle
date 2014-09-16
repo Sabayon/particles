@@ -289,7 +289,6 @@ packages:
 	dev-python/pupynere,
 	dev-python/py,
 	dev-python/py-amqp,
-	dev-python/py-gnupg,
 	dev-python/py-smbpasswd,
 	dev-python/py2play,
 	dev-python/pyPdf,
