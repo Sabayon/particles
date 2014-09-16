@@ -40,7 +40,6 @@ packages:
 	games-action/minecraft,
 	games-action/minetest,
 	games-action/minetest_game,
-	games-action/minetest_survival,
 	games-action/moon-buggy,
 	games-action/mutantstorm-demo,
 	games-action/nighthawk,
