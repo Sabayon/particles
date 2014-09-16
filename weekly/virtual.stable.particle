@@ -88,7 +88,6 @@ packages:
 	virtual/ruby-ffi,
 	virtual/ruby-ssl,
 	virtual/ruby-ssl,
-	virtual/ruby-test-unit,
 	virtual/ruby-threads,
 	virtual/rubygems,
 	virtual/rubygems,
