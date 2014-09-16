@@ -305,7 +305,6 @@ packages:
 	games-emulation/raine,
 	games-emulation/sdlmame,
 	games-emulation/sdlmess,
-	games-emulation/snes9express,
 	games-emulation/snes9x,
 	games-emulation/stella,
 	games-emulation/tuxnes,
