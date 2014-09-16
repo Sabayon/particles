@@ -48,6 +48,7 @@ packages:
 	sys-apps/less,
 	sys-apps/lm_sensors,
 	sys-apps/lshw,
+	sys-apps/man-pages,
 	sys-apps/memtest86+,
 	sys-apps/memtest86,
 	sys-apps/memtester,
