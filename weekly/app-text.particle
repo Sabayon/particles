@@ -167,7 +167,7 @@ packages:
 	app-text/pandoc,
 	app-text/paps,
 	app-text/passivetex,
-	app-text/pastebin,
+	app-text/pastebinit,
 	app-text/pastebunz,
 	app-text/pdf2djvu,
 	app-text/pdf2html,
