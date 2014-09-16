@@ -53,7 +53,6 @@ packages:
 	app-office/texmacs,
 	app-office/texmaker,
 	app-office/texstudio,
-	app-office/tpp,
 	app-office/unoconv
 
 # Entropy repository where to commit packages
