@@ -65,6 +65,7 @@ packages:
 	app-vim/locateopen,
 	app-vim/matrix,
 	app-vim/minibufexpl,
+	app-vim/vim-misc,
 	app-vim/multiplesearch,
 	app-vim/multvals,
 	app-vim/nagios-syntax,
