@@ -18,7 +18,6 @@ packages:
 	app-mobilephone/kannel-sqlbox,
 	app-mobilephone/obex-data-server,
 	app-mobilephone/obexd,
-	app-mobilephone/obexftp,
 	app-mobilephone/past,
 	app-mobilephone/pysms,
 	app-mobilephone/ringtonetools,
