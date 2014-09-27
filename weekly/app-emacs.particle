@@ -48,6 +48,7 @@ packages:
 	app-emacs/emhacks,
 	app-emacs/emms,
 	app-emacs/erobot,
+	app-emacs/evil,
 	app-emacs/fff,
 	app-emacs/filladapt,
 	app-emacs/flashcard,
