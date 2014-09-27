@@ -271,6 +271,7 @@ packages:
 	dev-libs/shhopt,
 	dev-libs/skalibs,
 	dev-libs/skyutils,
+	dev-libs/snowball-stemmer,
 	dev-libs/soprano,
 	dev-libs/sord,
 	dev-libs/stfl,
