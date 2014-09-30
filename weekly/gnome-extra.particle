@@ -57,7 +57,6 @@ packages:
 	gnome-extra/gtkhtml,
 	gnome-extra/gtkhtml,
 	gnome-extra/gucharmap,
-	gnome-extra/hamster-applet,
 	gnome-extra/libgda,
 	gnome-extra/libgda,
 	gnome-extra/libgsf,
