@@ -43,7 +43,6 @@ packages:
 	gnome-extra/gnome-do,
 	gnome-extra/gnome-do-plugins,
 	gnome-extra/gnome-documents,
-	gnome-extra/gnome-dvb-daemon,
 	gnome-extra/gnome-games-extra-data,
 	gnome-extra/gnome-globalmenu,
 	gnome-extra/gnome-media,
