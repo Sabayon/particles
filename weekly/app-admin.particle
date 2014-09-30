@@ -10,7 +10,6 @@ packages:
 	app-admin/amazon-ec2-init,
 	app-admin/analog,
 	app-admin/ansible,
-	app-admin/apache-tools,
 	app-admin/apachetop,
 	app-admin/apg,
 	app-admin/augeas,
