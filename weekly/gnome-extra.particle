@@ -34,7 +34,6 @@ packages:
 	gnome-extra/gnome-audio,
 	gnome-extra/gnome-color-chooser,
 	gnome-extra/gnome-color-manager,
-	gnome-extra/gnome-commander,
 	gnome-extra/gnome-contacts,
 	gnome-extra/gnome-do,
 	gnome-extra/gnome-do-plugins,
