@@ -31,7 +31,6 @@ packages:
 	app-accessibility/java-access-bridge,
 	app-accessibility/julius,
 	app-accessibility/mbrola,
-	app-accessibility/morseall,
 	app-accessibility/nfbtrans,
 	app-accessibility/orca,
 	app-accessibility/perlbox-voice,
