@@ -178,8 +178,6 @@ packages:
 	dev-libs/libmowgli,
 	dev-libs/libmowgli,
 	dev-libs/libnatspec,
-	dev-libs/libnl,
-	dev-libs/libnl,
 	dev-libs/libofx,
 	dev-libs/liboil,
 	dev-libs/liboobs,
