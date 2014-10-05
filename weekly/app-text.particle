@@ -250,7 +250,6 @@ packages:
 	app-text/txt2pdbdoc,
 	app-text/txt2tags,
 	app-text/u2ps,
-	app-text/unix2dos,
 	app-text/unpaper,
 	app-text/unrtf,
 	app-text/utrac,
