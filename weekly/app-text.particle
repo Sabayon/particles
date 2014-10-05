@@ -198,7 +198,6 @@ packages:
 	app-text/pylize,
 	app-text/pyrpub,
 	app-text/pytextile,
-	app-text/qgoogletranslator,
 	app-text/qpdf,
 	app-text/qpdfview,
 	app-text/queequeg,
