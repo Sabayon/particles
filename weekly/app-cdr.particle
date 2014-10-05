@@ -28,7 +28,6 @@ packages:
 	app-cdr/daa2iso,
 	app-cdr/disc-cover,
 	app-cdr/dvd+rw-tools,
-	app-cdr/dvd95,
 	app-cdr/dvdisaster,
 	app-cdr/dvdshrink,
 	app-cdr/extract-xiso,
