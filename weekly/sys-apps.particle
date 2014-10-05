@@ -77,6 +77,7 @@ packages:
 	sys-apps/setserial,
 	sys-apps/sg3_utils,
 	sys-apps/smartmontools,
+	sys-apps/tuned,
 	sys-apps/turbotail,
 	sys-apps/tuxonice-userui,
 	sys-apps/uam,
