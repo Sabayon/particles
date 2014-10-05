@@ -20,6 +20,7 @@ packages:
 	sys-block/noflushd,
 	sys-block/partimage,
 	sys-block/partitionmanager,
+	sys-block/raid-check,
 	sys-block/scsiadd,
 	sys-block/scsiping,
 	sys-block/scsirastools,
