@@ -40,7 +40,6 @@ packages:
 	app-cdr/isomaster,
 	app-cdr/isomd5sum,
 	app-cdr/k3b,
-	app-cdr/k9copy,
 	app-cdr/kcdemu,
 	app-cdr/mirage2iso,
 	app-cdr/mkcdtoc,
