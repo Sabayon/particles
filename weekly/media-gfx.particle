@@ -148,6 +148,7 @@ packages:
 	media-gfx/povtree,
 	media-gfx/pqiv,
 	media-gfx/pqstego,
+	media-gfx/printrun,
 	media-gfx/propaganda,
 	media-gfx/psftools,
 	media-gfx/pstoedit,
