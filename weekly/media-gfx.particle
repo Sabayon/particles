@@ -180,6 +180,7 @@ packages:
 	media-gfx/springgraph,
 	media-gfx/svg2pdf,
 	media-gfx/swftools,
+	media-gfx/symboleditor,
 	media-gfx/synfig,
 	media-gfx/synfigstudio,
 	media-gfx/transfig,
