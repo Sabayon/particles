@@ -211,6 +211,7 @@ packages:
 	dev-util/vbindiff,
 	dev-util/visual-regexp,
 	dev-util/visualvm,
+	dev-util/vmtouch,
 	dev-util/webcpp,
 	dev-util/weblint,
 	dev-util/weka,
