@@ -30,6 +30,7 @@ packages:
 	sci-libs/jmol-acme,
 	sci-libs/lapack-reference,
 	sci-libs/ldl,
+	sci-libs/levmar,
 	sci-libs/libctl,
 	sci-libs/libgeotiff,
 	sci-libs/libghemical,
