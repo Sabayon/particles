@@ -32,6 +32,7 @@ packages:
 	mail-filter/p3scan,
 	mail-filter/policyd,
 	mail-filter/popfile,
+	mail-filter/postfwd,
 	mail-filter/postgrey,
 	mail-filter/procmail,
 	mail-filter/procmail-lib,
