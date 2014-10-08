@@ -5,6 +5,9 @@
 # Mandatory, cannot be empty
 packages:
 	net-wireless/aircrack-ng,
+	net-wireless/bladerf,
+	net-wireless/bladerf-firmware,
+	net-wireless/bladerf-fpga,
 	net-wireless/iw,
 	net-wireless/wepdecrypt,
 	net-wireless/wireless-regdb,
