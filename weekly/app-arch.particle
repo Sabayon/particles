@@ -48,6 +48,7 @@ packages:
 	app-arch/par2cmdline,
 	app-arch/pax,
 	app-arch/pbzip2,
+	app-arch/pdlzip,
 	app-arch/pdv,
 	app-arch/peazip-gtk-bin,
 	app-arch/pigz,
