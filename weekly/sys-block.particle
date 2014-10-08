@@ -13,6 +13,7 @@ packages:
 	sys-block/endpoint,
 	sys-block/fio,
 	sys-block/mbuffer,
+	sys-block/megactl,
 	sys-block/megarc,
 	sys-block/mpt-status,
 	sys-block/mtx,
