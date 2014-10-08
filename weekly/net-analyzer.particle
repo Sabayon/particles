@@ -6,6 +6,7 @@
 packages:
 	net-analyzer/arpon,
 	net-analyzer/bwping,
+	net-analyzer/check_mk,
 	net-analyzer/dhcp_probe,
 	net-analyzer/lilac,
 	net-analyzer/nagios-check_fail2ban,
