@@ -186,6 +186,7 @@ packages:
 	dev-util/regexxer,
 	dev-util/rej,
 	dev-util/reswrap,
+	dev-util/sasm,
 	dev-util/scanmem,
 	dev-util/schroot,
 	dev-util/scons,
