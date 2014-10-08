@@ -8,6 +8,7 @@ packages:
 	net-analyzer/bwping,
 	net-analyzer/check_mk,
 	net-analyzer/dhcp_probe,
+	net-analyzer/icinga2,
 	net-analyzer/lilac,
 	net-analyzer/masscan,
 	net-analyzer/nagios-check_fail2ban,
