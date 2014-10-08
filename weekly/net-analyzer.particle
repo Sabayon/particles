@@ -9,6 +9,7 @@ packages:
 	net-analyzer/check_mk,
 	net-analyzer/dhcp_probe,
 	net-analyzer/lilac,
+	net-analyzer/masscan,
 	net-analyzer/nagios-check_fail2ban,
 	net-analyzer/nagios-check_ipmi_sensor,
 	net-analyzer/nagios-check_mysql_health,
