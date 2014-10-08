@@ -84,6 +84,7 @@ packages:
 	dev-util/elfkickers,
 	dev-util/elfsh,
 	dev-util/eric,
+	dev-util/ext4_utils,
 	dev-util/filepp,
 	dev-util/fix-la-relink-command,
 	dev-util/flawfinder,
