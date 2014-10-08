@@ -93,6 +93,7 @@ packages:
 	media-plugins/gst-plugins-twolame,
 	media-plugins/gst-plugins-v4l2,
 	media-plugins/gst-plugins-v4l2,
+	media-plugins/gst-plugins-vaapi,
 	media-plugins/gst-plugins-vorbis,
 	media-plugins/gst-plugins-vp8,
 	media-plugins/gst-plugins-vpx,
