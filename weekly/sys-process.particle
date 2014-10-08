@@ -22,6 +22,7 @@ packages:
 	sys-process/runit,
 	sys-process/schedtool,
 	sys-process/time,
+	sys-process/tiptop,
 	sys-process/vixie-cron,
 	sys-process/wait_on_pid,
 	sys-process/watchpid,
