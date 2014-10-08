@@ -23,6 +23,7 @@ packages:
 	sys-power/powernowd,
 	sys-power/powertop,
 	sys-power/sispmctl,
+	sys-power/thermald,
 	sys-power/upower,
 
 # Enforce stable or unstable packages on emerge.
