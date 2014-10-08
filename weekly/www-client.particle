@@ -32,6 +32,7 @@ packages:
 	www-client/surfraw,
 	www-client/uget,
 	www-client/uzbl,
+	www-client/vimb,
 	www-client/w3m,
 	www-client/w3mir,
 	www-client/w3mmee
