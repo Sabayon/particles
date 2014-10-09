@@ -290,7 +290,6 @@ packages:
 	games-emulation/mednafen,
 	games-emulation/mekanix,
 	games-emulation/mupen64plus,
-	games-emulation/neopocott,
 	games-emulation/nestra,
 	games-emulation/openmsx,
 	games-emulation/pcsxr,
