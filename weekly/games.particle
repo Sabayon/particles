@@ -9,7 +9,6 @@ packages:
 	games-action/accelerator3d,
 	games-action/atanks,
 	games-action/barrage,
-	games-action/battalion,
 	games-action/bomberclone,
 	games-action/btanks,
 	games-action/bzflag,
