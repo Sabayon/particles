@@ -295,7 +295,6 @@ packages:
 	games-emulation/openmsx,
 	games-emulation/pcsxr,
 	games-emulation/qmc2,
-	games-emulation/raine,
 	games-emulation/sdlmame,
 	games-emulation/sdlmess,
 	games-emulation/snes9x,
