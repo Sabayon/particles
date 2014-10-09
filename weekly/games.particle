@@ -300,7 +300,6 @@ packages:
 	games-emulation/sdlmess,
 	games-emulation/snes9x,
 	games-emulation/stella,
-	games-emulation/tuxnes,
 	games-emulation/vbam,
 	games-emulation/visualboyadvance,
 	games-emulation/xe,
