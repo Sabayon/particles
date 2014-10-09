@@ -137,6 +137,7 @@ packages:
 	media-gfx/pictureflow,
 	media-gfx/pinta,
 	media-gfx/pixie,
+	media-gfx/plantuml,
 	media-gfx/pngcheck,
 	media-gfx/pngcrush,
 	media-gfx/pngrewrite,
