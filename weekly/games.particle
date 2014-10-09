@@ -303,7 +303,6 @@ packages:
 	games-emulation/tuxnes,
 	games-emulation/vbam,
 	games-emulation/vgba,
-	games-emulation/virtualjaguar,
 	games-emulation/visualboyadvance,
 	games-emulation/xe,
 	games-emulation/xmess,
