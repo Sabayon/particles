@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	net-analyzer/arpon,
+	net-analyzer/arp-scan,
 	net-analyzer/bwping,
 	net-analyzer/check_mk,
 	net-analyzer/dhcp_probe,
