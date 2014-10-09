@@ -14,7 +14,6 @@ packages:
 	sci-astronomy/orsa,
 	sci-astronomy/pyephem,
 	sci-astronomy/scamp,
-	sci-astronomy/sextractor,
 	sci-astronomy/skycat,
 	sci-astronomy/stellarium,
 	sci-astronomy/stiff,
