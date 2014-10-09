@@ -13,7 +13,6 @@ packages:
 	sci-astronomy/kapteyn,
 	sci-astronomy/orsa,
 	sci-astronomy/pyephem,
-	sci-astronomy/scamp,
 	sci-astronomy/skycat,
 	sci-astronomy/stellarium,
 	sci-astronomy/stiff,
