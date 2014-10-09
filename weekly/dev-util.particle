@@ -122,6 +122,7 @@ packages:
 	dev-util/kdevelop-php,
 	dev-util/kdevelop-php-docs,
 	dev-util/kdevelop-python,
+	dev-util/kdevelop-qmake,
 	dev-util/kdevplatform,
 	dev-util/kdoc,
 	dev-util/ketchup,
