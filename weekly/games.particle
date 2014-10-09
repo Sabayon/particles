@@ -302,7 +302,6 @@ packages:
 	games-emulation/stella,
 	games-emulation/tuxnes,
 	games-emulation/vbam,
-	games-emulation/vgba,
 	games-emulation/visualboyadvance,
 	games-emulation/xe,
 	games-emulation/xmess,
