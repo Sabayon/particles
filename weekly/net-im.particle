@@ -2,7 +2,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-im/amsn,
 	net-im/ayttm,
 	net-im/bitlbee,
 	net-im/centerim,
