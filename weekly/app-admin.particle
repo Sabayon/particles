@@ -92,6 +92,7 @@ packages:
 	app-admin/mktwpol,
 	app-admin/monit,
 	app-admin/newsyslog,
+	app-admin/ngxtop,
 
 	app-admin/packagekit-base
 	app-admin/packagekit-gtk
