@@ -19,7 +19,6 @@ packages:
 	net-libs/gloox,
 	net-libs/gnet,
 	net-libs/gnome-online-accounts,
-	net-libs/gnutls,
 	net-libs/gsnmp,
 	net-libs/gssdp,
 	net-libs/gtk-vnc,
