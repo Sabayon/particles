@@ -55,6 +55,7 @@ packages:
 	kde-misc/kvkbd,
 	kde-misc/kwebkitpart,
 	kde-misc/magneto-kde,
+	kde-misc/milou,
 	kde-misc/miniplayer,
 	kde-misc/networkmanagement,
 	kde-misc/nightmode,
