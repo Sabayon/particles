@@ -25,6 +25,7 @@ packages:
 	x11-misc/bumblebee,
 	x11-misc/cairo-clock,
 	x11-misc/cairo-dock,
+	x11-misc/calise,
 	x11-misc/chgres,
 	x11-misc/colord,
 	x11-misc/compton,
