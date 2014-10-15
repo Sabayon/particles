@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	razorqt-base/razorqt-meta,
 	razorqt-base/libqtxdg,
 	razorqt-base/razorqt-appswitcher,
 	razorqt-base/razorqt-autosuspend,
