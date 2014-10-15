@@ -62,7 +62,6 @@ packages:
 	app-emacs/highline,
 	app-emacs/howm,
 	app-emacs/htmlize,
-	app-emacs/http-emacs,
 	app-emacs/httpd,
 	app-emacs/icicles,
 	app-emacs/igrep,
