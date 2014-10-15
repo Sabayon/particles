@@ -82,7 +82,6 @@ packages:
 	app-editors/xemacs,
 	app-editors/xmlcopyeditor,
 	app-editors/xvile,
-	app-editors/yudit,
 	app-editors/zile,
 	app-editors/znotes,
 	app-editors/zoinks
