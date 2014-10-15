@@ -91,7 +91,6 @@ packages:
 	app-emacs/nxml-docbook5-schemas,
 	app-emacs/nxml-gentoo-schemas,
 	app-emacs/nxml-libvirt-schemas,
-	app-emacs/nxml-mode,
 	app-emacs/nxml-svg-schemas,
 	app-emacs/outline-magic,
 	app-emacs/planner,
