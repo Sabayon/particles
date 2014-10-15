@@ -95,7 +95,6 @@ packages:
 	app-emacs/outline-magic,
 	app-emacs/planner,
 	app-emacs/pov-mode,
-	app-emacs/prime-el,
 	app-emacs/protbuf,
 	app-emacs/psgml,
 	app-emacs/pymacs,
