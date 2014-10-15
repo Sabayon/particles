@@ -101,7 +101,6 @@ packages:
 	app-emacs/quack,
 	app-emacs/quilt-el,
 	app-emacs/qwerty,
-	app-emacs/redo,
 	app-emacs/regress,
 	app-emacs/remember,
 	app-emacs/rfcview,
