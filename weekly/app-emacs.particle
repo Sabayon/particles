@@ -117,7 +117,6 @@ packages:
 	app-emacs/ssh,
 	app-emacs/stripes,
 	app-emacs/sumibi,
-	app-emacs/tamago,
 	app-emacs/tdtd,
 	app-emacs/template,
 	app-emacs/tempo-snippets,
