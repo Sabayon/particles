@@ -78,7 +78,6 @@ packages:
 	app-emacs/lyskom-elisp-client,
 	app-emacs/magit,
 	app-emacs/mailcrypt,
-	app-emacs/mairix,
 	app-emacs/mcomplete,
 	app-emacs/mell,
 	app-emacs/mew,
