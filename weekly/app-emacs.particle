@@ -106,7 +106,6 @@ packages:
 	app-emacs/rfcview,
 	app-emacs/riece,
 	app-emacs/rnc-mode,
-	app-emacs/rst,
 	app-emacs/ruby-mode,
 	app-emacs/rudel,
 	app-emacs/scala-mode,
