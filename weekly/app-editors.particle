@@ -78,7 +78,6 @@ packages:
 	app-editors/vim-core
 	app-editors/vim-qt,
 
-	app-editors/wily,
 	app-editors/wxhexeditor,
 	app-editors/xemacs,
 	app-editors/xmlcopyeditor,
