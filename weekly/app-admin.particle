@@ -102,7 +102,6 @@ packages:
 	app-admin/passook,
 	app-admin/paxtest,
 	app-admin/perl-cleaner,
-	app-admin/pessulus,
 	app-admin/petrovich,
 	app-admin/phpsyslogng,
 	app-admin/pprocm,
