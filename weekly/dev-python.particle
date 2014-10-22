@@ -42,7 +42,6 @@ packages:
 	dev-python/bpython,
 	dev-python/brasero-python,
 	dev-python/bsddb3,
-	dev-python/bug-buddy-python,
 	dev-python/cddb-py,
 	dev-python/celementtree,
 	dev-python/celery,
