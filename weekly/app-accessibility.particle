@@ -10,7 +10,6 @@ packages:
 	app-accessibility/at-spi2-core,
 	app-accessibility/brltty,
 	app-accessibility/caribou,
-	app-accessibility/dasher,
 	app-accessibility/eflite,
 	app-accessibility/emacspeak,
 	app-accessibility/emacspeak-ss,
