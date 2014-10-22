@@ -24,7 +24,6 @@ packages:
 	app-accessibility/festival-ru,
 	app-accessibility/flite,
 	app-accessibility/freetts,
-	app-accessibility/gnome-mag,
 	app-accessibility/gnome-speech,
 	app-accessibility/gok,
 	app-accessibility/java-access-bridge,
