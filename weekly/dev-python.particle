@@ -191,7 +191,6 @@ packages:
 	dev-python/libgksu-python,
 	dev-python/libgnome-python,
 	dev-python/libgnomecanvas-python,
-	dev-python/libgnomeprint-python,
 	dev-python/libgtop-python,
 	dev-python/liblarch,
 	dev-python/librsvg-python,
