@@ -63,7 +63,6 @@ packages:
 	app-admin/geolizer,
 	app-admin/gkrellm,
 	app-admin/glance,
-	app-admin/gnome-system-tools,
 	app-admin/grubconfig,
 	app-admin/gtkdiskfree,
 	app-admin/hardinfo,
