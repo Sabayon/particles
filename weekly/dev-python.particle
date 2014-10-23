@@ -135,7 +135,6 @@ packages:
 	dev-python/gevent,
 	dev-python/gmpy,
 	dev-python/gnome-applets-python,
-	dev-python/gnome-desktop-python,
 	dev-python/gnome-keyring-python,
 	dev-python/gnome-python-base,
 	dev-python/gnome-python-desktop-base,
