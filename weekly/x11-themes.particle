@@ -79,7 +79,6 @@ packages:
 	x11-themes/mate-backgrounds,
 	x11-themes/mate-icon-theme,
 	x11-themes/mate-themes,
-	x11-themes/metacity-themes,
 	x11-themes/murrine-themes,
 	x11-themes/nimbus,
 	x11-themes/nitrogen,
