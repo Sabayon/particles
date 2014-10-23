@@ -24,7 +24,6 @@ packages:
 	app-accessibility/festival-ru,
 	app-accessibility/flite,
 	app-accessibility/freetts,
-	app-accessibility/java-access-bridge,
 	app-accessibility/julius,
 	app-accessibility/mbrola,
 	app-accessibility/nfbtrans,
