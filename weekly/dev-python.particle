@@ -188,7 +188,6 @@ packages:
 	dev-python/kombu,
 	dev-python/libbonobo-python,
 	dev-python/libgda-python,
-	dev-python/libgksu-python,
 	dev-python/libgnome-python,
 	dev-python/libgnomecanvas-python,
 	dev-python/libgtop-python,
