@@ -137,7 +137,6 @@ packages:
 	dev-util/molecule,
 	dev-util/monkeystudio,
 	dev-util/mono-debugger,
-	dev-util/mono-tools,
 	dev-util/monodevelop,
 	dev-util/monodevelop-database,
 	dev-util/monodevelop-debugger-gdb,
