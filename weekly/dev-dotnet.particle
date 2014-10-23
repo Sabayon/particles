@@ -23,7 +23,6 @@ packages:
 	dev-dotnet/gtk-sharp,
 	dev-dotnet/gtk-sharp-beans,
 	dev-dotnet/gtk-sharp-gapi,
-	dev-dotnet/gtkhtml-sharp,
 	dev-dotnet/gudev-sharp,
 	dev-dotnet/ikvm-bin,
 	dev-dotnet/libgdiplus,
