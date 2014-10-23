@@ -522,7 +522,6 @@ packages:
 	dev-python/tinycss,
 	dev-python/tinyurl,
 	dev-python/tlslite,
-	dev-python/totem-python,
 	dev-python/tox,
 	dev-python/tpg,
 	dev-python/traits,
