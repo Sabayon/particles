@@ -22,6 +22,7 @@ packages:
 	app-backup/fsarchiver,
 	app-backup/furball,
 	app-backup/hdup,
+	app-backup/holland,
 	app-backup/kbackup,
 	app-backup/luckybackup,
 	app-backup/mirdir,
