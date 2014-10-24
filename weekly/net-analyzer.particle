@@ -17,6 +17,7 @@ packages:
 	net-analyzer/nagios-check_mysql_health,
 	net-analyzer/nagtrap,
 	net-analyzer/nagvis,
+	net-analyzer/nbwmon,
 	net-analyzer/nepenthes,
 	net-analyzer/nmapsi,
 	net-analyzer/nrpe,
