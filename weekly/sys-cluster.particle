@@ -16,6 +16,7 @@ packages:
 	sys-cluster/pconsole,
 	sys-cluster/ploop,
 	sys-cluster/polysh,
+	sys-cluster/poolmon,
 	sys-cluster/torque,
 	sys-cluster/util-vserver,
 	sys-cluster/vzctl,
