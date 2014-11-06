@@ -23,7 +23,6 @@ packages:
 	app-emacs/company-mode,
 	app-emacs/crontab-mode,
 	app-emacs/crypt++,
-	app-emacs/csharp-mode,
 	app-emacs/css-mode,
 	app-emacs/csv-mode,
 	app-emacs/ddskk,
