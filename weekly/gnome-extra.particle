@@ -72,7 +72,6 @@ packages:
 	gnome-extra/seahorse-nautilus,
 	gnome-extra/sushi,
 	gnome-extra/synapse,
-	gnome-extra/swfdec-gnome,
 	gnome-extra/tasks,
 	gnome-extra/yelp,
 	gnome-extra/yelp-xsl,
