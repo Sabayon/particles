@@ -69,7 +69,6 @@ packages:
 	app-dicts/freedict-fra-eng,
 	app-dicts/freedict-ita-eng,
 	app-dicts/gjiten,
-	app-dicts/gnuvd,
 	app-dicts/gwaei,
 	app-dicts/ipadic,
 	app-dicts/kasumi,
