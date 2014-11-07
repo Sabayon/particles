@@ -51,7 +51,6 @@ packages:
 	x11-themes/gtk-engines,
 	x11-themes/gtk-engines-aurora,
 	x11-themes/gtk-engines-candido,
-	x11-themes/gtk-engines-dwerg,
 	x11-themes/gtk-engines-equinox,
 	x11-themes/gtk-engines-experience,
 	x11-themes/gtk-engines-flat,
