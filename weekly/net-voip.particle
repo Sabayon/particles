@@ -11,6 +11,7 @@ packages:
 	net-voip/telepathy-haze,
 	net-voip/telepathy-rakia,
 	net-voip/telepathy-salut,
+	net-voip/vidyodesktop,
 	net-voip/yate
 
 # Entropy repository where to commit packages
