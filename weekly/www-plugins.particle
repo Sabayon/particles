@@ -10,8 +10,7 @@ packages:
 	www-plugins/gnash,
 	www-plugins/google-talkplugin,
 	www-plugins/lightspark,
-	www-plugins/nspluginwrapper,
-	www-plugins/swfdec-mozilla
+	www-plugins/nspluginwrapper
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
