@@ -38,7 +38,6 @@ packages:
 	gnome-extra/gnome-do-plugins,
 	gnome-extra/gnome-documents,
 	gnome-extra/gnome-games-extra-data,
-	gnome-extra/gnome-media,
 	gnome-extra/gnome-packagekit,
 	gnome-extra/gnome-power-manager,
 	gnome-extra/gnome-screensaver,
