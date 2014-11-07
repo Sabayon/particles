@@ -59,7 +59,6 @@ packages:
 	net-im/pymsn-t,
 	net-im/python-otr,
 	net-im/qtwitter,
-	net-im/qutim,
 	net-im/qwit,
 	net-im/reaim,
 	net-im/sendxmpp,
