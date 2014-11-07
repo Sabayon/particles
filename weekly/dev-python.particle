@@ -277,7 +277,6 @@ packages:
 	dev-python/pp,
 	dev-python/prettytable,
 	dev-python/progressbar,
-	dev-python/pry,
 	dev-python/psutil,
 	dev-python/psycopg,
 	dev-python/psycopg,
