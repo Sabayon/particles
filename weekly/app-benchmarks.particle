@@ -30,7 +30,8 @@ packages:
 	app-benchmarks/stress,
 	app-benchmarks/sysbench,
 	app-benchmarks/tiobench,
-	app-benchmarks/volanomark
+	app-benchmarks/volanomark,
+	app-benchmarks/wrk
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
