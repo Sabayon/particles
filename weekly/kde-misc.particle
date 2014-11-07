@@ -19,7 +19,7 @@ packages:
 	kde-misc/kcaldav,
 	kde-misc/kcm-grub2,
 	kde-misc/kcm-ufw,
-	kde-misc/kcm_touchpad,
+	kde-misc/kcm-touchpad,
 	kde-misc/kcmsystemd,
 	kde-misc/kcollectd,
 	kde-misc/kcometen4,
