@@ -134,6 +134,7 @@ packages:
 	app-text/kding,
 	app-text/keepnote,
 	app-text/kiwix,
+	app-text/krop,
 	app-text/landslide,
 	app-text/lcdf-typetools,
 	app-text/letterize,
