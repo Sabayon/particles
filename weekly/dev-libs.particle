@@ -73,7 +73,6 @@ packages:
 	dev-libs/guiloader-c++,
 	dev-libs/http-fetcher,
 	dev-libs/hyphen,
-	dev-libs/icu,
 	dev-libs/iksemel,
 	dev-libs/ilbc-rfc3951,
 	dev-libs/iniparser,
