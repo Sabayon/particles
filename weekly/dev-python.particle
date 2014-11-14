@@ -496,7 +496,6 @@ packages:
 	dev-python/sphinxcontrib-googleanalytics,
 	dev-python/spyder,
 	dev-python/sqlalchemy,
-	dev-python/sqlalchemy-migrate,
 	dev-python/sqlite3dbm,
 	dev-python/sqlitecachec,
 	dev-python/sqlobject,
