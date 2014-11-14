@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	sci-mathematics/axiom,
 	sci-mathematics/calc,
 	sci-mathematics/cgal,
 	sci-mathematics/coq,
