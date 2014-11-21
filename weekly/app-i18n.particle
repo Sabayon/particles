@@ -79,6 +79,7 @@ packages:
 	app-i18n/nkf,
 	app-i18n/opencc,
 	app-i18n/poedit,
+	app-i18n/pology,
 	app-i18n/prime,
 	app-i18n/qkc,
 	app-i18n/rime-data,
