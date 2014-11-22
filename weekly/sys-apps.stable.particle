@@ -103,7 +103,6 @@ packages:
 	sys-apps/syscriptor,
 	sys-apps/sysvinit,
 	sys-apps/tcp-wrappers,
-	sys-apps/texinfo,
 	sys-apps/turbotail,
 	sys-apps/tuxonice-userui,
 	sys-apps/uam,
