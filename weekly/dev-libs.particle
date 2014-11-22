@@ -47,6 +47,7 @@ packages:
 	dev-libs/expat,
 	dev-libs/fampp2,
 	dev-libs/fcgi,
+	dev-libs/fddl,
 	dev-libs/ferrisloki,
 	dev-libs/ffcall,
 	dev-libs/folks,
