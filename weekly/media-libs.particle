@@ -70,6 +70,7 @@ packages:
 	media-libs/herqq,
 	media-libs/id3lib,
 	media-libs/ilmbase,
+	media-libs/libXcm,
 	media-libs/libcdaudio,
 	media-libs/libcddb,
 	media-libs/libchamplain,

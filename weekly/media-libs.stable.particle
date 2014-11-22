@@ -24,7 +24,6 @@ packages:
 	media-libs/lensfun,
 	media-libs/leptonica,
 	media-libs/lib3ds,
-	media-libs/libXcm,
 	media-libs/libao,
 	media-libs/libart_lgpl,
 	media-libs/libass,
