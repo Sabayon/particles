@@ -8,6 +8,7 @@ packages:
 	media-sound/a2jmidid,
 	media-sound/aacgain,
 	media-sound/aacplusenc,
+	media-sound/abcde,
 	media-sound/abcm2ps,
 	media-sound/adplay,
 	media-sound/alac_decoder,
