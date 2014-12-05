@@ -102,6 +102,7 @@ packages:
 	app-i18n/skkfep,
 	app-i18n/skkserv,
 	app-i18n/sunpinyin,
+	app-i18n/tagainijisho,
 	app-i18n/tomoe,
 	app-i18n/transifex-client,
 	app-i18n/unicode-data,
