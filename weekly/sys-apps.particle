@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	sys-apps/915resolution,
+	sys-apps/agedu,
 	sys-apps/bleachbit,
 	sys-apps/ccs-tools,
 	sys-apps/cookbug,
