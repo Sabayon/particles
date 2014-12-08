@@ -19,8 +19,6 @@ packages:
 	app-emulation/emul-linux-x86-baselibs
 	app-emulation/emul-linux-x86-cpplibs
 	app-emulation/emul-linux-x86-gstplugins
-	app-emulation/emul-linux-x86-gtklibs
-	app-emulation/emul-linux-x86-gtkmmlibs
 	app-emulation/emul-linux-x86-java
 	app-emulation/emul-linux-x86-medialibs
 	app-emulation/emul-linux-x86-motif
