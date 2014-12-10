@@ -40,7 +40,6 @@ packages:
 	media-gfx/exif,
 	media-gfx/exiftags,
 	media-gfx/exiv2,
-	media-gfx/f-spot,
 	media-gfx/fbgrab,
 	media-gfx/fbida,
 	media-gfx/fblogo,
