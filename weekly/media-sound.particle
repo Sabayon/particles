@@ -104,7 +104,6 @@ packages:
 	media-sound/gmtp,
 	media-sound/gmusicbrowser,
 	media-sound/gnomad,
-	media-sound/gnome-alsamixer,
 	media-sound/gnome-music,
 	media-sound/gnomoradio,
 	media-sound/gnump3d,
