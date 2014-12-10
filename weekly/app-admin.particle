@@ -118,7 +118,6 @@ packages:
 	app-admin/ranpwd,
 	app-admin/reportmagic,
 	app-admin/rsyslog,
-	app-admin/rudy,
 	app-admin/sagan,
 	app-admin/sagan-rules,
 	app-admin/salt,
