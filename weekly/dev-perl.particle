@@ -551,7 +551,6 @@ packages:
 	dev-perl/Mon,
 	dev-perl/Moo,
 	dev-perl/Moose,
-	dev-perl/MooseX-AttributeHelpers,
 	dev-perl/MooseX-ClassAttribute,
 	dev-perl/MooseX-Getopt,
 	dev-perl/MooseX-GlobRef,
