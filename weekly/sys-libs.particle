@@ -11,6 +11,7 @@ packages:
 	sys-libs/libraw1394,
 	sys-libs/libsafe,
 	sys-libs/libsmbios,
+	sys-libs/libstatgrab,
 	sys-libs/openipmi,
 	sys-libs/pwdb,
 	sys-libs/talloc,
