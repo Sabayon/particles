@@ -22,6 +22,7 @@ packages:
 	sys-libs/libosinfo,
 	sys-libs/libseccomp,
 	sys-libs/libsepol,
+	sys-libs/libstatgrab,
 	sys-libs/libstdc++-v3,
 	sys-libs/libtermcap-compat,
 	sys-libs/libtrash,
