@@ -49,6 +49,7 @@ packages:
 	dev-python/cfgparse,
 	dev-python/cgkit,
 	dev-python/chameleon,
+	dev-python/characteristic,
 	dev-python/charade,
 	dev-python/chardet,
 	dev-python/cheetah,
@@ -534,6 +535,7 @@ packages:
 
 	dev-python/twisted:0
 	dev-python/twisted-conch:0
+	dev-python/twisted-core:0
 	dev-python/twisted-mail:0
 	dev-python/twisted-names:0
 	dev-python/twisted-web:0
