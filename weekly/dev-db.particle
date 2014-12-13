@@ -16,6 +16,7 @@ packages:
 	dev-db/libdbi-drivers,
 	dev-db/libiodbc,
 	dev-db/libzdb,
+	dev-db/lmdb,
 	dev-db/m17n-contrib,
 	dev-db/m17n-db,
 	dev-db/metakit,
