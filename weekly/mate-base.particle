@@ -6,13 +6,11 @@
 packages:
 	mate-base/caja,
 	mate-base/libmatekbd,
-	mate-base/libmatekeyring,
 	mate-base/mate,
 	mate-base/mate-applets,
 	mate-base/mate-common,
 	mate-base/mate-control-center,
 	mate-base/mate-desktop,
-	mate-base/mate-keyring,
 	mate-base/mate-menus,
 	mate-base/mate-panel,
 	mate-base/mate-session-manager,
