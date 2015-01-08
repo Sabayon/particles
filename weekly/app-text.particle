@@ -17,6 +17,7 @@ packages:
 	app-text/apvlv,
 	app-text/asciidoc,
 	app-text/aspell,
+	app-text/atril,
 	app-text/bact,
 	app-text/barcode,
 	app-text/bibclean,
