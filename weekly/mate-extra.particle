@@ -6,7 +6,6 @@
 packages:
 	mate-extra/caja-dropbox,
 	mate-extra/mate-calc,
-	mate-extra/mate-character-map,
 	mate-extra/mate-dialogs,
 	mate-extra/mate-file-manager-open-terminal,
 	mate-extra/mate-file-manager-sendto,
