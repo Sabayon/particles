@@ -92,7 +92,6 @@ packages:
 	app-vim/snipmate,
 	app-vim/supertab,
 	app-vim/surround,
-	app-vim/svncommand,
 	app-vim/taglist,
 	app-vim/tmpl,
 	app-vim/toggle,
