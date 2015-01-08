@@ -22,7 +22,6 @@ packages:
 	x11-plugins/gkrellaclock,
 	x11-plugins/gkrellflynn,
 	x11-plugins/gkrellm-bluez,
-	x11-plugins/gkrellm-cpufreq,
 	x11-plugins/gkrellm-leds,
 	x11-plugins/gkrellm-mailwatch,
 	x11-plugins/gkrellm-trayicons,
