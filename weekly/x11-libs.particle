@@ -48,7 +48,6 @@ packages:
 	x11-libs/libkscreen,
 	x11-libs/libmatchbox,
 	x11-libs/libmatenotify,
-	x11-libs/libmatewnck,
 	x11-libs/libnotify,
 	x11-libs/liboglappth,
 	x11-libs/libpciaccess,
