@@ -78,7 +78,6 @@ packages:
 	app-emulation/vmware-vix,
 	app-emulation/vov,
 	app-emulation/wine,
-	app-emulation/wine-doors,
 	app-emulation/winetricks,
 	app-emulation/x48,
 
