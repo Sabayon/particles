@@ -11,7 +11,6 @@ packages:
 	dev-games/crystalspace,
 	dev-games/flatzebra,
 	dev-games/flinker,
-	dev-games/ggz-client-libs,
 	dev-games/gtkradiant,
 	dev-games/guichan,
 	dev-games/hawknl,
