@@ -77,7 +77,6 @@ packages:
 	app-misc/fdupes,
 	app-misc/fdutils,
 	app-misc/figlet,
-	app-misc/fixdos,
 	app-misc/flasm,
 	app-misc/freemind,
 	app-misc/fslint,
