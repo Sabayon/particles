@@ -512,7 +512,6 @@ packages:
 	dev-python/tempita,
 	dev-python/termcolor,
 	dev-python/testify,
-	dev-python/testoob,
 	dev-python/testtools,
 	dev-python/timelib,
 	dev-python/tinycss,
