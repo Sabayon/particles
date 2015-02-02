@@ -122,7 +122,6 @@ packages:
 	dev-libs/libee,
 	dev-libs/libestr,
 	dev-libs/libev,
-	dev-libs/libevent,
 	dev-libs/libevocosm,
 	dev-libs/libexplain,
 	dev-libs/libezV24,
