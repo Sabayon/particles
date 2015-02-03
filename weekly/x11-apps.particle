@@ -62,6 +62,7 @@ packages:
 	x11-apps/xhost,
 	x11-apps/xinit,
 	x11-apps/xinput,
+	x11-apps/xinput_calibrator,
 	x11-apps/xkbcomp,
 	x11-apps/xkbevd,
 	x11-apps/xkbprint,
