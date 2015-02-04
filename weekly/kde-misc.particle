@@ -34,7 +34,6 @@ packages:
 	kde-misc/kgrubeditor,
 	kde-misc/kgtk,
 	kde-misc/kim4,
-	kde-misc/kio-ftps,
 	kde-misc/kio-locate,
 	kde-misc/kio-upnp-ms,
 	kde-misc/kio_gopher,
