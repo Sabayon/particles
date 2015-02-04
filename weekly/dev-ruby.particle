@@ -65,7 +65,6 @@ packages:
 	dev-ruby/file-tail,
 	dev-ruby/flexmock,
 	dev-ruby/fssm,
-	dev-ruby/gem_plugin,
 	dev-ruby/gherkin,
 	dev-ruby/gibbler,
 	dev-ruby/gruff,
