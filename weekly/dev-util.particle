@@ -11,6 +11,7 @@ packages:
 	dev-util/adobe-air-sdk-bin,
 	dev-util/alleyoop,
 	dev-util/android-sdk-update-manager,
+	dev-util/android-studio,
 	dev-util/android-tools,
 	dev-util/anjuta,
 	dev-util/antlrworks,
