@@ -157,6 +157,7 @@ packages:
 	net-misc/openssh,
 	net-misc/openswan,
 	net-misc/openvpn,
+	net-misc/owncloud-client,
 	net-misc/packETH,
 	net-misc/pavuk,
 	net-misc/pen,
