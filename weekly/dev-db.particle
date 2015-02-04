@@ -34,8 +34,6 @@ packages:
 	dev-db/phpmyadmin,
 	dev-db/phppgadmin,
 	dev-db/postgis,
-	dev-db/postgresql-base,
-	dev-db/postgresql-docs,
 	dev-db/postgresql-server,
 	dev-db/pygresql,
 	dev-db/qdbm,
