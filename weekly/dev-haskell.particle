@@ -236,7 +236,6 @@ packages:
 	dev-haskell/shakespeare-i18n,
 	dev-haskell/shakespeare-js,
 	dev-haskell/shakespeare-text,
-	dev-util/shellcheck,
 	dev-haskell/silently,
 	dev-haskell/simple-sendfile,
 	dev-haskell/skein,

@@ -192,6 +192,7 @@ packages:
 	dev-util/schroot,
 	dev-util/scons,
 	dev-util/sel,
+	dev-util/shellcheck,
 	dev-util/shtool,
 	dev-util/smem,
 	dev-util/spe,
