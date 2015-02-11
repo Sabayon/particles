@@ -15,7 +15,6 @@ packages:
 	dev-ruby/addressable,
 	dev-ruby/allison,
 	dev-ruby/amatch,
-	dev-ruby/amazon-ec2,
 	dev-ruby/annoy,
 	dev-ruby/archive-tar-minitar,
 	dev-ruby/arel,
