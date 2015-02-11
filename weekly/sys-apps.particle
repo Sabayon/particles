@@ -78,6 +78,7 @@ packages:
 	sys-apps/setserial,
 	sys-apps/sg3_utils,
 	sys-apps/smartmontools,
+	sys-apps/systemd-ui,
 	sys-apps/texinfo,
 	sys-apps/tuned,
 	sys-apps/turbotail,
