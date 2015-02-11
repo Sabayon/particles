@@ -102,7 +102,6 @@ packages:
 	dev-ruby/memcache-client,
 	dev-ruby/merb-assets,
 	dev-ruby/merb-core,
-	dev-ruby/merb-haml,
 	dev-ruby/merb-helpers,
 	dev-ruby/merb-param-protection,
 	dev-ruby/metaclass,
