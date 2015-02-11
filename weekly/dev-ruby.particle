@@ -134,7 +134,6 @@ packages:
 	dev-ruby/ntlm-http,
 	dev-ruby/oauth,
 	dev-ruby/oauth2,
-	dev-ruby/ohai,
 	dev-ruby/open4,
 	dev-ruby/pg,
 	dev-ruby/pkg-config,
