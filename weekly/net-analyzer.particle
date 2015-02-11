@@ -112,7 +112,6 @@ packages:
 	net-analyzer/linkchecker,
 	net-analyzer/macchanger,
 	net-analyzer/mbrowse,
-	net-analyzer/metasploit,
 	net-analyzer/midas-nms,
 	net-analyzer/mping,
 	net-analyzer/mrtg,
