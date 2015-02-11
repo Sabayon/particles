@@ -86,7 +86,6 @@ packages:
 	app-admin/lsyncd,
 	app-admin/makepasswd,
 	app-admin/mcelog,
-	app-admin/mcollective,
 	app-admin/metalog,
 	app-admin/mktwpol,
 	app-admin/monit,
