@@ -81,7 +81,6 @@ packages:
 	dev-ruby/httpauth,
 	dev-ruby/httpclient,
 	dev-ruby/i18n,
-	dev-ruby/ipaddress,
 	dev-ruby/journey,
 	dev-ruby/jquery-rails,
 	dev-ruby/json,
