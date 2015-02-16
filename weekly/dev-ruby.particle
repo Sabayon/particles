@@ -164,7 +164,6 @@ packages:
 	dev-ruby/rdoc,
 	dev-ruby/rdtool,
 	dev-ruby/redcloth,
-	dev-ruby/refe,
 	dev-ruby/rest-client,
 	dev-ruby/rexical,
 	dev-ruby/right_http_connection,
