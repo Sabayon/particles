@@ -33,7 +33,6 @@ packages:
 	app-admin/diradm,
 	app-admin/drush,
 	app-admin/durep,
-	app-admin/ec2-ami-tools,
 	app-admin/ec2-api-tools,
 	app-admin/eclean-kernel,
 	app-admin/elektra,
