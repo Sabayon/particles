@@ -12,7 +12,6 @@ packages:
 	net-im/ejabberd,
 	net-im/ekg,
 	net-im/ekg2,
-	net-im/emesene,
 	net-im/empathy,
 	net-im/gajim,
 	net-im/gg-transport,
