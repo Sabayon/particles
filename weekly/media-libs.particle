@@ -172,7 +172,6 @@ packages:
 	media-libs/phonon-gstreamer,
 	media-libs/phonon-vlc,
 	media-libs/rubberband,
-	media-libs/sdl-flic,
 	media-libs/sdl-gfx,
 	media-libs/sdl-image,
 	media-libs/sdl-mixer,
