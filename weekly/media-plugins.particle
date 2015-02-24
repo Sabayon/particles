@@ -198,7 +198,6 @@ packages:
 	media-plugins/vdr-remote,
 	media-plugins/vdr-remoteosd,
 	media-plugins/vdr-remotetimers,
-	media-plugins/vdr-rotor,
 	media-plugins/vdr-rssreader,
 	media-plugins/vdr-scheduler,
 	media-plugins/vdr-screenshot,
