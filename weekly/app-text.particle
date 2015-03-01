@@ -197,7 +197,6 @@ packages:
 	app-text/psutils,
 	app-text/pybookreader,
 	app-text/pylize,
-	app-text/pyrpub,
 	app-text/pytextile,
 	app-text/qpdf,
 	app-text/qpdfview,
