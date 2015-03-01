@@ -127,7 +127,6 @@ packages:
 	dev-python/frozen-flask,
 	dev-python/fuse-python,
 	dev-python/futures,
-	dev-python/g-pypi,
 	dev-python/gconf-python,
 	dev-python/gdata,
 	dev-python/gdl-python,
