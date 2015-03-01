@@ -223,7 +223,6 @@ packages:
 	net-misc/valve,
 	net-misc/vconfig,
 	net-misc/vde,
-	net-misc/vidalia,
 	net-misc/vinagre,
 	net-misc/vino,
 	net-misc/vmnet,
