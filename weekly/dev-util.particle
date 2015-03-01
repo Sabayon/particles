@@ -195,7 +195,6 @@ packages:
 	dev-util/shellcheck,
 	dev-util/shtool,
 	dev-util/smem,
-	dev-util/spe,
 	dev-util/splint,
 	dev-util/strace,
 	dev-util/suse-build,
