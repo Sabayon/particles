@@ -54,7 +54,6 @@ packages:
 	dev-python/chardet,
 	dev-python/cheetah,
 	dev-python/cheetah-docs,
-	dev-python/cherryflow,
 	dev-python/cherrypy,
 	dev-python/cherrytemplate,
 	dev-python/clientcookie,
