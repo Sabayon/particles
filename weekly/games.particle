@@ -206,6 +206,7 @@ packages:
 	games-board/freedoko,
 	games-board/fruit,
 	games-board/gamazons,
+	games-board/gambit,
 	games-board/gnome-chess,
 	games-board/gnome-mahjongg,
 	games-board/gnome-mastermind,
