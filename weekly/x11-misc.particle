@@ -132,6 +132,7 @@ packages:
 	x11-misc/slock,
 	x11-misc/spacefm,
 	x11-misc/stalonetray,
+	x11-misc/sunflower,
 	x11-misc/superswitcher,
 	x11-misc/sux,
 	x11-misc/suxpanel,
