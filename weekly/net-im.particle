@@ -43,7 +43,6 @@ packages:
 	net-im/linpopup,
 	net-im/mcabber,
 	net-im/minbif,
-	net-im/msnlib,
 	net-im/openfire,
 	net-im/pebrot,
 	net-im/pidgin,
