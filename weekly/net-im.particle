@@ -44,7 +44,6 @@ packages:
 	net-im/mcabber,
 	net-im/minbif,
 	net-im/openfire,
-	net-im/pebrot,
 	net-im/pidgin,
 	net-im/pork,
 	net-im/prosody,
