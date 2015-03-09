@@ -51,7 +51,6 @@ packages:
 	net-im/psimedia,
 	net-im/pyaim-t,
 	net-im/pyicq-t,
-	net-im/pymsn-t,
 	net-im/python-otr,
 	net-im/qtwitter,
 	net-im/qwit,
