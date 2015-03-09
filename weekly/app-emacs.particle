@@ -55,7 +55,6 @@ packages:
 	app-emacs/gnuserv,
 	app-emacs/google-c-style,
 	app-emacs/graphviz-dot-mode,
-	app-emacs/grep-edit,
 	app-emacs/h4x0r,
 	app-emacs/haskell-mode,
 	app-emacs/highline,
