@@ -31,7 +31,6 @@ packages:
 	net-analyzer/synscan,
 	net-analyzer/thc-ipv6,
 	net-analyzer/w3af,
-	net-analyzer/aimsniff,
 	net-analyzer/amap,
 	net-analyzer/angst,
 	net-analyzer/argus,
