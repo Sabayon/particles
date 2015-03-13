@@ -598,6 +598,7 @@ packages:
 	games-util/joystick,
 	games-util/linux-wbfs-manager,
 	games-util/loki_patch,
+	games-util/lutris,
 	games-util/mattricks,
 	games-util/nml,
 	games-util/qjoypad,
