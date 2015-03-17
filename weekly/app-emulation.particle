@@ -19,7 +19,6 @@ packages:
 	app-emulation/emul-linux-x86-baselibs
 	app-emulation/emul-linux-x86-java
 	app-emulation/emul-linux-x86-medialibs
-	app-emulation/emul-linux-x86-motif
 	app-emulation/emul-linux-x86-opengl,
 
 	app-emulation/free42,
