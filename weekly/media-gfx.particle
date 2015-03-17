@@ -184,6 +184,7 @@ packages:
 	media-gfx/symboleditor,
 	media-gfx/synfig,
 	media-gfx/synfigstudio,
+	media-gfx/tintii,
 	media-gfx/transfig,
 	media-gfx/tuxpaint,
 	media-gfx/tuxpaint-stamps,
