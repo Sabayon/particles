@@ -17,7 +17,6 @@ packages:
 
 	# amd64 stuff, group everything together
 	app-emulation/emul-linux-x86-baselibs
-	app-emulation/emul-linux-x86-medialibs
 	app-emulation/emul-linux-x86-opengl,
 
 	app-emulation/free42,
