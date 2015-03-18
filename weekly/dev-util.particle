@@ -26,6 +26,7 @@ packages:
 	dev-util/beediff,
 	dev-util/biew,
 	dev-util/bin_replace_string,
+	dev-util/bitcoin-tx,
 	dev-util/bless,
 	dev-util/boost-build,
 	dev-util/bsdiff,
