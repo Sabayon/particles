@@ -39,6 +39,7 @@ packages:
 	dev-db/qdbm,
 	dev-db/redis,
 	dev-db/slony1,
+	dev-db/spatialite,
 	dev-db/sqlite,
 	dev-db/sqlite,
 	dev-db/sqlitebrowser,
