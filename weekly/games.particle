@@ -301,7 +301,6 @@ packages:
 	games-emulation/zsnes,
 	games-engines/exult,
 	games-engines/fife,
-	games-engines/freesci,
 	games-engines/frobtads,
 	games-engines/frotz,
 	games-engines/gargoyle,
