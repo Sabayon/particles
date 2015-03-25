@@ -27,6 +27,7 @@ packages:
 	app-admin/cpulimit,
 	app-admin/cronolog,
 	app-admin/denyhosts,
+	app-admin/dio,
 	app-admin/diradm,
 	app-admin/drush,
 	app-admin/durep,
