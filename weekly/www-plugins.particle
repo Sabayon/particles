@@ -7,7 +7,6 @@ packages:
 	www-plugins/adobe-flash,
 	www-plugins/chrome-binary-plugins,
 	www-plugins/gecko-mediaplayer,
-	www-plugins/gnash,
 	www-plugins/google-talkplugin,
 	www-plugins/lightspark,
 	www-plugins/nspluginwrapper
