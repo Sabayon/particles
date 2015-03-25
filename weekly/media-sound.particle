@@ -34,7 +34,6 @@ packages:
 
 	media-sound/audacity,
 	media-sound/audex,
-	media-sound/audio-entropyd,
 	media-sound/audiocompress,
 	media-sound/audiotag,
 	media-sound/aumix,
