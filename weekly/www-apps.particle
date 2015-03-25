@@ -67,7 +67,6 @@ packages:
 	www-apps/trac,
 	www-apps/trac-accountmanager,
 	www-apps/trac-downloads,
-	www-apps/trac-git,
 	www-apps/trac-mercurial,
 	www-apps/trac-tags,
 	www-apps/twiki,
