@@ -16,7 +16,6 @@ packages:
 	net-im/gajim,
 	net-im/gg-transport,
 	net-im/gyachi,
-	net-im/imcom,
 	net-im/jabber-base,
 	net-im/jabberd2,
 	net-im/kadu,
