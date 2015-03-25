@@ -14,6 +14,7 @@ packages:
 	app-admin/bcfg2,
 	app-admin/cancd,
 	app-admin/ccze,
+	app-admin/cgmanager,
 	app-admin/checkrestart,
 	app-admin/chef-server-webui,
 	app-admin/chroot_safe,
