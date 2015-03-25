@@ -24,7 +24,6 @@ packages:
 	gnome-extra/connman-gnome,
 	gnome-extra/contacts,
 	gnome-extra/docky,
-	gnome-extra/drwright,
 	gnome-extra/eiciel,
 	gnome-extra/evolution-data-server,
 	gnome-extra/evolution-ews,
