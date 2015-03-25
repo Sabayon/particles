@@ -197,7 +197,6 @@ packages:
 	dev-libs/libunique,
 	dev-libs/libunique,
 	dev-libs/libusb-compat,
-	dev-libs/libuv,
 	dev-libs/libverto,
 	dev-libs/libvformat,
 	dev-libs/libwbxml,
