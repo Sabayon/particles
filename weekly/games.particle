@@ -411,6 +411,7 @@ packages:
 	games-puzzle/hangman,
 	games-puzzle/hexalate,
 	games-puzzle/hexamine,
+	games-puzzle/hitori,
 	games-puzzle/hoh-bin,
 	games-puzzle/icebreaker,
 	games-puzzle/jag,
