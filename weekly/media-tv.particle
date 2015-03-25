@@ -13,7 +13,6 @@ packages:
 	media-tv/me-tv,
 	media-tv/mythtv,
 	media-tv/nvtv,
-	media-tv/nxtvepg,
 	media-tv/shoutcast2vdr,
 	media-tv/tvbrowser,
 	media-tv/tvheadend,
