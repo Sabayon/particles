@@ -239,7 +239,6 @@ packages:
 	dev-libs/poco,
 	dev-libs/popt,
 	dev-libs/ppl,
-	dev-libs/protobuf,
 	dev-libs/pslib,
 	dev-libs/ptexenc,
 	dev-libs/pth,
