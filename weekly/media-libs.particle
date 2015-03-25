@@ -106,7 +106,6 @@ packages:
 	media-libs/libggiwmh,
 	media-libs/libgig,
 	media-libs/libgii,
-	media-libs/libgnome-media-profiles,
 	media-libs/libgphoto2,
 	media-libs/libgpod,
 	media-libs/libharu,
