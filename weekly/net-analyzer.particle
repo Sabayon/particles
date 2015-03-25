@@ -23,6 +23,7 @@ packages:
 	net-analyzer/nrpe,
 	net-analyzer/nsca,
 	net-analyzer/nstats,
+	net-analyzer/ntopng,
 	net-analyzer/ostinato,
 	net-analyzer/postal,
 	net-analyzer/rtpbreak,
