@@ -245,7 +245,6 @@ packages:
 	net-misc/youtube-dl,
 	net-misc/youtube-viewer,
 	net-misc/ytalk,
-	net-misc/zebedee,
 	net-misc/zssh,
 	net-misc/zsync,
 
