@@ -251,7 +251,6 @@ packages:
 	dev-libs/redland,
 	dev-libs/rlog,
 	dev-libs/rremove,
-	dev-libs/seed,
 	dev-libs/serd,
 	dev-libs/shared-desktop-ontologies,
 	dev-libs/shhopt,
