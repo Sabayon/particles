@@ -202,7 +202,6 @@ packages:
 	media-sound/ogg2mp3,
 	media-sound/oggtst,
 	media-sound/ogmtools,
-	media-sound/omptagger,
 	media-sound/orpheus,
 	media-sound/opus-tools,
 	media-sound/padevchooser,
