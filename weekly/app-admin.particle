@@ -4,9 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	app-admin/389-admin-console,
-	app-admin/389-console,
-	app-admin/389-ds-console,
 	app-admin/amazon-ec2-init,
 	app-admin/analog,
 	app-admin/ansible,
