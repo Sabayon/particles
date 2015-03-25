@@ -54,7 +54,6 @@ packages:
 	net-irc/unrealircd,
 	net-irc/weechat,
 	net-irc/xaric,
-	net-irc/xchat-gnome,
 	net-irc/znc
 
 # Entropy repository where to commit packages
