@@ -78,7 +78,6 @@ packages:
 	net-libs/librpcsecgss,
 	net-libs/librsync,
 	net-libs/libsmi,
-	net-libs/libsocialweb,
 	net-libs/libsoup,
 	net-libs/libsoup-gnome,
 	net-libs/libsrtp,
