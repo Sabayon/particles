@@ -17,7 +17,6 @@ packages:
 	sys-power/iasl,
 	sys-power/ncpufreqd,
 	sys-power/nut,
-	sys-power/nvclock,
 	sys-power/pm-quirks,
 	sys-power/pm-utils,
 	sys-power/powernowd,
