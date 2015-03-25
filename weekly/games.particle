@@ -495,7 +495,6 @@ packages:
 	games-rpg/twclone,
 	games-rpg/vendetta-online-bin,
 	games-rpg/wastesedge,
-	games-server/bf1942-lnxded,
 	games-server/crossfire-server,
 	games-server/cyphesis,
 	games-server/halflife-steam,
