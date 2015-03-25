@@ -9,7 +9,6 @@ packages:
 	media-plugins/amb-plugins,
 	media-plugins/audacious-dumb,
 	media-plugins/banshee-community-extensions,
-	media-plugins/blop,
 	media-plugins/caps-plugins,
 	media-plugins/fil-plugins,
 	media-plugins/frei0r-plugins,
