@@ -55,7 +55,6 @@ packages:
 	dev-libs/g-wrap,
 	dev-libs/gdl,
 	dev-libs/gdl,
-	dev-libs/gdome2,
 	dev-libs/geoip,
 	dev-libs/gf2x,
 	dev-libs/girara,
