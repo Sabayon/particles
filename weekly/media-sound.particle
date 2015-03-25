@@ -47,7 +47,6 @@ packages:
 	media-sound/bpmdetect,
 	media-sound/bristol,
 	media-sound/brutefir,
-	media-sound/canorus,
 	media-sound/cd-discid,
 	media-sound/cdcd,
 	media-sound/cdparanoia,
