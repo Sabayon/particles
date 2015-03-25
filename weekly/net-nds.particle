@@ -4,8 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-nds/389-admin,
-	net-nds/389-ds-base,
 	net-nds/adtool,
 	net-nds/jxplorer,
 	net-nds/ldapvi,
