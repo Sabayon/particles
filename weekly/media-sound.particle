@@ -65,7 +65,6 @@ packages:
 	media-sound/daudio,
 	media-sound/dcaenc,
 	media-sound/deadbeef,
-	media-sound/decibel-audio-player,
 	media-sound/declick,
 	media-sound/demolition,
 	media-sound/denemo,
