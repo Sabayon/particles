@@ -15,7 +15,6 @@ packages:
 	net-im/empathy,
 	net-im/gajim,
 	net-im/gg-transport,
-	net-im/gnomeicu,
 	net-im/gyachi,
 	net-im/imcom,
 	net-im/jabber-base,
