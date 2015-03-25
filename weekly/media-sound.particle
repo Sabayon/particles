@@ -120,7 +120,6 @@ packages:
 	media-sound/id3ed,
 	media-sound/id3tool,
 	media-sound/id3v2,
-	media-sound/idjc,
 	media-sound/ifp-gnome,
 	media-sound/jaaa,
 	media-sound/jack,
