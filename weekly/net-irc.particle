@@ -49,7 +49,6 @@ packages:
 	net-irc/supybot,
 	net-irc/supybot-plugins,
 	net-irc/telepathy-idle,
-	net-irc/tirc,
 	net-irc/ultimate,
 	net-irc/unrealircd,
 	net-irc/weechat,
