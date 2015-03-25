@@ -4,23 +4,24 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-        lxqt-base/liblxqt:0,
-        lxqt-base/liblxqt-mount:0,
-        lxqt-base/libsysstat:0,
-        lxqt-base/lxqt-about:0,
-        lxqt-base/lxqt-admin:0,
-        lxqt-base/lxqt-common:0,
-        lxqt-base/lxqt-config:0,
-        lxqt-base/lxqt-config-randr:0,
-        lxqt-base/lxqt-globalkeys:0,
-        lxqt-base/lxqt-meta:0,
-        lxqt-base/lxqt-notificationd:0,
-        lxqt-base/lxqt-panel:0,
-        lxqt-base/lxqt-policykit:0,
-        lxqt-base/lxqt-powermanagement:0,
-        lxqt-base/lxqt-qtplugin:0,
-        lxqt-base/lxqt-runner:0,
-        lxqt-base/lxqt-session:0
+        lxqt-base/liblxqt,
+        lxqt-base/liblxqt-mount,
+        lxqt-base/libsysstat,
+        lxqt-base/lxqt-about,
+        lxqt-base/lxqt-admin,
+        lxqt-base/lxqt-common,
+        lxqt-base/lxqt-config,
+        lxqt-base/lxqt-config-randr,
+        lxqt-base/lxqt-globalkeys,
+        lxqt-base/lxqt-meta,
+        lxqt-base/lxqt-notificationd,
+        lxqt-base/lxqt-panel,
+        lxqt-base/lxqt-policykit,
+        lxqt-base/lxqt-powermanagement,
+	lxqt-base/lxqt-openssh-askpass,
+        lxqt-base/lxqt-qtplugin,
+        lxqt-base/lxqt-runner,
+        lxqt-base/lxqt-session
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
