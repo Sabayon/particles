@@ -91,7 +91,6 @@ packages:
 	dev-util/flawfinder,
 	dev-util/ftjam,
 	dev-util/fuzz,
-	dev-util/gazpacho,
 	dev-util/gdbus-codegen,
 	dev-util/geany,
 	dev-util/geany-plugins,
