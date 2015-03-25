@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	x11-themes/Tulliana,
+	x11-themes/adwaita-icon-theme,
 	x11-themes/amsn-skins,
 	x11-themes/audacious-themes,
 	x11-themes/blueglass-xcursors,
