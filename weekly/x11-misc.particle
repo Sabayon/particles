@@ -53,7 +53,6 @@ packages:
 	x11-misc/gbdfed,
 	x11-misc/gccmakedep,
 	x11-misc/gcolor2,
-	x11-misc/gdevilspie,
 	x11-misc/gigolo,
 	x11-misc/gmrun,
 	x11-misc/gpaste,
