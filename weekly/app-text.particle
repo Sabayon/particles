@@ -179,6 +179,7 @@ packages:
 	app-text/pdfsandwich,
 	app-text/pdfshuffler,
 	app-text/pdftk,
+	app-text/peg-markdown,
 	app-text/pep,
 	app-text/pinfo,
 	app-text/po4a,
