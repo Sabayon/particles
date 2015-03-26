@@ -51,7 +51,6 @@ packages:
 	www-apache/mod_ruby,
 	www-apache/mod_scgi,
 	www-apache/mod_security,
-	www-apache/mod_suphp,
 	www-apache/mod_tcl,
 	www-apache/mod_tidy,
 	www-apache/mod_umask,
