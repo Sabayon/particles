@@ -239,6 +239,7 @@ packages:
 	net-misc/wol,
 	net-misc/wput,
 	net-misc/x11-ssh-askpass,
+	net-misc/x11rdp,
 	net-misc/x2goclient,
 	net-misc/x2goserver,
 	net-misc/yaydl,
