@@ -109,7 +109,6 @@ packages:
 	media-video/mplayer,
 	media-video/mplayer-resume,
 	media-video/mplayer-sh,
-	media-video/mplayer2,
 	media-video/mpv,
 	media-video/noad,
 	media-video/nvidia-settings,
