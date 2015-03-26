@@ -23,6 +23,7 @@ packages:
 	sci-electronics/vbs,
 	sci-electronics/voacapl,
 	sci-electronics/xcircuit,
+	sci-electronics/xoscope
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
