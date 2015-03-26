@@ -34,8 +34,6 @@ packages:
 	app-office/mdbtools,
 	app-office/multitalk,
 	app-office/openerp,
-	app-office/openerp-client,
-	app-office/openerp-server,
 	app-office/openproj-bin,
 	app-office/orage,
 	app-office/passepartout,
