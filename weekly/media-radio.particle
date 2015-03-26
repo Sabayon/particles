@@ -15,6 +15,7 @@ packages:
 	media-radio/ibp,
 	media-radio/qrq,
 	media-radio/radiotray,
+	media-radio/svxlink,
 	media-radio/tlf,
 	media-radio/tucnak2,
 	media-radio/unixcw,
