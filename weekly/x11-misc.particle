@@ -89,6 +89,7 @@ packages:
 	x11-misc/makedepend,
 	x11-misc/matchbox-keyboard,
 	x11-misc/matchbox-panel-manager,
+	x11-misc/menulibre,
 	x11-misc/menumaker,
 	x11-misc/mgm,
 	x11-misc/mixer_app,
