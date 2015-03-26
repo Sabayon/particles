@@ -164,6 +164,7 @@ packages:
 	dev-php/php-openid,
 	dev-php/phpdepend,
 	dev-php/phpmd,
+	dev-php/PHPonTrax,
 	dev-php/phptal,
 	dev-php/phpunit,
 	dev-php/simpletest,
@@ -173,7 +174,7 @@ packages:
 	dev-php/twig,
 	dev-php/xdebug,
 	dev-php/xdebug-client,
-	dev-php/xhprof,
+	dev-php/xhprof
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
