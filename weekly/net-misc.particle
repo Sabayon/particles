@@ -242,6 +242,7 @@ packages:
 	net-misc/x11rdp,
 	net-misc/x2goclient,
 	net-misc/x2goserver,
+	net-misc/xrdp,
 	net-misc/yaydl,
 	net-misc/youtube-dl,
 	net-misc/youtube-viewer,
