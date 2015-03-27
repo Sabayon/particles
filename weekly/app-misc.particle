@@ -34,6 +34,7 @@ packages:
 	app-misc/ca-certificates,
 	app-misc/cadubi,
 	app-misc/calendar,
+	app-misc/carbon-c-relay,
 	app-misc/cbrpager,
 	app-misc/cbview,
 	app-misc/ccal,
