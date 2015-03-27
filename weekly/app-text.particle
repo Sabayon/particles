@@ -106,6 +106,7 @@ packages:
 	app-text/goldendict,
 	app-text/gonzui,
 	app-text/groonga,
+	app-text/groonga-normalizer-mysql,
 	app-text/grutatxt,
 	app-text/gtkspell,
 	app-text/gtranslator,
