@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	app-portage/cfg-update,
+	app-portage/cpuinfo2cpuflags,
 	app-portage/conf-update,
 	app-portage/deltup,
 	app-portage/demerge,
