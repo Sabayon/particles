@@ -607,6 +607,7 @@ packages:
 	games-util/steam-launcher,
 	games-util/uz2unpack,
 	games-util/wiiload,
+	games-util/wit,
 	games-util/wxchtdecoder,
 	games-util/xboxdrv,
 
