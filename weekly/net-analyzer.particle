@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	net-analyzer/apinger,
 	net-analyzer/arpon,
 	net-analyzer/arp-scan,
 	net-analyzer/bwping,
