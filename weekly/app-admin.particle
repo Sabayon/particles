@@ -10,7 +10,6 @@ packages:
 	app-admin/apachetop,
 	app-admin/apg,
 	app-admin/augeas,
-	app-admin/bastille,
 	app-admin/bcfg2,
 	app-admin/cancd,
 	app-admin/ccze,
