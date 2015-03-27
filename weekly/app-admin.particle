@@ -32,7 +32,6 @@ packages:
 	app-admin/diradm,
 	app-admin/drush,
 	app-admin/durep,
-	app-admin/ec2-api-tools,
 	app-admin/eclean-kernel,
 	app-admin/elektra,
 	app-admin/emacs-updater,
