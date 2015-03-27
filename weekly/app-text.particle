@@ -41,6 +41,7 @@ packages:
 	app-text/convertlit,
 	app-text/convmv,
 	app-text/cook,
+	app-text/cpdf,
 	app-text/crf++,
 	app-text/crm114,
 	app-text/csvfix,
