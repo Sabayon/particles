@@ -46,8 +46,6 @@ packages:
 	net-irc/scrollz,
 	net-irc/sic,
 	net-irc/smuxi,
-	net-irc/supybot,
-	net-irc/supybot-plugins,
 	net-irc/telepathy-idle,
 	net-irc/ultimate,
 	net-irc/unrealircd,
