@@ -27,7 +27,6 @@ packages:
 	app-backup/luckybackup,
 	app-backup/mirdir,
 	app-backup/mylvmbackup,
-	app-backup/pdumpfs,
 	app-backup/pybackpack,
 	app-backup/rdiff-backup,
 	app-backup/reoback,
