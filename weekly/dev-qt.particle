@@ -21,6 +21,7 @@ packages:
 	dev-qt/qtsql,
 	dev-qt/qtsvg,
 	dev-qt/qttest,
+	dev-qt/qtwayland,
 	dev-qt/qtwebkit,
 	dev-qt/qtxmlpatterns,
 
