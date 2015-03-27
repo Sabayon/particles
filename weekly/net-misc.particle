@@ -169,6 +169,7 @@ packages:
 	net-misc/putty,
 	net-misc/pyload,
 	net-misc/pymazon,
+	net-misc/python-x2go,
 	net-misc/quagga,
 	net-misc/rabbitmq-server,
 	net-misc/raccess,
