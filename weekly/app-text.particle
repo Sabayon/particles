@@ -105,6 +105,7 @@ packages:
 	app-text/gocr,
 	app-text/goldendict,
 	app-text/gonzui,
+	app-text/groonga,
 	app-text/grutatxt,
 	app-text/gtkspell,
 	app-text/gtranslator,
