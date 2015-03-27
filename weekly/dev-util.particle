@@ -204,6 +204,7 @@ packages:
 	dev-util/tinlink,
 	dev-util/tkdiff,
 	dev-util/tmake,
+	dev-util/trace-cmd,
 	dev-util/treecc,
 	dev-util/txt2regex,
 	dev-util/unifdef,
