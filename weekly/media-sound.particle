@@ -54,6 +54,7 @@ packages:
 	media-sound/christine,
 	media-sound/clementine,
 	media-sound/cmus,
+	media-sound/cmusfm,
 	media-sound/codecgraph,
 	media-sound/combine_wave,
 	media-sound/cplay,
