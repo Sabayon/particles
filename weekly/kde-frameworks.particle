@@ -47,6 +47,7 @@ packages:
 	kde-frameworks/knotifyconfig,
 	kde-frameworks/kpackage,
 	kde-frameworks/kparts,
+	kde-frameworks/kpeople,
         kde-frameworks/kplotting,
         kde-frameworks/kpty,
 	kde-frameworks/kservice,
