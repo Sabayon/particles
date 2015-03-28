@@ -16,6 +16,7 @@ packages:
 	kde-frameworks/kconfigwidgets,
         kde-frameworks/kcoreaddons,
         kde-frameworks/kcrash,
+	kde-frameworks/kded,
         kde-frameworks/kdbusaddons,
         kde-frameworks/kdnssd,
         kde-frameworks/kdoctools,
