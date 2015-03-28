@@ -44,6 +44,7 @@ packages:
 	kde-frameworks/kmediaplayer,
 	kde-frameworks/knewstuff,
 	kde-frameworks/knotifications,
+	kde-frameworks/knotifyconfig,
 	kde-frameworks/kpackage,
 	kde-frameworks/kparts,
         kde-frameworks/kplotting,
