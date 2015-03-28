@@ -18,6 +18,7 @@ packages:
         kde-frameworks/kcrash,
 	kde-frameworks/kdeclarative,
 	kde-frameworks/kded,
+	kde-frameworks/kdesignerplugin,
         kde-frameworks/kdbusaddons,
         kde-frameworks/kdnssd,
         kde-frameworks/kdoctools,
