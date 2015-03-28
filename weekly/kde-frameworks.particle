@@ -21,6 +21,7 @@ packages:
 	kde-frameworks/kdelibs4support,
 	kde-frameworks/kdesignerplugin,
 	kde-frameworks/kdesu,
+	kde-frameworks/kdewebkit,
         kde-frameworks/kdbusaddons,
         kde-frameworks/kdnssd,
         kde-frameworks/kdoctools,
