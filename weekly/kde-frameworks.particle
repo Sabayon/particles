@@ -26,6 +26,7 @@ packages:
 	kde-frameworks/kiconthemes,
         kde-frameworks/kidletime,
         kde-frameworks/kimageformats,
+	kde-frameworks/kio,
         kde-frameworks/kitemmodels,
         kde-frameworks/kitemviews,
         kde-frameworks/kjobwidgets,
