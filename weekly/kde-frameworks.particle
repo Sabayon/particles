@@ -30,6 +30,7 @@ packages:
         kde-frameworks/kitemviews,
         kde-frameworks/kjobwidgets,
         kde-frameworks/kjs,
+	kde-frameworks/knotifications,
 	kde-frameworks/kpackage,
         kde-frameworks/kplotting,
         kde-frameworks/kpty,
