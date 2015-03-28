@@ -29,6 +29,7 @@ packages:
         kde-frameworks/kf-env,
 	kde-frameworks/kglobalaccel,
         kde-frameworks/kguiaddons,
+	kde-frameworks/khtml,
         kde-frameworks/ki18n,
 	kde-frameworks/kiconthemes,
         kde-frameworks/kidletime,
