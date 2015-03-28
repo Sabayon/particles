@@ -50,6 +50,7 @@ packages:
 	kde-frameworks/kpeople,
         kde-frameworks/kplotting,
         kde-frameworks/kpty,
+	kde-frameworks/kross,
 	kde-frameworks/kservice,
 	kde-frameworks/ktextwidgets,
         kde-frameworks/kunitconversion,
