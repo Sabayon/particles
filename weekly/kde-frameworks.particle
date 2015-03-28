@@ -22,6 +22,7 @@ packages:
         kde-frameworks/kdbusaddons,
         kde-frameworks/kdnssd,
         kde-frameworks/kdoctools,
+	kde-frameworks/kemoticons,
         kde-frameworks/kf-env,
 	kde-frameworks/kglobalaccel,
         kde-frameworks/kguiaddons,
