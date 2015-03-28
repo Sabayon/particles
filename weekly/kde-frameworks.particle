@@ -37,6 +37,7 @@ packages:
         kde-frameworks/kjs,
 	kde-frameworks/knotifications,
 	kde-frameworks/kpackage,
+	kde-frameworks/kparts,
         kde-frameworks/kplotting,
         kde-frameworks/kpty,
 	kde-frameworks/kservice,
