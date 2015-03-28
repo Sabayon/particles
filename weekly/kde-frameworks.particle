@@ -40,6 +40,7 @@ packages:
         kde-frameworks/kitemviews,
         kde-frameworks/kjobwidgets,
         kde-frameworks/kjs,
+	kde-frameworks/kjsembed,
 	kde-frameworks/knotifications,
 	kde-frameworks/kpackage,
 	kde-frameworks/kparts,
