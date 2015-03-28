@@ -42,6 +42,7 @@ packages:
         kde-frameworks/kjs,
 	kde-frameworks/kjsembed,
 	kde-frameworks/kmediaplayer,
+	kde-frameworks/knewstuff,
 	kde-frameworks/knotifications,
 	kde-frameworks/kpackage,
 	kde-frameworks/kparts,
