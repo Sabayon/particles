@@ -59,6 +59,7 @@ packages:
         kde-frameworks/kwidgetsaddons,
         kde-frameworks/kwindowsystem,
 	kde-frameworks/kxmlgui,
+	kde-frameworks/kxmlrpcclient,
         kde-frameworks/networkmanager-qt,
         kde-frameworks/solid,
         kde-frameworks/sonnet,
