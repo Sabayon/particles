@@ -28,7 +28,7 @@ packages:
 	app-shells/squirrelsh,
 	app-shells/tcsh,
 	app-shells/zsh,
-	app-shells/zsh-completion
+	app-shells/zsh-completions
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
