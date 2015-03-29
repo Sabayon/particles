@@ -10,7 +10,6 @@ packages:
 	www-client/dwb,
 	www-client/elinks,
 	www-client/epiphany,
-	www-client/epiphany-extensions,
 	www-client/fetch,
 	www-client/firefox,
 	www-client/google-chrome,
