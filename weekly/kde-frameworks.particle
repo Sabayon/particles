@@ -52,6 +52,7 @@ packages:
         kde-frameworks/kpty,
 	kde-frameworks/kross,
 	kde-frameworks/kservice,
+	kde-frameworks/ktexteditor,
 	kde-frameworks/ktextwidgets,
         kde-frameworks/kunitconversion,
 	kde-frameworks/kwallet,
