@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	sys-auth/bioapi,
-	sys-auth/consolekit,
 	sys-auth/fprint_demo,
 	sys-auth/fprintd,
 	sys-auth/libfprint,
