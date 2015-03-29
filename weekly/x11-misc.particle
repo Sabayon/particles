@@ -128,7 +128,6 @@ packages:
 	x11-misc/sisctrl,
 	x11-misc/skippy,
 	x11-misc/slim,
-	x11-misc/slimlock,
 	x11-misc/slock,
 	x11-misc/spacefm,
 	x11-misc/stalonetray,
