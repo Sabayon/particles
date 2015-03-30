@@ -40,7 +40,6 @@ packages:
 	app-i18n/ibus-table-extraphrase,
 	app-i18n/ibus-table-latin,
 	app-i18n/ibus-table-tv,
-	app-i18n/ibus-table-yinma,
 	app-i18n/ibus-tutcode,
 	app-i18n/ibus-unikey,
 	app-i18n/im-chooser,
