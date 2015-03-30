@@ -36,7 +36,6 @@ packages:
 	app-i18n/ibus-sunpinyin,
 	app-i18n/ibus-table,
 	app-i18n/ibus-table-chinese,
-	app-i18n/ibus-table-code,
 	app-i18n/ibus-table-cyrillic,
 	app-i18n/ibus-table-extraphrase,
 	app-i18n/ibus-table-latin,
