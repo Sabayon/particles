@@ -21,7 +21,6 @@ packages:
 
 	app-emulation/free42,
 	app-emulation/fuse,
-	app-emulation/fuse-utils,
 
 	# Ganeti stuff
 	app-emulation/ganeti
