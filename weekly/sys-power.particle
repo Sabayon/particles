@@ -11,7 +11,7 @@ packages:
 	sys-power/apcupsd,
 	sys-power/bbswitch,
 	sys-power/cpudyn,
-	sys-power/cpufrequtils,
+	sys-power/cpupower,
 	sys-power/cpuspeedy,
 	sys-power/hibernate-script,
 	sys-power/iasl,
