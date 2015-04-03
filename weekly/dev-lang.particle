@@ -46,7 +46,6 @@ packages:
 	dev-lang/luajit,
 	dev-lang/maude,
 	dev-lang/mmix,
-	dev-lang/mosml,
 	dev-lang/nacl-toolchain-newlib,
 	dev-lang/nasm,
 	dev-lang/nqc,
