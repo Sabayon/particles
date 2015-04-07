@@ -265,7 +265,6 @@ packages:
 	dev-python/peppercorn,
 	dev-python/pexpect,
 	dev-python/piddle,
-	dev-python/pillow,
 	dev-python/pip,
 	dev-python/pivy,
 	dev-python/pkipplib,
