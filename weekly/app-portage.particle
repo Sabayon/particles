@@ -42,7 +42,6 @@ packages:
 	app-portage/perl-info,
 	app-portage/pfl,
 	app-portage/pms-test-suite,
-	app-portage/portage-mod_jabber,
 	app-portage/portage-utils,
 	app-portage/porthole,
 	app-portage/porticron,
