@@ -82,8 +82,6 @@ packages:
 	app-text/dos2unix,
 	app-text/duali,
 	app-text/duconv,
-	app-text/dvipdfm,
-	app-text/dvipdfmx,
 	app-text/dvipng,
 	app-text/dvipsk,
 	app-text/dvisvgm,
