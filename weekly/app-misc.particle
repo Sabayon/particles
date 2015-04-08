@@ -183,7 +183,6 @@ packages:
 	app-misc/querypkg,
 	app-misc/ranger,
 	app-misc/razertool,
-	app-misc/realpath,
 	app-misc/regex-markup,
 	app-misc/regionset,
 	app-misc/remind,
