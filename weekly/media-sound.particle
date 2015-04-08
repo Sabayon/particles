@@ -204,7 +204,6 @@ packages:
 	media-sound/ogmtools,
 	media-sound/orpheus,
 	media-sound/opus-tools,
-	media-sound/padevchooser,
 	media-sound/patchage,
 	media-sound/pavucontrol,
 	media-sound/pavumeter,
