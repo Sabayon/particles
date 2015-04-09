@@ -116,6 +116,7 @@ packages:
 	media-video/openshot,
 	media-video/parole,
 	media-video/pgmfindclip,
+	media-video/plasma-mediacenter,
 	media-video/pitivi,
 	media-video/projectx,
 	media-video/pymp,
