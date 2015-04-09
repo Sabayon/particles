@@ -218,6 +218,7 @@ packages:
 	dev-util/visual-regexp,
 	dev-util/visualvm,
 	dev-util/vmtouch,
+	dev-util/watchr,
 	dev-util/webcpp,
 	dev-util/weblint,
 	dev-util/weka,
