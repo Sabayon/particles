@@ -96,6 +96,7 @@ packages:
 	media-video/minitube,
 	media-video/miro,
 	media-video/mjpegtools,
+	media-video/mkclean,
 	media-video/mkvalidator,
 	media-video/mkvtoolnix,
 	media-video/mkvtoolnix-gui,
