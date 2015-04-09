@@ -7,6 +7,7 @@ packages:
 	games-action/0verkill,
 	games-action/abuse,
 	games-action/accelerator3d,
+	games-action/armagetronad,
 	games-action/atanks,
 	games-action/barrage,
 	games-action/bomberclone,
