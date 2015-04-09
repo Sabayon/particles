@@ -130,7 +130,6 @@ packages:
 	app-admin/tmpreaper,
 	app-admin/tmpwatch,
 	app-admin/tripwire,
-	app-admin/ulog-acctd,
 	app-admin/ulogd,
 	app-admin/usbview,
 	app-admin/usermin,
