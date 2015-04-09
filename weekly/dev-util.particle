@@ -207,6 +207,7 @@ packages:
 	dev-util/trace-cmd,
 	dev-util/treecc,
 	dev-util/txt2regex,
+	dev-util/uncrustify,
 	dev-util/unifdef,
 	dev-util/universalindentgui,
 	dev-util/usb-robot,
