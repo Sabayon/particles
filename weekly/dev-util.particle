@@ -212,6 +212,7 @@ packages:
 	dev-util/universalindentgui,
 	dev-util/usb-robot,
 	dev-util/valgrind,
+	dev-util/valkyrie,
 	dev-util/vbindiff,
 	dev-util/visual-regexp,
 	dev-util/visualvm,
