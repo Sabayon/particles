@@ -140,6 +140,7 @@ packages:
 	media-video/subcheck,
 	media-video/subdl,
 	media-video/subdownloader,
+	media-video/subliminal,
 	media-video/submux-dvd,
 	media-video/subsync,
 	media-video/subtitlecomposer,
