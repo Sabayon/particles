@@ -15,6 +15,7 @@ packages:
 	media-tv/linuxtv-dvb-apps,
 	media-tv/me-tv,
 	media-tv/mythtv,
+	media-tv/mythtv-status,
 	media-tv/nvtv,
 	media-tv/shoutcast2vdr,
 	media-tv/tvbrowser,
