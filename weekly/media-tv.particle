@@ -19,6 +19,7 @@ packages:
 	media-tv/shoutcast2vdr,
 	media-tv/tvbrowser,
 	media-tv/tvheadend,
+	media-tv/tvnamer,
 	media-tv/v4l-utils,
 	media-tv/w_scan,
 	media-tv/xawtv,
