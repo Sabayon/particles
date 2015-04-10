@@ -9,6 +9,7 @@ packages:
 	media-tv/dvbtune,
 	media-tv/freevo,
 	media-tv/gentoo-vdr-scripts,
+	media-tv/gtk-v4l,
 	media-tv/ivtv-utils,
 	media-tv/linuxtv-dvb-apps,
 	media-tv/me-tv,
