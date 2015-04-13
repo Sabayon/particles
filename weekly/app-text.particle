@@ -78,7 +78,6 @@ packages:
 	app-text/docx2txt,
 	app-text/dos2unix,
 	app-text/duali,
-	app-text/duconv,
 	app-text/dvipng,
 	app-text/dvipsk,
 	app-text/dvisvgm,
