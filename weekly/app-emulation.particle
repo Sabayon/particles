@@ -12,13 +12,7 @@ packages:
 	app-emulation/dosemu,
 	app-emulation/dynamips,
 	app-emulation/e-uae,
-
 	app-emulation/edumips64,
-
-	# amd64 stuff, group everything together
-	app-emulation/emul-linux-x86-baselibs
-	app-emulation/emul-linux-x86-opengl,
-
 	app-emulation/free42,
 	app-emulation/fuse,
 
