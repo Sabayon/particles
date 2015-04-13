@@ -32,7 +32,6 @@ packages:
 	app-text/cedilla,
 	app-text/chasen,
 	app-text/chm2pdf,
-	app-text/chmsee,
 	app-text/clara,
 	app-text/cmigemo,
 	app-text/code2html,
