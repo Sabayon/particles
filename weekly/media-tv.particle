@@ -24,7 +24,6 @@ packages:
 	media-tv/v4l-utils,
 	media-tv/w_scan,
 	media-tv/xawtv,
-	media-tv/xbmc,
 	media-tv/xmltv,
 
 # Enforce stable or unstable packages on emerge.
