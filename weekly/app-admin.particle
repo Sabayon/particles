@@ -64,7 +64,6 @@ packages:
 	app-admin/logmon,
 	app-admin/logrotate,
 	app-admin/logsurfer+,
-	app-admin/longrun,
 	app-admin/lsat,
 	app-admin/lsyncd,
 	app-admin/makepasswd,
