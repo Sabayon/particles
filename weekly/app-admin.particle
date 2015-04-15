@@ -92,7 +92,6 @@ packages:
 	app-admin/pydf,
 	app-admin/python-updater,
 	app-admin/qpage,
-	app-admin/quickswitch,
 	app-admin/rackview,
 	app-admin/radmind,
 	app-admin/ranpwd,
