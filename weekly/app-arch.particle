@@ -56,7 +56,6 @@ packages:
 	app-arch/ppmd,
 	app-arch/pure-sfv,
 	app-arch/pxz,
-	app-arch/q7z,
 	app-arch/rar,
 	app-arch/rpm,
 	app-arch/rpm2targz,
