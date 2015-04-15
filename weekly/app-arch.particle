@@ -53,7 +53,6 @@ packages:
 	app-arch/peazip-gtk-bin,
 	app-arch/pigz,
 	app-arch/plzip,
-	app-arch/ppmd,
 	app-arch/pure-sfv,
 	app-arch/pxz,
 	app-arch/rar,
