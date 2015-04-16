@@ -33,7 +33,6 @@ packages:
 	app-crypt/gpg-ringmgr,
 	app-crypt/gpgme,
 	app-crypt/gpgstats,
-	app-crypt/gringotts,
 	app-crypt/hashalot,
 	app-crypt/hashcat-bin,
 	app-crypt/jacksum,
