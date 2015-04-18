@@ -192,7 +192,6 @@ packages:
 	dev-java/jmdns,
 	dev-java/jmock,
 	dev-java/jna,
-	dev-java/jna-posix,
 	dev-java/jnlp-api,
 	dev-java/jnr-netdb,
 	dev-java/jnr-posix,
