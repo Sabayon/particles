@@ -39,6 +39,7 @@ packages:
 	xfce-extra/xfce4-places-plugin,
 	xfce-extra/xfce4-playercontrol-plugin,
 	xfce-extra/xfce4-power-manager,
+	xfce-extra/xfce4-pulseaudio-plugin,
 	xfce-extra/xfce4-quicklauncher-plugin,
 	xfce-extra/xfce4-radio-plugin,
 	xfce-extra/xfce4-screenshooter,
