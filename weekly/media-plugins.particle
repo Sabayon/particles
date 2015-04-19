@@ -146,7 +146,6 @@ packages:
 	media-plugins/vdr-dummydevice,
 	media-plugins/vdr-dvd,
 	media-plugins/vdr-dvdswitch,
-	media-plugins/vdr-eggtimer,
 	media-plugins/vdr-epgsearch,
 	media-plugins/vdr-epgsync,
 	media-plugins/vdr-exec,
