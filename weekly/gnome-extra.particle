@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	gnome-extra/accountsdialog,
 	gnome-extra/assogiate,
 	gnome-extra/at-spi,
 	gnome-extra/avant-window-navigator,
