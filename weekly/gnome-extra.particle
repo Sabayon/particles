@@ -62,7 +62,6 @@ packages:
 	gnome-extra/nautilus-sendto,
 	gnome-extra/nautilus-tracker-tags,
 	gnome-extra/nm-applet,
-	gnome-extra/panflute,
 	gnome-extra/polkit-gnome,
 	gnome-extra/seahorse-nautilus,
 	gnome-extra/sushi,
