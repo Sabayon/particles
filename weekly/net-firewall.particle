@@ -23,13 +23,8 @@ packages:
 	net-firewall/pglinux,
 	net-firewall/quicktables,
 	net-firewall/shapecfg,
-
-	net-firewall/shorewall
-	net-firewall/shorewall-lite
-	net-firewall/shorewall6
-	net-firewall/shorewall6-lite,
-
-	net-firewall/ufw
+	net-firewall/shorewall,
+	net-firewall/ufw,
 	net-firewall/ufw-frontends,
 
 # Entropy repository where to commit packages
