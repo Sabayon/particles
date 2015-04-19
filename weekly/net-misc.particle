@@ -59,7 +59,6 @@ packages:
 	net-misc/freerdp,
 	net-misc/gip,
 	net-misc/gnome-rdp,
-	net-misc/gns3,
 	net-misc/gofish,
 	net-misc/goog-sitemapgen,
 	net-misc/googlecl,
