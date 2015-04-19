@@ -56,7 +56,6 @@ packages:
 	gnome-extra/libgda,
 	gnome-extra/libgsf,
 	gnome-extra/mousetweaks,
-	gnome-extra/nanny,
 	gnome-extra/nautilus-dropbox,
 	gnome-extra/nautilus-image-converter,
 	gnome-extra/nautilus-open-terminal,
