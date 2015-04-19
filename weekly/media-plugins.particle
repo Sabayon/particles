@@ -157,7 +157,6 @@ packages:
 	media-plugins/vdr-filebrowser,
 	media-plugins/vdr-freecell,
 	media-plugins/vdr-fritzbox,
-	media-plugins/vdr-games,
 	media-plugins/vdr-graphlcd,
 	media-plugins/vdr-graphtft,
 	media-plugins/vdr-image,
