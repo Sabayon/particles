@@ -22,7 +22,6 @@ packages:
 	gnome-extra/cinnamon-translations,
 
 	gnome-extra/connman-gnome,
-	gnome-extra/contacts,
 	gnome-extra/docky,
 	gnome-extra/eiciel,
 	gnome-extra/evolution-data-server,
