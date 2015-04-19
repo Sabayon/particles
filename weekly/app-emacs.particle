@@ -120,7 +120,6 @@ packages:
 	app-emacs/tempo-snippets,
 	app-emacs/thinks,
 	app-emacs/thumbs,
-	app-emacs/tnt,
 	app-emacs/tuareg-mode,
 	app-emacs/twittering-mode,
 	app-emacs/typing,
