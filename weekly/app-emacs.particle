@@ -128,7 +128,6 @@ packages:
 	app-emacs/undo-tree,
 	app-emacs/uptimes,
 	app-emacs/vhdl-mode,
-	app-emacs/view-process,
 	app-emacs/volume,
 	app-emacs/yaml-mode,
 	app-emacs/yasnippet,
