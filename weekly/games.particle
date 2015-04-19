@@ -233,6 +233,7 @@ packages:
 	games-board/sjeng,
 	games-board/tali,
 	games-board/teg,
+	games-board/tetzle,
 	games-board/xboard,
 	games-board/xfreecell,
 	games-board/xgammon,
