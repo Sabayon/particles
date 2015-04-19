@@ -9,7 +9,6 @@ packages:
 	gnome-extra/at-spi,
 	gnome-extra/avant-window-navigator,
 	gnome-extra/avant-window-navigator-extras,
-	gnome-extra/bug-buddy,
 
 	# Cinnamon
 	gnome-extra/cinnamon,
