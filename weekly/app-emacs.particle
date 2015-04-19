@@ -162,6 +162,7 @@ packages:
 	app-emacs/wgrep,
 	app-emacs/whine,
 	app-emacs/wikipedia-mode,
+	app-emacs/xclip,
 	app-emacs/xrdb-mode,
 	app-emacs/xslide
 
