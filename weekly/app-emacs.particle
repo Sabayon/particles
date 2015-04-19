@@ -134,7 +134,6 @@ packages:
 	app-emacs/yasnippet,
 	app-emacs/yatex,
 	app-emacs/yc,
-	app-emacs/yow,
 	app-emacs/zenburn,
 	app-emacs/zenirc,
 	app-emacs/apel,
