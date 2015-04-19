@@ -209,6 +209,7 @@ packages:
 	games-board/gtkatlantic,
 	games-board/gtkboard,
 	games-board/hexxagon,
+	games-board/holdingnuts,
 	games-board/iagno,
 	games-board/kcheckers,
 	games-board/knights,
