@@ -33,7 +33,6 @@ packages:
 	app-doc/pms,
 	app-doc/podbrowser,
 	app-doc/psmark,
-	app-doc/root-docs,
 	app-doc/selfhtml,
 	app-doc/selflinux,
 	app-doc/single-unix-specification,
