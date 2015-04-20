@@ -131,7 +131,6 @@ packages:
 	dev-util/leaktracer,
 	dev-util/lockrun,
 	dev-util/ltrace,
-	dev-util/mdds,
 	dev-util/meld,
 	dev-util/metro,
 	dev-util/molecule,
