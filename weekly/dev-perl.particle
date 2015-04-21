@@ -27,6 +27,7 @@ packages:
 	dev-perl/Apache-SizeLimit,
 	dev-perl/Apache-Test,
 	dev-perl/App-CLI,
+	dev-perl/App-cpanminus,
 	dev-perl/AppConfig,
 	dev-perl/App-Nopaste,
 	dev-perl/Archive-Extract,
