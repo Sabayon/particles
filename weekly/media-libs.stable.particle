@@ -94,7 +94,6 @@ packages:
 	media-libs/stops,
 	media-libs/sublib,
 	media-libs/suil,
-	media-libs/swfdec,
 	media-libs/t1lib,
 	media-libs/tiff,
 	media-libs/tse3,
