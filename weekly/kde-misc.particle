@@ -79,7 +79,6 @@ packages:
 	kde-misc/wicd-client-kde,
 	kde-misc/yakuake,
 	kde-misc/yawp,
-	kde-misc/youtube-servicemenu,
 	kde-misc/zanshin
 
 # Entropy repository where to commit packages
