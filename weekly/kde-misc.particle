@@ -17,7 +17,6 @@ packages:
 	kde-misc/homerun,
 	kde-misc/kanyremote,
 	kde-misc/kbstateapplet,
-	kde-misc/kcaldav,
 	kde-misc/kcm-grub2,
 	kde-misc/kcm-ufw,
 	kde-misc/kcm-touchpad,
