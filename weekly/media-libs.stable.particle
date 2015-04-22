@@ -105,7 +105,6 @@ packages:
 	media-libs/vo-aacenc,
 	media-libs/vo-amrwbenc,
 	media-libs/webrtc-audio-processing,
-	media-libs/win32codecs,
 	media-libs/wxsvg,
 	media-libs/x264,
 
