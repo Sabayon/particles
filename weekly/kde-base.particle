@@ -18,7 +18,6 @@ packages:
 	kde-base/calendarjanitor,
 	kde-base/cantor,
 	kde-base/cervisia,
-	kde-base/contactthemeeditor,
 	kde-base/dolphin,
 	kde-base/dolphin-plugins,
 	kde-base/dragon,
