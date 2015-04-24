@@ -464,7 +464,6 @@ packages:
 	games-server/monopd,
 	games-server/nwn-ded,
 	games-server/pvpgn,
-	games-server/tetrix,
 	games-server/ut2004-ded,
 	games-simulation/bcs-demo,
 	games-simulation/cannonsmash,
