@@ -436,8 +436,6 @@ packages:
 	games-roguelike/angband,
 	games-roguelike/crossfire-client,
 	games-roguelike/moria,
-	games-roguelike/noegnud-data,
-	games-roguelike/noegnud-slashem,
 	games-roguelike/scourge,
 	games-roguelike/tome,
 	games-roguelike/tomenet,
