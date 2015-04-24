@@ -462,7 +462,6 @@ packages:
 	games-server/crossfire-server,
 	games-server/cyphesis,
 	games-server/monopd,
-	games-server/mtavc,
 	games-server/nwn-ded,
 	games-server/pvpgn,
 	games-server/tetrix,
