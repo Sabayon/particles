@@ -243,7 +243,6 @@ packages:
 	games-emulation/advancemenu,
 	games-emulation/advancescan,
 	games-emulation/atari800,
-	games-emulation/boycott-advance-sdl,
 	games-emulation/caps,
 	games-emulation/daphne,
 	games-emulation/dboxfe,
