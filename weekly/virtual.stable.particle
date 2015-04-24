@@ -53,7 +53,6 @@ packages:
 	virtual/mailx,
 	virtual/man,
 	virtual/modutils,
-	virtual/monodoc,
 	virtual/mpi,
 	virtual/mta,
 	virtual/mysql,
