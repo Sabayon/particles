@@ -435,7 +435,6 @@ packages:
 	games-roguelike/adom,
 	games-roguelike/angband,
 	games-roguelike/crossfire-client,
-	games-roguelike/ivan,
 	games-roguelike/moria,
 	games-roguelike/noegnud-data,
 	games-roguelike/noegnud-slashem,
