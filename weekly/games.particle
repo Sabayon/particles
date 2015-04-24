@@ -253,7 +253,6 @@ packages:
 	games-emulation/generator,
 	games-emulation/gfceux,
 	games-emulation/gmameui,
-	games-emulation/gngb,
 	games-emulation/gngeo,
 	games-emulation/gnome-video-arcade,
 	games-emulation/gnuboy,
