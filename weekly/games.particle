@@ -266,7 +266,6 @@ packages:
 	games-emulation/gxmame,
 	games-emulation/hatari,
 	games-emulation/hugo,
-	games-emulation/kigb,
 	games-emulation/mamory,
 	games-emulation/mednafen,
 	games-emulation/mupen64plus,
