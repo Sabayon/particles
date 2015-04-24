@@ -283,7 +283,6 @@ packages:
 	games-emulation/vbam,
 	games-emulation/visualboyadvance,
 	games-emulation/xe,
-	games-emulation/xmess,
 	games-emulation/yabause,
 	games-emulation/zinc,
 	games-emulation/zsnes,
