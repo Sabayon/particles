@@ -283,7 +283,6 @@ packages:
 	games-engines/gemrb,
 	games-engines/nazghul,
 	games-engines/residualvm,
-	games-engines/sarien,
 	games-engines/scummvm,
 	games-engines/scummvm-tools,
 	games-engines/stratagus,
