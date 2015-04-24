@@ -256,7 +256,6 @@ packages:
 	games-emulation/fceux,
 	games-emulation/gcube,
 	games-emulation/generator,
-	games-emulation/gens,
 	games-emulation/gfceux,
 	games-emulation/gmameui,
 	games-emulation/gngb,
