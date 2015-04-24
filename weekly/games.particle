@@ -461,7 +461,6 @@ packages:
 	games-rpg/wastesedge,
 	games-server/crossfire-server,
 	games-server/cyphesis,
-	games-server/minecraft-server,
 	games-server/monopd,
 	games-server/mtavc,
 	games-server/nwn-ded,
