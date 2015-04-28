@@ -15,7 +15,6 @@ packages:
 	sci-physics/mpb,
 	sci-physics/paw,
 	sci-physics/phun,
-	sci-physics/root,
 	sci-physics/xfoil,
 
 # Enforce stable or unstable packages on emerge.
