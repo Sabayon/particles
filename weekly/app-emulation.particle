@@ -26,7 +26,6 @@ packages:
 	app-emulation/gxemul,
 	app-emulation/hercules,
 	app-emulation/libdsk,
-	app-emulation/libspectrum,
 	app-emulation/libvirt,
 	app-emulation/libvirt-glib,
 	app-emulation/libvirt-snmp,
