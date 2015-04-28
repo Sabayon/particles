@@ -59,7 +59,6 @@ packages:
 	dev-lang/php,
 	dev-lang/python,
 	dev-lang/python-exec,
-	dev-lang/rakudo,
 	dev-lang/ruby:1.9,
 	dev-lang/scala,
 	dev-lang/snobol,
