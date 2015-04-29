@@ -34,7 +34,6 @@ packages:
 	app-arch/lha,
 	app-arch/libarchive,
 	app-arch/libpar2,
-	app-arch/libzpaq,
 	app-arch/lrzip,
 	app-arch/lzip,
 	app-arch/lzop,
