@@ -513,7 +513,6 @@ packages:
 	games-strategy/glob2,
 	games-strategy/gwp,
 	games-strategy/hedgewars,
-	games-strategy/knights-demo,
 	games-strategy/lgeneral,
 	games-strategy/lightyears,
 	games-strategy/liquidwar,
