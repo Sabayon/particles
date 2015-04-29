@@ -511,7 +511,6 @@ packages:
 	games-strategy/freeciv,
 	games-strategy/freecol,
 	games-strategy/glob2,
-	games-strategy/gorky17-demo,
 	games-strategy/gwp,
 	games-strategy/hedgewars,
 	games-strategy/knights-demo,
