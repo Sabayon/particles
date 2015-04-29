@@ -167,7 +167,6 @@ packages:
 	media-gfx/sane-frontends,
 	media-gfx/scantailor,
 	media-gfx/scrot,
-	media-gfx/shared-color-profiles,
 	media-gfx/shotwell,
 	media-gfx/simple-scan,
 	media-gfx/smile,
