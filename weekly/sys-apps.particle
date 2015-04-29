@@ -45,7 +45,6 @@ packages:
 	sys-apps/kbd,
 	sys-apps/kexec-tools,
 	sys-apps/keyboard-configuration-helpers,
-	sys-apps/language-configuration-helpers,
 	sys-apps/less,
 	sys-apps/lm_sensors,
 	sys-apps/lshw,
