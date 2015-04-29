@@ -81,6 +81,7 @@ packages:
 	app-arch/unzip,
 	app-arch/upx-bin,
 	app-arch/xar,
+	app-arch/xarchiver,
 	app-arch/xdms,
 	app-arch/xz-utils,
 	app-arch/zip,
