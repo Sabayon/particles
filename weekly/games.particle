@@ -509,7 +509,6 @@ packages:
 	games-strategy/dopewars,
 	games-strategy/dunelegacy,
 	games-strategy/freeciv,
-	games-strategy/freecnc,
 	games-strategy/freecol,
 	games-strategy/galaxyhack,
 	games-strategy/glob2,
