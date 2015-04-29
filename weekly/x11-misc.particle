@@ -137,7 +137,6 @@ packages:
 	x11-misc/suxpanel,
 	x11-misc/sxhkd,
 	x11-misc/synergy,
-	x11-misc/taskhelm,
 	x11-misc/tint2,
 	x11-misc/tintwizard,
 	x11-misc/touchcal,
