@@ -510,7 +510,6 @@ packages:
 	games-strategy/dunelegacy,
 	games-strategy/freeciv,
 	games-strategy/freecol,
-	games-strategy/galaxyhack,
 	games-strategy/glob2,
 	games-strategy/gorky17-demo,
 	games-strategy/gwp,
