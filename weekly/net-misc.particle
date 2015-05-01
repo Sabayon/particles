@@ -144,6 +144,7 @@ packages:
 	net-misc/npapi-sdk,
 	net-misc/ntp,
 	net-misc/nut-monitor,
+	net-misc/nxplayer,
 	net-misc/oidentd,
 	net-misc/omniORB,
 	net-misc/openconnect,
