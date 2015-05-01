@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	xfce-extra/eatmonkey,
+	xfce-extra/multiload-nandhp,
 	xfce-extra/thunar-archive-plugin,
 	xfce-extra/thunar-dropbox,
 	xfce-extra/thunar-shares-plugin,
