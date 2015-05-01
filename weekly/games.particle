@@ -435,6 +435,7 @@ packages:
 	games-roguelike/adom,
 	games-roguelike/angband,
 	games-roguelike/crossfire-client,
+	games-roguelike/dwarf-fortress,	
 	games-roguelike/moria,
 	games-roguelike/scourge,
 	games-roguelike/tome,
