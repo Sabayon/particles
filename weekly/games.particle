@@ -182,6 +182,7 @@ packages:
 	games-board/ccgo,
 	games-board/cgoban,
 	games-board/cgoban2,
+	games-board/chessx,
 	games-board/crafty,
 	games-board/domination,
 	games-board/eboard,
