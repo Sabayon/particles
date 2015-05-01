@@ -8,6 +8,7 @@ packages:
 	sys-fs/dd-rescue,
 	sys-fs/ddrescue,
 	sys-fs/dosfstools,
+	sys-fs/duperemove,
 	sys-fs/e2fsprogs,
 	sys-fs/extundelete,
 	sys-fs/fatsort,
