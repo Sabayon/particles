@@ -74,7 +74,6 @@ packages:
 	x11-libs/pango,
 	x11-libs/pangox-compat,
 	x11-libs/pixman,
-	x11-libs/qscintilla,
 	x11-libs/qtscriptgenerator,
 	x11-libs/qtstatemachine,
 	x11-libs/qwt,
