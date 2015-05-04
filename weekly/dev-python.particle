@@ -446,7 +446,6 @@ packages:
 	dev-python/pyxml,
 	dev-python/pyyaml,
 	dev-python/pyzmq,
-	dev-python/qscintilla-python,
 	dev-python/qserve,
 	dev-python/quixote,
 	dev-python/rdflib,
