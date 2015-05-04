@@ -46,7 +46,6 @@ packages:
 	dev-db/sqliteman,
 	dev-db/sqliteodbc,
 	dev-db/tokyocabinet,
-	dev-db/tora,
 	dev-db/unixODBC,
 	dev-db/virtuoso-odbc,
 	dev-db/virtuoso-server,
