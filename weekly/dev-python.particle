@@ -219,7 +219,6 @@ packages:
 	dev-python/mock,
 	dev-python/morbid,
 	dev-python/mox,
-	dev-python/mozrunner,
 	dev-python/mpi4py,
 	dev-python/mpmath,
 	dev-python/msgpack,
