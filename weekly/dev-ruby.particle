@@ -47,7 +47,6 @@ packages:
 	dev-ruby/daemons,
 	dev-ruby/diff-lcs,
 	dev-ruby/domain_name,
-	dev-ruby/echoe,
 	dev-ruby/erubis,
 	dev-ruby/eventmachine,
 	dev-ruby/execjs,
