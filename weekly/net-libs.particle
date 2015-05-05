@@ -31,7 +31,6 @@ packages:
 	net-libs/ldns,
 	net-libs/libasyncns,
 	net-libs/libbluedevil,
-	net-libs/libcapsinetwork,
 	net-libs/libdexter,
 	net-libs/libeXosip,
 	net-libs/libepc,
