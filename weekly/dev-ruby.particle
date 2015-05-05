@@ -196,7 +196,6 @@ packages:
 	dev-ruby/ruby-xslt,
 	dev-ruby/ruby-yadis,
 	dev-ruby/ruby_parser,
-	dev-ruby/rubyforge,
 	dev-ruby/rubygems,
 	dev-ruby/rubypants,
 	dev-ruby/rubyzip,
