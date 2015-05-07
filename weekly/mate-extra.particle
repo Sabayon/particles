@@ -12,6 +12,7 @@ packages:
 	mate-extra/mate-polkit,
 	mate-extra/mate-power-manager,
 	mate-extra/mate-screensaver,
+	mate-extra/mate-sensors-applet,
 	mate-extra/mate-system-monitor,
 	mate-extra/mate-user-share,
 	mate-extra/mate-utils,
