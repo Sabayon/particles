@@ -10,6 +10,7 @@ packages:
 	net-firewall/dshieldpy,
 	net-firewall/ebtables,
 	net-firewall/firehol,
+	net-firewall/fwanalog,
 	net-firewall/fwbuilder,
 	net-firewall/fwipsec,
 	net-firewall/gshield,
