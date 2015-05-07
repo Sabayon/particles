@@ -306,6 +306,7 @@ packages:
 	media-sound/tuxguitar,
 	media-sound/twolame,
 	media-sound/umix,
+	media-sound/umurmur,
 	media-sound/vagalume,
 	media-sound/vb2rip,
 	media-sound/vbrfixc,
