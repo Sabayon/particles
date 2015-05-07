@@ -209,6 +209,7 @@ packages:
 	media-sound/pavumeter,
 	media-sound/peercast,
 	media-sound/phasex,
+	media-sound/pianobar,
 	media-sound/picard,
 	media-sound/picoxine,
 	media-sound/pitchtune,
