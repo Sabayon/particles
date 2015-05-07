@@ -25,6 +25,7 @@ packages:
 	net-firewall/psad,
 	net-firewall/pglinux,
 	net-firewall/quicktables,
+	net-firewall/rtsp-conntrack,
 	net-firewall/shapecfg,
 	net-firewall/shorewall,
 	net-firewall/ufw,
