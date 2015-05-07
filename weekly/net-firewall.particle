@@ -29,6 +29,7 @@ packages:
 	net-firewall/shorewall,
 	net-firewall/ufw,
 	net-firewall/ufw-frontends,
+	net-firewall/xtables-addons
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
