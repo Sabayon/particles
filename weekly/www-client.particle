@@ -35,7 +35,8 @@ packages:
 	www-client/vivaldi,
 	www-client/w3m,
 	www-client/w3mir,
-	www-client/w3mmee
+	www-client/w3mmee,
+	www-client/xombrero
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
