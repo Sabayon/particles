@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	mate-extra/caja-dropbox,
+	mate-extra/caja-extensions,
 	mate-extra/mate-calc,
 	mate-extra/mate-dialogs,
 	mate-extra/mate-media,
