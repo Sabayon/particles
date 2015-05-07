@@ -158,6 +158,7 @@ packages:
 	media-sound/mhwaveedit,
 	media-sound/mikmod,
 	media-sound/milkytracker,
+	media-sound/miniaudicle,
 	media-sound/moc,
 	media-sound/modplugtools,
 	media-sound/moodbar,
