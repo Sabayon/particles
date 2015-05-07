@@ -28,6 +28,7 @@ packages:
 	gnome-extra/gnome-calculator,
 	gnome-extra/gconf-editor,
 	gnome-extra/gdesklets-core,
+	gnome-extra/gnome-activity-journal,
 	gnome-extra/gnome-color-chooser,
 	gnome-extra/gnome-color-manager,
 	gnome-extra/gnome-contacts,
