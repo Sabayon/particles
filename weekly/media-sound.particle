@@ -276,6 +276,7 @@ packages:
 	media-sound/spek,
 	media-sound/splay,
 	media-sound/spotify,
+	media-sound/squeezeslave,
 	media-sound/streamripper,
 	media-sound/streamtranscoder,
 	media-sound/substract_wave,
