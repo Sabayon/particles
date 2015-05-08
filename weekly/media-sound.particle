@@ -70,6 +70,7 @@ packages:
 	media-sound/daudio,
 	media-sound/dbmeasure,
 	media-sound/dcaenc,
+	media-sound/dcd,
 	media-sound/deadbeef,
 	media-sound/declick,
 	media-sound/denemo,
