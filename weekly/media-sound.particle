@@ -68,6 +68,7 @@ packages:
 	media-sound/darkice,
 	media-sound/darksnow,
 	media-sound/daudio,
+	media-sound/dbmeasure,
 	media-sound/dcaenc,
 	media-sound/deadbeef,
 	media-sound/declick,
