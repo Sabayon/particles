@@ -41,6 +41,7 @@ packages:
 	app-office/passepartout,
 	app-office/plan,
 	app-office/planner,
+	app-office/pinpoint,
 	app-office/pybliographer,
 	app-office/QtBitcoinTrader,
 	app-office/qcharselect,
