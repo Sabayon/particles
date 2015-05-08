@@ -11,6 +11,7 @@ packages:
 	media-sound/abcde,
 	media-sound/abcm2ps,
 	media-sound/adplay,
+	media-sound/aucdtect,
 	media-sound/alac_decoder,
 	media-sound/alsa-tools,
 	media-sound/alsa-utils,
