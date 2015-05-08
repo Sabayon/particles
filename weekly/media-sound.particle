@@ -75,6 +75,7 @@ packages:
 	media-sound/declick,
 	media-sound/denemo,
 	media-sound/dir2ogg,
+	media-sound/drumstick,
 	media-sound/dvda-author,
 	media-sound/easytag,
 	media-sound/ecasound,
