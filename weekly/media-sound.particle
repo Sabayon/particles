@@ -41,6 +41,7 @@ packages:
 	media-sound/awesfx,
 	media-sound/aylet,
 	media-sound/banshee,
+	media-sound/beets,
 	media-sound/bitmeter,
 	media-sound/bladeenc,
 	media-sound/bplay,
