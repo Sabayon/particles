@@ -191,6 +191,7 @@ packages:
 	net-misc/sparkleshare,
 	net-misc/spread,
 	net-misc/ssh-askpass-fullscreen,
+	net-misc/sstp-client,
 	net-misc/ssvnc,
 	net-misc/stone,
 	net-misc/streamtuner,
