@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	media-video/2mandvd,
 	media-video/aacskeys,
 	media-video/abby,
 	media-video/acidrip,
