@@ -69,7 +69,6 @@ packages:
 	media-video/h264enc,
 	media-video/handbrake,
 	media-video/hasciicam,
-	media-video/hwdecode-demos,
 	media-video/imagination,
 	media-video/isight-firmware-tools,
 	media-video/istanbul,
