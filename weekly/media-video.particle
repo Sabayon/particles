@@ -95,7 +95,6 @@ packages:
 	media-video/mkvalidator,
 	media-video/mkvtoolnix,
 	media-video/mkvtoolnix-gui,
-	media-video/motion,
 	media-video/motiontrack,
 	media-video/mpeg-tools,
 	media-video/mpeg2vidcodec,
