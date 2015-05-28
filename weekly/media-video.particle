@@ -107,7 +107,6 @@ packages:
 	media-video/mpglen,
 	media-video/mpgtx,
 	media-video/mplay-sh,
-	media-video/mplayer,
 	media-video/mplayer-resume,
 	media-video/mplayer-sh,
 	media-video/mpv,
