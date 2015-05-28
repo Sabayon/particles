@@ -84,7 +84,6 @@ packages:
 	media-video/kmplayer,
 	media-video/kplayer,
 	media-video/libav,
-	media-video/lives,
 	media-video/loopy,
 	media-video/lsdvd,
 	media-video/luvcview,
