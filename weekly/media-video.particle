@@ -113,7 +113,6 @@ packages:
 	media-video/plasma-mediacenter,
 	media-video/pitivi,
 	media-video/projectx,
-	media-video/pymp,
 	media-video/pyqtrailer,
 	media-video/qnapi,
 	media-video/qt-recordmydesktop,
