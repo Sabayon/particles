@@ -122,7 +122,6 @@ packages:
 	media-video/rtmpdump,
 	media-video/setpwc,
 	media-video/shrip,
-	media-video/smplayer,
 	media-video/snappy,
 	media-video/sonic-snap,
 	media-video/sswf,
