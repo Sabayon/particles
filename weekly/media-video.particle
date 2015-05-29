@@ -78,7 +78,6 @@ packages:
 	media-video/kazam,
 	media-video/kdenlive,
 	media-video/kffmpegthumbnailer,
-	media-video/kmplayer,
 	media-video/kplayer,
 	media-video/libav,
 	media-video/loopy,
