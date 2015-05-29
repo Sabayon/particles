@@ -151,7 +151,6 @@ packages:
 	media-video/transcode,
 	media-video/transmageddon,
 	media-video/tsmuxer,
-	media-video/ttcut,
 	media-video/undvd,
 	media-video/v4l2loopback,
 	media-video/vamps,
