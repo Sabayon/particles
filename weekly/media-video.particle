@@ -149,7 +149,6 @@ packages:
 	media-video/vdrsync,
 	media-video/vdrtools-genindex,
 	media-video/videocut,
-	media-video/videotrans,
 	media-video/vlc,
 	media-video/vmaid,
 	media-video/vobcopy,
