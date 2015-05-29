@@ -175,7 +175,6 @@ packages:
 	media-plugins/vdr-mlist,
 	media-plugins/vdr-mount,
 	media-plugins/vdr-mp3ng,
-	media-plugins/vdr-mplayer,
 	media-plugins/vdr-music,
 	media-plugins/vdr-newsticker,
 	media-plugins/vdr-nordlichtsepg,
