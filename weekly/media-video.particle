@@ -156,7 +156,6 @@ packages:
 	media-video/vobcopy,
 	media-video/vstrip,
 	media-video/winff,
-	media-video/winki,
 	media-video/x264-encoder,
 	media-video/xanim,
 	media-video/xine-ui,
