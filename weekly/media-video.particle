@@ -98,7 +98,6 @@ packages:
 	media-video/mpeg2vidcodec,
 	media-video/mpglen,
 	media-video/mpgtx,
-	media-video/mplayer-resume,
 	media-video/mplayer-sh,
 	media-video/mpv,
 	media-video/noad,
