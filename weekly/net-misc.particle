@@ -242,7 +242,6 @@ packages:
 	net-misc/xrdp,
 	net-misc/yaydl,
 	net-misc/youtube-dl,
-	net-misc/youtube-viewer,
 	net-misc/ytalk,
 	net-misc/zssh,
 	net-misc/zsync,
