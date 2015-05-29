@@ -64,7 +64,6 @@ packages:
 	media-video/gtk-recordmydesktop,
 	media-video/guvcview,
 	media-video/gxine,
-	media-video/h264enc,
 	media-video/handbrake,
 	media-video/hasciicam,
 	media-video/imagination,
