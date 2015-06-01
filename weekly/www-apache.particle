@@ -24,7 +24,6 @@ packages:
 	www-apache/mod_depends,
 	www-apache/mod_dnsbl_lookup,
 	www-apache/mod_dnssd,
-	www-apache/mod_evasive,
 	www-apache/mod_extract_forwarded,
 	www-apache/mod_fastcgi,
 	www-apache/mod_fastcgi_handler,
