@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	sys-libs/e2fsprogs-libs,
+	sys-libs/efivar,
 	sys-libs/freeipmi,
 	sys-libs/libaal,
 	sys-libs/libieee1284,
