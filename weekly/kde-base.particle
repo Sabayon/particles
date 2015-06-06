@@ -79,20 +79,13 @@ packages:
 	kde-base/solid-actions-kcm,
 	kde-base/systemsettings
 
-	kde-apps/kdeaccessibility-meta
 	kde-base/kde-meta
 	kde-base/kdebindings-meta
 	kde-base/kdepim-meta
-	kde-apps/kdesdk-meta
-	kde-apps/kdewebdev-meta,
 
-	kde-apps/cervisia
-	kde-apps/kfloppy
-	kde-apps/kppp
-	kde-apps/kremotecontrol
-	kde-base/krossjava
-	kde-base/smokegen
-	kde-base/smokeqt,
+	kde-base/krossjava,
+	kde-base/smokegen,
+	kde-base/smokeqt
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
