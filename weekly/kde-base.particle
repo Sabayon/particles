@@ -65,8 +65,8 @@ packages:
 	kde-base/libplasmaclock,
 	kde-base/libplasmagenericshell,
 	kde-base/libtaskmanager,
+	kde-apps/nepomuk,
 	kde-base/nepomuk-core,
-	kde-base/nepomuk-widgets,
 	kde-base/perlkde,
 	kde-base/perlqt,
 	kde-base/plasma-workspace,
@@ -79,17 +79,17 @@ packages:
 	kde-base/solid-actions-kcm,
 	kde-base/systemsettings
 
-	kde-base/kdeaccessibility-meta
+	kde-apps/kdeaccessibility-meta
 	kde-base/kde-meta
 	kde-base/kdebindings-meta
 	kde-base/kdepim-meta
-	kde-base/kdesdk-meta
-	kde-base/kdewebdev-meta,
+	kde-apps/kdesdk-meta
+	kde-apps/kdewebdev-meta,
 
-	kde-base/cervisia
-	kde-base/kfloppy
-	kde-base/kppp
-	kde-base/kremotecontrol
+	kde-apps/cervisia
+	kde-apps/kfloppy
+	kde-apps/kppp
+	kde-apps/kremotecontrol
 	kde-base/krossjava
 	kde-base/smokegen
 	kde-base/smokeqt,
