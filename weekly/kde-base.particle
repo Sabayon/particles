@@ -291,7 +291,6 @@ packages:
 	kde-base/umbrello,
 
 	kde-base/kdeaccessibility-meta
-	kde-base/kde-l10n
 	kde-base/kde-meta
 	kde-base/kdebindings-meta
 	kde-base/kdepim-meta

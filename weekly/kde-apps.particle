@@ -4,7 +4,8 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	kde-apps/oxygen-icons
+	kde-apps/oxygen-icons,
+	kde-apps/kde4-l10n
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
