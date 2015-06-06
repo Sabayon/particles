@@ -32,34 +32,34 @@ start() {
 }
 
 pkgmove() {
-	local target="${1}"
+	local targets="${1}"
 	local old="${2}"
 	local new="${3}"
 
 	# handle app-foo/bar,
-	sed -i "s:$old,:$new,:g" "$target" || return 1
+	sed -i "s:$old,:$new,:g" $targets || return 1
 	# handle app-foo/bar:
-	sed -i "s;$old:;$new:;g" "$target" || return 1
+	sed -i "s;$old:;$new:;g" $targets || return 1
 	# handle app-foo/bar$
-	sed -i "s;${old}$;$new;g" "$target" || return 1
+	sed -i "s;${old}$;$new;g" $targets || return 1
 	# XXX: handle versioned <app-foo/bar-9999 without
 	# rewriting wrong PN. app-foo/bar-baz-9999 != app-foo/bar-9999.
-	sed -i "s;${old}-;${new}- # verify (was: move $old $new);g" "$target" || return 1
+	sed -i "s;${old}-;${new}- # verify (was: move $old $new);g" $targets || return 1
 }
 
 slotmove() {
-	local target="${1}"
+	local targets="${1}"
 	local dep="${2}"
 	local old="${3}"
 	local new="${4}"
 
 	# handle app-foo/bar:SLOT,
-	sed -i "s;$dep:$old,;$dep:$new,;g" "$target" || return 1
+	sed -i "s;$dep:$old,;$dep:$new,;g" $targets || return 1
 	# handle app-foo/bar$
-	sed -i "s;$dep:${old}$;$dep:$new;g" "$target" || return 1
+	sed -i "s;$dep:${old}$;$dep:$new;g" $targets || return 1
 	# XXX: handle versioned <app-foo/bar-9999 without
 	# rewriting wrong PN. app-foo/bar-baz-9999 != app-foo/bar-9999.
-	sed -i "s;$dep:$old;$dep:$new # verify (was: $dep $old $new);g" "$target" || return 1
+	sed -i "s;$dep:$old;$dep:$new # verify (was: $dep $old $new);g" $targets || return 1
 }
 
 readfileanddostuff() {
@@ -72,15 +72,24 @@ readfileanddostuff() {
 		echo "$file doesn't exist or can't be read, or is invalid type" >&2
 		return 1
 	fi
-	for particle in $(find "${particles_dir}" -name "*.particle" | sort); do
-		while read op old new; do
-			if [[ "$op" = "move" ]]; then
-				pkgmove "$particle" "$old" "$new"
-			elif [[ "$op" = "slotmove" ]]; then
-				slotmove "$particle" "$old" $new # this contains 2 vals
-			fi
-		done < "$file"
+
+	local particles=$(find "${particles_dir}" -name "*.particle")
+	local p
+	# sanity check as the usage of find+bash is not strictly correct
+	for p in $particles; do
+		if ! [[ -e $p ]]; then
+			echo "particle $p does not exist"
+			return 1
+		fi
 	done
+
+	while read op old new; do
+		if [[ "$op" = "move" ]]; then
+			pkgmove "$particles" "$old" "$new" || exit 1
+		elif [[ "$op" = "slotmove" ]]; then
+			slotmove "$particles" "$old" $new || exit 1 # this contains 2 vals
+		fi
+	done < "$file"
 }
 
 start "$@"
