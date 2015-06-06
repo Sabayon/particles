@@ -38,6 +38,7 @@ packages:
 	app-vim/dirdiff,
 	app-vim/easytags,
 	app-vim/ebnf-syntax,
+	app-vim/emmet,
 	app-vim/enhancedcommentify,
 	app-vim/errsign,
 	app-vim/eruby-syntax,
@@ -129,7 +130,6 @@ packages:
 	app-vim/xquery-syntax,
 	app-vim/xsl-syntax,
 	app-vim/yankring,
-	app-vim/zencoding-vim,
 	app-vim/zoomwin
 
 # Entropy repository where to commit packages

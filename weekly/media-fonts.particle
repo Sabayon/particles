@@ -94,7 +94,7 @@ packages:
 	media-fonts/lfpfonts-fix,
 	media-fonts/lfpfonts-var,
 	media-fonts/liberation-fonts,
-	media-fonts/libertine-ttf,
+	media-fonts/libertine,
 	media-fonts/lohit-fonts,
 	media-fonts/mathematica-fonts,
 	media-fonts/mgopen,
