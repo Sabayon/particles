@@ -512,7 +512,6 @@ packages:
 	dev-perl/IMAP-Admin,
 	dev-perl/Import-Into,
 	dev-perl/indirect,
-	dev-perl/Inline,
 	dev-perl/inline-files,
 	dev-perl/IO-AIO,
 	dev-perl/IO-All,
