@@ -302,8 +302,6 @@ packages:
 	dev-java/qdox,
 	dev-java/relaxng-datatype,
 	dev-java/relaxngcc,
-	dev-java/resin-servlet-api,
-	dev-java/resin-servlet-api,
 	dev-java/rhino,
 	dev-java/rhino,
 	dev-java/rxtx,
