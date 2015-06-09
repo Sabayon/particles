@@ -121,6 +121,7 @@ packages:
 	x11-misc/rofi,
 	x11-misc/rss-glx,
 	x11-misc/screengrab,
+	x11-misc/sddm,
 	x11-misc/shared-mime-info,
 	x11-misc/shutter,
 	x11-misc/shutterbug,
