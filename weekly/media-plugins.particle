@@ -205,7 +205,6 @@ packages:
 	media-plugins/vdr-skinsoppalusikka,
 	media-plugins/vdr-sleeptimer,
 	media-plugins/vdr-sndctl,
-	media-plugins/vdr-softdevice,
 	media-plugins/vdr-softplay,
 	media-plugins/vdr-span,
 	media-plugins/vdr-spider,
