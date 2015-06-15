@@ -26,7 +26,6 @@ packages:
 	net-im/ktp-auth-handler,
 	net-im/ktp-call-ui,
 	net-im/ktp-common-internals,
-	net-im/ktp-contact-applet,
 	net-im/ktp-contact-list,
 	net-im/ktp-contact-runner,
 	net-im/ktp-desktop-applets,
