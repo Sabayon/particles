@@ -213,7 +213,6 @@ packages:
 	media-plugins/vdr-svdrposd,
 	media-plugins/vdr-svdrpservice,
 	media-plugins/vdr-systeminfo,
-	media-plugins/vdr-taste,
 	media-plugins/vdr-text2skin,
 	media-plugins/vdr-timeline,
 	media-plugins/vdr-ttxtsubs,
