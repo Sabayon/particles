@@ -220,7 +220,6 @@ packages:
 	media-plugins/vdr-undelete,
 	media-plugins/vdr-vcd,
 	media-plugins/vdr-vdrcd,
-	media-plugins/vdr-vdrrip,
 	media-plugins/vdr-vodcatcher,
 	media-plugins/vdr-vompserver,
 	media-plugins/vdr-wapd,
