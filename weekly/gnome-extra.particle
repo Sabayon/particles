@@ -38,6 +38,7 @@ packages:
 	gnome-extra/gnome-do-plugins,
 	gnome-extra/gnome-documents,
 	gnome-extra/gnome-getting-started-docs,
+	gnome-extra/gnome-logs,
 	gnome-extra/gnome-packagekit,
 	gnome-extra/gnome-power-manager,
 	gnome-extra/gnome-shell-extensions,
