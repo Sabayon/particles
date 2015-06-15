@@ -25,6 +25,7 @@ packages:
 	gnome-extra/eiciel,
 	gnome-extra/evolution-data-server,
 	gnome-extra/evolution-ews,
+	gnome-extra/gnome-builder,
 	gnome-extra/gnome-calculator,
 	gnome-extra/gconf-editor,
 	gnome-extra/gdesklets-core,
