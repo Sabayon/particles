@@ -14,7 +14,6 @@ packages:
 	app-admin/ccze,
 	app-admin/cgmanager,
 	app-admin/checkrestart,
-	app-admin/chef-server-webui,
 	app-admin/chroot_safe,
 	app-admin/chrootuid,
 	app-admin/chrpath,
