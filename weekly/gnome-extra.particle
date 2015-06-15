@@ -27,6 +27,7 @@ packages:
 	gnome-extra/evolution-ews,
 	gnome-extra/gnome-builder,
 	gnome-extra/gnome-calculator,
+	gnome-extra/gnome-calendar,
 	gnome-extra/gconf-editor,
 	gnome-extra/gdesklets-core,
 	gnome-extra/gnome-activity-journal,
