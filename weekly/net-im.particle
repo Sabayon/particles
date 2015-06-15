@@ -31,7 +31,6 @@ packages:
 	net-im/ktp-desktop-applets,
 	net-im/ktp-filetransfer-handler,
 	net-im/ktp-kded-module,
-	net-im/ktp-presence-applet,
 	net-im/ktp-send-file,
 	net-im/ktp-text-ui,
 	net-im/kouchat,
