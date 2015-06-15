@@ -212,7 +212,6 @@ packages:
 	media-plugins/vdr-suspendoutput,
 	media-plugins/vdr-svdrposd,
 	media-plugins/vdr-svdrpservice,
-	media-plugins/vdr-sysinfo,
 	media-plugins/vdr-systeminfo,
 	media-plugins/vdr-taste,
 	media-plugins/vdr-text2skin,
