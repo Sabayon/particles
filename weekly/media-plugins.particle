@@ -202,7 +202,6 @@ packages:
 	media-plugins/vdr-skincurses,
 	media-plugins/vdr-skinelchi,
 	media-plugins/vdr-skinenigmang,
-	media-plugins/vdr-skinreel,
 	media-plugins/vdr-skinsoppalusikka,
 	media-plugins/vdr-sleeptimer,
 	media-plugins/vdr-sndctl,
