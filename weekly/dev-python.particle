@@ -255,7 +255,6 @@ packages:
 	dev-python/pastedeploy,
 	dev-python/pastescript,
 	dev-python/paver,
-	dev-python/pbr,
 	dev-python/pep8,
 	dev-python/peppercorn,
 	dev-python/pexpect,
