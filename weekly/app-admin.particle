@@ -90,7 +90,6 @@ packages:
 	app-admin/pydf,
 	app-admin/python-updater,
 	app-admin/qpage,
-	app-admin/rackview,
 	app-admin/radmind,
 	app-admin/ranpwd,
 	app-admin/reportmagic,
