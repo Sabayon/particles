@@ -302,8 +302,6 @@ packages:
 	dev-java/qdox,
 	dev-java/relaxng-datatype,
 	dev-java/relaxngcc,
-	dev-java/rhino,
-	dev-java/rhino,
 	dev-java/rxtx,
 	dev-java/saaj,
 	dev-java/sablecc,
