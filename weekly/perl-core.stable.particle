@@ -32,7 +32,6 @@ packages:
 	perl-core/parent,
 	perl-core/podlators,
 	perl-core/Pod-Simple,
-	perl-core/Safe,
 	perl-core/Sys-Syslog,
 	perl-core/Term-ANSIColor,
 	perl-core/Test,
