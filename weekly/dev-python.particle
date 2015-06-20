@@ -319,6 +319,7 @@ packages:
 	dev-python/pygoocanvas,
 	dev-python/pygpgme,
 	dev-python/pygraphviz,
+	dev-python/pygresql,
 	dev-python/pygsl,
 	dev-python/pygtk,
 	dev-python/pygtkglext,
@@ -560,7 +561,7 @@ packages:
 	dev-python/yenc,
 	dev-python/yolk,
 	dev-python/yolk-portage,
-	dev-python/zsi,
+	dev-python/zsi
 
 # Takes 12+ hours to compile
 #	dev-python/graph-tool,

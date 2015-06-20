@@ -35,7 +35,6 @@ packages:
 	dev-db/phppgadmin,
 	dev-db/postgis,
 	dev-db/postgresql-server,
-	dev-db/pygresql,
 	dev-db/qdbm,
 	dev-db/redis,
 	dev-db/slony1,
