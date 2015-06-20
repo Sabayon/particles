@@ -522,7 +522,6 @@ packages:
 	dev-python/tweepy,
 	dev-python/twill,
 
-	dev-python/twisted:0
 	dev-python/twisted-conch:0
 	dev-python/twisted-core:0
 	dev-python/twisted-mail:0
