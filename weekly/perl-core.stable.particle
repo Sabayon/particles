@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	perl-core/CGI,
 	perl-core/Compress-Raw-Bzip2,
 	perl-core/CPAN-Meta,
 	perl-core/Data-Dumper,
@@ -24,9 +23,7 @@ packages:
 	perl-core/Math-BigInt,
 	perl-core/Memoize,
 	perl-core/MIME-Base64,
-	perl-core/Module-Build,
 	perl-core/Module-CoreList,
-	perl-core/Module-Pluggable,
 	perl-core/Package-Constants,
 	perl-core/Params-Check,
 	perl-core/parent,
