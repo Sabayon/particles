@@ -10,6 +10,7 @@ packages:
 	dev-python/Djblets,
 	dev-python/PyFoam,
 	dev-python/PyGithub,
+	dev-python/pylast,
 	dev-python/PyQt4,
 	dev-python/adns-python,
 	dev-python/adodb-py,
