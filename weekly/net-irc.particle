@@ -36,6 +36,7 @@ packages:
 	net-irc/ngircd,
 	net-irc/ninja,
 	net-irc/pisg,
+	net-irc/polari,
 	net-irc/psybnc,
 	net-irc/quassel,
 	net-irc/quassel-client,
