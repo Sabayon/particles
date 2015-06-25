@@ -49,7 +49,6 @@ packages:
 	net-libs/libmicrohttpd,
 	net-libs/libmnl,
 	net-libs/libmrss,
-	net-libs/libmsn,
 	net-libs/libnatpmp,
 	net-libs/libnet,
 	net-libs/libnet,
