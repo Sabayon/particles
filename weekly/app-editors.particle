@@ -63,6 +63,7 @@ packages:
 	app-editors/qwriter,
 	app-editors/qxmledit,
 	app-editors/retext,
+	app-editors/sandy,
 	app-editors/scite,
 	app-editors/shed,
 	app-editors/tea,
