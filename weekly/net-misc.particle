@@ -46,6 +46,7 @@ packages:
 	net-misc/dhcping,
 	net-misc/dibbler,
 	net-misc/directvnc,
+	net-misc/dleyna-server,
 	net-misc/drivel,
 	net-misc/dropbear,
 	net-misc/dropbox,
