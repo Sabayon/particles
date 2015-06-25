@@ -16,7 +16,6 @@ packages:
 	gnome-base/gnome-desktop,
 	gnome-base/gnome-desktop,
 	gnome-base/gnome-extra-apps,
-	gnome-base/gnome-fallback,
 	gnome-base/gnome-keyring,
 	gnome-base/gnome-menus,
 	gnome-base/gnome-menus,
