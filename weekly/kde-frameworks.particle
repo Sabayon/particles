@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	kde-frameworks/attica,
+	kde-frameworks/bluez-qt,
 	kde-frameworks/kapidox,
 	kde-frameworks/karchive,
 	kde-frameworks/kauth,
