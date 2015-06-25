@@ -54,7 +54,8 @@ packages:
 	app-office/texmacs,
 	app-office/texmaker,
 	app-office/texstudio,
-	app-office/unoconv
+	app-office/unoconv,
+	app-office/wps-office
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
