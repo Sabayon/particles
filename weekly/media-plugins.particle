@@ -219,7 +219,6 @@ packages:
 	media-plugins/vdr-tvonscreen,
 	media-plugins/vdr-undelete,
 	media-plugins/vdr-vcd,
-	media-plugins/vdr-vdrcd,
 	media-plugins/vdr-vodcatcher,
 	media-plugins/vdr-vompserver,
 	media-plugins/vdr-wapd,
