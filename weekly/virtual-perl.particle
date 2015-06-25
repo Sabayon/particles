@@ -7,7 +7,6 @@ packages:
 	virtual/perl-Archive-Tar,
 	virtual/perl-Attribute-Handlers,
 	virtual/perl-AutoLoader,
-	virtual/perl-CGI,
 	virtual/perl-CPAN-Meta,
 	virtual/perl-CPAN-Meta-Requirements,
 	virtual/perl-CPAN-Meta-YAML,
