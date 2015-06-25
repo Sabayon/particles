@@ -25,6 +25,7 @@ packages:
 	app-arch/fastjar,
 	app-arch/file-roller,
 	app-arch/funzix,
+	app-arch/gcab,
 	app-arch/gtk-splitter,
 	app-arch/gzip,
 	app-arch/hardlink++,
