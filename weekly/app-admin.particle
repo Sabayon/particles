@@ -127,6 +127,7 @@ packages:
 	app-admin/ulogd,
 	app-admin/usbview,
 	app-admin/usermin,
+	app-admin/vault,
 	app-admin/verynice,
 	app-admin/watchfolder,
 	app-admin/webalizer,
