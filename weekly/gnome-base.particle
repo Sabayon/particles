@@ -20,7 +20,6 @@ packages:
 	gnome-base/gnome-menus,
 	gnome-base/gnome-menus,
 	gnome-base/gnome-mime-data,
-	gnome-base/gnome-panel,
 	gnome-base/gnome-session,
 	gnome-base/gnome-settings-daemon,
 	gnome-base/gnome-shell,
