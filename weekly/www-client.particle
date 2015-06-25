@@ -24,6 +24,7 @@ packages:
 	www-client/phantomjs,
 	www-client/pybugz,
 	www-client/qupzilla,
+	www-client/qutebrowser,
 	www-client/rekonq,
 	www-client/seamonkey,
 	www-client/seamonkey-bin,
