@@ -55,6 +55,7 @@ packages:
 	app-office/texmaker,
 	app-office/texstudio,
 	app-office/unoconv,
+	app-office/upwork,
 	app-office/wps-office
 
 # Entropy repository where to commit packages
