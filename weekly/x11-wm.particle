@@ -52,6 +52,7 @@ packages:
 	x11-wm/windowmaker,
 	x11-wm/wm2,
 	x11-wm/wmii,
+	x11-wm/wmfs,
 	x11-wm/xmonad,
 	x11-wm/xmonad-contrib:0
 
