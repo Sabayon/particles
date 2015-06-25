@@ -161,6 +161,7 @@ packages:
 	net-misc/proxychains,
 	net-misc/proxytunnel,
 	net-misc/ps3mediaserver,
+	net-misc/ptpd,
 	net-misc/putty,
 	net-misc/pyhoca-cli,
 	net-misc/pyload,
