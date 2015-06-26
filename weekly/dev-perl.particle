@@ -638,6 +638,7 @@ packages:
 	dev-perl/MIME-Types,
 	dev-perl/MLDBM,
 	dev-perl/MLDBM-Sync,
+	dev-perl/Mo,
 	dev-perl/Modem-Vgetty,
 	dev-perl/Module-Build,
 	dev-perl/Module-Build-Tiny,
