@@ -34,7 +34,6 @@ packages:
 	app-portage/getdelta,
 	app-portage/gpytage,
 	app-portage/install-mask,
-	app-portage/kportagetray,
 	app-portage/layman,
 	app-portage/maintainer-helper,
 	app-portage/metagen,
