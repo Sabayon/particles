@@ -52,7 +52,6 @@ packages:
 	dev-ruby/execjs,
 	dev-ruby/exifr,
 	dev-ruby/extlib,
-	dev-ruby/facter,
 	dev-ruby/fakefs,
 	dev-ruby/fakeweb,
 	dev-ruby/faraday,
