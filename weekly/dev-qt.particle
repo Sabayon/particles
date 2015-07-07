@@ -18,12 +18,13 @@ packages:
 	dev-qt/qtopengl,
 	dev-qt/qt3support,
 	dev-qt/qtscript,
+	dev-qt/qtsingleapplication,
 	dev-qt/qtsql,
 	dev-qt/qtsvg,
 	dev-qt/qttest,
 	dev-qt/qtwayland,
 	dev-qt/qtwebkit,
-	dev-qt/qtxmlpatterns,
+	dev-qt/qtxmlpatterns
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
