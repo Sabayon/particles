@@ -19,7 +19,6 @@ packages:
 	net-p2p/ed2k_hash,
 	net-p2p/eiskaltdcpp,
 	net-p2p/freenet,
-	net-p2p/frostwire,
 	net-p2p/gift,
 	net-p2p/gift-ares,
 	net-p2p/gift-fasttrack,
