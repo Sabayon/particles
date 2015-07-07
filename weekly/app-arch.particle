@@ -28,7 +28,6 @@ packages:
 	app-arch/gcab,
 	app-arch/gtk-splitter,
 	app-arch/gzip,
-	app-arch/hardlink++,
 	app-arch/hardlink,
 	app-arch/ipkg-utils,
 	app-arch/lbzip2,
