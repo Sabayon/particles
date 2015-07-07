@@ -5,9 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	perl-core/Compress-Raw-Bzip2,
-	perl-core/CPAN-Meta,
 	perl-core/Data-Dumper,
-	perl-core/DB_File,
 	perl-core/Digest,
 	perl-core/Digest-MD5,
 	perl-core/ExtUtils-Constant,
