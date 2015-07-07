@@ -37,7 +37,6 @@ packages:
 	app-arch/lrzip,
 	app-arch/lzip,
 	app-arch/lzop,
-	app-arch/macutil,
 	app-arch/makeself,
 	app-arch/mscompress,
 	app-arch/mt-st,
