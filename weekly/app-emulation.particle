@@ -59,7 +59,6 @@ packages:
 	app-emulation/vmware-tools,
 	app-emulation/vmware-view-open-client,
 	app-emulation/vmware-vix,
-	app-emulation/vov,
 	app-emulation/wine,
 	app-emulation/winetricks,
 	app-emulation/x48,
