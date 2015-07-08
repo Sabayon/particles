@@ -15,7 +15,6 @@ packages:
 	app-arch/cfv,
 	app-arch/cksfv,
 	app-arch/cpio,
-	app-arch/dczip,
 	app-arch/deb2targz,
 	app-arch/deltarpm,
 	app-arch/dpkg,
@@ -85,7 +84,7 @@ packages:
 	app-arch/zip,
 	app-arch/zoo,
 	app-arch/zpaq,
-	app-arch/zpaq-extras,
+	app-arch/zpaq-extras
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
