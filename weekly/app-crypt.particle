@@ -57,6 +57,7 @@ packages:
 	app-crypt/pdfcrack,
 	app-crypt/pgpdump,
 	app-crypt/pinentry,
+	app-crypt/pinentry-gnome,
 	app-crypt/pinentry-gtk2,
 	app-crypt/pinentry-qt,
 	app-crypt/pinentry-qt4,
@@ -81,8 +82,6 @@ packages:
 	app-crypt/truecrypt,
 	app-crypt/xca,
 	app-crypt/xor-analyze
-
-
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
