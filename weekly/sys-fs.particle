@@ -10,6 +10,7 @@ packages:
 	sys-fs/dosfstools,
 	sys-fs/duperemove,
 	sys-fs/e2fsprogs,
+	sys-fs/exfat-utils,
 	sys-fs/extundelete,
 	sys-fs/fatsort,
 	sys-fs/fuse,
