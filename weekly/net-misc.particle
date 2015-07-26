@@ -31,6 +31,7 @@ packages:
 	net-misc/cfengine,
 	net-misc/cfengine,
 	net-misc/charm,
+	net-misc/chrome-remote-desktop,
 	net-misc/chrony,
 	net-misc/clamz,
 	net-misc/clipgrab,
