@@ -72,6 +72,7 @@ packages:
 	sys-apps/raidutils,
 	sys-apps/readahead-list,
 	sys-apps/rescan-scsi-bus,
+	sys-apps/roccat-tools,
 	sys-apps/sdparm,
 	sys-apps/sed,
 	sys-apps/setserial,
