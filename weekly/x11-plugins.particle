@@ -53,6 +53,7 @@ packages:
 	x11-plugins/pidgin-sipe,
 	x11-plugins/pidgin-tlen,
 	x11-plugins/pidgintex,
+	x11-plugins/purple-facebook,
 	x11-plugins/purple-plugin_pack,
 	x11-plugins/screenlets,
 	x11-plugins/vicious,
