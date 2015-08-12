@@ -162,6 +162,7 @@ packages:
 	net-analyzer/ntop,
 	net-analyzer/nttcp,
 	net-analyzer/oinkmaster,
+	net-analyzer/openbsd-netcat,
 	net-analyzer/openvas,
 	net-analyzer/openvas-client,
 	net-analyzer/p0f,
