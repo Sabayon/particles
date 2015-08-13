@@ -63,6 +63,7 @@ packages:
 	x11-themes/gtk-theme-switch,
 	x11-themes/haematite-xcursors,
 	x11-themes/hicolor-icon-theme,
+	x11-themes/human-icon-theme,
 	x11-themes/iceicons,
 	x11-themes/icewm-themes,
 	x11-themes/iottinka-artwork,
