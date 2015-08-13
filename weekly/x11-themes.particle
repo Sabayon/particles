@@ -128,7 +128,8 @@ packages:
 	x11-themes/xxv-skins,
 	x11-themes/yasis-icon-theme,
 	x11-themes/zukini,
-	x11-themes/zukitwo
+	x11-themes/zukitwo,
+	x11-themes/zukitwo-shell
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
