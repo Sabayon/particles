@@ -74,6 +74,7 @@ packages:
 	x11-themes/matchbox-themes-extra,
 	x11-themes/mate-backgrounds,
 	x11-themes/mate-icon-theme,
+	x11-themes/mate-icon-theme-faenza,
 	x11-themes/mate-themes,
 	x11-themes/murrine-themes,
 	x11-themes/nimbus,
