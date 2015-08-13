@@ -16,6 +16,7 @@ packages:
 	xfce-extra/xfce4-clipman-plugin,
 	xfce-extra/xfce4-cpufreq-plugin,
 	xfce-extra/xfce4-cpugraph-plugin,
+	xfce-extra/xfce4-composite-editor,
 	xfce-extra/xfce4-datetime-plugin,
 	xfce-extra/xfce4-dict,
 	xfce-extra/xfce4-diskperf-plugin,
