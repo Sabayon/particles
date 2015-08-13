@@ -8,6 +8,7 @@ packages:
 	xfce-extra/multiload-nandhp,
 	xfce-extra/thunar-archive-plugin,
 	xfce-extra/thunar-dropbox,
+	xfce-extra/thunar-media-tags-plugin,
 	xfce-extra/thunar-shares-plugin,
 	xfce-extra/thunar-volman,
 	xfce-extra/transd,
