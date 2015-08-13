@@ -22,6 +22,7 @@ packages:
 	x11-wm/evilwm,
 	x11-wm/fluxbox,
 	x11-wm/fvwm,
+	x11-wm/goomwwm,
 	x11-wm/herbstluftwm,
 	x11-wm/i3,
 	x11-wm/icewm,
