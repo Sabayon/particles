@@ -64,6 +64,7 @@ packages:
 	xfce-extra/xfce4-wavelan-plugin,
 	xfce-extra/xfce4-weather-plugin,
 	xfce-extra/xfce4-whiskermenu-plugin,
+	xfce-extra/xfce4-windowck-plugin,
 	xfce-extra/xfce4-wmdock-plugin,
 	xfce-extra/xfce4-xkb-plugin,
 	xfce-extra/xfdashboard,
