@@ -10,6 +10,7 @@ packages:
 	xfce-extra/thunar-dropbox,
 	xfce-extra/thunar-media-tags-plugin,
 	xfce-extra/thunar-shares-plugin,
+	xfce-extra/thunar-vcs-plugin,
 	xfce-extra/thunar-volman,
 	xfce-extra/transd,
 	xfce-extra/tumbler,
