@@ -80,7 +80,6 @@ packages:
 	dev-haskell/date-cache,
 	dev-haskell/dav,
 	dev-haskell/dbus,
-	dev-haskell/deepseq,
 	dev-haskell/digest,
 	dev-haskell/distributive,
 	dev-haskell/dlist,
