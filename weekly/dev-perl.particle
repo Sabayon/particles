@@ -449,7 +449,6 @@ packages:
 	dev-perl/Gtk2-Ex-PodViewer,
 	dev-perl/Gtk2-Ex-PrintDialog,
 	dev-perl/Gtk2-Ex-Simple-List,
-	dev-perl/gtk2-fu,
 	dev-perl/gtk2-gladexml,
 	dev-perl/Gtk2-ImageView,
 	dev-perl/Gtk2-Notify,
