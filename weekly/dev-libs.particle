@@ -247,7 +247,6 @@ packages:
 	dev-libs/rlog,
 	dev-libs/rremove,
 	dev-libs/serd,
-	dev-libs/shared-desktop-ontologies,
 	dev-libs/shhopt,
 	dev-libs/skalibs,
 	dev-libs/skyutils,
