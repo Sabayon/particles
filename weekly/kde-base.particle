@@ -64,8 +64,6 @@ packages:
 	kde-base/libplasmaclock,
 	kde-base/libplasmagenericshell,
 	kde-base/libtaskmanager,
-	kde-apps/nepomuk,
-	kde-base/nepomuk-core,
 	kde-base/perlkde,
 	kde-base/perlqt,
 	kde-base/plasma-workspace,
