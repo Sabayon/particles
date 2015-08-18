@@ -20,7 +20,6 @@ packages:
 	kde-frameworks/kcrash,
 	kde-frameworks/kdeclarative,
 	kde-frameworks/kded,
-	kde-frameworks/kdelibs4support,
 	kde-frameworks/kdesignerplugin,
 	kde-frameworks/kdesu,
 	kde-frameworks/kdewebkit,
