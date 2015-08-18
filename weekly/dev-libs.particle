@@ -253,7 +253,6 @@ packages:
 	dev-libs/skyutils,
 	dev-libs/sni-qt,
 	dev-libs/snowball-stemmer,
-	dev-libs/soprano,
 	dev-libs/sord,
 	dev-libs/stfl,
 	dev-libs/suikyo,
