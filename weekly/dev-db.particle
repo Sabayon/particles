@@ -45,9 +45,7 @@ packages:
 	dev-db/sqliteman,
 	dev-db/sqliteodbc,
 	dev-db/tokyocabinet,
-	dev-db/unixODBC,
-	dev-db/virtuoso-odbc,
-	dev-db/virtuoso-server,
+	dev-db/unixODBC
 
 # 2013-02-03: dropped because make locks forever
 #	dev-db/firebird,
