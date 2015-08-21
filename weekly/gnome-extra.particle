@@ -36,8 +36,6 @@ packages:
 	gnome-extra/gnome-color-manager,
 	gnome-extra/gnome-contacts,
 	gnome-extra/gnome-directory-thumbnailer,
-	gnome-extra/gnome-do,
-	gnome-extra/gnome-do-plugins,
 	gnome-extra/gnome-documents,
 	gnome-extra/gnome-getting-started-docs,
 	gnome-extra/gnome-logs,
