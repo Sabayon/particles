@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	kde-plasma/kdecoration,
+	kde-plasma/kfilemetadata,
 	kde-plasma/kwayland,
 	kde-plasma/libkscreen,
 	kde-plasma/plasma-workspace-wallpapers
