@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	kde-plasma/kdecoration,
 	kde-plasma/plasma-workspace-wallpapers
 
 # Enforce stable or unstable packages on emerge.
