@@ -6,6 +6,7 @@
 packages:
 	kde-plasma/kdecoration,
 	kde-plasma/kwayland,
+	kde-plasma/libkscreen,
 	kde-plasma/plasma-workspace-wallpapers
 
 # Enforce stable or unstable packages on emerge.
