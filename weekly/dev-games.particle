@@ -18,7 +18,6 @@ packages:
 	dev-games/hlsdk,
 	dev-games/irrlicht,
 	dev-games/neoengine,
-	dev-games/neotools,
 	dev-games/newton,
 	dev-games/ode,
 	dev-games/ogre,
