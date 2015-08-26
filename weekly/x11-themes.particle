@@ -44,6 +44,7 @@ packages:
 	x11-themes/gnome-icon-theme-extras,
 	x11-themes/gnome-icon-theme-symbolic,
 	x11-themes/gnome-themes-standard,
+	x11-themes/goddard-backgrounds,
 	x11-themes/golden-xcursors,
 	x11-themes/greybird,
 	x11-themes/gtk-chtheme,
