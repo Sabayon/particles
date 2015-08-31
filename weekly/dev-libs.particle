@@ -220,7 +220,6 @@ packages:
 	dev-libs/newt,
 	dev-libs/nspr,
 	dev-libs/nss,
-	dev-libs/ntl,
 	dev-libs/oniguruma,
 	dev-libs/openct,
 	dev-libs/opensc,
