@@ -177,7 +177,6 @@ packages:
 	app-text/pep,
 	app-text/pinfo,
 	app-text/po4a,
-	app-text/podofo,
 	app-text/poppler,
 	app-text/poppler-base,
 	app-text/poppler-data,
