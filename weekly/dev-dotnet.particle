@@ -10,7 +10,6 @@ packages:
 	dev-dotnet/dbus-sharp-glib,
 	dev-dotnet/gconf-sharp,
 	dev-dotnet/gdk-sharp,
-	dev-dotnet/gio-sharp,
 	dev-dotnet/glade-sharp,
 	dev-dotnet/glib-sharp,
 	dev-dotnet/gnome-sharp,
