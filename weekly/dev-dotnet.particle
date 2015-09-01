@@ -39,7 +39,6 @@ packages:
 	dev-dotnet/taglib-sharp,
 	dev-dotnet/vte-sharp,
 	dev-dotnet/webkit-sharp,
-	dev-dotnet/wnck-sharp,
 	dev-dotnet/xsp,
 
 # Entropy repository where to commit packages
