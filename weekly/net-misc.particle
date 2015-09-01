@@ -60,7 +60,6 @@ packages:
 	net-misc/freerapid,
 	net-misc/freerdp,
 	net-misc/gip,
-	net-misc/gnome-rdp,
 	net-misc/gofish,
 	net-misc/goog-sitemapgen,
 	net-misc/googlecl,
