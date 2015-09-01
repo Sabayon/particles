@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	net-ftp/axyftp,
-	net-ftp/bareftp,
 	net-ftp/cmdftp,
 	net-ftp/filezilla,
 	net-ftp/frox,
