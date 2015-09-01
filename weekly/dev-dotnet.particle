@@ -15,7 +15,6 @@ packages:
 	dev-dotnet/glade-sharp,
 	dev-dotnet/glib-sharp,
 	dev-dotnet/gnome-desktop-sharp,
-	dev-dotnet/gnome-keyring-sharp,
 	dev-dotnet/gnome-sharp,
 	dev-dotnet/gnomevfs-sharp,
 	dev-dotnet/gsf-sharp,
