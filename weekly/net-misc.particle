@@ -191,7 +191,6 @@ packages:
 	net-misc/sobby,
 	net-misc/socat,
 	net-misc/sock,
-	net-misc/sparkleshare,
 	net-misc/spread,
 	net-misc/ssh-askpass-fullscreen,
 	net-misc/sstp-client,
