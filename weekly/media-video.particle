@@ -54,7 +54,6 @@ packages:
 	media-video/frameworks,
 	media-video/gaupol,
 	media-video/get_flash_videos,
-	media-video/gnome-subtitles,
 	media-video/gnome-video-effects,
 	media-video/google2srt,
 	media-video/gpac,
