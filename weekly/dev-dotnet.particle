@@ -35,7 +35,6 @@ packages:
 	dev-dotnet/notify-sharp,
 	dev-dotnet/pango-sharp,
 	dev-dotnet/pe-format,
-	dev-dotnet/rsvg-sharp,
 	dev-dotnet/smartirc4net,
 	dev-dotnet/taglib-sharp,
 	dev-dotnet/vte-sharp,
