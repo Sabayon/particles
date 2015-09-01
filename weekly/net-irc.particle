@@ -46,7 +46,6 @@ packages:
 	net-irc/rhapsody,
 	net-irc/scrollz,
 	net-irc/sic,
-	net-irc/smuxi,
 	net-irc/telepathy-idle,
 	net-irc/ultimate,
 	net-irc/unrealircd,
