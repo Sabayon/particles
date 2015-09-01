@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	net-news/amphetadesk,
-	net-news/blam,
 	net-news/liferea,
 	net-news/newsbeuter,
 	net-news/rawdog,
