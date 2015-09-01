@@ -18,7 +18,6 @@ packages:
 	dev-dotnet/gsf-sharp,
 	dev-dotnet/gtk-dotnet-sharp,
 	dev-dotnet/gtk-sharp,
-	dev-dotnet/gtk-sharp-beans,
 	dev-dotnet/gtk-sharp-gapi,
 	dev-dotnet/ikvm-bin,
 	dev-dotnet/libgdiplus,
