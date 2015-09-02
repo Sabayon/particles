@@ -8,6 +8,7 @@ packages:
 	net-wireless/bladerf,
 	net-wireless/bladerf-firmware,
 	net-wireless/bladerf-fpga,
+	net-wireless/gnuradio,
 	net-wireless/iw,
 	net-wireless/wepdecrypt,
 	net-wireless/wireless-regdb,
