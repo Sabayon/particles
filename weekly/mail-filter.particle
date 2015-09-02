@@ -12,7 +12,6 @@ packages:
 	mail-filter/clamassassin,
 	mail-filter/clamsmtp,
 	mail-filter/dcc,
-	mail-filter/dkim-milter,
 	mail-filter/dovecot-antispam,
 	mail-filter/dspam,
 	mail-filter/gld,
