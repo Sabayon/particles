@@ -6,6 +6,7 @@
 packages:
 	sys-fs/btrfs-progs,
 	sys-fs/cloudfuse,
+	sys-fs/copyfs,
 	sys-fs/dd-rescue,
 	sys-fs/ddrescue,
 	sys-fs/dosfstools,

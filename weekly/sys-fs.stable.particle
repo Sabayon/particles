@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	sys-fs/avfs,
-	sys-fs/copyfs,
 	sys-fs/cryptsetup,
 	sys-fs/diskdev_cmds,
 	sys-fs/dmraid,
