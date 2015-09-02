@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	dev-cpp/ETL,
 	dev-cpp/gflags,
 	dev-cpp/gmock,
 	dev-cpp/gtest,

@@ -11,7 +11,6 @@ packages:
 	dev-cpp/commoncpp2,
 	dev-cpp/ctemplate,
 	dev-cpp/eigen,
-	dev-cpp/ETL,
 	dev-cpp/gccxml,
 	dev-cpp/gconfmm,
 	dev-cpp/glibmm,
