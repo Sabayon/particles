@@ -8,7 +8,6 @@ packages:
 	gnome-base/gconf,
 	gnome-base/gdm,
 	gnome-base/gnome,
-	gnome-base/gnome-applets,
 	gnome-base/gnome-common,
 	gnome-base/gnome-control-center,
 	gnome-base/gnome-core-apps,
