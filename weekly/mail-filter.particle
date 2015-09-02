@@ -42,7 +42,6 @@ packages:
 	mail-filter/spamassassin,
 	mail-filter/spamassassin-botnet,
 	mail-filter/spambayes,
-	mail-filter/spamdyke,
 	mail-filter/spampd,
 	mail-filter/spamprobe,
 	mail-filter/sqlgrey,
