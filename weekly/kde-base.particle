@@ -37,7 +37,6 @@ packages:
 	kde-base/kinfocenter,
 	kde-base/kjots,
 	kde-base/kleopatra,
-	kde-base/klipper,
 	kde-base/kmail,
 	kde-base/kmenuedit,
 	kde-base/knode,
