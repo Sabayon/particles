@@ -56,7 +56,6 @@ packages:
 	kde-misc/milou,
 	kde-misc/miniplayer,
 	kde-misc/networkmanagement,
-	kde-misc/nightmode,
 	kde-misc/openofficeorg-thumbnail,
 	kde-misc/plasma-applet-daisy,
 	kde-misc/plasma-mpd-nowplaying,
