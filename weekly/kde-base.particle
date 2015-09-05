@@ -41,7 +41,6 @@ packages:
 	kde-base/kmail,
 	kde-base/kmenuedit,
 	kde-base/knode,
-	kde-base/knotes,
 	kde-base/konsolekalendar,
 	kde-base/kontact,
 	kde-base/korganizer,
