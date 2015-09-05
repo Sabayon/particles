@@ -11,7 +11,6 @@ packages:
 	kde-misc/customizable-weather,
 	kde-misc/entropy-kioslaves,
 	kde-misc/eventlist,
-	kde-misc/fancytasks,
 	kde-misc/gx-mail-notify,
 	kde-misc/hdaps_monitor,
 	kde-misc/homerun,
