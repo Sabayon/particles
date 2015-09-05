@@ -75,7 +75,6 @@ packages:
 	kde-misc/wacomtablet,
 	kde-misc/wicd-client-kde,
 	kde-misc/yakuake,
-	kde-misc/yawp,
 	kde-misc/zanshin
 
 # Entropy repository where to commit packages
