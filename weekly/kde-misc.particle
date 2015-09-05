@@ -13,7 +13,6 @@ packages:
 	kde-misc/eventlist,
 	kde-misc/gx-mail-notify,
 	kde-misc/hdaps_monitor,
-	kde-misc/homerun,
 	kde-misc/kanyremote,
 	kde-misc/kbstateapplet,
 	kde-misc/kcm-grub2,
