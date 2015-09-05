@@ -8,7 +8,6 @@ packages:
 	kde-misc/adjustableclock,
 	kde-misc/basket,
 	kde-misc/bkodama,
-	kde-misc/customizable-weather,
 	kde-misc/entropy-kioslaves,
 	kde-misc/eventlist,
 	kde-misc/gx-mail-notify,
