@@ -55,7 +55,6 @@ packages:
 	kde-misc/miniplayer,
 	kde-misc/networkmanagement,
 	kde-misc/openofficeorg-thumbnail,
-	kde-misc/plasma-applet-daisy,
 	kde-misc/plasma-mpd-nowplaying,
 	kde-misc/plasma-widget-message-indicator,
 	kde-misc/plasmatvgr,
