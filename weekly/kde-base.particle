@@ -71,7 +71,6 @@ packages:
 	kde-base/smokegen,
 	kde-base/smokekde,
 	kde-base/smokeqt,
-	kde-base/solid-actions-kcm,
 	kde-base/systemsettings
 
 	kde-base/kde-meta
