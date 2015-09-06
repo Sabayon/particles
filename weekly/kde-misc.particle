@@ -14,7 +14,6 @@ packages:
 	kde-misc/kcollectd,
 	kde-misc/kcometen4,
 	kde-misc/kde-gtk-config,
-	kde-misc/kdeconnect,
 	kde-misc/kdesudo,
 	kde-misc/kdiff3,
 	kde-misc/kdirstat,
