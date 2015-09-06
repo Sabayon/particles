@@ -65,7 +65,6 @@ packages:
 	kde-base/perlkde,
 	kde-base/perlqt,
 	kde-base/plasma-workspace,
-	kde-base/powerdevil,
 	kde-base/pykde4,
 	kde-base/qguiplatformplugin_kde,
 	kde-base/smokegen,
