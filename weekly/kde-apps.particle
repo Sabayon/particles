@@ -66,7 +66,6 @@ packages:
 	kde-apps/kdebase-menu,
 	kde-apps/kdebase-menu-icons,
 	kde-apps/kdebase-meta,
-	kde-apps/kdebase-runtime-meta,
 	kde-apps/kdebugdialog,
 	kde-apps/kdeedu-meta,
 	kde-apps/kdegames-meta,
