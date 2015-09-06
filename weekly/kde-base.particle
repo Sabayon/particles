@@ -32,7 +32,6 @@ packages:
 	kde-base/kdm,
 	kde-base/kephal,
 	kde-base/khelpcenter,
-	kde-base/khotkeys,
 	kde-base/kinfocenter,
 	kde-base/kjots,
 	kde-base/kleopatra,
