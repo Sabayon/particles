@@ -205,7 +205,6 @@ packages:
 	kde-apps/print-manager,
 	kde-apps/renamedlg-plugins,
 	kde-apps/rocs,
-	kde-apps/solid-runtime,
 	kde-apps/step,
 	kde-apps/superkaramba,
 	kde-apps/svgpart,
