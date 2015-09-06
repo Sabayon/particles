@@ -41,7 +41,6 @@ packages:
 	kde-base/korganizer,
 	kde-base/krossjava,
 	kde-base/krosspython,
-	kde-base/krunner,
 	kde-base/kscreensaver,
 	kde-base/ksmserver,
 	kde-base/ksplash,
