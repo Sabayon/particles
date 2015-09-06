@@ -12,7 +12,6 @@ packages:
 	net-wireless/b43-openfwwf,
 	net-wireless/bcm43xx-fwcutter,
 	net-wireless/bluedevil,
-	net-wireless/blueman,
 	net-wireless/bluez,
 	net-wireless/bluez-hcidump,
 	net-wireless/broadcom-sta,
