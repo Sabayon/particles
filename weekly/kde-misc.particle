@@ -9,7 +9,6 @@ packages:
 	kde-misc/entropy-kioslaves,
 	kde-misc/eventlist,
 	kde-misc/kanyremote,
-	kde-misc/kbstateapplet,
 	kde-misc/kcm-grub2,
 	kde-misc/kcmsystemd,
 	kde-misc/kcollectd,
