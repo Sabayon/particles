@@ -13,7 +13,6 @@ packages:
 	kde-misc/kanyremote,
 	kde-misc/kbstateapplet,
 	kde-misc/kcm-grub2,
-	kde-misc/kcm-touchpad,
 	kde-misc/kcmsystemd,
 	kde-misc/kcollectd,
 	kde-misc/kcometen4,
