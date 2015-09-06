@@ -10,7 +10,6 @@ packages:
 	kde-misc/bkodama,
 	kde-misc/entropy-kioslaves,
 	kde-misc/eventlist,
-	kde-misc/gx-mail-notify,
 	kde-misc/hdaps_monitor,
 	kde-misc/kanyremote,
 	kde-misc/kbstateapplet,
