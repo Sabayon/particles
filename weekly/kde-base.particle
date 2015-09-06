@@ -8,7 +8,6 @@ packages:
 	kde-base/akregator,
 	kde-base/blogilo,
 	kde-base/calendarjanitor,
-	kde-base/freespacenotifier,
 	kde-base/kabcclient,
 	kde-base/kactivities,
 	kde-base/kaddressbook,
