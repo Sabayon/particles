@@ -18,7 +18,6 @@ packages:
 	kde-base/kcminit,
 	kde-base/kdebase-cursors,
 	kde-base/kdebase-pam,
-	kde-base/kdebase-startkde,
 	kde-base/kdebindings-meta,
 	kde-base/kde-env,
 	kde-base/kdelibs,
