@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	kde-misc/about-distro,
-	kde-misc/adjustableclock,
 	kde-misc/basket,
 	kde-misc/bkodama,
 	kde-misc/entropy-kioslaves,
