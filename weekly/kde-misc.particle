@@ -38,7 +38,6 @@ packages:
 	kde-misc/kosd,
 	kde-misc/kpackagekit,
 	kde-misc/kprayertime,
-	kde-misc/krcstat,
 	kde-misc/krecipes,
 	kde-misc/krename,
 	kde-misc/krunner-kopete-contacts,
