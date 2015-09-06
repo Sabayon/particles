@@ -52,7 +52,6 @@ packages:
 	kde-base/liboxygenstyle,
 	kde-base/libplasmaclock,
 	kde-base/libplasmagenericshell,
-	kde-base/libtaskmanager,
 	kde-base/perlkde,
 	kde-base/perlqt,
 	kde-base/plasma-workspace,
