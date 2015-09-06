@@ -41,7 +41,6 @@ packages:
 	kde-base/krossjava,
 	kde-base/krosspython,
 	kde-base/kscreensaver,
-	kde-base/ksmserver,
 	kde-base/ksplash,
 	kde-base/kstartupconfig,
 	kde-base/kstyles,
