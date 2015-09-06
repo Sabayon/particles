@@ -38,7 +38,6 @@ packages:
 	kde-base/kjots,
 	kde-base/kleopatra,
 	kde-base/kmail,
-	kde-base/kmenuedit,
 	kde-base/knode,
 	kde-base/konsolekalendar,
 	kde-base/kontact,
