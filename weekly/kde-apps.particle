@@ -123,7 +123,6 @@ packages:
 	kde-apps/kmouth,
 	kde-apps/kmplot,
 	kde-apps/knavalbattle,
-	kde-apps/knetattach,
 	kde-apps/knetwalk,
 	kde-apps/knewstuff,
 	kde-apps/knotify,
