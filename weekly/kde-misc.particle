@@ -9,7 +9,6 @@ packages:
 	kde-misc/bkodama,
 	kde-misc/entropy-kioslaves,
 	kde-misc/eventlist,
-	kde-misc/hdaps_monitor,
 	kde-misc/kanyremote,
 	kde-misc/kbstateapplet,
 	kde-misc/kcm-grub2,
