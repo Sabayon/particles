@@ -118,7 +118,6 @@ packages:
 	dev-util/jconfig,
 	dev-util/kbuild,
 	dev-util/kdbg,
-	dev-util/kdevplatform,
 	dev-util/kdoc,
 	dev-util/ketchup,
 	dev-util/kscope,
