@@ -17,7 +17,6 @@ packages:
 	kde-misc/kdesudo,
 	kde-misc/kdiff3,
 	kde-misc/kdirstat,
-	kde-misc/kdmthemegenerator,
 	kde-misc/kfilebox,
 	kde-misc/kgrubeditor,
 	kde-misc/kgtk,
