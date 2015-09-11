@@ -14,7 +14,6 @@ packages:
 	mate-extra/mate-screensaver,
 	mate-extra/mate-sensors-applet,
 	mate-extra/mate-system-monitor,
-	mate-extra/mate-user-share,
 	mate-extra/mate-utils,
 
 # Enforce stable or unstable packages on emerge.
