@@ -131,7 +131,6 @@ packages:
 	dev-util/monkeystudio,
 	dev-util/mono-debugger,
 	dev-util/monodevelop,
-	dev-util/monodevelop-database,
 	dev-util/monodevelop-debugger-gdb,
 	dev-util/monodevelop-java,
 	dev-util/monodevelop-vala,
