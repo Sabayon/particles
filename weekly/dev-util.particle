@@ -131,7 +131,6 @@ packages:
 	dev-util/monkeystudio,
 	dev-util/mono-debugger,
 	dev-util/monodevelop,
-	dev-util/monodevelop-debugger-gdb,
 	dev-util/nemiver,
 	dev-util/netbeans,
 	dev-util/netbeans,
