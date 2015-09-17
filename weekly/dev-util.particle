@@ -132,7 +132,6 @@ packages:
 	dev-util/mono-debugger,
 	dev-util/monodevelop,
 	dev-util/monodevelop-debugger-gdb,
-	dev-util/monodevelop-java,
 	dev-util/nemiver,
 	dev-util/netbeans,
 	dev-util/netbeans,
