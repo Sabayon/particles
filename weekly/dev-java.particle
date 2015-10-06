@@ -290,7 +290,6 @@ packages:
 	dev-java/pdfbox,
 	dev-java/picocontainer,
 	dev-java/portletapi,
-	dev-java/proxool,
 	dev-java/qdox,
 	dev-java/relaxng-datatype,
 	dev-java/relaxngcc,
