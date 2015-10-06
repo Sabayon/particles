@@ -81,7 +81,6 @@ packages:
 	sys-apps/systemd-ui,
 	sys-apps/texinfo,
 	sys-apps/tuned,
-	sys-apps/turbotail,
 	sys-apps/tuxonice-userui,
 	sys-apps/uam,
 	sys-apps/ucspi-ssl,

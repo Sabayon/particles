@@ -102,7 +102,6 @@ packages:
 	sys-apps/syscriptor,
 	sys-apps/sysvinit,
 	sys-apps/tcp-wrappers,
-	sys-apps/turbotail,
 	sys-apps/tuxonice-userui,
 	sys-apps/uam,
 	sys-apps/ucspi-ssl,
