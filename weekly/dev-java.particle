@@ -113,7 +113,6 @@ packages:
 	dev-java/groovy,
 	dev-java/guava,
 	dev-java/hamcrest-core,
-	dev-java/hibernate,
 	dev-java/higlayout,
 	dev-java/hoteqn,
 	dev-java/icedtea,
