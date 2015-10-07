@@ -12,7 +12,6 @@ packages:
 	net-news/rsstail,
 	net-news/rsstool,
 	net-news/snownews,
-	net-news/yarssr,
 	net-news/yencode,
 	net-news/yydecode,
 
