@@ -42,6 +42,7 @@ packages:
 	sys-apps/ifd-gempc,
 	sys-apps/ipmiutil,
 	sys-apps/irqbalance,
+	sys-apps/iucode_tool,
 	sys-apps/kbd,
 	sys-apps/kexec-tools,
 	sys-apps/keyboard-configuration-helpers,
