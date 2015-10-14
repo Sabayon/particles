@@ -21,6 +21,7 @@ packages:
 	www-client/midori,
 	www-client/netrik,
 	www-client/opera,
+	www-client/opera-developer,
 	www-client/phantomjs,
 	www-client/pybugz,
 	www-client/qupzilla,
