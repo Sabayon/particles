@@ -9,6 +9,7 @@ packages:
 	sci-electronics/electronics-menu,
 	sci-electronics/espresso-ab,
 	sci-electronics/freehdl,
+	sci-electronics/gazebo,
 	sci-electronics/geda,
 	sci-electronics/gerbv,
 	sci-electronics/gnucap,
