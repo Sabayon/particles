@@ -11,6 +11,7 @@ packages:
 	sys-process/cronbase,
 	sys-process/daemontools,
 	sys-process/htop,
+	sys-process/incron,
 	sys-process/iotop,
 	sys-process/latencytop,
 	sys-process/lsof,
