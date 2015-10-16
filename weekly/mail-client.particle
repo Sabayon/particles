@@ -10,6 +10,7 @@ packages:
 	mail-client/claws-mail,
 	mail-client/clawsker,
 	mail-client/evolution,
+	mail-client/geary,
 	mail-client/mail-notification,
 	mail-client/mailnag,
 	mail-client/mailx,
