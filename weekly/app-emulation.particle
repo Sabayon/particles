@@ -9,6 +9,7 @@ packages:
 	app-emulation/coldfire,
 	app-emulation/dinero,
 	app-emulation/dlx,
+	app-emulation/docker,
 	app-emulation/docker-compose,
 	app-emulation/dosemu,
 	app-emulation/dynamips,
