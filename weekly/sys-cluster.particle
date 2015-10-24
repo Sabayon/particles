@@ -5,6 +5,7 @@
 # Mandatory, cannot be empty
 packages:
 	sys-cluster/ccs,
+	sys-cluster/ceph,
 	sys-cluster/cman-lib,
 	sys-cluster/dlm,
 	sys-cluster/dlm-lib,
