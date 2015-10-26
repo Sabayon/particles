@@ -104,7 +104,6 @@ packages:
 	media-plugins/gst-plugins-xvideo,
 	media-plugins/hexter,
 	media-plugins/ir_lv2,
-	media-plugins/kipi-plugins,
 	media-plugins/ladspa-bs2b,
 	media-plugins/libvisual-plugins,
 	media-plugins/libvisual-projectm,
