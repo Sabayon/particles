@@ -171,7 +171,6 @@ packages:
 	dev-ruby/ruby-gio2,
 	dev-ruby/ruby-glib2,
 	dev-ruby/ruby-gnome2,
-	dev-ruby/ruby-goocanvas,
 	dev-ruby/ruby-gstreamer,
 	dev-ruby/ruby-gtk2,
 	dev-ruby/ruby-gtksourceview,
