@@ -249,7 +249,6 @@ packages:
 	dev-java/mina-core,
 	dev-java/mojarra,
 	dev-java/msv,
-	dev-java/mx4j-core,
 	dev-java/nachocalendar,
 	dev-java/nailgun,
 	dev-java/nanoxml,
