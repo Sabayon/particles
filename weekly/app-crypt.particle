@@ -6,7 +6,6 @@
 packages:
 	app-crypt/WiRouterKeyRec,
 	app-crypt/aespipe,
-	app-crypt/aesutil,
 	app-crypt/asedriveiiie-serial,
 	app-crypt/asedriveiiie-usb,
 	app-crypt/asekey,
