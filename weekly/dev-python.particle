@@ -540,7 +540,6 @@ packages:
 	dev-python/vertex,
 	dev-python/virtualenv,
 	dev-python/visual,
-	dev-python/vo,
 	dev-python/vobject,
 	dev-python/waitress,
 	dev-python/warlock,
