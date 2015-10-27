@@ -77,7 +77,6 @@ packages:
 	virtual/python-futures,
 	virtual/python-imaging,
 	virtual/python-unittest2,
-	virtual/pyvo,
 	virtual/ruby-ffi,
 	virtual/ruby-ssl,
 	virtual/ruby-ssl,
