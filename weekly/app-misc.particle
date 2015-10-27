@@ -126,7 +126,6 @@ packages:
 	app-misc/irtrans-irserver,
 	app-misc/jail,
 	app-misc/jbidwatcher,
-	app-misc/jdictionary,
 	app-misc/jot,
 	app-misc/joy2key,
 	app-misc/joymouse,
