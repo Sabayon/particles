@@ -72,7 +72,6 @@ packages:
 	virtual/perl-Text-Tabs+Wrap,
 	virtual/pkgconfig,
 	virtual/pmake,
-	virtual/pyfits,
 	virtual/python-argparse,
 	virtual/python-futures,
 	virtual/python-imaging,
