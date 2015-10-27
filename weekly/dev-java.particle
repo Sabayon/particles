@@ -60,7 +60,6 @@ packages:
 	dev-java/cocoon,
 	dev-java/codemodel,
 	dev-java/colt,
-	dev-java/commons-attributes,
 	dev-java/commons-beanutils,
 	dev-java/commons-cli,
 	dev-java/commons-codec,
