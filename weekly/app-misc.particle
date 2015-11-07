@@ -69,6 +69,7 @@ packages:
 	app-misc/dvtm,
 	app-misc/editor-wrapper,
 	app-misc/egads,
+	app-misc/elasticsearch,
 	app-misc/email2trac,
 	app-misc/emelfm2,
 	app-misc/esekeyd,
