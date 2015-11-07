@@ -10,6 +10,7 @@ packages:
 	net-print/cups-pdf,
 	net-print/cups-pk-helper,
 	net-print/cups-windows,
+	net-print/epson-inkjet-printer-escpr,
 	net-print/foomatic-db,
 	net-print/foomatic-db-engine,
 	net-print/foomatic-db-ppds,
