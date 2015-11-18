@@ -32,7 +32,6 @@ packages:
 	dev-util/bsdiff,
 	dev-util/btyacc,
 	dev-util/buildbot,
-	dev-util/bunny,
 	dev-util/byacc,
 	dev-util/catalyst,
 	dev-util/catfish,
