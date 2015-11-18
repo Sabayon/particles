@@ -83,7 +83,6 @@ packages:
 	dev-util/eggy,
 	dev-util/egypt,
 	dev-util/elfkickers,
-	dev-util/elfsh,
 	dev-util/eric,
 	dev-util/ext4_utils,
 	dev-util/filepp,
