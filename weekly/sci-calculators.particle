@@ -10,7 +10,6 @@ packages:
 	sci-calculators/gonvert,
 	sci-calculators/hcalc,
 	sci-calculators/hexcalc,
-	sci-calculators/keurocalc,
 	sci-calculators/orpie,
 	sci-calculators/pcalc,
 	sci-calculators/qalculate-bases,
