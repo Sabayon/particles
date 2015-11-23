@@ -73,6 +73,7 @@ packages:
 	sys-apps/qdiskusage,
 	sys-apps/qingy,
 	sys-apps/raidutils,
+	sys-apps/razercfg,
 	sys-apps/readahead-list,
 	sys-apps/rescan-scsi-bus,
 	sys-apps/roccat-tools,
