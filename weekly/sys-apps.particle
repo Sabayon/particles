@@ -41,6 +41,7 @@ packages:
 	sys-apps/hwloc,
 	sys-apps/i2c-tools,
 	sys-apps/ifd-gempc,
+	sys-apps/inxi,
 	sys-apps/ipmiutil,
 	sys-apps/irqbalance,
 	sys-apps/iucode_tool,
