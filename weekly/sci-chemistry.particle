@@ -11,6 +11,7 @@ packages:
 	sci-chemistry/bodr,
 	sci-chemistry/chemical-mime-data,
 	sci-chemistry/chemtool,
+	sci-chemistry/gromacs,
 	sci-chemistry/easychem,
 	sci-chemistry/elem,
 	sci-chemistry/ghemical,
