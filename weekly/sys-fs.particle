@@ -21,6 +21,7 @@ packages:
 	sys-fs/hfsutils,
 	sys-fs/inotify-tools,
 	sys-fs/jfsutils,
+	sys-fs/jmtpfs,
 	sys-fs/mp3fs,
 	sys-fs/mtd-utils,
 	sys-fs/mtools,
