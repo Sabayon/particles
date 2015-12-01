@@ -166,6 +166,7 @@ packages:
 	app-text/pastebunz,
 	app-text/pdf2djvu,
 	app-text/pdf2html,
+	app-text/pdf2htmlEX,
 	app-text/pdf2oo,
 	app-text/pdfgrep,
 	app-text/pdfjam,
