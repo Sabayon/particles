@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
         lxqt-base/liblxqt,
-        lxqt-base/liblxqt-mount,
         lxqt-base/libsysstat,
         lxqt-base/lxqt-about,
         lxqt-base/lxqt-admin,
