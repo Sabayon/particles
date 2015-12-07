@@ -13,7 +13,6 @@ packages:
 	kde-base/kaddressbook,
 	kde-base/kalarm,
 	kde-base/katepart,
-	kde-base/kcheckpass,
 	kde-base/kdebase-pam,
 	kde-base/kdebindings-meta,
 	kde-base/kde-env,
