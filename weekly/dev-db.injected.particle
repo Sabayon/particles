@@ -4,7 +4,8 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	dev-db/mariadb
+	dev-db/mariadb,
+	dev-db/mariadb-galera
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
