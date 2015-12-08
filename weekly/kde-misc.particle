@@ -12,7 +12,6 @@ packages:
 	kde-misc/kcm-grub2,
 	kde-misc/kcmsystemd,
 	kde-misc/kcollectd,
-	kde-misc/kcometen4,
 	kde-misc/kde-gtk-config,
 	kde-misc/kdesudo,
 	kde-misc/kdiff3,
