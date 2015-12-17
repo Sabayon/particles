@@ -4,6 +4,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
+	dev-haskell/abstract-par,
 	dev-haskell/aeson,
 	dev-haskell/aeson-pretty,
 	dev-haskell/alex,
@@ -175,6 +176,7 @@ packages:
 	dev-haskell/monad-control,
 	dev-haskell/monad-logger,
 	dev-haskell/monad-loops,
+	dev-haskell/monad-par,
 	dev-haskell/monadcatchio-mtl,
 	dev-haskell/monadcatchio-transformers,
 	dev-haskell/monadrandom,
