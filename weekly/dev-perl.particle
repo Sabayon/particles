@@ -1138,7 +1138,6 @@ packages:
 	dev-perl/X-Osd,
 	dev-perl/yaml,
 	dev-perl/YAML-LibYAML,
-	dev-perl/YAML-Parser-Syck,
 	dev-perl/YAML-Syck,
 	dev-perl/YAML-Tiny,
 	dev-perl/ZMQ-Constants
