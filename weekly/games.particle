@@ -531,7 +531,6 @@ packages:
 	games-strategy/warzone2100,
 	games-strategy/wesnoth,
 	games-strategy/widelands,
-	games-strategy/xbattle,
 	games-util/atlas,
 	games-util/biounzip,
 	games-util/catcodec,
