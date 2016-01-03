@@ -145,7 +145,6 @@ packages:
 	media-video/vdrtools-genindex,
 	media-video/videocut,
 	media-video/vlc,
-	media-video/vmaid,
 	media-video/vobcopy,
 	media-video/vstrip,
 	media-video/winff,
