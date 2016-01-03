@@ -886,7 +886,6 @@ packages:
 	dev-perl/Sort-Tree,
 	dev-perl/Sort-Versions,
 	dev-perl/Speech-Recognizer-SPX,
-	dev-perl/SpeedyCGI,
 	dev-perl/Sphinx-Config,
 	dev-perl/Sphinx-Search,
 	dev-perl/Spiffy,
