@@ -76,6 +76,7 @@ packages:
 	x11-misc/kdocker,
 	x11-misc/keytouch,
 	x11-misc/keytouch-editor,
+	x11-misc/ksuperkey,
 	x11-misc/ktsuss,
 	x11-misc/lightdm,
 	x11-misc/lightdm-gtk-greeter,
