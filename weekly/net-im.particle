@@ -4,6 +4,7 @@
 packages:
 	net-im/ayttm,
 	net-im/bitlbee,
+	net-im/bitlbee-steam,
 	net-im/centerim,
 	net-im/choqok,
 	net-im/climm,
