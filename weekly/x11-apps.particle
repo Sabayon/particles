@@ -26,6 +26,7 @@ packages:
 	x11-apps/mkfontscale,
 	x11-apps/oclock,
 	x11-apps/radeontop,
+	x11-apps/xrectsel,
 	x11-apps/rgb,
 	x11-apps/rstart,
 	x11-apps/scripts,
