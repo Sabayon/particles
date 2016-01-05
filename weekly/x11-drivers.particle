@@ -14,6 +14,7 @@ packages:
 	x11-drivers/xf86-input-vmmouse,
 	x11-drivers/xf86-input-void,
 	x11-drivers/xf86-input-wacom,
+	x11-drivers/xf86-video-amdgpu,
 	x11-drivers/xf86-video-apm,
 	x11-drivers/xf86-video-ark,
 	x11-drivers/xf86-video-ast,
