@@ -76,6 +76,7 @@ packages:
 	media-fonts/freefont,
 	media-fonts/freefonts,
 	media-fonts/fs-fonts,
+	media-fonts/hack,
 	media-fonts/heuristica,
 	media-fonts/hkscs-ming,
 	media-fonts/hunkyfonts,
