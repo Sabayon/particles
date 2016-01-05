@@ -162,7 +162,6 @@ packages:
 	dev-util/pkgconfig,
 	dev-util/plan9port,
 	dev-util/pmd,
-	dev-util/pmk,
 	dev-util/premake,
 	dev-util/pykickstart,
 	dev-util/qdevelop,
