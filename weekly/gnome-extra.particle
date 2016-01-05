@@ -43,6 +43,7 @@ packages:
 	gnome-extra/gnome-power-manager,
 	gnome-extra/gnome-shell-extensions,
 	gnome-extra/gnome-shell-frippery,
+	gnome-extra/gnome-software,
 	gnome-extra/gnome-system-monitor,
 	gnome-extra/gnome-tweak-tool,
 	gnome-extra/gnome-user-docs,
