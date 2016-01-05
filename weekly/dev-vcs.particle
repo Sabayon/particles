@@ -38,6 +38,7 @@ packages:
 	dev-vcs/git-cvs,
 	dev-vcs/git-deploy,
 	dev-vcs/git-gui-tools,
+	dev-vcs/git-imerge,
 	dev-vcs/git-sh,
 	dev-vcs/git-subversion,
 	dev-vcs/gitg,
