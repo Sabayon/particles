@@ -14,6 +14,7 @@ packages:
 	net-proxy/haproxy,
 	net-proxy/havp,
 	net-proxy/http-replicator,
+	net-proxy/mitmproxy,
 	net-proxy/ntlmaps,
 	net-proxy/nylon,
 	net-proxy/oops,
