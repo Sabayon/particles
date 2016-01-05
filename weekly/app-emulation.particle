@@ -39,6 +39,7 @@ packages:
 	app-emulation/qemu,
 	app-emulation/qemulator,
 	app-emulation/qtemu,
+	app-emulation/rkt,
 	app-emulation/simh,
 	app-emulation/skyeye,
 	app-emulation/softgun,
