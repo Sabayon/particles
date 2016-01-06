@@ -402,7 +402,6 @@ packages:
 	dev-perl/Filesys-Df,
 	dev-perl/Filesys-DiskSpace,
 	dev-perl/Filesys-Notify-Simple,
-	dev-perl/Filesys-SmbClient,
 	dev-perl/File-Tail,
 	dev-perl/File-Tempdir,
 	dev-perl/File-Type,
