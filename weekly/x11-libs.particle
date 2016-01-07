@@ -46,7 +46,6 @@ packages:
 	x11-libs/libgxim,
 	x11-libs/libiterm-mbt,
 	x11-libs/libkscreen,
-	x11-libs/libmatchbox,
 	x11-libs/libmatenotify,
 	x11-libs/libnotify,
 	x11-libs/liboglappth,
