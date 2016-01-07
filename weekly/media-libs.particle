@@ -122,7 +122,6 @@ packages:
 	media-libs/libkgeomap,
 	media-libs/liblastfm,
 	media-libs/libmikmod,
-	media-libs/libmimic,
 	media-libs/libmms,
 	media-libs/libmng,
 	media-libs/libmodplug,
