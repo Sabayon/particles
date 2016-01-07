@@ -52,7 +52,6 @@ packages:
 	x11-libs/libpciaccess,
 	x11-libs/libproplist,
 	x11-libs/libqxt,
-	x11-libs/libsexy,
 	x11-libs/libsvg-cairo,
 	x11-libs/libva,
 	x11-libs/libva-intel-driver,
