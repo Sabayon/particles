@@ -53,7 +53,6 @@ packages:
 	net-im/qwit,
 	net-im/reaim,
 	net-im/sendxmpp,
-	net-im/silc-server,
 	net-im/silc-toolkit,
 	net-im/simpserver-bin,
 	net-im/skype,
