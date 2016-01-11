@@ -103,7 +103,6 @@ packages:
 	app-i18n/unicode-data,
 	app-i18n/x-unikey,
 	app-i18n/xcin,
-	app-i18n/xsim,
 	app-i18n/xsunpinyin,
 	app-i18n/xvnkb,
 	app-i18n/zhcon,
