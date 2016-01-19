@@ -397,7 +397,6 @@ packages:
 	dev-python/python-exec,
 	dev-python/python-fastimport,
 	dev-python/python-fchksum,
-	dev-python/python-geoclue,
 	dev-python/python-gflags,
 	dev-python/python-glanceclient,
 	dev-python/python-gnupg,
