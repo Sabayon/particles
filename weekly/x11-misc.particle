@@ -20,7 +20,6 @@ packages:
 	x11-misc/bbpager,
 	x11-misc/bbppp,
 	x11-misc/bbrun,
-	x11-misc/bbsload,
 	x11-misc/bbweather,
 	x11-misc/bumblebee,
 	x11-misc/cairo-clock,
