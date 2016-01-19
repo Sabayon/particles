@@ -78,7 +78,6 @@ packages:
 	app-crypt/tinyca,
 	app-crypt/tpm-tools,
 	app-crypt/trousers,
-	app-crypt/truecrypt,
 	app-crypt/xca,
 	app-crypt/xor-analyze,
 	app-crypt/zuluCrypt
