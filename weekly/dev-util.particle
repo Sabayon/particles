@@ -157,7 +157,6 @@ packages:
 	dev-util/patchutils,
 	dev-util/perf,
 	dev-util/pida,
-	dev-util/piklab,
 	dev-util/pkgcheck,
 	dev-util/pkgconfig,
 	dev-util/plan9port,
