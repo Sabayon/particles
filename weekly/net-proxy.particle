@@ -8,7 +8,6 @@ packages:
 	net-proxy/adzapper,
 	net-proxy/bfilter,
 	net-proxy/c-icap,
-	net-proxy/dansguardian,
 	net-proxy/dante,
 	net-proxy/dnsproxy,
 	net-proxy/haproxy,
