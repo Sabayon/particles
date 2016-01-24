@@ -16,7 +16,6 @@ packages:
 	net-proxy/mitmproxy,
 	net-proxy/ntlmaps,
 	net-proxy/nylon,
-	net-proxy/oops,
 	net-proxy/paros,
 	net-proxy/pingtunnel,
 	net-proxy/piper,
