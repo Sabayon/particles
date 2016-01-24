@@ -12,7 +12,6 @@ packages:
 	www-apache/mod_auth_kerb,
 	www-apache/mod_auth_mysql,
 	www-apache/mod_auth_nufw,
-	www-apache/mod_auth_pgsql,
 	www-apache/mod_auth_tkt,
 	www-apache/mod_authnz_external,
 	www-apache/mod_bw,
