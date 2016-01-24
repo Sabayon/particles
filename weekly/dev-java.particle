@@ -98,7 +98,6 @@ packages:
 	dev-java/fontbox,
 	dev-java/fop,
 	dev-java/freemarker,
-	dev-java/gjdoc,
 	dev-java/glassfish-deployment-api,
 	dev-java/glassfish-persistence,
 	dev-java/glassfish-servlet-api,
