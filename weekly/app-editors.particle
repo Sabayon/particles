@@ -79,7 +79,6 @@ packages:
 
 	app-editors/wxhexeditor,
 	app-editors/xemacs,
-	app-editors/xmlcopyeditor,
 	app-editors/xvile,
 	app-editors/zile,
 	app-editors/znotes,
