@@ -24,7 +24,6 @@ packages:
 	www-apps/dspam-web,
 	www-apps/egroupware,
 	www-apps/freeradius-dialupadmin,
-	www-apps/gallery,
 	www-apps/gitweb,
 	www-apps/gnopaste,
 	www-apps/groupoffice,
