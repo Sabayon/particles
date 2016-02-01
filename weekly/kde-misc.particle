@@ -30,7 +30,6 @@ packages:
 	kde-misc/kpackagekit,
 	kde-misc/kprayertime,
 	kde-misc/krecipes,
-	kde-misc/krename,
 	kde-misc/krunner-kopete-contacts,
 	kde-misc/krusader,
 	kde-misc/kscreen,
