@@ -56,7 +56,6 @@ packages:
 	app-cdr/sync2cd,
 	app-cdr/tkdvd,
 	app-cdr/uif2iso,
-	app-cdr/webcdwriter,
 	app-cdr/xbiso,
 	app-cdr/xcdroast,
 	app-cdr/xdvdfs-tools,
