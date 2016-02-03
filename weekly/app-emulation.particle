@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	app-emulation/aranym,
 	app-emulation/bochs,
 	app-emulation/coldfire,
 	app-emulation/dinero,
