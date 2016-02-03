@@ -13,7 +13,6 @@ packages:
 	x11-plugins/compiz-plugins-extra,
 	x11-plugins/compiz-plugins-main,
 	x11-plugins/compiz-plugins-unsupported,
-	x11-plugins/desklet-gauges,
 	x11-plugins/epplets,
 	x11-plugins/fsviewer,
 	x11-plugins/gkrellaclock,
