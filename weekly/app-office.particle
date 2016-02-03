@@ -38,7 +38,6 @@ packages:
 	app-office/openerp,
 	app-office/openproj-bin,
 	app-office/orage,
-	app-office/passepartout,
 	app-office/plan,
 	app-office/planner,
 	app-office/pinpoint,
