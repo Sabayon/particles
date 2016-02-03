@@ -16,7 +16,6 @@ packages:
 	app-mobilephone/gsmlib,
 	app-mobilephone/heimdall,
 	app-mobilephone/kannel,
-	app-mobilephone/kannel-sqlbox,
 	app-mobilephone/obex-data-server,
 	app-mobilephone/obexd,
 	app-mobilephone/past,
