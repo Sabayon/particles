@@ -70,7 +70,6 @@ packages:
 	gnome-extra/yelp,
 	gnome-extra/yelp-xsl,
 	gnome-extra/zeitgeist,
-	gnome-extra/zeitgeist-extensions,
 	gnome-extra/zenity
 
 # Entropy repository where to commit packages
