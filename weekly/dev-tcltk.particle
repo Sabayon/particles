@@ -20,7 +20,6 @@ packages:
 	dev-tcltk/tablelist,
 	dev-tcltk/tcl-gtk,
 	dev-tcltk/tcl-mccp,
-	dev-tcltk/tcl-sql,
 	dev-tcltk/tcl3d,
 	dev-tcltk/tcllib,
 	dev-tcltk/tclperl,
