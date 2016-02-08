@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	dev-scheme/bigloo,
 	dev-scheme/elk,
 	dev-scheme/gambit,
 	dev-scheme/gauche,
