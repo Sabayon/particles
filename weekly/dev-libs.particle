@@ -255,7 +255,6 @@ packages:
 	dev-libs/stfl,
 	dev-libs/suikyo,
 	dev-libs/svrcore,
-	dev-libs/syck,
 	dev-libs/tinyxml,
 	dev-libs/tinyxml2,
 	dev-libs/tntnet,
