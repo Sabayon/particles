@@ -64,7 +64,6 @@ packages:
 	net-libs/libntlm,
 	net-libs/libnxml,
 	net-libs/liboauth,
-	net-libs/libopkele,
 	net-libs/libosip,
 	net-libs/libotr,
 	net-libs/libpcap,
