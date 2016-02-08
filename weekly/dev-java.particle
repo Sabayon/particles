@@ -93,7 +93,6 @@ packages:
 	dev-java/ehcache,
 	dev-java/fastinfoset,
 	dev-java/fec,
-	dev-java/flute,
 	dev-java/fontbox,
 	dev-java/fop,
 	dev-java/freemarker,
