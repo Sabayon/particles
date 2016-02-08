@@ -80,7 +80,6 @@ packages:
 	dev-java/commons-pool,
 	dev-java/commons-validator,
 	dev-java/commons-vfs,
-	dev-java/concurrent-util,
 	dev-java/constantine,
 	dev-java/cpptasks,
 	dev-java/db4o-jdk11,
