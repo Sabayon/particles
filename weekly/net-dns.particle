@@ -23,7 +23,6 @@ packages:
 	net-dns/maradns,
 	net-dns/mydns,
 	net-dns/ndu,
-	net-dns/noip-updater,
 	net-dns/openresolv,
 	net-dns/pdns,
 	net-dns/pdns-recursor,
