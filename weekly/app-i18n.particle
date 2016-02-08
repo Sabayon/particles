@@ -82,7 +82,6 @@ packages:
 	app-i18n/scim,
 	app-i18n/scim-anthy,
 	app-i18n/scim-bridge,
-	app-i18n/scim-canna,
 	app-i18n/scim-hangul,
 	app-i18n/scim-input-pad,
 	app-i18n/scim-m17n,
