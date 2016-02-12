@@ -169,7 +169,6 @@ packages:
 	dev-php/phpunit,
 	dev-php/simpletest,
 	dev-php/smarty,
-	dev-php/smarty-docs,
 	dev-php/stringparser_bbcode,
 	dev-php/twig,
 	dev-php/xdebug,
