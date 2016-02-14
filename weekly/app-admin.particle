@@ -125,7 +125,6 @@ packages:
 	app-admin/tripwire,
 	app-admin/ulogd,
 	app-admin/usbview,
-	app-admin/usermin,
 	app-admin/vault,
 	app-admin/verynice,
 	app-admin/watchfolder,
