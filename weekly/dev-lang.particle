@@ -38,6 +38,7 @@ packages:
 	dev-lang/interprolog,
 	dev-lang/io,
 	dev-lang/jimtcl,
+	dev-lang/julia,
 	dev-lang/lazarus,
 	dev-lang/libcilkrts,
 	dev-lang/lisaac,
