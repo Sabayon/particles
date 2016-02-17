@@ -188,7 +188,6 @@ packages:
 	dev-java/joda-time,
 	dev-java/jogl,
 	dev-java/joni,
-	dev-java/jpf,
 	dev-java/jreleaseinfo,
 	dev-java/jrexx,
 	dev-java/jsch,
