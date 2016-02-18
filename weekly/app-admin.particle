@@ -42,7 +42,6 @@ packages:
 	app-admin/gentoo-rsync-mirror,
 	app-admin/geolizer,
 	app-admin/gkrellm,
-	app-admin/glance,
 	app-admin/grubconfig,
 	app-admin/gtkdiskfree,
 	app-admin/hardinfo,
