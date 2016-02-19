@@ -72,7 +72,6 @@ packages:
 	net-libs/libproxy,
 	net-libs/libqmi,
 	net-libs/librpcsecgss,
-	net-libs/librsync,
 	net-libs/libsmi,
 	net-libs/libsoup,
 	net-libs/libsoup-gnome,
