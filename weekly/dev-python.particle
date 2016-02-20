@@ -293,7 +293,6 @@ packages:
 	dev-python/pychecker,
 	dev-python/pychm,
 	dev-python/pyclamav,
-	dev-python/pyclimate,
 	dev-python/pyconstruct,
 	dev-python/pycparser,
 	dev-python/pycrypto,
