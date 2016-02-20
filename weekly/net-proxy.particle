@@ -30,8 +30,7 @@ packages:
 	net-proxy/tsocks,
 	net-proxy/ufdbguard,
 	net-proxy/webscarab,
-	net-proxy/wwwoffle,
-	net-proxy/ziproxy
+	net-proxy/wwwoffle
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
