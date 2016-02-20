@@ -9,7 +9,6 @@ packages:
 	dev-ml/bin-prot,
 	dev-ml/bolt,
 	dev-ml/camlidl,
-	dev-ml/camlimages,
 	dev-ml/camlp5,
 	dev-ml/camlzip,
 	dev-ml/camomile,
