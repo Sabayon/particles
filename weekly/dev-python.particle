@@ -463,7 +463,6 @@ packages:
 	dev-python/rtgraph,
 	dev-python/ruledispatch,
 	dev-python/sancho,
-	dev-python/scientificpython,
 	dev-python/setproctitle,
 	dev-python/setuptools,
 	dev-python/setuptools-git,
