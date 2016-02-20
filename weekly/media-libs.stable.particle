@@ -10,7 +10,6 @@ packages:
 	media-libs/freeglut,
 	media-libs/freeimage,
 	media-libs/freetype,
-	media-libs/imlib,
 	media-libs/imlib2,
 	media-libs/jackd-firewire,
 	media-libs/jasper,
