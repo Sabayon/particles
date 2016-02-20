@@ -43,7 +43,6 @@ packages:
 	mail-filter/spamassassin-botnet,
 	mail-filter/spambayes,
 	mail-filter/spampd,
-	mail-filter/spamprobe,
 	mail-filter/sqlgrey,
 	mail-filter/tmda
 
