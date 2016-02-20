@@ -50,7 +50,6 @@ packages:
 	media-libs/gegl,
 	media-libs/gexiv2,
 	media-libs/giblib,
-	media-libs/giflib,
 	media-libs/glew,
 	media-libs/glfw,
 	media-libs/glm,
