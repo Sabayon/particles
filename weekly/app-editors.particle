@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	app-editors/XML-XSH2,
-	app-editors/adie,
 	app-editors/aee,
 	app-editors/amyedit,
 	app-editors/beaver,
