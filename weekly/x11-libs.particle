@@ -12,8 +12,6 @@ packages:
 	x11-libs/dnd,
 	x11-libs/flowcanvas,
 	x11-libs/fltk,
-	x11-libs/fox,
-	x11-libs/fox,
 	x11-libs/fox-wrapper,
 	x11-libs/fxscintilla,
 	x11-libs/gdk-pixbuf,
