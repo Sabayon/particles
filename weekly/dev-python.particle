@@ -446,7 +446,6 @@ packages:
 	dev-python/redis-py,
 	dev-python/reportlab,
 	dev-python/repoze-lru,
-	dev-python/requests,
 	dev-python/restkit,
 	dev-python/reverend,
 	dev-python/rhpl,
