@@ -36,8 +36,6 @@ packages:
 	dev-java/appframework,
 	dev-java/apple-java-extensions-bin,
 	dev-java/apt-mirror,
-	dev-java/asm,
-	dev-java/asm,
 	dev-java/avalon-framework,
 	dev-java/avalon-logkit,
 	dev-java/backport-util-concurrent,
