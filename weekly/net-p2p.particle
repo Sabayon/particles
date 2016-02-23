@@ -9,7 +9,6 @@ packages:
 	net-p2p/bitcoin-qt,
 	net-p2p/bitcoind,
 	net-p2p/bittorrent,
-	net-p2p/btpd,
 	net-p2p/createtorrent,
 	net-p2p/ctcs,
 	net-p2p/ctorrent,
