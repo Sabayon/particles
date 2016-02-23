@@ -475,7 +475,6 @@ packages:
 	games-simulation/openttd,
 	games-simulation/planets,
 	games-simulation/pmars-sdl,
-	games-simulation/qct,
 	games-simulation/searchandrescue,
 	games-simulation/senken,
 	games-simulation/simutrans,
