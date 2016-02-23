@@ -36,7 +36,6 @@ packages:
 	net-p2p/mldonkey,
 	net-p2p/nicotine+,
 	net-p2p/opendchub,
-	net-p2p/phex,
 	net-p2p/qbittorrent,
 	net-p2p/retroshare,
 	net-p2p/rtorrent,
