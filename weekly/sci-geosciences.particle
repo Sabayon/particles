@@ -15,7 +15,6 @@ packages:
 	sci-geosciences/gpscorrelate,
 	sci-geosciences/gpsd,
 	sci-geosciences/josm,
-	sci-geosciences/josm-plugins,
 	sci-geosciences/mapnik-world-boundaries,
 	sci-geosciences/mapserver,
 	sci-geosciences/merkaartor,
