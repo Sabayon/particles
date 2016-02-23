@@ -17,7 +17,6 @@ packages:
 	net-dns/ez-ipupdate,
 	net-dns/fpdns,
 	net-dns/hesiod,
-	net-dns/host,
 	net-dns/idnkit,
 	net-dns/libidn,
 	net-dns/maradns,
