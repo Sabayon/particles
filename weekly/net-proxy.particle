@@ -28,7 +28,6 @@ packages:
 	net-proxy/torsocks,
 	net-proxy/tsocks,
 	net-proxy/ufdbguard,
-	net-proxy/webscarab,
 	net-proxy/wwwoffle
 
 # Entropy repository where to commit packages
