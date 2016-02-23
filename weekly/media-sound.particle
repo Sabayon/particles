@@ -258,7 +258,6 @@ packages:
 	media-sound/setmixer,
 	media-sound/sexypsf,
 	media-sound/sfc,
-	media-sound/shell-fm,
 	media-sound/shntool,
 	media-sound/shorten,
 	media-sound/sidplay,
