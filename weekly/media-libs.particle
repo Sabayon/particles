@@ -55,7 +55,6 @@ packages:
 	media-libs/glm,
 	media-libs/glpng,
 	media-libs/glu,
-	media-libs/gluon,
 	media-libs/glyr,
 	media-libs/gmtk,
 	media-libs/gnonlin,
