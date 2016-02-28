@@ -183,6 +183,7 @@ packages:
 	dev-util/strace,
 	dev-util/suse-build,
 	dev-util/synopsis,
+	dev-util/sysdig,
 	dev-util/systemtap,
 	dev-util/tailor,
 	dev-util/ticpp,
