@@ -23,7 +23,6 @@ packages:
 	kde-base/kdepimlibs,
 	kde-base/kdepim-meta,
 	kde-base/kdepim-runtime,
-	kde-base/kdm,
 	kde-base/kephal,
 	kde-base/khelpcenter,
 	kde-base/kinfocenter,
