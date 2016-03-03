@@ -7,6 +7,7 @@ packages:
 	kde-plasma/kdecoration,
 	kde-plasma/kwayland,
 	kde-plasma/libkscreen,
+	kde-plasma/plasma-workspace,
 	kde-plasma/plasma-workspace-wallpapers,
 	kde-plasma/systemsettings
 
