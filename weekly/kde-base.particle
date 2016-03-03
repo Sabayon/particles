@@ -16,7 +16,6 @@ packages:
 	kde-base/kdebindings-meta,
 	kde-base/kde-env,
 	kde-base/kdelibs,
-	kde-base/kde-meta,
 	kde-base/kdepim-common-libs,
 	kde-base/kdepim-icons,
 	kde-base/kdepim-kresources,
@@ -56,7 +55,6 @@ packages:
 	kde-base/smokekde,
 	kde-base/smokeqt,
 
-	kde-base/kde-meta
 	kde-base/kdebindings-meta
 	kde-base/kdepim-meta
 
