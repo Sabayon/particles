@@ -50,7 +50,6 @@ packages:
 	net-im/pyicq-t,
 	net-im/python-otr,
 	net-im/qtwitter,
-	net-im/qwit,
 	net-im/reaim,
 	net-im/sendxmpp,
 	net-im/silc-toolkit,
