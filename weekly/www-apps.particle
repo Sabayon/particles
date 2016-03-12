@@ -29,7 +29,6 @@ packages:
 	www-apps/groupoffice,
 	www-apps/horde,
 	www-apps/horde-chora,
-	www-apps/horde-dimp,
 	www-apps/horde-gollem,
 	www-apps/horde-hermes,
 	www-apps/horde-ingo,
