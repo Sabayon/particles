@@ -26,6 +26,7 @@ packages:
 	app-shells/soapbox,
 	app-shells/squirrelsh,
 	app-shells/tcsh,
+	app-shells/thefuck,
 	app-shells/zsh,
 	app-shells/zsh-completions
 
