@@ -37,6 +37,7 @@ packages:
 	dev-vcs/git-cola,
 	dev-vcs/git-cvs,
 	dev-vcs/git-deploy,
+	dev-vcs/git-flow,
 	dev-vcs/git-gui-tools,
 	dev-vcs/git-imerge,
 	dev-vcs/git-sh,
