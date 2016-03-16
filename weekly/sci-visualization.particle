@@ -6,6 +6,7 @@
 packages:
 	sci-visualization/epix,
 	sci-visualization/fig2sxd,
+	sci-visualization/functy,
 	sci-visualization/g3data,
 	sci-visualization/gnuplot,
 	sci-visualization/grace,
