@@ -75,7 +75,6 @@ packages:
 	sci-biology/prosite,
 	sci-biology/qrna,
 	sci-biology/raxml,
-	sci-biology/readseq,
 	sci-biology/rebase,
 	sci-biology/recon,
 	sci-biology/rnaview,
