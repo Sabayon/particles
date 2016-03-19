@@ -78,8 +78,7 @@ packages:
 	dev-tex/tipa,
 	dev-tex/tth,
 	dev-tex/xcolor,
-	dev-tex/xmltex,
-	dev-tex/xymtex
+	dev-tex/xmltex
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
