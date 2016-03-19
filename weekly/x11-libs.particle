@@ -55,7 +55,6 @@ packages:
 	x11-libs/libva-intel-driver,
 	x11-libs/libva-vdpau-driver,
 	x11-libs/libvdpau,
-	x11-libs/libview,
 	x11-libs/libwnck,
 	x11-libs/libwnck,
 	x11-libs/libxcb,
