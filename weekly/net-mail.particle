@@ -25,6 +25,7 @@ packages:
 	net-mail/gnubiff,
 	net-mail/grepmail,
 	net-mail/hotwayd,
+	net-mail/imapsync,
 	net-mail/isync,
 	net-mail/lbdb,
 	net-mail/libpst,
