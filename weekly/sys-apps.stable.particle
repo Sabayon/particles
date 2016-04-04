@@ -92,6 +92,7 @@ packages:
 	sys-apps/rename,
 	sys-apps/renameutils,
 	sys-apps/rigo-daemon,
+	sys-apps/rng-tools,
 	sys-apps/sandbox,
 	sys-apps/sdparm,
 	sys-apps/sed,
