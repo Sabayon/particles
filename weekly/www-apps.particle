@@ -14,7 +14,6 @@ packages:
 	www-apps/cgisysinfo,
 	www-apps/cgit,
 	www-apps/collectd-web,
-	www-apps/coppermine,
 	www-apps/curator,
 	www-apps/cvsweb,
 	www-apps/dokuwiki,
