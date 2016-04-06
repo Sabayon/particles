@@ -67,7 +67,6 @@ packages:
 	dev-vcs/rcsi,
 	dev-vcs/rsvndump,
 	dev-vcs/statcvs,
-	dev-vcs/statsvn,
 	dev-vcs/stgit,
 	dev-vcs/subversion,
 	dev-vcs/subversion-java,
