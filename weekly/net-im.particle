@@ -49,7 +49,6 @@ packages:
 	net-im/pyaim-t,
 	net-im/pyicq-t,
 	net-im/python-otr,
-	net-im/qtwitter,
 	net-im/reaim,
 	net-im/sendxmpp,
 	net-im/silc-toolkit,
