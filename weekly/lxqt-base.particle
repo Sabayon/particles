@@ -10,7 +10,6 @@ packages:
         lxqt-base/lxqt-admin,
         lxqt-base/lxqt-common,
         lxqt-base/lxqt-config,
-        lxqt-base/lxqt-config-randr,
         lxqt-base/lxqt-globalkeys,
         lxqt-base/lxqt-meta,
         lxqt-base/lxqt-notificationd,
