@@ -128,7 +128,6 @@ packages:
 	dev-java/jansi,
 	dev-java/jarjar,
 	dev-java/java-config,
-	dev-java/java-config-wrapper,
 	dev-java/java-getopt,
 	dev-java/java-gnome,
 	dev-java/java-service-wrapper,
