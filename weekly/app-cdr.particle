@@ -50,7 +50,6 @@ packages:
 	app-cdr/nrg2iso,
 	app-cdr/plextor-tool,
 	app-cdr/poweriso,
-	app-cdr/qmultirecord,
 	app-cdr/qpxtool,
 	app-cdr/recorder,
 	app-cdr/sync2cd,
