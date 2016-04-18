@@ -70,12 +70,10 @@ packages:
 	app-admin/monit,
 	app-admin/newsyslog,
 	app-admin/ngxtop,
-
-	app-admin/packagekit-base
-	app-admin/packagekit-gtk
-	app-admin/packagekit-qt4
+	app-admin/packagekit-base,
+	app-admin/packagekit-gtk,
+	app-admin/packagekit-qt,
 	app-admin/packagekit,
-
 	app-admin/passook,
 	app-admin/paxtest,
 	app-admin/perl-cleaner,
