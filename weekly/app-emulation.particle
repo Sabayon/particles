@@ -48,9 +48,6 @@ packages:
 	app-emulation/spice-vdagent,
 	app-emulation/spice,
 	app-emulation/spim,
-
-	app-emulation/steam-runtime-bin,
-
 	app-emulation/uade,
 	app-emulation/uae,
 	app-emulation/vagrant,
