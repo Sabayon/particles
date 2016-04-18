@@ -140,7 +140,6 @@ packages:
 	dev-java/javolution,
 	dev-java/jaxen,
 	dev-java/jaxme,
-	dev-java/jaxp,
 	dev-java/jazzy,
 	dev-java/jbitcollider-core,
 	dev-java/jcalendar,
