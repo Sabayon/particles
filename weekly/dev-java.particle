@@ -138,7 +138,6 @@ packages:
 	dev-java/javassist,
 	dev-java/javatoolkit,
 	dev-java/javolution,
-	dev-java/jax-ws-api,
 	dev-java/jaxb,
 	dev-java/jaxen,
 	dev-java/jaxme,
