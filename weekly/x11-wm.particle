@@ -7,7 +7,6 @@ packages:
 	x11-wm/aewm++,
 	x11-wm/aewm,
 	x11-wm/afterstep,
-	x11-wm/amiwm,
 	x11-wm/awesome,
 	x11-wm/blackbox,
 	x11-wm/bspwm,
