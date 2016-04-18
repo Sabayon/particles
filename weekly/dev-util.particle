@@ -7,7 +7,6 @@ packages:
 	dev-util/App-SVN-Bisect,
 	dev-util/a8,
 	dev-util/aap,
-	dev-util/acgmake,
 	dev-util/alleyoop,
 	dev-util/android-sdk-update-manager,
 	dev-util/android-studio,
