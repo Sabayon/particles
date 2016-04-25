@@ -341,7 +341,6 @@ packages:
 	dev-java/xp,
 	dev-java/xpp2,
 	dev-java/xpp3,
-	dev-java/xsd2jibx,
 	dev-java/xsdlib,
 	dev-java/xstream,
 	dev-java/xz-java,
