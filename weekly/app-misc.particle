@@ -214,7 +214,6 @@ packages:
 	app-misc/strigi,
 	app-misc/supercat,
 	app-misc/symlinks,
-	app-misc/tablix,
 	app-misc/task,
 	app-misc/tasque,
 	app-misc/tdfsb,
