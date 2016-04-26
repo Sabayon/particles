@@ -84,6 +84,7 @@ packages:
 	sys-apps/smartmontools,
 	sys-apps/systemd-ui,
 	sys-apps/texinfo,
+	sys-apps/the_silver_searcher,
 	sys-apps/tuned,
 	sys-apps/tuxonice-userui,
 	sys-apps/uam,
