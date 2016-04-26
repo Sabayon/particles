@@ -473,7 +473,6 @@ packages:
 	games-simulation/lincity-ng,
 	games-simulation/micropolis,
 	games-simulation/openttd,
-	games-simulation/planets,
 	games-simulation/pmars-sdl,
 	games-simulation/searchandrescue,
 	games-simulation/senken,
