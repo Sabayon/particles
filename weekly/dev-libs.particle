@@ -210,7 +210,6 @@ packages:
 	dev-libs/lzo,
 	dev-libs/m17n-lib,
 	dev-libs/maloc,
-	dev-libs/matrixssl,
 	dev-libs/mini-xml,
 	dev-libs/mongo-c-driver,
 	dev-libs/mozldap,
