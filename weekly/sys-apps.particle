@@ -82,7 +82,6 @@ packages:
 	sys-apps/setserial,
 	sys-apps/sg3_utils,
 	sys-apps/smartmontools,
-	sys-apps/systemd-ui,
 	sys-apps/texinfo,
 	sys-apps/the_silver_searcher,
 	sys-apps/tuned,
