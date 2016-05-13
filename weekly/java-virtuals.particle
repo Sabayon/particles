@@ -6,7 +6,6 @@
 packages:
 	java-virtuals/jaf,
 	java-virtuals/javamail,
-	java-virtuals/jaxp-virtual,
 	java-virtuals/jdk-with-com-sun,
 	java-virtuals/jms,
 	java-virtuals/jmx,
