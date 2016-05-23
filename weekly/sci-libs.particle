@@ -65,8 +65,7 @@ packages:
 	sci-libs/szip,
 	sci-libs/ta-lib,
 	sci-libs/tamu_anova,
-	sci-libs/tnt,
-	sci-libs/torch,
+	sci-libs/tnt
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
