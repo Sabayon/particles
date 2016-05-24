@@ -16,7 +16,6 @@ packages:
 	dev-lang/clojure,
 	dev-lang/cm3-bin,
 	dev-lang/confluence,
-	dev-lang/dmd-bin,
 	dev-lang/f2c,
 	dev-lang/falcon,
 	dev-lang/ferite,
