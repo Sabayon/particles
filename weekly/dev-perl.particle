@@ -31,7 +31,6 @@ packages:
 	dev-perl/App-cpanminus,
 	dev-perl/App-Nopaste,
 	dev-perl/Archive-Extract,
-	dev-perl/Archive-Rar,
 	dev-perl/Archive-Zip,
 	dev-perl/Array-Compare,
 	dev-perl/Array-RefElem,
