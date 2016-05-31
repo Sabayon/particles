@@ -19,7 +19,6 @@ packages:
 	net-irc/ezbounce,
 	net-irc/hexchat,
 	net-irc/ii,
-	net-irc/iip,
 	net-irc/inspircd,
 	net-irc/ircii,
 	net-irc/ircservices,
