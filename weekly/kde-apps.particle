@@ -74,7 +74,6 @@ packages:
 	kde-apps/kdepasswd,
 	kde-apps/kdesdk-kioslaves,
 	kde-apps/kdesdk-meta,
-	kde-apps/kdesdk-strigi-analyzer,
 	kde-apps/kdesu,
 	kde-apps/kdeutils-meta,
 	kde-apps/kdewebdev-meta,
