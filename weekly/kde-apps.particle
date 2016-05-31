@@ -77,7 +77,6 @@ packages:
 	kde-apps/kdesdk-meta,
 	kde-apps/kdesdk-strigi-analyzer,
 	kde-apps/kdesu,
-	kde-apps/kdetoys-meta,
 	kde-apps/kdeutils-meta,
 	kde-apps/kdewebdev-meta,
 	kde-apps/kdf,
