@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	kde-apps/amor,
 	kde-apps/analitza,
 	kde-apps/ark,
 	kde-apps/audiocd-kio,
