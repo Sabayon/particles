@@ -20,8 +20,6 @@ packages:
 	sci-geosciences/merkaartor,
 	sci-geosciences/osmosis,
 	sci-geosciences/qgis,
-	sci-geosciences/qlandkartegt,
-	sci-geosciences/qlandkartegt-garmindev,
 	sci-geosciences/viking,
 
 # Enforce stable or unstable packages on emerge.
