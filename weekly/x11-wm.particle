@@ -52,7 +52,8 @@ packages:
 	x11-wm/wmii,
 	x11-wm/wmfs,
 	x11-wm/xmonad,
-	x11-wm/xmonad-contrib:0
+	x11-wm/xmonad-contrib:0,
+	x11-wm/xpra
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
