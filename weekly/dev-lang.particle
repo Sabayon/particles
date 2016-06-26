@@ -15,6 +15,7 @@ packages:
 	dev-lang/cll1h,
 	dev-lang/clojure,
 	dev-lang/cm3-bin,
+	dev-lang/coffee-script,
 	dev-lang/confluence,
 	dev-lang/f2c,
 	dev-lang/falcon,
