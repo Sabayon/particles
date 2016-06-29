@@ -16,7 +16,6 @@ packages:
 	net-print/foomatic-db-ppds,
 	net-print/foomatic-filters,
 	net-print/foomatic-filters-ppds,
-	net-print/foomatic-gui,
 	net-print/gtklp,
 	net-print/gutenprint,
 	net-print/hplip,
