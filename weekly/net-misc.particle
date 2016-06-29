@@ -199,7 +199,6 @@ packages:
 	net-misc/ssvnc,
 	net-misc/stone,
 	net-misc/streamtuner,
-	net-misc/streamtuner2,
 	net-misc/stunnel,
 	net-misc/suite3270,
 	net-misc/taylor-uucp,
