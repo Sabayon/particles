@@ -1007,7 +1007,6 @@ packages:
 	dev-perl/Text-Shellwords,
 	dev-perl/Text-Table,
 	dev-perl/text-template,
-	dev-perl/TextToHTML,
 	dev-perl/Text-Unaccent,
 	dev-perl/Text-Unidecode,
 	dev-perl/Text-vFile-asData,
