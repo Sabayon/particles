@@ -52,7 +52,6 @@ packages:
 	dev-util/cppunit,
 	dev-util/cproto,
 	dev-util/crash,
-	dev-util/crow-designer,
 	dev-util/cscope,
 	dev-util/ctags,
 	dev-util/cucumber,
