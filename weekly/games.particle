@@ -459,7 +459,6 @@ packages:
 	games-server/monopd,
 	games-server/nwn-ded,
 	games-server/pvpgn,
-	games-server/ut2004-ded,
 	games-simulation/bcs-demo,
 	games-simulation/cannonsmash,
 	games-simulation/crashtest,
