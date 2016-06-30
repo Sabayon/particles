@@ -304,7 +304,6 @@ packages:
 	games-fps/quake3-data,
 	games-fps/quake3-defrag,
 	games-fps/quake3-demo,
-	games-fps/redeclipse,
 	games-fps/sauerbraten,
 	games-fps/urbanterror,
 	games-fps/warsow,
