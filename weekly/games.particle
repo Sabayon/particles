@@ -135,7 +135,6 @@ packages:
 	games-arcade/rockdodger,
 	games-arcade/sable,
 	games-arcade/sdb,
-	games-arcade/sdl-ball,
 	games-arcade/sdl-sopwith,
 	games-arcade/sdlroids,
 	games-arcade/sdlsasteroids,
