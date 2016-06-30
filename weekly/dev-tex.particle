@@ -54,7 +54,6 @@ packages:
 	dev-tex/lgrind,
 	dev-tex/luatex,
 	dev-tex/metapost,
-	dev-tex/mimetex,
 	dev-tex/newlfm,
 	dev-tex/notoccite,
 	dev-tex/oesch,
