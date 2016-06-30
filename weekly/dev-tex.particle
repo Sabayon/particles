@@ -33,7 +33,6 @@ packages:
 	dev-tex/floatflt,
 	dev-tex/foiltex,
 	dev-tex/frakturx,
-	dev-tex/fundus,
 	dev-tex/g-brief,
 	dev-tex/glossaries,
 	dev-tex/harvard,
