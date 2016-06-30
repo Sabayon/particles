@@ -124,7 +124,6 @@ packages:
 	media-video/subtitleeditor,
 	media-video/subtitler-yuv,
 	media-video/subtitleripper,
-	media-video/subotage,
 	media-video/super_demux,
 	media-video/tcmplex-panteltje,
 	media-video/tivodecode,
