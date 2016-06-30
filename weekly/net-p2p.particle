@@ -45,8 +45,7 @@ packages:
 	net-p2p/tvrss,
 	net-p2p/valknut,
 	net-p2p/vuze,
-	net-p2p/vuze-coreplugins,
-	net-p2p/yaggui,
+	net-p2p/vuze-coreplugins
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
