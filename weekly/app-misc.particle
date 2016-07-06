@@ -211,7 +211,6 @@ packages:
 	app-misc/sphinx,
 	app-misc/splitvt,
 	app-misc/srm,
-	app-misc/strigi,
 	app-misc/supercat,
 	app-misc/symlinks,
 	app-misc/task,
