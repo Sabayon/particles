@@ -31,7 +31,6 @@ packages:
 	games-action/koth,
 	games-action/luola,
 	games-action/maelstrom,
-	games-action/meritous,
 	games-action/minecraft,
 	games-action/minetest,
 	games-action/minetest_game,
