@@ -104,7 +104,6 @@ packages:
 	net-misc/lksctp-tools,
 	net-misc/lldpad,
 	net-misc/logmein-hamachi,
-	net-misc/mdidentd,
 	net-misc/mediatomb,
 	net-misc/memcached,
 	net-misc/midentd,
