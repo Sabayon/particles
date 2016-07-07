@@ -65,8 +65,6 @@ packages:
 	dev-libs/gobject-introspection,
 	dev-libs/gobject-introspection-common,
 	dev-libs/grantlee,
-	dev-libs/guiloader,
-	dev-libs/guiloader-c++,
 	dev-libs/http-fetcher,
 	dev-libs/hyphen,
 	dev-libs/iksemel,
