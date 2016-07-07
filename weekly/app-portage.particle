@@ -39,7 +39,6 @@ packages:
 	app-portage/mirrorselect,
 	app-portage/perl-info,
 	app-portage/pfl,
-	app-portage/pms-test-suite,
 	app-portage/portage-utils,
 	app-portage/porthole,
 	app-portage/porticron,
