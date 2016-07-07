@@ -16,7 +16,6 @@ packages:
 	www-client/httrack,
 	www-client/jd,
 	www-client/links,
-	www-client/luakit,
 	www-client/lynx,
 	www-client/midori,
 	www-client/netrik,
