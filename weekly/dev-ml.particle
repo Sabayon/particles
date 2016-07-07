@@ -12,7 +12,6 @@ packages:
 	dev-ml/camlp5,
 	dev-ml/camlzip,
 	dev-ml/camomile,
-	dev-ml/comparelib,
 	dev-ml/core,
 	dev-ml/core_kernel,
 	dev-ml/cryptokit,
