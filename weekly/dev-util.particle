@@ -197,7 +197,6 @@ packages:
 	dev-util/valgrind,
 	dev-util/valkyrie,
 	dev-util/vbindiff,
-	dev-util/vdkbuilder,
 	dev-util/visual-regexp,
 	dev-util/visualvm,
 	dev-util/vmtouch,
