@@ -161,7 +161,6 @@ packages:
 	dev-util/pmd,
 	dev-util/premake,
 	dev-util/pykickstart,
-	dev-util/qdevelop,
 	dev-util/quilt,
 	dev-util/ragel,
 	dev-util/rats,
