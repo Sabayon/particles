@@ -51,7 +51,6 @@ packages:
 	dev-python/cgkit,
 	dev-python/chameleon,
 	dev-python/characteristic,
-	dev-python/charade,
 	dev-python/chardet,
 	dev-python/cheetah,
 	dev-python/cheetah-docs,
