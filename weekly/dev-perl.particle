@@ -77,7 +77,6 @@ packages:
 	dev-perl/Cache-Cache,
 	dev-perl/Cache-Memcached,
 	dev-perl/Cache-Memcached-Fast,
-	dev-perl/cache-mmap,
 	dev-perl/Cache-Simple-TimedExpiry,
 	dev-perl/Cairo,
 	dev-perl/Calendar-Simple,
