@@ -132,7 +132,6 @@ packages:
 	dev-util/netbeans,
 	dev-util/netbeans,
 	dev-util/ninja-ide,
-	dev-util/nsis,
 	dev-util/nvidia-cuda-sdk,
 	dev-util/nvidia-cuda-toolkit,
 	dev-util/obs-service-cpanspec,
