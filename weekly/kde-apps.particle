@@ -45,7 +45,6 @@ packages:
 	kde-apps/kcron,
 	kde-apps/kde-dev-scripts,
 	kde-apps/kde-dev-utils,
-	kde-apps/kde-wallpapers,
 	kde-apps/kdeaccessibility-meta,
 	kde-apps/kdeadmin-meta,
 	kde-apps/kdeartwork-kscreensaver,
