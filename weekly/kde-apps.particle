@@ -43,7 +43,6 @@ packages:
 	kde-apps/kcmshell,
 	kde-apps/kcolorchooser,
 	kde-apps/kcron,
-	kde-apps/kde-base-artwork,
 	kde-apps/kde-dev-scripts,
 	kde-apps/kde-dev-utils,
 	kde-apps/kde-wallpapers,
