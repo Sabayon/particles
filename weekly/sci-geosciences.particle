@@ -10,7 +10,6 @@ packages:
 	sci-geosciences/gnome-maps,
 	sci-geosciences/gmapcatcher,
 	sci-geosciences/gmt,
-	sci-geosciences/googleearth,
 	sci-geosciences/gpsbabel,
 	sci-geosciences/gpscorrelate,
 	sci-geosciences/gpsd,
