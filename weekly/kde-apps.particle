@@ -54,7 +54,6 @@ packages:
 	kde-apps/kdeartwork-emoticons,
 	kde-apps/kdeartwork-kscreensaver,
 	kde-apps/kdeartwork-meta,
-	kde-apps/kdeartwork-wallpapers,
 	kde-apps/kdebase-data,
 	kde-apps/kdebase-desktoptheme,
 	kde-apps/kdebase-kioslaves,
