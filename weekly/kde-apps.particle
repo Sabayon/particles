@@ -51,7 +51,6 @@ packages:
 	kde-apps/kdeadmin-meta,
 	kde-apps/kdeartwork-colorschemes,
 	kde-apps/kdeartwork-desktopthemes,
-	kde-apps/kdeartwork-emoticons,
 	kde-apps/kdeartwork-kscreensaver,
 	kde-apps/kdeartwork-meta,
 	kde-apps/kdebase-data,
