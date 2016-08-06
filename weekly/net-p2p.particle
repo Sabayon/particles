@@ -23,7 +23,6 @@ packages:
 	net-p2p/i2p,
 	net-p2p/kmldonkey,
 	net-p2p/ktorrent,
-	net-p2p/microdc2,
 	net-p2p/mktorrent,
 	net-p2p/mktorrent-borg,
 	net-p2p/mldonkey,
