@@ -43,7 +43,6 @@ packages:
 	kde-base/kwin,
 	kde-base/kwrited,
 	kde-base/libkworkspace,
-	kde-base/liboxygenstyle,
 	kde-base/libplasmaclock,
 	kde-base/libplasmagenericshell,
 	kde-base/perlkde,
