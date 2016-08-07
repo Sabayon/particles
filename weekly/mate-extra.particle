@@ -6,7 +6,6 @@
 packages:
 	mate-extra/caja-dropbox,
 	mate-extra/caja-extensions,
-	mate-extra/mate-dialogs,
 	mate-extra/mate-media,
 	mate-extra/mate-polkit,
 	mate-extra/mate-power-manager,
