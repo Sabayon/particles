@@ -269,7 +269,6 @@ packages:
 	dev-java/netbeans-websvccommon,
 	dev-java/oracle-jdk-bin,
 	dev-java/oracle-jre-bin,
-	dev-java/oscache,
 	dev-java/osgi-foundation,
 	dev-java/osgi-core-api,
 	dev-java/pdfbox,
