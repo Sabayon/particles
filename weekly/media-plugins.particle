@@ -31,7 +31,6 @@ packages:
 	media-plugins/gmpc-playlistsort,
 	media-plugins/gmpc-shout,
 	media-plugins/gmpc-tagedit,
-	media-plugins/gmpc-wikipedia,
 	media-plugins/gst-plugins-a52dec,
 	media-plugins/gst-plugins-alsa,
 	media-plugins/gst-plugins-annodex,
