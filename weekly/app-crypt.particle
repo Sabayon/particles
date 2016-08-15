@@ -80,6 +80,7 @@ packages:
 	app-crypt/trousers,
 	app-crypt/xca,
 	app-crypt/xor-analyze,
+	app-crypt/yubikey-neo-manager,
 	app-crypt/zuluCrypt
 
 # Entropy repository where to commit packages
