@@ -342,7 +342,6 @@ packages:
 	dev-python/pymssql,
 	dev-python/pyndex,
 	dev-python/pynotifier,
-	dev-python/pynut,
 	dev-python/pynzb,
 	dev-python/pyode,
 	dev-python/pyogg,
