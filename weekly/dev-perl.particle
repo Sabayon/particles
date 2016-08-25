@@ -977,7 +977,6 @@ packages:
 	dev-perl/Test-Tester,
 	dev-perl/Test-Trap,
 	dev-perl/Test-Unit-Lite,
-	dev-perl/Test-use-ok,
 	dev-perl/Test-Warn,
 	dev-perl/Test-WWW-Mechanize,
 	dev-perl/Text-Aligner,
