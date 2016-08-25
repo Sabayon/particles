@@ -676,7 +676,6 @@ packages:
 	dev-perl/MooseX-Types-DateTimeX,
 	dev-perl/MooseX-Types-JSON,
 	dev-perl/MooseX-Types-Path-Class,
-	dev-perl/MooseX-Types-URI,
 	dev-perl/MooX-HandlesVia,
 	dev-perl/MooX-late,
 	dev-perl/MooX-Types-MooseLike,
