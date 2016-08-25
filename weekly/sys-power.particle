@@ -12,7 +12,6 @@ packages:
 	sys-power/bbswitch,
 	sys-power/cpudyn,
 	sys-power/cpupower,
-	sys-power/cpuspeedy,
 	sys-power/hibernate-script,
 	sys-power/iasl,
 	sys-power/ncpufreqd,
