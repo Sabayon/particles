@@ -30,7 +30,6 @@ packages:
 	sys-fs/ncdu,
 	sys-fs/nilfs-utils,
 	sys-fs/ntfs3g,
-	sys-fs/obexfs,
 	sys-fs/owfs,
 	sys-fs/progsreiserfs,
 	sys-fs/reiser4progs,
