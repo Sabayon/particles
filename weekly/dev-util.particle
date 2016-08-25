@@ -35,7 +35,6 @@ packages:
 	dev-util/catalyst,
 	dev-util/catfish,
 	dev-util/ccache,
-	dev-util/cdecl,
 	dev-util/cflow,
 	dev-util/cgdb,
 	dev-util/checkstyle,
