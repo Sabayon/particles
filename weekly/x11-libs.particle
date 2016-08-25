@@ -13,7 +13,6 @@ packages:
 	x11-libs/flowcanvas,
 	x11-libs/fltk,
 	x11-libs/fox-wrapper,
-	x11-libs/fxscintilla,
 	x11-libs/gdk-pixbuf,
 	x11-libs/gksu,
 	x11-libs/gl2ps,
