@@ -10,7 +10,6 @@ packages:
 	www-misc/htdig,
 	www-misc/log-toolkit,
 	www-misc/mergelog,
-	www-misc/reflector,
 	www-misc/surl,
 	www-misc/vdradmin-am,
 	www-misc/visitors,
