@@ -23,8 +23,7 @@ packages:
 	www-servers/tornado,
 	www-servers/uwsgi,
 	www-servers/varnish,
-	www-servers/webcit,
-	www-servers/webfs
+	www-servers/webcit
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
