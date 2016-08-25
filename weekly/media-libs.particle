@@ -147,7 +147,6 @@ packages:
 	media-libs/libsmf,
 	media-libs/libsndfile,
 	media-libs/libsoundtouch,
-	media-libs/libsvg,
 	media-libs/libtaginfo,
 	media-libs/libtheora,
 	media-libs/libtxc_dxtn,
