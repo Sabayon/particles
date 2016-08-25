@@ -13,7 +13,6 @@ packages:
 	media-video/asfrecorder,
 	media-video/atomicparsley,
 	media-video/avidemux,
-	media-video/avinfo,
 	media-video/bbtools,
 	media-video/bdsup2sub,
 	media-video/binkplayer,
