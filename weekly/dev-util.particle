@@ -78,7 +78,6 @@ packages:
 	dev-util/duma,
 	dev-util/dwarves,
 	dev-util/dwdiff,
-	dev-util/eggy,
 	dev-util/egypt,
 	dev-util/elfkickers,
 	dev-util/eric,
