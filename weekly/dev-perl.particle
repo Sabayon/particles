@@ -863,7 +863,6 @@ packages:
 	dev-perl/Schedule-At,
 	dev-perl/Scope-Guard,
 	dev-perl/SDL,
-	dev-perl/Search-Sitemap,
 	dev-perl/self,
 	dev-perl/Server-Starter,
 	dev-perl/Set-Infinite,
