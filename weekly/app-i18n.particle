@@ -88,7 +88,6 @@ packages:
 	app-i18n/scim-pinyin,
 	app-i18n/scim-prime,
 	app-i18n/scim-sayura,
-	app-i18n/scim-skk,
 	app-i18n/scim-sunpinyin,
 	app-i18n/scim-tables,
 	app-i18n/scim-wijesekera,
