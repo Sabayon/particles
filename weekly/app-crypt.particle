@@ -33,7 +33,6 @@ packages:
 	app-crypt/gpgme,
 	app-crypt/gpgstats,
 	app-crypt/hashalot,
-	app-crypt/hashcat-bin,
 	app-crypt/jacksum,
 	app-crypt/johntheripper,
 	app-crypt/keylookup,
