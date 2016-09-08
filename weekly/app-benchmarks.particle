@@ -21,7 +21,6 @@ packages:
 	app-benchmarks/iozone,
 	app-benchmarks/jmeter,
 	app-benchmarks/nbench,
-	app-benchmarks/phoronix-test-suite,
 	app-benchmarks/piozone,
 	app-benchmarks/pipebench,
 	app-benchmarks/ramspeed,
