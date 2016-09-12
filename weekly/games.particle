@@ -218,6 +218,7 @@ packages:
 	games-board/pysolfc,
 	games-board/qcheckers,
 	games-board/scid,
+	games-board/simsu,
 	games-board/sirius,
 	games-board/sjeng,
 	games-board/tali,
