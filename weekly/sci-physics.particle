@@ -12,7 +12,6 @@ packages:
 	sci-physics/jaxodraw,
 	sci-physics/lhapdf,
 	sci-physics/lightspeed,
-	sci-physics/mpb,
 	sci-physics/paw,
 	sci-physics/phun,
 	sci-physics/xfoil,
