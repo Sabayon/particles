@@ -9,6 +9,7 @@ packages:
 	www-servers/cherokee,
 	www-servers/gatling,
 	www-servers/gorg,
+	www-servers/gunicorn,
 	www-servers/jboss-bin,
 	www-servers/lighttpd,
 	www-servers/mongrel,
