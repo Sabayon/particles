@@ -145,7 +145,6 @@ packages:
 	dev-util/omake,
 	dev-util/oprofile,
 	dev-util/osc,
-	dev-util/osdt,
 	dev-util/patchelf,
 	dev-util/patchutils,
 	dev-util/perf,
