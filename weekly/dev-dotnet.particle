@@ -22,7 +22,6 @@ packages:
 	dev-dotnet/libgdiplus,
 	dev-dotnet/log4net,
 	dev-dotnet/mono-addins,
-	dev-dotnet/mono-nat,
 	dev-dotnet/monotorrent,
 	dev-dotnet/nant,
 	dev-dotnet/ndesk-dbus,
