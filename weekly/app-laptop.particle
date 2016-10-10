@@ -6,7 +6,6 @@
 packages:
 	app-laptop/acpi4asus,
 	app-laptop/batti,
-	app-laptop/configure-trackpoint,
 	app-laptop/hdaps-gl,
 	app-laptop/hdapsd,
 	app-laptop/i8kutils,
