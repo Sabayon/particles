@@ -21,7 +21,6 @@ packages:
 	app-mobilephone/pysms,
 	app-mobilephone/ringtonetools,
 	app-mobilephone/scmxx,
-	app-mobilephone/sms,
 	app-mobilephone/smsclient,
 	app-mobilephone/sobexsrv,
 	app-mobilephone/vmoconv,
