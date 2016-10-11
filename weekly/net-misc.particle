@@ -203,7 +203,7 @@ packages:
 	net-misc/taylor-uucp,
 	net-misc/teamviewer,
 	net-misc/tiers,
-	net-misc/tightvnc,
+	net-misc/tigervnc,
 	net-misc/tinc,
 	net-misc/tipcutils,
 	net-misc/tn5250,
