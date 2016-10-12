@@ -46,7 +46,6 @@ packages:
 	app-cdr/mode2cdmaker,
 	app-cdr/mp3burn,
 	app-cdr/multicd,
-	app-cdr/nero,
 	app-cdr/nrg2iso,
 	app-cdr/plextor-tool,
 	app-cdr/poweriso,
