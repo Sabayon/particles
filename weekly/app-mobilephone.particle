@@ -24,8 +24,7 @@ packages:
 	app-mobilephone/smsclient,
 	app-mobilephone/sobexsrv,
 	app-mobilephone/vmoconv,
-	app-mobilephone/wammu,
-	app-mobilephone/yaps
+	app-mobilephone/wammu
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
