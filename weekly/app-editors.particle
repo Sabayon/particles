@@ -45,7 +45,6 @@ packages:
 	app-editors/lfhex,
 	app-editors/lpe,
 	app-editors/mg,
-	app-editors/mlview,
 	app-editors/mousepad,
 	app-editors/mp,
 	app-editors/nano,
