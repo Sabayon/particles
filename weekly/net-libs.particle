@@ -108,7 +108,6 @@ packages:
 	net-libs/rpc2,
 	net-libs/serf,
 	net-libs/serf,
-	net-libs/socket++,
 	net-libs/sofia-sip,
 	net-libs/telepathy-farstream,
 	net-libs/telepathy-glib,
