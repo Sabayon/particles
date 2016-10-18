@@ -14,7 +14,6 @@ packages:
 	media-radio/gpredict,
 	media-radio/ibp,
 	media-radio/qrq,
-	media-radio/radiotray,
 	media-radio/svxlink,
 	media-radio/tlf,
 	media-radio/tucnak2,
