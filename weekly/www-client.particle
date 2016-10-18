@@ -25,7 +25,6 @@ packages:
 	www-client/pybugz,
 	www-client/qupzilla,
 	www-client/qutebrowser,
-	www-client/rekonq,
 	www-client/seamonkey,
 	www-client/seamonkey-bin,
 	www-client/surf,
