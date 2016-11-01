@@ -122,7 +122,6 @@ packages:
 	app-text/jadetex,
 	app-text/jist,
 	app-text/jpdftweak,
-	app-text/kbibtex,
 	app-text/kchmviewer,
 	app-text/kding,
 	app-text/keepnote,
