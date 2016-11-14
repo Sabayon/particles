@@ -76,6 +76,7 @@ packages:
 	app-vim/ntp-syntax,
 	app-vim/omnicppcomplete,
 	app-vim/pam-syntax,
+	app-vim/pathogen,
 	app-vim/perl-support,
 	app-vim/perl-support,
 	app-vim/pgn-syntax,
