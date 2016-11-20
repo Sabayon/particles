@@ -111,7 +111,6 @@ packages:
 	dev-util/jconfig,
 	dev-util/kbuild,
 	dev-util/kdbg,
-	dev-util/ketchup,
 	dev-util/kscope,
 	dev-util/lafilefixer,
 	dev-util/leaktracer,
