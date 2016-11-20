@@ -82,7 +82,6 @@ packages:
 	x11-misc/lineak-xosdplugin,
 	x11-misc/lineakd,
 	x11-misc/lndir,
-	x11-misc/lxmed,
 	x11-misc/macopix,
 	x11-misc/makedepend,
 	x11-misc/menulibre,
