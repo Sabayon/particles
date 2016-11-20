@@ -14,7 +14,6 @@ packages:
 	net-wireless/bluez,
 	net-wireless/bluez-hcidump,
 	net-wireless/broadcom-sta,
-	net-wireless/chillispot,
 	net-wireless/crda,
 	net-wireless/gnome-bluetooth,
 	net-wireless/gobi_loader,
