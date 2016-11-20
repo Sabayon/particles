@@ -39,7 +39,6 @@ packages:
 	kde-misc/kvkbd,
 	kde-misc/kwebkitpart,
 	kde-misc/magneto-kde,
-	kde-misc/networkmanagement,
 	kde-misc/openofficeorg-thumbnail,
 	kde-misc/plasma-mpd-nowplaying,
 	kde-misc/plasma-widget-message-indicator,
