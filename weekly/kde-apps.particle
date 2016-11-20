@@ -155,7 +155,6 @@ packages:
 	kde-apps/kubrick,
 	kde-apps/kuiserver,
 	kde-apps/kurifilter-plugins,
-	kde-apps/kuser,
 	kde-apps/kwalletd,
 	kde-apps/kwalletmanager,
 	kde-apps/kwordquiz,
