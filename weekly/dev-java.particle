@@ -121,7 +121,6 @@ packages:
 	dev-java/j3d-core,
 	dev-java/jad-bin,
 	dev-java/jade,
-	dev-java/jaffl,
 	dev-java/jakarta-oro,
 	dev-java/jakarta-regexp,
 	dev-java/jal,
