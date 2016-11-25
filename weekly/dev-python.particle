@@ -542,7 +542,6 @@ packages:
 	dev-python/webtest,
 	dev-python/werkzeug,
 	dev-python/whoosh,
-	dev-python/winpdb,
 	dev-python/ws4py,
 	dev-python/wstools,
 	dev-python/wxpython,
