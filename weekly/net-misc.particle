@@ -78,6 +78,7 @@ packages:
 	net-misc/hsc,
 	net-misc/htbinit,
 	net-misc/htpdate,
+	net-misc/httpie,
 	net-misc/httptunnel,
 	net-misc/icaclient,
 	net-misc/icecast,
