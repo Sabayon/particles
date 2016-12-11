@@ -29,7 +29,6 @@ packages:
 	dev-dotnet/pango-sharp,
 	dev-dotnet/pe-format,
 	dev-dotnet/smartirc4net,
-	dev-dotnet/taglib-sharp,
 	dev-dotnet/webkit-sharp,
 	dev-dotnet/xsp,
 
