@@ -188,7 +188,6 @@ packages:
 	app-misc/rioutil,
 	app-misc/rl,
 	app-misc/rlwrap,
-	app-misc/roadnav,
 	app-misc/sabayon-devkit,
 	app-misc/sabayon-live,
 	app-misc/sabayon-mce,

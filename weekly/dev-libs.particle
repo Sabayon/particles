@@ -174,7 +174,6 @@ packages:
 	dev-libs/libpqxx,
 	dev-libs/libpthread-stubs,
 	dev-libs/librep,
-	dev-libs/libroadnav,
 	dev-libs/librra,
 	dev-libs/librtfcomp,
 	dev-libs/libsigc++,
