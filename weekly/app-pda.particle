@@ -18,7 +18,6 @@ packages:
 	app-pda/libplist,
 	app-pda/libsyncml,
 	app-pda/msynctool,
-	app-pda/orange,
 	app-pda/p3nfs,
 	app-pda/pilot-link,
 	app-pda/synce-sync-engine,
