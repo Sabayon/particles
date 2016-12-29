@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	kde-misc/about-distro,
-	kde-misc/basket,
 	kde-misc/entropy-kioslaves,
 	kde-misc/eventlist,
 	kde-misc/kanyremote,
