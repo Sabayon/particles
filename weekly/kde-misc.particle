@@ -22,7 +22,6 @@ packages:
 	kde-misc/kim4,
 	kde-misc/kio-locate,
 	kde-misc/kio-upnp-ms,
-	kde-misc/kio_gopher,
 	kde-misc/kookie,
 	kde-misc/kopete-antispam,
 	kde-misc/kopete-thinklight,
