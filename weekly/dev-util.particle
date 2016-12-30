@@ -104,7 +104,6 @@ packages:
 	dev-util/idutils,
 	dev-util/imediff2,
 	dev-util/indent,
-	dev-util/insight,
 	dev-util/intltool,
 	dev-util/itstool,
 	dev-util/jay,
