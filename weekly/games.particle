@@ -278,6 +278,7 @@ packages:
 	games-engines/gargoyle,
 	games-engines/gemrb,
 	games-engines/nazghul,
+	games-engines/openxcom,
 	games-engines/residualvm,
 	games-engines/scummvm,
 	games-engines/scummvm-tools,
