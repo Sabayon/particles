@@ -6,7 +6,6 @@
 packages:
 	app-admin/analog,
 	app-admin/ansible,
-	app-admin/apachetop,
 	app-admin/apg,
 	app-admin/augeas,
 	app-admin/bcfg2,
