@@ -247,7 +247,6 @@ packages:
 	app-misc/wyrd,
 	app-misc/xmind-portable,
 	app-misc/yagtd,
-	app-misc/ytree,
 	app-misc/zisofs-tools
 
 # Entropy repository where to commit packages
