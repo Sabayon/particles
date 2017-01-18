@@ -28,7 +28,6 @@ packages:
 	dev-ml/lwt,
 	dev-ml/oasis,
 	dev-ml/obrowser,
-	dev-ml/ocaml-augeas,
 	dev-ml/ocaml-autoconf,
 	dev-ml/ocaml-data-notation,
 	dev-ml/ocaml-doc,
