@@ -67,7 +67,6 @@ packages:
 	dev-ruby/gruff,
 	dev-ruby/haml,
 	dev-ruby/hashie,
-	dev-ruby/hiera,
 	dev-ruby/highline,
 	dev-ruby/hike,
 	dev-ruby/hoe,

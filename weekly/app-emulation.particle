@@ -54,7 +54,6 @@ packages:
 	app-emulation/vboxgtk,
 	app-emulation/vice,
 	app-emulation/virt-manager,
-	app-emulation/virt-what,
 	app-emulation/virtinst,
 	app-emulation/vmware-player,
 	app-emulation/vmware-server-console,
