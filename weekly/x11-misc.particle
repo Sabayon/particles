@@ -61,6 +61,7 @@ packages:
 	x11-misc/gxneur,
 	x11-misc/habak,
 	x11-misc/hsetroot,
+	x11-misc/i3blocks,
 	x11-misc/i3status,
 	x11-misc/icewmcp,
 	x11-misc/icon-naming-utils,
