@@ -75,7 +75,6 @@ packages:
 	app-admin/passook,
 	app-admin/paxtest,
 	app-admin/perl-cleaner,
-	app-admin/phpsyslogng,
 	app-admin/pprocm,
 	app-admin/procinfo,
 	app-admin/psmon,
