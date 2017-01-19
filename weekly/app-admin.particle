@@ -112,6 +112,7 @@ packages:
 	app-admin/system-config-printer-gnome,
 	app-admin/system-config-users,
 	app-admin/system-tools-backends,
+	app-admin/systemdgenie,
 	app-admin/tenshi,
 	app-admin/testdisk,
 	app-admin/tmpreaper,
