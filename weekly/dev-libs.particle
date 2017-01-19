@@ -164,7 +164,6 @@ packages:
 	dev-libs/libofx,
 	dev-libs/liboil,
 	dev-libs/liboobs,
-	dev-libs/liboop,
 	dev-libs/libotf,
 	dev-libs/libowfat,
 	dev-libs/libp11,
