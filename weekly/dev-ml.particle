@@ -41,7 +41,6 @@ packages:
 	dev-ml/ocamldsort,
 	dev-ml/ocamlduce,
 	dev-ml/ocamlgraph,
-	dev-ml/ocamlgsl,
 	dev-ml/ocamlify,
 	dev-ml/ocamlnet,
 	dev-ml/ocamlsdl,
