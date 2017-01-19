@@ -164,7 +164,6 @@ packages:
 	dev-php/php-openid,
 	dev-php/phpdepend,
 	dev-php/phpmd,
-	dev-php/PHPonTrax,
 	dev-php/phptal,
 	dev-php/phpunit,
 	dev-php/simpletest,
