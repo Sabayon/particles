@@ -19,6 +19,7 @@ packages:
 	sys-power/pm-quirks,
 	sys-power/pm-utils,
 	sys-power/powernowd,
+	sys-power/powerstat,
 	sys-power/powertop,
 	sys-power/sispmctl,
 	sys-power/thermald,
