@@ -11,6 +11,7 @@ packages:
 	sci-astronomy/galaxy,
 	sci-astronomy/gasgano,
 	sci-astronomy/kapteyn,
+	sci-astronomy/pal,
 	sci-astronomy/pyephem,
 	sci-astronomy/skycat,
 	sci-astronomy/stellarium,
