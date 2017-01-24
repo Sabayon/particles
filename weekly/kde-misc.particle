@@ -45,7 +45,6 @@ packages:
 	kde-misc/steamcompanion,
 	kde-misc/tellico,
 	kde-misc/wacomtablet,
-	kde-misc/wicd-client-kde,
 	kde-misc/zanshin
 
 # Entropy repository where to commit packages
