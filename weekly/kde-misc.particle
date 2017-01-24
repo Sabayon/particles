@@ -36,7 +36,6 @@ packages:
 	kde-misc/kwebkitpart,
 	kde-misc/magneto-kde,
 	kde-misc/openofficeorg-thumbnail,
-	kde-misc/plasma-mpd-nowplaying,
 	kde-misc/rsibreak,
 	kde-misc/semantik,
 	kde-misc/serverstatuswidget,
