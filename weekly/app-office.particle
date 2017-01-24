@@ -36,7 +36,6 @@ packages:
 	app-office/mdbtools,
 	app-office/multitalk,
 	app-office/openerp,
-	app-office/openproj-bin,
 	app-office/orage,
 	app-office/plan,
 	app-office/planner,
