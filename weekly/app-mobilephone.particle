@@ -12,7 +12,6 @@ packages:
 	app-mobilephone/gnocky,
 	app-mobilephone/gnokii,
 	app-mobilephone/gnome-phone-manager,
-	app-mobilephone/gsmlib,
 	app-mobilephone/heimdall,
 	app-mobilephone/kannel,
 	app-mobilephone/obex-data-server,
