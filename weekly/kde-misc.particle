@@ -38,7 +38,6 @@ packages:
 	kde-misc/magneto-kde,
 	kde-misc/openofficeorg-thumbnail,
 	kde-misc/plasma-mpd-nowplaying,
-	kde-misc/plasma-widget-message-indicator,
 	kde-misc/rsibreak,
 	kde-misc/semantik,
 	kde-misc/serverstatuswidget,
