@@ -175,6 +175,7 @@ packages:
 	media-libs/sdl-ttf,
 	media-libs/taglib,
 	media-libs/taglib-extras,
+	media-libs/vulkan-loader,
 	media-libs/xine-lib,
 	media-libs/xvid,
 	media-libs/zita-convolver,
