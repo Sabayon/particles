@@ -100,7 +100,8 @@ packages:
 	sys-apps/which,
 	sys-apps/x86info,
 	sys-apps/xmbmon,
-	sys-apps/yum,
+	sys-apps/yarn,
+	sys-apps/yum
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
