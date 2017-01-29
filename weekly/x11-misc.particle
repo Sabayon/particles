@@ -181,6 +181,7 @@ packages:
 	x11-misc/xfe,
 	x11-misc/xfishtank,
 	x11-misc/xfractint,
+	x11-misc/xiccd,
 	x11-misc/xkbd,
 	x11-misc/xkeyboard-config,
 	x11-misc/xkeycaps,
