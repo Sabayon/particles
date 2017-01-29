@@ -47,7 +47,6 @@ packages:
 	media-video/episoder,
 	media-video/ffmpeg2theora,
 	media-video/ffmpegthumbnailer,
-	media-video/flumotion,
 	media-video/flvstreamer,
 	media-video/frameworks,
 	media-video/gaupol,
