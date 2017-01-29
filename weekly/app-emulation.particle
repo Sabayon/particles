@@ -28,6 +28,7 @@ packages:
 
 	app-emulation/gxemul,
 	app-emulation/hercules,
+	app-emulation/kompose,
 	app-emulation/libdsk,
 	app-emulation/libvirt,
 	app-emulation/libvirt-glib,
