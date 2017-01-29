@@ -31,7 +31,6 @@ packages:
 	kde-misc/kshutdown,
 	kde-misc/ksplasher,
 	kde-misc/ktrafficanalyzer,
-	kde-misc/kvkbd,
 	kde-misc/kwebkitpart,
 	kde-misc/magneto-kde,
 	kde-misc/openofficeorg-thumbnail,
