@@ -28,6 +28,7 @@ packages:
 	net-analyzer/ostinato,
 	net-analyzer/postal,
 	net-analyzer/prometheus,
+	net-analyzer/prometheus-node_exporter,
 	net-analyzer/rtpbreak,
 	net-analyzer/smokeping,
 	net-analyzer/sslsniff,
