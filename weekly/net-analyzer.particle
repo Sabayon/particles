@@ -27,6 +27,7 @@ packages:
 	net-analyzer/ntopng,
 	net-analyzer/ostinato,
 	net-analyzer/postal,
+	net-analyzer/prometheus,
 	net-analyzer/rtpbreak,
 	net-analyzer/smokeping,
 	net-analyzer/sslsniff,
