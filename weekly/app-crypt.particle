@@ -9,7 +9,6 @@ packages:
 	app-crypt/asedriveiiie-serial,
 	app-crypt/asedriveiiie-usb,
 	app-crypt/asekey,
-	app-crypt/bcrypt,
 	app-crypt/bcwipe,
 	app-crypt/bsign,
 	app-crypt/ccid,
