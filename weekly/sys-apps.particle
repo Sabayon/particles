@@ -35,6 +35,7 @@ packages:
 	sys-apps/hbaapi,
 	sys-apps/hdparm,
 	sys-apps/help2man,
+	sys-apps/highway,
 	sys-apps/hwdata-gentoo,
 	sys-apps/hwids,
 	sys-apps/hwinfo,
