@@ -173,8 +173,6 @@ packages:
 	dev-libs/libpqxx,
 	dev-libs/libpthread-stubs,
 	dev-libs/librep,
-	dev-libs/librtfcomp,
-	dev-libs/libsigc++,
 	dev-libs/libsigc++,
 	dev-libs/libsigsegv,
 	dev-libs/libsodium,
