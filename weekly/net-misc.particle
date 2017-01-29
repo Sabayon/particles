@@ -24,6 +24,7 @@ packages:
 	net-misc/bridge-utils,
 	net-misc/bsdwhois,
 	net-misc/bti,
+	net-misc/buka,
 	net-misc/bwwhois,
 	net-misc/cadaver,
 	net-misc/capi4hylafax,
