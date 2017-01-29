@@ -75,8 +75,7 @@ packages:
 	app-editors/xemacs,
 	app-editors/xvile,
 	app-editors/zile,
-	app-editors/znotes,
-	app-editors/zoinks
+	app-editors/znotes
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
