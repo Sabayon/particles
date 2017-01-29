@@ -172,7 +172,6 @@ packages:
 	net-misc/python-x2go,
 	net-misc/quagga,
 	net-misc/rabbitmq-server,
-	net-misc/raccess,
 	net-misc/radvd,
 	net-misc/rdate,
 	net-misc/rdesktop,
