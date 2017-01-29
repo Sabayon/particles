@@ -15,7 +15,6 @@ packages:
 	net-dialup/freeradius,
 	net-dialup/globespan-adsl,
 	net-dialup/isdn-firmware,
-	net-dialup/itund,
 	net-dialup/kpnadsl4linux,
 	net-dialup/linux-atm,
 	net-dialup/lrzsz,
