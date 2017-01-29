@@ -13,7 +13,6 @@ packages:
 	media-plugins/evas_generic_loaders,
 	media-plugins/fil-plugins,
 	media-plugins/frei0r-plugins,
-	media-plugins/gimp-gmic,
 	media-plugins/gimp-lqr,
 	media-plugins/gimp-resynthesizer,
 	media-plugins/gkrellmpc,
