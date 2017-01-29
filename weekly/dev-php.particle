@@ -106,7 +106,6 @@ packages:
 	dev-php/PEAR-PHP_CodeSniffer,
 	dev-php/PEAR-PHP_CompatInfo,
 	dev-php/PEAR-PHP_Debug,
-	dev-php/PEAR-PHP_Shell,
 	dev-php/PEAR-Pager,
 	dev-php/PEAR-PhpDocumentor,
 	dev-php/PEAR-SOAP,
