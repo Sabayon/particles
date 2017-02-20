@@ -41,7 +41,6 @@ packages:
 	app-text/crf++,
 	app-text/crm114,
 	app-text/csvfix,
-	app-text/cuneiform,
 	app-text/cwtext,
 	app-text/dbacl,
 	app-text/ddir,
