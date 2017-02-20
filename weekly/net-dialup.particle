@@ -9,7 +9,6 @@ packages:
 	net-dialup/capifwd,
 	net-dialup/cutecom,
 	net-dialup/diald,
-	net-dialup/drdsl,
 	net-dialup/dwun,
 	net-dialup/fbgetty,
 	net-dialup/freeradius,
