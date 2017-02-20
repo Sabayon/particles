@@ -17,7 +17,6 @@ packages:
 	app-crypt/chntpw,
 	app-crypt/codegroup,
 	app-crypt/coolkey,
-	app-crypt/cryptkeeper,
 	app-crypt/dieharder,
 	app-crypt/dirmngr,
 	app-crypt/ekeyd,
