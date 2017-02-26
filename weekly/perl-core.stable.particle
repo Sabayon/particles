@@ -29,7 +29,6 @@ packages:
 	perl-core/Pod-Simple,
 	perl-core/Sys-Syslog,
 	perl-core/Term-ANSIColor,
-	perl-core/Test,
 	perl-core/Text-Balanced,
 	perl-core/Text-ParseWords,
 	perl-core/Text-Tabs+Wrap,
