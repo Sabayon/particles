@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	app-text/a2ps,
-	app-text/acroread,
 	app-text/aiksaurus,
 	app-text/an,
 	app-text/ansifilter,
