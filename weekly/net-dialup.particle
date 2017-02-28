@@ -6,7 +6,6 @@
 packages:
 	net-dialup/capi4k-utils,
 	net-dialup/capidivert,
-	net-dialup/capifwd,
 	net-dialup/cutecom,
 	net-dialup/diald,
 	net-dialup/dwun,
