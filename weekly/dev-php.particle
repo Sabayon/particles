@@ -105,7 +105,6 @@ packages:
 	dev-php/PEAR-PHP_CompatInfo,
 	dev-php/PEAR-PHP_Debug,
 	dev-php/PEAR-Pager,
-	dev-php/PEAR-PhpDocumentor,
 	dev-php/PEAR-SOAP,
 	dev-php/PEAR-Services_Amazon,
 	dev-php/PEAR-Services_JSON,
