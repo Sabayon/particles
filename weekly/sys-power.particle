@@ -10,7 +10,6 @@ packages:
 	sys-power/acpitool,
 	sys-power/apcupsd,
 	sys-power/bbswitch,
-	sys-power/cpudyn,
 	sys-power/cpupower,
 	sys-power/hibernate-script,
 	sys-power/iasl,
