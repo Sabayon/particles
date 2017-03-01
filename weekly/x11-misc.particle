@@ -197,7 +197,6 @@ packages:
 	x11-misc/xplanet,
 	x11-misc/xplanetFX,
 	x11-misc/xrestop,
-	x11-misc/xrmap,
 	x11-misc/xrootconsole,
 	x11-misc/xscreensaver,
 	x11-misc/xscreensaver-app,
