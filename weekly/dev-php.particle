@@ -81,7 +81,6 @@ packages:
 	dev-php/PEAR-Net_FTP,
 	dev-php/PEAR-Net_IMAP,
 	dev-php/PEAR-Net_IPv4,
-	dev-php/PEAR-Net_LDAP,
 	dev-php/PEAR-Net_LDAP2,
 	dev-php/PEAR-Net_LMTP,
 	dev-php/PEAR-Net_POP3,
