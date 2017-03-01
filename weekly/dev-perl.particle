@@ -685,7 +685,6 @@ packages:
 	dev-perl/MP3-Tag,
 	dev-perl/MRO-Compat,
 	dev-perl/MusicBrainz-DiscID,
-	dev-perl/Nagios-Plugin,
 	dev-perl/namespace-autoclean,
 	dev-perl/namespace-clean,
 	dev-perl/NetAddr-IP,
