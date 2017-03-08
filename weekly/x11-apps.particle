@@ -10,7 +10,6 @@ packages:
 	x11-apps/beforelight,
 	x11-apps/bitmap,
 	x11-apps/ccsm,
-	x11-apps/disper,
 	x11-apps/editres,
 	x11-apps/fonttosfnt,
 	x11-apps/fslsfonts,
