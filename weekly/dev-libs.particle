@@ -226,7 +226,6 @@ packages:
 	dev-libs/ppl,
 	dev-libs/pslib,
 	dev-libs/ptexenc,
-	dev-libs/pth,
 	dev-libs/pugixml,
 	dev-libs/qjson,
 	dev-libs/qoauth,
