@@ -369,7 +369,6 @@ packages:
 	dev-perl/File-Copy-Link,
 	dev-perl/File-Copy-Recursive,
 	dev-perl/File-DesktopEntry,
-	dev-perl/File-DirWalk,
 	dev-perl/File-Find-Rule,
 	dev-perl/File-Flat,
 	dev-perl/File-Flock,
