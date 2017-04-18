@@ -308,7 +308,6 @@ packages:
 	dev-java/svgalamander,
 	dev-java/swarmcache,
 	dev-java/swing-layout,
-	dev-java/swing-worker,
 	dev-java/swt,
 	dev-java/tagsoup,
 	dev-java/tomcat-native,
