@@ -7,7 +7,6 @@ packages:
 	dev-libs/389-adminutil,
 	dev-libs/DFB++,
 	dev-libs/DirectFB,
-	dev-libs/STLport,
 	dev-libs/ace,
 	dev-libs/apr,
 	dev-libs/apr-util,
