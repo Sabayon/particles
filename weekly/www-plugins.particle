@@ -7,8 +7,7 @@ packages:
 	www-plugins/adobe-flash,
 	www-plugins/chrome-binary-plugins,
 	www-plugins/google-talkplugin,
-	www-plugins/lightspark,
-	www-plugins/nspluginwrapper
+	www-plugins/lightspark
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
