@@ -190,7 +190,6 @@ packages:
 	dev-util/visualvm,
 	dev-util/vmtouch,
 	dev-util/watchr,
-	dev-util/weblint,
 	dev-util/webstorm,
 	dev-util/weka,
 	dev-util/wiggle,
