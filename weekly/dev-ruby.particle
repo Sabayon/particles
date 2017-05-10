@@ -183,7 +183,6 @@ packages:
 	dev-ruby/ruby-romkan,
 	dev-ruby/ruby-rsvg,
 	dev-ruby/ruby-shout,
-	dev-ruby/ruby-tcpwrap,
 	dev-ruby/ruby-termios,
 	dev-ruby/ruby-vte,
 	dev-ruby/ruby-xslt,
