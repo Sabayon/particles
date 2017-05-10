@@ -50,7 +50,6 @@ packages:
 	kde-apps/kdeartwork-kscreensaver,
 	kde-apps/kdeartwork-meta,
 	kde-apps/kdebase-data,
-	kde-apps/kdebase-desktoptheme,
 	kde-apps/kdebase-kioslaves,
 	kde-apps/kdebase-meta,
 	kde-apps/kdeedu-meta,
