@@ -54,7 +54,6 @@ packages:
 	kde-apps/kdebase-kioslaves,
 	kde-apps/kdebase-menu-icons,
 	kde-apps/kdebase-meta,
-	kde-apps/kdebugdialog,
 	kde-apps/kdeedu-meta,
 	kde-apps/kdegames-meta,
 	kde-apps/kdegraphics-meta,
