@@ -29,8 +29,7 @@ packages:
 	net-print/pnm2ppa,
 	net-print/poster,
 	net-print/pykota,
-	net-print/samsung-unified-linux-driver,
-	net-print/splix,
+	net-print/splix
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
