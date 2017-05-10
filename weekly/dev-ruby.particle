@@ -172,7 +172,6 @@ packages:
 	dev-ruby/ruby-gtk2,
 	dev-ruby/ruby-gtksourceview,
 	dev-ruby/ruby-hmac,
-	dev-ruby/ruby-inifile,
 	dev-ruby/ruby-ldap,
 	dev-ruby/ruby-mp3info,
 	dev-ruby/ruby-net-ldap,
