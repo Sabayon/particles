@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	net-nntp/brag,
-	net-nntp/hellanzb,
 	net-nntp/inn,
 	net-nntp/kwooty,
 	net-nntp/newspost,
