@@ -266,7 +266,6 @@ packages:
 	games-emulation/snes9x,
 	games-emulation/stella,
 	games-emulation/vbam,
-	games-emulation/visualboyadvance,
 	games-emulation/xe,
 	games-emulation/yabause,
 	games-emulation/zinc,
