@@ -295,7 +295,6 @@ packages:
 	dev-java/stax,
 	dev-java/stax-ex,
 	dev-java/stringtemplate,
-	dev-java/sun-j2ee-deployment-bin,
 	dev-java/sun-j2me-bin,
 	dev-java/sun-jacc-api,
 	dev-java/sun-jaf,
