@@ -18,7 +18,6 @@ packages:
 	dev-scheme/net-http,
 	dev-scheme/racket,
 	dev-scheme/scheme48,
-	dev-scheme/schoca,
 	dev-scheme/scm,
 	dev-scheme/scmxlate,
 	dev-scheme/sigscheme,
