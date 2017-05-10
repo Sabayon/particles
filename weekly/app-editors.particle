@@ -69,7 +69,6 @@ packages:
 	app-editors/vim
 	app-editors/gvim
 	app-editors/vim-core
-	app-editors/vim-qt,
 
 	app-editors/wxhexeditor,
 	app-editors/xemacs,
