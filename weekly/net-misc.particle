@@ -168,7 +168,6 @@ packages:
 	net-misc/ptpd,
 	net-misc/putty,
 	net-misc/pyhoca-cli,
-	net-misc/pymazon,
 	net-misc/python-x2go,
 	net-misc/quagga,
 	net-misc/rabbitmq-server,
