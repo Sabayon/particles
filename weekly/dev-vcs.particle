@@ -76,8 +76,7 @@ packages:
 	dev-vcs/tig,
 	dev-vcs/tkcvs,
 	dev-vcs/topgit,
-	dev-vcs/tortoisehg,
-	dev-vcs/veracity
+	dev-vcs/tortoisehg
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
