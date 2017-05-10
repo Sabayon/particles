@@ -698,7 +698,6 @@ packages:
 	dev-perl/Net-Domain-TLD,
 	dev-perl/Net-FreeDB,
 	dev-perl/Net-Google-SafeBrowsing-Blocklist,
-	dev-perl/Net-Google-SafeBrowsing-UpdateRequest,
 	dev-perl/Net-HTTP,
 	dev-perl/Net-Ident,
 	dev-perl/Net-IDN-Encode,
