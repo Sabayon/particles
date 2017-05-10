@@ -12,7 +12,6 @@ packages:
 	mail-client/evolution,
 	mail-client/geary,
 	mail-client/mail-notification,
-	mail-client/mailnag,
 	mail-client/mailx,
 	mail-client/mailx-support,
 	mail-client/mutt,
