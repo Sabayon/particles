@@ -147,7 +147,6 @@ packages:
 	kde-apps/ktuberling,
 	kde-apps/kturtle,
 	kde-apps/kubrick,
-	kde-apps/kuiserver,
 	kde-apps/kwalletd,
 	kde-apps/kwalletmanager,
 	kde-apps/kwordquiz,
