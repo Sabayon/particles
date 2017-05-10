@@ -93,7 +93,6 @@ packages:
 	dev-ruby/matchy,
 	dev-ruby/mecab-ruby,
 	dev-ruby/mechanize,
-	dev-ruby/memcache-client,
 	dev-ruby/metaclass,
 	dev-ruby/metaid,
 	dev-ruby/mime-types,
