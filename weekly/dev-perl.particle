@@ -598,7 +598,6 @@ packages:
 	dev-perl/Mail-Procmail,
 	dev-perl/Mail-Sender,
 	dev-perl/Mail-Sendmail,
-	dev-perl/Mail-SpamAssassin-Plugin-GoogleSafeBrowsing,
 	dev-perl/Mail-SPF,
 	dev-perl/Mail-SRS,
 	dev-perl/MailTools,
