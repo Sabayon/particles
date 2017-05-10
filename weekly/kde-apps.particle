@@ -122,7 +122,6 @@ packages:
 	kde-apps/kopete,
 	kde-apps/kpat,
 	kde-apps/kppp,
-	kde-apps/kquitapp,
 	kde-apps/krdc,
 	kde-apps/kreadconfig,
 	kde-apps/kremotecontrol,
