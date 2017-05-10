@@ -439,7 +439,6 @@ packages:
 	dev-perl/Graph,
 	dev-perl/GraphViz,
 	dev-perl/GSSAPI,
-	dev-perl/GStreamer,
 	dev-perl/GStreamer-Interfaces,
 	dev-perl/gtk2-ex-formfactory,
 	dev-perl/Gtk2-Ex-PodViewer,
