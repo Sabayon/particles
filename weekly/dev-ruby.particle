@@ -89,7 +89,6 @@ packages:
 	dev-ruby/locale,
 	dev-ruby/log4r,
 	dev-ruby/mail,
-	dev-ruby/map,
 	dev-ruby/maruku,
 	dev-ruby/matchy,
 	dev-ruby/mecab-ruby,
