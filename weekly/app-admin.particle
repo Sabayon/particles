@@ -11,7 +11,6 @@ packages:
 	app-admin/cancd,
 	app-admin/ccze,
 	app-admin/cgmanager,
-	app-admin/checkrestart,
 	app-admin/chroot_safe,
 	app-admin/chrootuid,
 	app-admin/chrpath,
