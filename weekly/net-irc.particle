@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	net-irc/anope,
-	net-irc/atheme-services,
 	net-irc/bip,
 	net-irc/bnc,
 	net-irc/bobotpp,
