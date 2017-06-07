@@ -29,7 +29,6 @@ packages:
 	www-apache/mod_flvx,
 	www-apache/mod_ftpd,
 	www-apache/mod_gnutls,
-	www-apache/mod_jk,
 	www-apache/mod_layout,
 	www-apache/mod_ldap_userdir,
 	www-apache/mod_limitipconn,
