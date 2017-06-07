@@ -153,7 +153,6 @@ packages:
 	dev-libs/libmcrypt,
 	dev-libs/libmcs,
 	dev-libs/libmemcache,
-	dev-libs/libmimedir,
 	dev-libs/libmirage,
 	dev-libs/libmix,
 	dev-libs/libmoe,
