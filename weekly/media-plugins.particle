@@ -215,7 +215,6 @@ packages:
 	media-plugins/vdr-vompserver,
 	media-plugins/vdr-wapd,
 	media-plugins/vdr-weatherng,
-	media-plugins/vdr-xineliboutput,
 	media-plugins/vdr-zappilot,
 	media-plugins/xsynth-dssi
 
