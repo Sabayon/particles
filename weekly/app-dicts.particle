@@ -68,7 +68,6 @@ packages:
 	app-dicts/freedict-eng-swe,
 	app-dicts/freedict-fra-eng,
 	app-dicts/freedict-ita-eng,
-	app-dicts/gjiten,
 	app-dicts/gwaei,
 	app-dicts/ipadic,
 	app-dicts/kasumi,
