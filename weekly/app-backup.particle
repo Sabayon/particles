@@ -10,7 +10,6 @@ packages:
 	app-backup/backupninja,
 	app-backup/backuppc,
 	app-backup/bacula,
-	app-backup/boxbackup,
 	app-backup/ccollect,
 	app-backup/cdbackup,
 	app-backup/cpdup,
