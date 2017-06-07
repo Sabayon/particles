@@ -18,7 +18,6 @@ packages:
 	dev-lang/coffee-script,
 	dev-lang/confluence,
 	dev-lang/f2c,
-	dev-lang/falcon,
 	dev-lang/ferite,
 	dev-lang/fpc,
 	dev-lang/gdl,
