@@ -169,7 +169,6 @@ packages:
 	kde-apps/parley,
 	kde-apps/phonon-kde,
 	kde-apps/picmi,
-	kde-apps/plasma-runtime,
 	kde-apps/poxml,
 	kde-apps/print-manager,
 	kde-apps/rocs,
