@@ -41,7 +41,6 @@ packages:
 	www-apache/mod_nss,
 	www-apache/mod_perl,
 	www-apache/mod_proxy_html,
-	www-apache/mod_python,
 	www-apache/mod_qos,
 	www-apache/mod_rpaf,
 	www-apache/mod_ruby,
