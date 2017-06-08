@@ -59,7 +59,6 @@ packages:
 	x11-libs/libxkbfile,
 	x11-libs/libxkbui,
 	x11-libs/libxklavier,
-	x11-libs/libxsettings-client,
 	x11-libs/motif,
 	x11-libs/mx,
 	x11-libs/neXtaw,
