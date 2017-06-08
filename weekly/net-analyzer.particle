@@ -75,7 +75,6 @@ packages:
 	net-analyzer/ethstatus,
 	net-analyzer/ettercap,
 	net-analyzer/fail2ban,
-	net-analyzer/fe3d,
 	net-analyzer/ffp,
 	net-analyzer/firewalk,
 	net-analyzer/flow-tools,
