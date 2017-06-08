@@ -148,6 +148,7 @@ packages:
 	net-analyzer/netio,
 	net-analyzer/netperf,
 	net-analyzer/netselect,
+	net-analyzer/netsniff-ng,
 	net-analyzer/nettop,
 	net-analyzer/netwag,
 	net-analyzer/netwatch,

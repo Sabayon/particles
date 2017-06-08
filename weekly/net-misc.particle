@@ -134,7 +134,6 @@ packages:
 
 	net-misc/netpipes,
 	net-misc/netsed,
-	net-misc/netsniff-ng,
 	net-misc/netstat-nat,
 
 	# NetworkManager stuff
