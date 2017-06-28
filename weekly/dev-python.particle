@@ -472,7 +472,6 @@ packages:
 	dev-python/simples3,
 	dev-python/sip,
 	dev-python/six,
-	dev-python/skype4py,
 	dev-python/snakeoil,
 	dev-python/soappy,
 	dev-python/socketpool,
