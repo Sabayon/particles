@@ -46,7 +46,6 @@ packages:
 	virtual/perl-Module-Loaded,
 	virtual/perl-Module-Metadata,
 	virtual/perl-Module-Pluggable,
-	virtual/perl-Package-Constants,
 	virtual/perl-Params-Check,
 	virtual/perl-Parse-CPAN-Meta,
 	virtual/perl-Perl-OSType,

@@ -10,7 +10,6 @@ packages:
 	sci-mathematics/drgeo,
 	sci-mathematics/euler,
 	sci-mathematics/fann,
-	sci-mathematics/freemat,
 	sci-mathematics/geogebra,
 	sci-mathematics/geomview,
 	sci-mathematics/gimps,
