@@ -51,7 +51,6 @@ packages:
 	net-im/sendxmpp,
 	net-im/silc-toolkit,
 	net-im/simpserver-bin,
-	net-im/skype,
 	net-im/skypetab-ng,
 	net-im/skysentials,
 	net-im/telepathy-connection-managers,
