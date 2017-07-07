@@ -22,7 +22,6 @@ packages:
 	kde-misc/kopete-thinklight,
 	kde-misc/kosd,
 	kde-misc/kpackagekit,
-	kde-misc/krecipes,
 	kde-misc/krunner-kopete-contacts,
 	kde-misc/krusader,
 	kde-misc/kscreen,
