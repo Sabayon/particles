@@ -51,7 +51,6 @@ packages:
 	www-apache/mod_umask,
 	www-apache/mod_vhost_ldap,
 	www-apache/mod_wsgi,
-	www-apache/mod_xml2enc,
 	www-apache/mod_xsendfile,
 	www-apache/modsecurity-crs,
 	www-apache/pwauth:0
