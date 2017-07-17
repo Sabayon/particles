@@ -28,7 +28,6 @@ packages:
 	net-irc/jircii,
 	net-irc/konversation,
 	net-irc/kvirc,
-	net-irc/loqui,
 	net-irc/miau,
 	net-irc/muh,
 	net-irc/ngircd,
