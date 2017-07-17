@@ -96,7 +96,6 @@ packages:
 	app-misc/geoclue,
 	app-misc/glastree,
 	app-misc/glcdprocdriver,
-	app-misc/gnomecatalog,
 	app-misc/gnote,
 	app-misc/gnuit,
 	app-misc/golly,
