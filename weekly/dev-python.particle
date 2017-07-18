@@ -431,7 +431,6 @@ packages:
 	dev-python/pyvorbis,
 	dev-python/pywavelets,
 	dev-python/pywebdav,
-	dev-python/pywebkitgtk,
 	dev-python/pyx,
 	dev-python/pyxattr,
 	dev-python/pyxdg,
