@@ -27,7 +27,6 @@ packages:
 	net-dialup/rp-l2tp,
 	net-dialup/rp-pppoe,
 	net-dialup/sercd,
-	net-dialup/wvdial,
 	net-dialup/xc,
 	net-dialup/xl2tpd,
 
