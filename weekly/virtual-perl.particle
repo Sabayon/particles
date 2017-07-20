@@ -19,7 +19,6 @@ packages:
 	virtual/perl-Digest-SHA,
 	virtual/perl-Encode,
 	virtual/perl-ExtUtils-CBuilder,
-	virtual/perl-ExtUtils-Command,
 	virtual/perl-ExtUtils-Constant,
 	virtual/perl-ExtUtils-Install,
 	virtual/perl-ExtUtils-MakeMaker,
