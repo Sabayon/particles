@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	app-cdr/acetoneiso,
 	app-cdr/b5i2iso,
 	app-cdr/backlite,
 	app-cdr/bashburn,
