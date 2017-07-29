@@ -139,7 +139,6 @@ packages:
 	app-text/lodgeit,
 	app-text/lout,
 	app-text/mathtex,
-	app-text/mbtpdfasm,
 	app-text/mecab,
 	app-text/mftrace,
 	app-text/mht-rip,
