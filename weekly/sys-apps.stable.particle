@@ -114,7 +114,6 @@ packages:
 	sys-apps/usbutils,
 	sys-apps/usermode-utilities,
 	sys-apps/util-linux,
-	sys-apps/v86d,
 	sys-apps/vbetool,
 	sys-apps/xinetd,
 	sys-apps/xmbmon,
