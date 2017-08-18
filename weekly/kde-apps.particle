@@ -120,7 +120,6 @@ packages:
 	kde-apps/kpat,
 	kde-apps/kppp,
 	kde-apps/krdc,
-	kde-apps/kreadconfig,
 	kde-apps/kremotecontrol,
 	kde-apps/kreversi,
 	kde-apps/krfb,
