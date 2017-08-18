@@ -139,7 +139,6 @@ packages:
 	kde-apps/ktimer,
 	kde-apps/ktimezoned,
 	kde-apps/ktouch,
-	kde-apps/ktraderclient,
 	kde-apps/ktuberling,
 	kde-apps/kturtle,
 	kde-apps/kubrick,
