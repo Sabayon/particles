@@ -68,7 +68,6 @@ packages:
 	kde-apps/kdialog,
 	kde-apps/kdiamond,
 	kde-apps/keditbookmarks,
-	kde-apps/keditfiletype,
 	kde-apps/kfile,
 	kde-apps/kfilereplace,
 	kde-apps/kfind,
