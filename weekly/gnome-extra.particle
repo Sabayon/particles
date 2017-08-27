@@ -17,7 +17,6 @@ packages:
 	gnome-extra/cinnamon-settings-daemon,
 	gnome-extra/cinnamon-translations,
 
-	gnome-extra/docky,
 	gnome-extra/eiciel,
 	gnome-extra/evolution-data-server,
 	gnome-extra/evolution-ews,
