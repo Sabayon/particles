@@ -66,7 +66,6 @@ packages:
 	x11-libs/pangox-compat,
 	x11-libs/pixman,
 	x11-libs/qtscriptgenerator,
-	x11-libs/qtstatemachine,
 	x11-libs/qwt,
 	x11-libs/qwt,
 	x11-libs/qwtplot3d,
