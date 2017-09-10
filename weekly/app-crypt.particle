@@ -41,7 +41,6 @@ packages:
 	app-crypt/md4sum,
 	app-crypt/md5deep,
 	app-crypt/md6sum,
-	app-crypt/mdcrack,
 	app-crypt/mhash,
 	app-crypt/nasty,
 	app-crypt/onak,
