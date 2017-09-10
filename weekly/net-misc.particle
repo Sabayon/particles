@@ -179,7 +179,6 @@ packages:
 	net-misc/scponly,
 	net-misc/secpanel,
 	net-misc/sendfile,
-	net-misc/ser,
 	net-misc/ser2net,
 	net-misc/shmux,
 	net-misc/sipcalc,
