@@ -14,7 +14,6 @@ packages:
 	kde-misc/kdesudo,
 	kde-misc/kdiff3,
 	kde-misc/kdirstat,
-	kde-misc/kfilebox,
 	kde-misc/kgtk,
 	kde-misc/kio-upnp-ms,
 	kde-misc/kookie,
