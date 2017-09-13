@@ -128,7 +128,6 @@ packages:
 	app-xemacs/xetla,
 	app-xemacs/xlib,
 	app-xemacs/xslide,
-	app-xemacs/xslt-process,
 	app-xemacs/xwem,
 	app-xemacs/zenirc
 
