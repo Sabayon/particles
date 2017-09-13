@@ -92,7 +92,6 @@ packages:
 	app-xemacs/ruby-modes,
 	app-xemacs/sasl,
 	app-xemacs/scheme,
-	app-xemacs/semantic,
 	app-xemacs/sgml,
 	app-xemacs/sh-script,
 	app-xemacs/sieve,
