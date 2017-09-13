@@ -125,7 +125,6 @@ packages:
 	app-xemacs/xemacs-devel,
 	app-xemacs/xemacs-eterm,
 	app-xemacs/xemacs-ispell,
-	app-xemacs/xetla,
 	app-xemacs/xlib,
 	app-xemacs/xslide,
 	app-xemacs/xwem,
