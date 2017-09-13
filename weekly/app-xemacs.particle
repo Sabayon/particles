@@ -22,7 +22,6 @@ packages:
 	app-xemacs/dired,
 	app-xemacs/docbookide,
 	app-xemacs/easypg,
-	app-xemacs/ecb,
 	app-xemacs/ecrypto,
 	app-xemacs/ede,
 	app-xemacs/edebug,
