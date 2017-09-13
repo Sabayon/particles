@@ -1078,7 +1078,6 @@ packages:
 	dev-perl/X11-Protocol,
 	dev-perl/X500-DN,
 	dev-perl/XML-Atom,
-	dev-perl/XML-AutoWriter,
 	dev-perl/XML-Catalog,
 	dev-perl/XML-CompactTree-XS,
 	dev-perl/XML-DOM,
