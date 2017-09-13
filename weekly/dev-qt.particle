@@ -6,7 +6,6 @@
 packages:
 	dev-qt/qdbusviewer,
 	dev-qt/qt-creator,
-	dev-qt/qt-mobility,
 	dev-qt/qthelp,
 	dev-qt/qtcore,
 	dev-qt/qtdbus,
