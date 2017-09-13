@@ -23,7 +23,6 @@ packages:
 	app-xemacs/docbookide,
 	app-xemacs/easypg,
 	app-xemacs/ecrypto,
-	app-xemacs/ede,
 	app-xemacs/edebug,
 	app-xemacs/edict,
 	app-xemacs/ediff,
