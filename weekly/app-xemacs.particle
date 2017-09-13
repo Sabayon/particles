@@ -15,7 +15,6 @@ packages:
 	app-xemacs/cc-mode,
 	app-xemacs/cedet-common,
 	app-xemacs/clearcase,
-	app-xemacs/cogre,
 	app-xemacs/cookie,
 	app-xemacs/crisp,
 	app-xemacs/debug,
