@@ -56,7 +56,6 @@ packages:
 	app-xemacs/idlwave,
 	app-xemacs/igrep,
 	app-xemacs/ilisp,
-	app-xemacs/jde,
 	app-xemacs/latin-euro-standards,
 	app-xemacs/latin-unity,
 	app-xemacs/leim,
