@@ -16,7 +16,6 @@ packages:
 	kde-misc/kdirstat,
 	kde-misc/kgtk,
 	kde-misc/kio-upnp-ms,
-	kde-misc/kookie,
 	kde-misc/kopete-antispam,
 	kde-misc/kopete-thinklight,
 	kde-misc/kosd,
