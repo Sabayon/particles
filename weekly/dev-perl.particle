@@ -795,7 +795,6 @@ packages:
 	dev-perl/PerlIO-gzip,
 	dev-perl/PerlIO-Layers,
 	dev-perl/PerlIO-via-dynamic,
-	dev-perl/PerlIO-via-symlink,
 	dev-perl/perl-ldap,
 	dev-perl/Perl-Tags,
 	dev-perl/perltidy,
