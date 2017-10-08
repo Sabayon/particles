@@ -65,7 +65,6 @@ packages:
 	media-libs/gst-plugins-ugly,
 	media-libs/gstreamer,
 	media-libs/hamlib,
-	media-libs/herqq,
 	media-libs/icc-profiles-openicc,
 	media-libs/id3lib,
 	media-libs/ilmbase,
