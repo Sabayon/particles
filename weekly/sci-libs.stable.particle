@@ -11,7 +11,6 @@ packages:
 	sci-libs/gdal,
 	sci-libs/geos,
 	sci-libs/getdata,
-	sci-libs/gmsh,
 	sci-libs/grits,
 	sci-libs/gsl,
 	sci-libs/gts,
