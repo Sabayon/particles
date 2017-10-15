@@ -47,7 +47,7 @@ packages:
 	app-admin/ide-smart,
 	app-admin/integrit,
 	app-admin/keepass,
-	app-admin/keepassx,
+	app-admin/keepassxc,
 	app-admin/killproc,
 	app-admin/kpcli,
 	app-admin/lib_users,
