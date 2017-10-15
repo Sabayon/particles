@@ -70,7 +70,6 @@ packages:
 	app-arch/unmakeself,
 	app-arch/unp,
 	app-arch/unrar,
-	app-arch/unrar-gpl,
 	app-arch/unshield,
 	app-arch/unzip,
 	app-arch/upx-bin,
