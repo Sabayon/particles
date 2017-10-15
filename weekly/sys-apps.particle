@@ -65,7 +65,6 @@ packages:
 	sys-apps/paludis,
 	sys-apps/pcmciautils,
 	sys-apps/pcsc-lite,
-	sys-apps/pcsc-slb-rf72-drv,
 	sys-apps/pkgcore,
 	sys-apps/pmount,
 	sys-apps/preload,
