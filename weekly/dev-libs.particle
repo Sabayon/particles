@@ -212,7 +212,6 @@ packages:
 	dev-libs/nss,
 	dev-libs/oniguruma,
 	dev-libs/openct,
-	dev-libs/opensc,
 	dev-libs/openssl,
 	dev-libs/openssl,
 	dev-libs/ossp-uuid,
