@@ -89,6 +89,7 @@ packages:
 	media-video/mpv,
 	media-video/noad,
 	media-video/nvidia-settings,
+	media-video/obs-studio,
 	media-video/openshot,
 	media-video/parole,
 	media-video/pgmfindclip,
