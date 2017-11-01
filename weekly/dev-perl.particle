@@ -394,7 +394,6 @@ packages:
 	dev-perl/File-Slurp,
 	dev-perl/File-Slurp-Unicode,
 	dev-perl/File-Sort,
-	dev-perl/File-Stat-Moose,
 	dev-perl/File-Sync,
 	dev-perl/Filesys-Df,
 	dev-perl/Filesys-DiskSpace,
