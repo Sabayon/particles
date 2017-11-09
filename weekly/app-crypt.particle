@@ -56,7 +56,6 @@ packages:
 	app-crypt/pinentry-gnome,
 	app-crypt/pinentry-gtk2,
 	app-crypt/pinentry-qt,
-	app-crypt/pinentry-qt4,
 	app-crypt/pius,
 	app-crypt/pkcrack,
 	app-crypt/pkcs11-data,
