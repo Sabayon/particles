@@ -42,7 +42,6 @@ packages:
 	app-office/pinpoint,
 	app-office/pybliographer,
 	app-office/QtBitcoinTrader,
-	app-office/qchartdiary,
 	app-office/sc,
 	app-office/scribus,
 	app-office/skrooge,
