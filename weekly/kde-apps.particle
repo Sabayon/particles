@@ -106,7 +106,6 @@ packages:
 	kde-apps/kopete,
 	kde-apps/kpat,
 	kde-apps/krdc,
-	kde-apps/kremotecontrol,
 	kde-apps/kreversi,
 	kde-apps/krfb,
 	kde-apps/kruler,
