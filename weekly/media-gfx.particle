@@ -98,7 +98,6 @@ packages:
 	media-gfx/jpegtoavi,
 	media-gfx/kfax,
 	media-gfx/kgraphviewer,
-	media-gfx/kpovmodeler,
 	media-gfx/kuickshow,
 	media-gfx/kxstitch,
 	media-gfx/librecad,
