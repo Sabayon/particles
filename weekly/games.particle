@@ -311,7 +311,6 @@ packages:
 	games-misc/OilWar,
 	games-misc/cowsay,
 	games-misc/fortune-mod,
-	games-misc/ggencoder,
 	games-misc/opengfx,
 	games-misc/openmsx,
 	games-misc/opensfx,
