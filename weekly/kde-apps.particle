@@ -61,7 +61,6 @@ packages:
 	kde-apps/kdesdk-meta,
 	kde-apps/kdesu,
 	kde-apps/kdeutils-meta,
-	kde-apps/kdewebdev-meta,
 	kde-apps/kdf,
 	kde-apps/kdialog,
 	kde-apps/kdiamond,
