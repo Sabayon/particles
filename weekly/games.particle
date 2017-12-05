@@ -212,7 +212,6 @@ packages:
 	games-board/pouetchess,
 	games-board/pychess,
 	games-board/pysolfc,
-	games-board/qcheckers,
 	games-board/scid,
 	games-board/simsu,
 	games-board/sirius,
