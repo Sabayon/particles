@@ -105,7 +105,6 @@ packages:
 	kde-apps/konsole,
 	kde-apps/kopete,
 	kde-apps/kpat,
-	kde-apps/kppp,
 	kde-apps/krdc,
 	kde-apps/kremotecontrol,
 	kde-apps/kreversi,
