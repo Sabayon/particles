@@ -96,7 +96,6 @@ packages:
 	media-gfx/jpegoptim,
 	media-gfx/jpegpixi,
 	media-gfx/jpegtoavi,
-	media-gfx/kcoloredit,
 	media-gfx/kfax,
 	media-gfx/kgraphviewer,
 	media-gfx/kpovmodeler,
