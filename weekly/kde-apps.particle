@@ -120,7 +120,6 @@ packages:
 	kde-apps/ksystemlog,
 	kde-apps/kteatime,
 	kde-apps/ktimer,
-	kde-apps/ktimezoned,
 	kde-apps/ktouch,
 	kde-apps/ktuberling,
 	kde-apps/kturtle,
