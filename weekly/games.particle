@@ -232,7 +232,6 @@ packages:
 	games-emulation/atari800,
 	games-emulation/caps,
 	games-emulation/daphne,
-	games-emulation/dboxfe,
 	games-emulation/desmume,
 	games-emulation/dgen-sdl,
 	games-emulation/dosbox,
