@@ -41,7 +41,6 @@ packages:
 	dev-tex/hlatex,
 	dev-tex/html2latex,
 	dev-tex/hyphen_show,
-	dev-tex/isotope,
 	dev-tex/ivritex,
 	dev-tex/latex-beamer,
 	dev-tex/latex-calendar,
