@@ -81,7 +81,6 @@ packages:
 	app-admin/pwcrypt,
 	app-admin/pwgen,
 	app-admin/pydf,
-	app-admin/python-updater,
 	app-admin/qpage,
 	app-admin/qtpass,
 	app-admin/radmind,
