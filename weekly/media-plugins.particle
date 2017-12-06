@@ -116,7 +116,6 @@ packages:
 	media-plugins/vco-plugins,
 	media-plugins/vdr-actuator,
 	media-plugins/vdr-admin,
-	media-plugins/vdr-alcd,
 	media-plugins/vdr-arghdirector,
 	media-plugins/vdr-atscepg,
 	media-plugins/vdr-autosort,
