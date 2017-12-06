@@ -109,7 +109,6 @@ packages:
 	dev-php/PEAR-Services_JSON,
 	dev-php/PEAR-Services_TinyURL,
 	dev-php/PEAR-Services_W3C_CSSValidator,
-	dev-php/PEAR-Services_W3C_HTMLValidator,
 	dev-php/PEAR-Services_Weather,
 	dev-php/PEAR-Spreadsheet_Excel_Writer,
 	dev-php/PEAR-Structures_DataGrid,
