@@ -6,7 +6,6 @@
 packages:
 	dev-vcs/archway,
 	dev-vcs/bzr,
-	dev-vcs/bzr-explorer,
 	dev-vcs/bzr-fastimport,
 	dev-vcs/bzr-git,
 	dev-vcs/bzr-gtk,
@@ -57,7 +56,6 @@ packages:
 	dev-vcs/mercurial-server,
 	dev-vcs/monotone,
 	dev-vcs/mr,
-	dev-vcs/qbzr,
 	dev-vcs/qct,
 	dev-vcs/qgit,
 	dev-vcs/qsvn,
