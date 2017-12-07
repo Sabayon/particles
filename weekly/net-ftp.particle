@@ -17,7 +17,6 @@ packages:
 	net-ftp/ncftp,
 	net-ftp/netkit-ftpd,
 	net-ftp/oftpd,
-	net-ftp/oneclickftp,
 	net-ftp/pftpfxp,
 	net-ftp/proftpd,
 	net-ftp/profxp,
