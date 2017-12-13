@@ -36,7 +36,6 @@ packages:
 	x11-drivers/xf86-video-qxl,
 	x11-drivers/xf86-video-r128,
 	x11-drivers/xf86-video-s3,
-	x11-drivers/xf86-video-s3virge,
 	x11-drivers/xf86-video-siliconmotion,
 	x11-drivers/xf86-video-sis,
 	x11-drivers/xf86-video-tdfx,
