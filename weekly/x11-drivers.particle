@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	x11-drivers/xf86-input-acecad,
-	x11-drivers/xf86-input-aiptek,
 	x11-drivers/xf86-input-evdev,
 	x11-drivers/xf86-input-joystick,
 	x11-drivers/xf86-input-mtrack,
