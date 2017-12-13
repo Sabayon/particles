@@ -19,7 +19,6 @@ packages:
 	x11-drivers/xf86-video-ark,
 	x11-drivers/xf86-video-ast,
 	x11-drivers/xf86-video-ati,
-	x11-drivers/xf86-video-cirrus,
 	x11-drivers/xf86-video-dummy,
 	x11-drivers/xf86-video-fbdev,
 	x11-drivers/xf86-video-glint,
