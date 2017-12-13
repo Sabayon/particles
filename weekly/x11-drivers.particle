@@ -23,7 +23,6 @@ packages:
 	x11-drivers/xf86-video-dummy,
 	x11-drivers/xf86-video-fbdev,
 	x11-drivers/xf86-video-glint,
-	x11-drivers/xf86-video-i740,
 	x11-drivers/xf86-video-intel,
 	x11-drivers/xf86-video-mga,
 	x11-drivers/xf86-video-modesetting,
