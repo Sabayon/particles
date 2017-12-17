@@ -18,7 +18,6 @@ packages:
 	media-sound/alsamixer-app,
 	media-sound/alsamixergui,
 	media-sound/alsaplayer,
-	media-sound/amarok,
 	media-sound/amsynth,
 	media-sound/apetag,
 	media-sound/aqualung,
