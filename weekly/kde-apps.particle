@@ -145,7 +145,6 @@ packages:
 	kde-apps/kde4-l10n,
 	kde-apps/palapeli,
 	kde-apps/parley,
-	kde-apps/phonon-kde,
 	kde-apps/picmi,
 	kde-apps/poxml,
 	kde-apps/print-manager,
