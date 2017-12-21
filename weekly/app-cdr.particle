@@ -48,7 +48,6 @@ packages:
 	app-cdr/nrg2iso,
 	app-cdr/plextor-tool,
 	app-cdr/poweriso,
-	app-cdr/qpxtool,
 	app-cdr/sync2cd,
 	app-cdr/tkdvd,
 	app-cdr/uif2iso,
