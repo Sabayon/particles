@@ -13,7 +13,6 @@ packages:
 	sci-calculators/orpie,
 	sci-calculators/pcalc,
 	sci-calculators/qalculate-gtk,
-	sci-calculators/qalculator,
 	sci-calculators/speedcrunch,
 	sci-calculators/tiemu,
 	sci-calculators/tilp2,
