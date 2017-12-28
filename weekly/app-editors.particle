@@ -73,8 +73,7 @@ packages:
 	app-editors/wxhexeditor,
 	app-editors/xemacs,
 	app-editors/xvile,
-	app-editors/zile,
-	app-editors/znotes
+	app-editors/zile
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
