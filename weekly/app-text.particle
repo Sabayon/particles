@@ -270,7 +270,6 @@ packages:
 	app-text/xmlstarlet,
 	app-text/xmlto,
 	app-text/xournal,
-	app-text/yagf,
 	app-text/zathura,
 	app-text/zathura-cb,
 	app-text/zathura-djvu,
