@@ -68,7 +68,6 @@ packages:
 	x11-libs/qtscriptgenerator,
 	x11-libs/qwt,
 	x11-libs/qwt,
-	x11-libs/qwtplot3d,
 	x11-libs/rep-gtk,
 	x11-libs/startup-notification,
 	x11-libs/tslib,
