@@ -86,7 +86,6 @@ packages:
 	sys-apps/pmount,
 	sys-apps/preload,
 	sys-apps/pv,
-	sys-apps/qdiskusage,
 	sys-apps/qingy,
 	sys-apps/readahead-list,
 	sys-apps/rename,
