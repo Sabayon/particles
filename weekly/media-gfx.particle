@@ -122,7 +122,6 @@ packages:
 	media-gfx/pdf2svg,
 	media-gfx/pencil,
 	media-gfx/peps,
-	media-gfx/pictureflow,
 	media-gfx/pinta,
 	media-gfx/pixie,
 	media-gfx/plantuml,
