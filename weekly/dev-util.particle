@@ -22,7 +22,6 @@ packages:
 	dev-util/bam,
 	dev-util/bcpp,
 	dev-util/bdelta,
-	dev-util/beediff,
 	dev-util/biew,
 	dev-util/bin_replace_string,
 	dev-util/bitcoin-tx,
