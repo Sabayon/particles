@@ -232,7 +232,6 @@ packages:
 	app-text/trang,
 	app-text/tree,
 	app-text/ttf2pt1,
-	app-text/tuxcards,
 	app-text/txt2man,
 	app-text/txt2pdbdoc,
 	app-text/txt2tags,
