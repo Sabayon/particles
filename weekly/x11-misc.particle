@@ -136,7 +136,6 @@ packages:
 	x11-misc/tint2,
 	x11-misc/tintwizard,
 	x11-misc/touchcal,
-	x11-misc/touchfreeze,
 	x11-misc/trayer,
 	x11-misc/treeline,
 	x11-misc/unclutter,
