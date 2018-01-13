@@ -22,7 +22,6 @@ packages:
 	net-ftp/profxp,
 	net-ftp/pure-ftpd,
 	net-ftp/pureadmin,
-	net-ftp/qshare,
 	net-ftp/scythia,
 	net-ftp/tftp-hpa,
 	net-ftp/tnftp,
