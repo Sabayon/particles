@@ -906,7 +906,6 @@ packages:
 	dev-perl/Sub-Uplevel,
 	dev-perl/SVG,
 	dev-perl/SVG-Graph,
-	dev-perl/SVN-Simple,
 	dev-perl/Switch,
 	dev-perl/Symbol-Util,
 	dev-perl/Sysadm-Install,
