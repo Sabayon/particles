@@ -119,7 +119,6 @@ packages:
 	app-dicts/myspell-zu,
 	app-dicts/opendict,
 	app-dicts/prime-dict,
-	app-dicts/qvortaro,
 	app-dicts/stardict-cdict-en-zh-big5,
 	app-dicts/stardict-cdict-en-zh-gb,
 	app-dicts/stardict-cedict-zh-en-big5,
