@@ -15,7 +15,6 @@ packages:
 	app-mobilephone/kannel,
 	app-mobilephone/obex-data-server,
 	app-mobilephone/obexd,
-	app-mobilephone/past,
 	app-mobilephone/pysms,
 	app-mobilephone/ringtonetools,
 	app-mobilephone/scmxx,
