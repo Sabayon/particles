@@ -42,7 +42,6 @@ packages:
 	app-editors/le,
 	app-editors/leafpad,
 	app-editors/levee,
-	app-editors/lfhex,
 	app-editors/lpe,
 	app-editors/mg,
 	app-editors/mousepad,
