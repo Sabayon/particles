@@ -10,7 +10,6 @@ packages:
 	x11-misc/accessx,
 	x11-misc/alacarte,
 	x11-misc/alock,
-	x11-misc/appmenu-qt,
 	x11-misc/apwal,
 	x11-misc/arandr,
 	x11-misc/autokey,
