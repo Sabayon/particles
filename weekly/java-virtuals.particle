@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	java-virtuals/jaf,
 	java-virtuals/javamail,
 	java-virtuals/jdk-with-com-sun,
 	java-virtuals/jms,
