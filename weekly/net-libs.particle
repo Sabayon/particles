@@ -96,7 +96,6 @@ packages:
 	net-libs/netwib,
 	net-libs/nodejs,
 	net-libs/obby,
-	net-libs/opal,
 	net-libs/openslp,
 	net-libs/ortp,
 	net-libs/osptoolkit,
