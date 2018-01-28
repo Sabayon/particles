@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	net-voip/ekiga,
 	net-voip/linphone,
 	net-voip/sflphone,
 	net-voip/telepathy-gabble,
