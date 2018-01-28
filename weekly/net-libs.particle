@@ -101,7 +101,6 @@ packages:
 	net-libs/ortp,
 	net-libs/osptoolkit,
 	net-libs/pjsip,
-	net-libs/ptlib,
 	net-libs/qxmpp,
 	net-libs/rb_libtorrent,
 	net-libs/rest,
