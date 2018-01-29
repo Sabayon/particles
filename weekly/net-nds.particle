@@ -13,8 +13,7 @@ packages:
 	net-nds/smbldap-tools,
 	net-nds/tac_plus,
 	net-nds/yp-tools,
-	net-nds/ypbind,
-	net-nds/ypserv,
+	net-nds/ypbind
 
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
