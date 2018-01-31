@@ -99,7 +99,6 @@ packages:
 	media-video/pyqtrailer,
 	media-video/qnapi,
 	media-video/qt-recordmydesktop,
-	media-video/qx11grab,
 	media-video/recordmydesktop,
 	media-video/replex,
 	media-video/rovclock,
