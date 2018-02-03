@@ -224,7 +224,6 @@ packages:
 	media-sound/qpitch,
 	media-sound/qsampler,
 	media-sound/qsynth,
-	media-sound/qtagconvert,
 	media-sound/qtagger,
 	media-sound/qtgain,
 	media-sound/qtscrobbler,
