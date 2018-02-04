@@ -19,7 +19,6 @@ packages:
 	app-crypt/coolkey,
 	app-crypt/dieharder,
 	app-crypt/dirmngr,
-	app-crypt/ekeyd,
 	app-crypt/elettra,
 	app-crypt/fcrackzip,
 	app-crypt/gcr,
