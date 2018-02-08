@@ -10,7 +10,6 @@ packages:
 	x11-libs/libICE,
 	x11-libs/libSM,
 	x11-libs/libX11,
-	x11-libs/libXCalibrate,
 	x11-libs/libXScrnSaver,
 	x11-libs/libXTrap,
 	x11-libs/libXau,
