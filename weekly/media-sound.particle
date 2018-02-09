@@ -221,7 +221,6 @@ packages:
 	media-sound/qmidiroute,
 	media-sound/qmmp,
 	media-sound/qmpdclient,
-	media-sound/qpitch,
 	media-sound/qsampler,
 	media-sound/qsynth,
 	media-sound/qtagger,
