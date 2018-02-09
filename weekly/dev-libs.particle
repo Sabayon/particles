@@ -234,7 +234,6 @@ packages:
 	dev-libs/serd,
 	dev-libs/shhopt,
 	dev-libs/skalibs,
-	dev-libs/sni-qt,
 	dev-libs/snowball-stemmer,
 	dev-libs/sord,
 	dev-libs/stfl,
