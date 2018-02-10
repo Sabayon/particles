@@ -23,7 +23,6 @@ packages:
 	x11-proto/scrnsaverproto,
 	x11-proto/trapproto,
 	x11-proto/videoproto,
-	x11-proto/xcalibrateproto,
 	x11-proto/xcb-proto,
 	x11-proto/xcmiscproto,
 	x11-proto/xextproto,
