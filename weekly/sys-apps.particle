@@ -9,6 +9,7 @@ packages:
 	sys-apps/bleachbit,
 	sys-apps/ccs-tools,
 	sys-apps/cookbug,
+	sys-apps/cpuid,
 	sys-apps/dcfldd,
 	sys-apps/ddcxinfo-knoppix,
 	sys-apps/debianutils,
