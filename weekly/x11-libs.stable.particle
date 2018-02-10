@@ -22,7 +22,6 @@ packages:
 	x11-libs/libXext,
 	x11-libs/libXfixes,
 	x11-libs/libXfont,
-	x11-libs/libXfontcache,
 	x11-libs/libXft,
 	x11-libs/libXi,
 	x11-libs/libXinerama,
