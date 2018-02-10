@@ -49,6 +49,7 @@ packages:
 	app-editors/nano,
 	app-editors/ne,
 	app-editors/nedit,
+	app-editors/notepadqq,
 	app-editors/nvi,
 	app-editors/padre,
 	app-editors/pluma,
