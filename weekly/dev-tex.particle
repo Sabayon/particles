@@ -69,7 +69,6 @@ packages:
 	dev-tex/style-check,
 	dev-tex/svninfo,
 	dev-tex/tex4ht,
-	dev-tex/texamator,
 	dev-tex/texmfind,
 	dev-tex/tipa,
 	dev-tex/tth,
