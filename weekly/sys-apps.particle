@@ -89,7 +89,6 @@ packages:
 	sys-apps/ucspi-ssl,
 	sys-apps/ucspi-tcp,
 	sys-apps/ucspi-unix,
-	sys-apps/ultracopier,
 	sys-apps/usb_modeswitch,
 	sys-apps/usermode-utilities,
 	sys-apps/util-linux,
