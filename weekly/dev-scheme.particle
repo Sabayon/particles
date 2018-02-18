@@ -8,7 +8,6 @@ packages:
 	dev-scheme/gambit,
 	dev-scheme/gauche,
 	dev-scheme/goosh,
-	dev-scheme/greg,
 	dev-scheme/guile,
 	dev-scheme/guile-cairo,
 	dev-scheme/guile-gnome-platform,
