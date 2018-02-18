@@ -10,7 +10,6 @@ packages:
 	dev-scheme/goosh,
 	dev-scheme/guile,
 	dev-scheme/guile-cairo,
-	dev-scheme/guile-gnome-platform,
 	dev-scheme/guile-lib,
 	dev-scheme/guile-www,
 	dev-scheme/net-http,
