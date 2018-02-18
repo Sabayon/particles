@@ -11,7 +11,6 @@ packages:
 	dev-scheme/guile,
 	dev-scheme/guile-cairo,
 	dev-scheme/guile-gnome-platform,
-	dev-scheme/guile-gui,
 	dev-scheme/guile-lib,
 	dev-scheme/guile-www,
 	dev-scheme/net-http,
