@@ -7,7 +7,6 @@ packages:
 	sci-mathematics/calc,
 	sci-mathematics/cgal,
 	sci-mathematics/coq,
-	sci-mathematics/drgeo,
 	sci-mathematics/euler,
 	sci-mathematics/fann,
 	sci-mathematics/geogebra,
