@@ -412,7 +412,6 @@ packages:
 	dev-python/python-nss,
 	dev-python/python-openid,
 	dev-python/python-poppler,
-	dev-python/python-poppler-qt4,
 	dev-python/python-prctl,
 	dev-python/python-report,
 	dev-python/python-slip,

@@ -176,7 +176,6 @@ packages:
 	app-text/poppler-base,
 	app-text/poppler-data,
 	app-text/poppler-glib,
-	app-text/poppler-qt4,
 	app-text/ps2eps,
 	app-text/ps2pkm,
 	app-text/psiconv,
