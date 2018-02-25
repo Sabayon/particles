@@ -23,7 +23,6 @@ packages:
 	sci-mathematics/otter,
 	sci-mathematics/pari,
 	sci-mathematics/pspp,
-	sci-mathematics/qtoctave,
 	sci-mathematics/rkward,
 	sci-mathematics/rngstreams,
 	sci-mathematics/rstudio,
