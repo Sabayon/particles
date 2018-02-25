@@ -9,7 +9,6 @@ packages:
 	dev-php/PEAR-Auth,
 	dev-php/PEAR-Auth_HTTP,
 	dev-php/PEAR-Auth_SASL,
-	dev-php/PEAR-Benchmark,
 	dev-php/PEAR-Cache,
 	dev-php/PEAR-Cache_Lite,
 	dev-php/PEAR-Calendar,
