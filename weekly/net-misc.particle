@@ -239,7 +239,6 @@ packages:
 	net-misc/x2goclient,
 	net-misc/x2goserver,
 	net-misc/youtube-dl,
-	net-misc/ytalk,
 	net-misc/zssh,
 	net-misc/zsync,
 
