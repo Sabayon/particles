@@ -100,7 +100,6 @@ packages:
 	media-video/qnapi,
 	media-video/qt-recordmydesktop,
 	media-video/recordmydesktop,
-	media-video/replex,
 	media-video/rovclock,
 	media-video/rtmpdump,
 	media-video/setpwc,
