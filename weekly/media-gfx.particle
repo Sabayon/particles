@@ -63,7 +63,6 @@ packages:
 	media-gfx/gnome-font-viewer,
 	media-gfx/gnome-raw-thumbnailer,
 	media-gfx/gnome-screenshot,
-	media-gfx/gnome-specimen,
 	media-gfx/gozer,
 	media-gfx/gphoto2,
 	media-gfx/gpicview,
