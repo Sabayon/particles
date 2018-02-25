@@ -54,7 +54,6 @@ packages:
 	dev-vcs/kdesvn,
 	dev-vcs/mercurial,
 	dev-vcs/mercurial-server,
-	dev-vcs/monotone,
 	dev-vcs/mr,
 	dev-vcs/qct,
 	dev-vcs/qgit,
