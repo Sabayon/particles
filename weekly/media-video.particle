@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	media-video/aacskeys,
-	media-video/abby,
 	media-video/aegisub,
 	media-video/alevt,
 	media-video/aravis,
