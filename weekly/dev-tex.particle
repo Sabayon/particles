@@ -59,7 +59,6 @@ packages:
 	dev-tex/pdfannotextractor,
 	dev-tex/pgf,
 	dev-tex/polytable,
-	dev-tex/qtexengine,
 	dev-tex/quotchap,
 	dev-tex/rcsinfo,
 	dev-tex/revtex,
