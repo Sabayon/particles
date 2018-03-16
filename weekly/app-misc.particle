@@ -211,7 +211,6 @@ packages:
 	app-misc/supercat,
 	app-misc/symlinks,
 	app-misc/task,
-	app-misc/tasque,
 	app-misc/tdfsb,
 	app-misc/tdl,
 	app-misc/timestamp,
