@@ -246,7 +246,6 @@ packages:
 	games-emulation/gngeo,
 	games-emulation/gnome-video-arcade,
 	games-emulation/gnuboy,
-	games-emulation/gxmame,
 	games-emulation/hatari,
 	games-emulation/mamory,
 	games-emulation/mednafen,
