@@ -192,7 +192,6 @@ packages:
 	dev-libs/libxml2,
 	dev-libs/libxslt,
 	dev-libs/libyaml,
-	dev-libs/libzeitgeist,
 	dev-libs/libzip,
 	dev-libs/link-grammar,
 	dev-libs/lockdev,
