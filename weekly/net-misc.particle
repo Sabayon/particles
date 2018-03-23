@@ -125,7 +125,6 @@ packages:
 	# Netkit stuff
 	net-misc/netkit-fingerd
 	net-misc/netkit-rsh
-	net-misc/netkit-rusers
 	net-misc/netkit-rwall
 	net-misc/netkit-rwho
 	net-misc/netkit-talk
