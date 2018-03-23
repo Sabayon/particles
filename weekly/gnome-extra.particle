@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	gnome-extra/assogiate,
-	gnome-extra/cameramonitor,
 
 	# Cinnamon
 	gnome-extra/cinnamon,
