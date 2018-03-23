@@ -63,7 +63,6 @@ packages:
 	gnome-extra/sushi,
 	gnome-extra/yelp,
 	gnome-extra/yelp-xsl,
-	gnome-extra/zeitgeist,
 	gnome-extra/zenity
 
 # Entropy repository where to commit packages
