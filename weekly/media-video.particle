@@ -97,7 +97,6 @@ packages:
 	media-video/projectx,
 	media-video/pyqtrailer,
 	media-video/qnapi,
-	media-video/qt-recordmydesktop,
 	media-video/recordmydesktop,
 	media-video/rovclock,
 	media-video/rtmpdump,
