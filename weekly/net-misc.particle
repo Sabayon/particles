@@ -61,6 +61,7 @@ packages:
 	net-misc/fmirror,
 	net-misc/freerapid,
 	net-misc/freerdp,
+	net-misc/gerbera,
 	net-misc/gns3-converter,
 	net-misc/gns3-gui,
 	net-misc/gns3-server,
