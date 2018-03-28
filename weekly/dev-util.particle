@@ -90,6 +90,7 @@ packages:
 	dev-util/glade,
 	dev-util/glade,
 	dev-util/global,
+	dev-util/glslang,
 	dev-util/gnome-devel-docs,
 	dev-util/gob,
 	dev-util/google-perftools,
