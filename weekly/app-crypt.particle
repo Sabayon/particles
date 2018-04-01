@@ -73,6 +73,7 @@ packages:
 	app-crypt/tinyca,
 	app-crypt/tpm-tools,
 	app-crypt/trousers,
+	app-crypt/veracrypt,
 	app-crypt/xca,
 	app-crypt/xor-analyze,
 	app-crypt/yubikey-neo-manager,
