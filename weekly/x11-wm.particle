@@ -11,7 +11,6 @@ packages:
 	x11-wm/blackbox,
 	x11-wm/bspwm,
 	x11-wm/compiz,
-	x11-wm/compiz-fusion,
 	x11-wm/ctwm,
 	x11-wm/cwm,
 	x11-wm/dwm,
