@@ -15,7 +15,6 @@ packages:
 	x11-wm/cwm,
 	x11-wm/dwm,
 	x11-wm/echinus,
-	x11-wm/emerald,
 	x11-wm/enlightenment,
 	x11-wm/evilwm,
 	x11-wm/fluxbox,
