@@ -83,7 +83,6 @@ packages:
 	media-libs/libdiscid,
 	media-libs/libdmtx,
 	media-libs/libdv,
-	media-libs/libdvb,
 	media-libs/libdvbpsi,
 	media-libs/libdvdcss,
 	media-libs/libdvdnav,
