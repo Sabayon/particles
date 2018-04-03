@@ -61,7 +61,6 @@ packages:
 	dev-python/colander,
 	dev-python/colorama,
 	dev-python/columnize,
-	dev-python/compizconfig-python,
 	dev-python/configobj,
 	dev-python/couchdb-python,
 	dev-python/coverage,
