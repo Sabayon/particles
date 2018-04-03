@@ -161,7 +161,6 @@ packages:
 	dev-java/jgroups,
 	dev-java/jibx,
 	dev-java/jid3,
-	dev-java/jikes,
 	dev-java/jinput,
 	dev-java/jlayer,
 	dev-java/jline,
