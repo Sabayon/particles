@@ -8,7 +8,6 @@ packages:
 	x11-libs/c++-gtk-utils,
 	x11-libs/colord-gtk,
 	x11-libs/compiz-bcop,
-	x11-libs/compizconfig-backend-gconf,
 	x11-libs/dnd,
 	x11-libs/flowcanvas,
 	x11-libs/fltk,
