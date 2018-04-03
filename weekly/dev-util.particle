@@ -106,7 +106,6 @@ packages:
 	dev-util/indent,
 	dev-util/intltool,
 	dev-util/itstool,
-	dev-util/jay,
 	dev-util/jconfig,
 	dev-util/kbuild,
 	dev-util/kdbg,
