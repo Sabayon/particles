@@ -124,7 +124,6 @@ packages:
 	dev-php/PEAR-Validate,
 	dev-php/PEAR-Var_Dump,
 	dev-php/PEAR-VersionControl_SVN,
-	dev-php/PEAR-XML_Beautifier,
 	dev-php/PEAR-XML_Parser,
 	dev-php/PEAR-XML_RSS,
 	dev-php/PEAR-XML_Serializer,
