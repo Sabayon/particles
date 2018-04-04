@@ -12,7 +12,6 @@ packages:
 	dev-php/PEAR-Cache,
 	dev-php/PEAR-Cache_Lite,
 	dev-php/PEAR-Config,
-	dev-php/PEAR-Console_Color,
 	dev-php/PEAR-Console_Commandline,
 	dev-php/PEAR-Console_Getargs,
 	dev-php/PEAR-Console_Getopt,
