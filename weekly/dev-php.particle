@@ -11,7 +11,6 @@ packages:
 	dev-php/PEAR-Auth_SASL,
 	dev-php/PEAR-Cache,
 	dev-php/PEAR-Cache_Lite,
-	dev-php/PEAR-Calendar,
 	dev-php/PEAR-Config,
 	dev-php/PEAR-Console_Color,
 	dev-php/PEAR-Console_Commandline,
