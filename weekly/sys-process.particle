@@ -21,7 +21,6 @@ packages:
 	sys-process/prll,
 	sys-process/procps,
 	sys-process/psmisc,
-	sys-process/runit,
 	sys-process/schedtool,
 	sys-process/time,
 	sys-process/tiptop,
