@@ -90,7 +90,6 @@ packages:
 	app-admin/sagan,
 	app-admin/sagan-rules,
 	app-admin/salt,
-	app-admin/socklog,
 	app-admin/sshguard,
 	app-admin/stow,
 	app-admin/sud,
