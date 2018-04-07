@@ -21,7 +21,6 @@ packages:
 	net-analyzer/nepenthes,
 	net-analyzer/nmapsi,
 	net-analyzer/nrpe,
-	net-analyzer/nsca,
 	net-analyzer/nstats,
 	net-analyzer/ntopng,
 	net-analyzer/ostinato,
