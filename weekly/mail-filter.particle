@@ -27,7 +27,6 @@ packages:
 	mail-filter/mimedefang,
 	mail-filter/normalizemime,
 	mail-filter/opendkim,
-	mail-filter/p3scan,
 	mail-filter/policyd,
 	mail-filter/popfile,
 	mail-filter/postfwd,
