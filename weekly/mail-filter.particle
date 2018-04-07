@@ -37,7 +37,6 @@ packages:
 	mail-filter/pypolicyd-spf,
 	mail-filter/razor,
 	mail-filter/rblcheck,
-	mail-filter/sid-milter,
 	mail-filter/spamass-milter,
 	mail-filter/spamassassin,
 	mail-filter/spamassassin-botnet,
