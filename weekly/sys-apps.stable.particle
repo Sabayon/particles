@@ -75,7 +75,6 @@ packages:
 	sys-apps/net-tools,
 	sys-apps/netkit-base,
 	sys-apps/netplug,
-	sys-apps/openrc,
 	sys-apps/paludis,
 	sys-apps/paxctl,
 	sys-apps/pciutils,
