@@ -259,7 +259,6 @@ packages:
 	games-emulation/snes9x,
 	games-emulation/stella,
 	games-emulation/vbam,
-	games-emulation/xe,
 	games-emulation/yabause,
 	games-emulation/zinc,
 	games-emulation/zsnes,
