@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	dev-vcs/archway,
 	dev-vcs/bzr,
 	dev-vcs/bzr-fastimport,
 	dev-vcs/bzr-git,
