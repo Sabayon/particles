@@ -20,7 +20,6 @@ packages:
 	dev-php/PEAR-Crypt_GPG,
 	dev-php/PEAR-Crypt_HMAC,
 	dev-php/PEAR-Crypt_HMAC2,
-	dev-php/PEAR-Crypt_RC4,
 	dev-php/PEAR-DB,
 	dev-php/PEAR-DB_DataObject,
 	dev-php/PEAR-Date,
