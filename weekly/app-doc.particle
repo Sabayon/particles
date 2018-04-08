@@ -30,7 +30,6 @@ packages:
 	app-doc/php-docs,
 	app-doc/phrack-all,
 	app-doc/pms,
-	app-doc/podbrowser,
 	app-doc/psmark,
 	app-doc/selfhtml,
 	app-doc/selflinux,
