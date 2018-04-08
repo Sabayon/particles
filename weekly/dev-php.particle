@@ -69,7 +69,6 @@ packages:
 	dev-php/PEAR-Mail,
 	dev-php/PEAR-Mail_Mime,
 	dev-php/PEAR-Mail_mimeDecode,
-	dev-php/PEAR-Math_Stats,
 	dev-php/PEAR-Net_DNS,
 	dev-php/PEAR-Net_DNS2,
 	dev-php/PEAR-Net_DNSBL,
