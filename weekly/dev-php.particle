@@ -98,7 +98,6 @@ packages:
 	dev-php/PEAR-PEAR_PackageFileManager,
 	dev-php/PEAR-PHP_Beautifier,
 	dev-php/PEAR-PHP_CodeSniffer,
-	dev-php/PEAR-PHP_CompatInfo,
 	dev-php/PEAR-PHP_Debug,
 	dev-php/PEAR-Pager,
 	dev-php/PEAR-SOAP,
