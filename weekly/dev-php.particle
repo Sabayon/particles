@@ -82,7 +82,6 @@ packages:
 	dev-php/PEAR-Net_POP3,
 	dev-php/PEAR-Net_Ping,
 	dev-php/PEAR-Net_SMTP,
-	dev-php/PEAR-Net_Server,
 	dev-php/PEAR-Net_Sieve,
 	dev-php/PEAR-Net_SmartIRC,
 	dev-php/PEAR-Net_Socket,
