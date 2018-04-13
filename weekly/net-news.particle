@@ -5,6 +5,8 @@
 # Mandatory, cannot be empty
 packages:
 	net-news/amphetadesk,
+	net-news/canto-curses,
+	net-news/canto-daemon,
 	net-news/liferea,
 	net-news/newsbeuter,
 	net-news/newsboat,
