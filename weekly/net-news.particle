@@ -7,6 +7,7 @@ packages:
 	net-news/amphetadesk,
 	net-news/liferea,
 	net-news/newsbeuter,
+	net-news/newsboat,
 	net-news/rawdog,
 	net-news/rssguard,
 	net-news/rsstail,
