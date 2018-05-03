@@ -7,7 +7,7 @@ packages:
 	sci-chemistry/PyMca,
 	sci-chemistry/apbs,
 	sci-chemistry/autodock,
-	sci-chemistry/avogadro,
+	sci-chemistry/avogadro2,
 	sci-chemistry/bodr,
 	sci-chemistry/chemical-mime-data,
 	sci-chemistry/chemtool,
