@@ -223,7 +223,6 @@ packages:
 	media-sound/qtagger,
 	media-sound/qtgain,
 	media-sound/qtscrobbler,
-	media-sound/quark,
 	media-sound/quimup,
 	media-sound/quodlibet,
 	media-sound/rakarrack,
