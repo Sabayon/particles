@@ -23,7 +23,6 @@ packages:
 	app-forensics/magicrescue,
 	app-forensics/memdump,
 	app-forensics/pasco,
-	app-forensics/rdd,
 	app-forensics/rifiuti,
 	app-forensics/rkhunter,
 	app-forensics/sleuthkit,
