@@ -239,6 +239,7 @@ packages:
 	games-emulation/fakenes,
 	games-emulation/fbzx,
 	games-emulation/fceux,
+	games-emulation/gambatte,
 	games-emulation/gcube,
 	games-emulation/generator,
 	games-emulation/gfceux,
