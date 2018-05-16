@@ -27,7 +27,6 @@ packages:
 	dev-cpp/libgdamm,
 	dev-cpp/libglademm,
 	dev-cpp/libgnomecanvasmm,
-	dev-cpp/libgnomemm,
 	dev-cpp/libgnomeuimm,
 	dev-cpp/libmcpp,
 	dev-cpp/libxmlpp,
