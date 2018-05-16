@@ -28,7 +28,6 @@ packages:
 	x11-libs/gtksourceview,
 	x11-libs/hippo-canvas,
 	x11-libs/libast,
-	x11-libs/libdesktop-agnostic,
 	x11-libs/libdmx,
 	x11-libs/libdockapp,
 	x11-libs/libdrm,
