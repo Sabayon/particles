@@ -22,7 +22,6 @@ packages:
 	www-apps/drupal,
 	www-apps/dspam-web,
 	www-apps/egroupware,
-	www-apps/freeradius-dialupadmin,
 	www-apps/gitweb,
 	www-apps/gnopaste,
 	www-apps/groupoffice,
