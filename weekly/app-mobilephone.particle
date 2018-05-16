@@ -16,7 +16,6 @@ packages:
 	app-mobilephone/obex-data-server,
 	app-mobilephone/obexd,
 	app-mobilephone/pysms,
-	app-mobilephone/ringtonetools,
 	app-mobilephone/scmxx,
 	app-mobilephone/smsclient,
 	app-mobilephone/sobexsrv,

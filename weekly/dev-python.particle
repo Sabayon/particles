@@ -9,7 +9,6 @@ packages:
 	dev-python/BitVector,
 	dev-python/Djblets,
 	dev-python/Kivy,
-	dev-python/PyFoam,
 	dev-python/PyGithub,
 	dev-python/kivy-garden,
 	dev-python/pylast,
