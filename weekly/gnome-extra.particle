@@ -24,7 +24,6 @@ packages:
 	gnome-extra/gnome-calendar,
 	gnome-extra/gnome-characters,
 	gnome-extra/gconf-editor,
-	gnome-extra/gnome-color-chooser,
 	gnome-extra/gnome-color-manager,
 	gnome-extra/gnome-contacts,
 	gnome-extra/gnome-directory-thumbnailer,
