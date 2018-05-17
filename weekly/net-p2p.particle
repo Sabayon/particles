@@ -38,7 +38,6 @@ packages:
 	net-p2p/transmission-cli,
 	net-p2p/transmission-daemon,
 	net-p2p/transmission-gtk,
-	net-p2p/tribler,
 	net-p2p/tvrss,
 	net-p2p/valknut,
 	net-p2p/vuze,
