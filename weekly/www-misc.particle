@@ -6,7 +6,6 @@
 packages:
 	www-misc/awstats,
 	www-misc/fcgiwrap,
-	www-misc/gurlchecker,
 	www-misc/htdig,
 	www-misc/log-toolkit,
 	www-misc/mergelog,
