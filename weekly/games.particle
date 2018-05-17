@@ -243,7 +243,6 @@ packages:
 	games-emulation/gfceux,
 	games-emulation/gmameui,
 	games-emulation/gngeo,
-	games-emulation/gnome-video-arcade,
 	games-emulation/gnuboy,
 	games-emulation/hatari,
 	games-emulation/mamory,
