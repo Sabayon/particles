@@ -156,7 +156,6 @@ packages:
 	net-misc/openvpn,
 	net-misc/owncloud-client,
 	net-misc/packETH,
-	net-misc/pavuk,
 	net-misc/pen,
 	net-misc/plowshare,
 	net-misc/portfwd,
