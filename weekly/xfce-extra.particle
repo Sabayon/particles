@@ -14,7 +14,6 @@ packages:
 	xfce-extra/thunar-volman,
 	xfce-extra/transd,
 	xfce-extra/tumbler,
-	xfce-extra/xfce-theme-manager,
 	xfce-extra/xfce4-battery-plugin,
 	xfce-extra/xfce4-clipman-plugin,
 	xfce-extra/xfce4-cpufreq-plugin,
