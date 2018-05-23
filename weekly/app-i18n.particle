@@ -9,7 +9,6 @@ packages:
 	app-i18n/canna,
 	app-i18n/cstools,
 	app-i18n/enca,
-	app-i18n/fbiterm,
 	app-i18n/fcitx-anthy,
 	app-i18n/fcitx-chewing,
 	app-i18n/fcitx-cloudpinyin,
