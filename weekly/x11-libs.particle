@@ -16,7 +16,6 @@ packages:
 	x11-libs/gl2ps,
 	x11-libs/gnome-pty-helper,
 	x11-libs/goffice,
-	x11-libs/goffice,
 	x11-libs/goocanvas,
 	x11-libs/gtk+extra,
 	x11-libs/gtkdatabox,
