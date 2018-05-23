@@ -31,8 +31,6 @@ packages:
 	x11-misc/driconf,
 	x11-misc/dxpc,
 	x11-misc/dzen,
-	x11-misc/e16keyedit,
-	x11-misc/e16menuedit2,
 	x11-misc/easystroke,
 	x11-misc/efax-gtk,
 	x11-misc/evolvotron,
