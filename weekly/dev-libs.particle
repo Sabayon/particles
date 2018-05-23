@@ -151,7 +151,6 @@ packages:
 	dev-libs/libmateweather,
 	dev-libs/libmba,
 	dev-libs/libmcrypt,
-	dev-libs/libmemcache,
 	dev-libs/libmirage,
 	dev-libs/libmix,
 	dev-libs/libmoe,
