@@ -75,7 +75,6 @@ packages:
 	app-admin/paxtest,
 	app-admin/perl-cleaner,
 	app-admin/pprocm,
-	app-admin/procinfo,
 	app-admin/psmon,
 	app-admin/puppet-agent,
 	app-admin/pwcrypt,
