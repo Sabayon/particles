@@ -17,7 +17,6 @@ packages:
 	dev-util/argouml,
 	dev-util/astyle,
 	dev-util/autodia,
-	dev-util/automoc,
 	dev-util/autoproject,
 	dev-util/bam,
 	dev-util/bcpp,
