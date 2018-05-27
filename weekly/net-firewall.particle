@@ -14,7 +14,6 @@ packages:
 	net-firewall/fwbuilder,
 	net-firewall/fwipsec,
 	net-firewall/fwknop,
-	net-firewall/gshield,
 	net-firewall/ipkungfu,
 	net-firewall/ipsec-tools,
 	net-firewall/ipset,
