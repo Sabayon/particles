@@ -132,7 +132,6 @@ packages:
 	media-libs/libogg,
 	media-libs/liboggz,
 	media-libs/libprojectm,
-	media-libs/libprojectm-qt,
 	media-libs/libquicktime,
 	media-libs/libraw,
 	media-libs/libreplaygain,
