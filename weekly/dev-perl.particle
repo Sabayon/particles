@@ -833,7 +833,6 @@ packages:
 	dev-perl/Proc-Simple,
 	dev-perl/Proc-Wait3,
 	dev-perl/Proc-WaitStat,
-	dev-perl/Quota,
 	dev-perl/RadiusPerl,
 	dev-perl/Rcs,
 	dev-perl/Readonly,
