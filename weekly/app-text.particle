@@ -273,8 +273,7 @@ packages:
 	app-text/zathura-djvu,
 	app-text/zathura-pdf-poppler,
 	app-text/zathura-ps,
-	app-text/zemberek-server,
-	app-text/zpspell
+	app-text/zemberek-server
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
