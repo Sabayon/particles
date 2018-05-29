@@ -12,7 +12,6 @@ packages:
 	app-doc/devmanual,
 	app-doc/djbdns-man,
 	app-doc/doxygen,
-	app-doc/edox-data,
 	app-doc/elisp-manual,
 	app-doc/gimp-help,
 	app-doc/gnucash-docs,
