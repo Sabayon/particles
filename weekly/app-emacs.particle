@@ -42,8 +42,6 @@ packages:
 	app-emacs/emacs-daemon,
 	app-emacs/emacs-jabber,
 	app-emacs/emacs-wget,
-	app-emacs/emacs-wiki,
-	app-emacs/emacs-wiki-blog,
 	app-emacs/emhacks,
 	app-emacs/emms,
 	app-emacs/erobot,
