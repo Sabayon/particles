@@ -181,7 +181,6 @@ packages:
 	dev-python/kaa-metadata,
 	dev-python/keyring,
 	dev-python/kid,
-	dev-python/kiwi,
 	dev-python/kombu,
 	dev-python/libbonobo-python,
 	dev-python/libgda-python,
