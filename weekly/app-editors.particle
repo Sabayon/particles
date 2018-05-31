@@ -10,7 +10,6 @@ packages:
 	app-editors/beaver,
 	app-editors/bluefish,
 	app-editors/bvi,
-	app-editors/cooledit,
 	app-editors/curses-hexedit,
 	app-editors/dav,
 	app-editors/dhex,
