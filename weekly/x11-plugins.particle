@@ -10,7 +10,6 @@ packages:
 	x11-plugins/astime,
 	x11-plugins/bfm,
 	x11-plugins/cairo-dock-plugins,
-	x11-plugins/epplets,
 	x11-plugins/fsviewer,
 	x11-plugins/gkrellaclock,
 	x11-plugins/gkrellflynn,
