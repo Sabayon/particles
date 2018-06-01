@@ -19,6 +19,7 @@ packages:
 	dev-ruby/arel,
 	dev-ruby/arel,
 	dev-ruby/arel,
+	dev-ruby/asciidoctor,
 	dev-ruby/aws-s3,
 	dev-ruby/aws-sdk,
 	dev-ruby/bacon,
