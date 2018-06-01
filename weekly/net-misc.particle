@@ -103,7 +103,6 @@ packages:
 	net-misc/kvpnc,
 	net-misc/l7-filter-userspace,
 	net-misc/l7-protocols,
-	net-misc/linux-identd,
 	net-misc/lksctp-tools,
 	net-misc/lldpad,
 	net-misc/logmein-hamachi,
