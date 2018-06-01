@@ -81,7 +81,6 @@ packages:
 	dev-python/django-celery,
 	dev-python/django-debug-toolbar,
 	dev-python/django-endless-pagination,
-	dev-python/django-evolution,
 	dev-python/django-extensions,
 	dev-python/django-international,
 	dev-python/django-picklefield,
