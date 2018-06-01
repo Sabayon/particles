@@ -124,7 +124,6 @@ packages:
 	media-video/undvd,
 	media-video/v4l2loopback,
 	media-video/vamps,
-	media-video/vcdgear,
 	media-video/vcdimager,
 	media-video/vdr,
 	media-video/vdr2jpeg,
