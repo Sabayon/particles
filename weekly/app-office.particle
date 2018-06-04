@@ -22,7 +22,6 @@ packages:
 	app-office/gnucash,
 	app-office/gnumeric,
 	app-office/grisbi,
-	app-office/gtimelog,
 	app-office/gtg,
 	app-office/hourglass,
 	app-office/ical,
