@@ -173,6 +173,7 @@ packages:
 	media-gfx/xsvg,
 	media-gfx/xv,
 	media-gfx/xzgv,
+	media-gfx/yafaray,
 	media-gfx/zbar:0
 
 # Enforce stable or unstable packages on emerge.
