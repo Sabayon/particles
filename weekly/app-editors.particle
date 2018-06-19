@@ -50,6 +50,7 @@ packages:
 	app-editors/nedit,
 	app-editors/notepadqq,
 	app-editors/nvi,
+	app-editors/okteta,
 	app-editors/padre,
 	app-editors/pluma,
 	app-editors/qemacs,
