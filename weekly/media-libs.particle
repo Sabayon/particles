@@ -4,7 +4,6 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-	media-libs/SoQt,
 	media-libs/a52dec,
 	media-libs/aalib,
 	media-libs/adplug,
