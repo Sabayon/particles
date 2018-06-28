@@ -29,7 +29,6 @@ packages:
 	app-i18n/ibus-libpinyin,
 	app-i18n/ibus-m17n,
 	app-i18n/ibus-pinyin,
-	app-i18n/ibus-qt,
 	app-i18n/ibus-rime,
 	app-i18n/ibus-skk,
 	app-i18n/ibus-sunpinyin,
