@@ -26,7 +26,6 @@ packages:
 	net-wireless/mdk,
 	net-wireless/ndiswrapper,
 	net-wireless/python-wifi,
-	net-wireless/rfkill,
 	net-wireless/spectools,
 	net-wireless/wavemon,
 	net-wireless/wepattack,
