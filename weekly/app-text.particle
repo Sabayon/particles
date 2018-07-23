@@ -84,6 +84,7 @@ packages:
 	app-text/epstool,
 	app-text/evince,
 	app-text/expander,
+	app-text/extract_url,
 	app-text/fbreader,
 	app-text/flpsed,
 	app-text/ghostscript-gpl,
