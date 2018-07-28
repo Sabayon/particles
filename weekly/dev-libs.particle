@@ -8,6 +8,7 @@ packages:
 	dev-libs/DFB++,
 	dev-libs/DirectFB,
 	dev-libs/ace,
+	dev-libs/appstream,
 	dev-libs/apr,
 	dev-libs/apr-util,
 	dev-libs/argtable,
