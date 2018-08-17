@@ -40,7 +40,6 @@ packages:
 	x11-themes/gnome-backgrounds,
 	x11-themes/gnome-colors-common,
 	x11-themes/gnome-colors-themes,
-	x11-themes/gnome-icon-theme,
 	x11-themes/gnome-icon-theme-extras,
 	x11-themes/gnome-icon-theme-symbolic,
 	x11-themes/gnome-themes-standard,
