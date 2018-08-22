@@ -5,7 +5,6 @@
 # Mandatory, cannot be empty
 packages:
 	sci-misc/boinc,
-	sci-misc/gato,
 	sci-misc/h5utils,
 	sci-misc/mendeleydesktop,
 	sci-misc/ncview,
