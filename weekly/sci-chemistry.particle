@@ -21,7 +21,6 @@ packages:
 	sci-chemistry/mpqc,
 	sci-chemistry/openbabel,
 	sci-chemistry/pdb2pqr,
-	sci-chemistry/pymol,
 	sci-chemistry/rasmol,
 
 # Enforce stable or unstable packages on emerge.
