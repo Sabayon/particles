@@ -209,7 +209,6 @@ packages:
 	games-board/pioneers,
 	games-board/pouetchess,
 	games-board/pychess,
-	games-board/pysolfc,
 	games-board/scid,
 	games-board/simsu,
 	games-board/sirius,
