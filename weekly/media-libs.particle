@@ -13,7 +13,6 @@ packages:
 	media-libs/alsa-lib,
 	media-libs/alsa-oss,
 	media-libs/alure,
-	media-libs/atlas-c++,
 	media-libs/aubio,
 	media-libs/audiofile,
 	media-libs/babl,
