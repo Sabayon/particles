@@ -6,7 +6,6 @@
 packages:
 	dev-vcs/bzr,
 	dev-vcs/bzr-fastimport,
-	dev-vcs/bzr-gtk,
 	dev-vcs/bzr-rewrite,
 	dev-vcs/bzr-svn,
 	dev-vcs/bzr-xmloutput,
