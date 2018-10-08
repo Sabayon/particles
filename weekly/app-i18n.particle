@@ -49,7 +49,6 @@ packages:
 	app-i18n/kanjipad,
 	app-i18n/kcm-fcitx,
 	app-i18n/kinput2,
-	app-i18n/libguess,
 	app-i18n/libhangul,
 	app-i18n/libpinyin,
 	app-i18n/libskk,
