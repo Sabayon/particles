@@ -19,7 +19,6 @@ packages:
 	media-libs/bio2jack,
 	media-libs/blib,
 	media-libs/cal3d,
-	media-libs/celt,
 	media-libs/chromaprint,
 	media-libs/clutter,
 	media-libs/clutter-gst,
