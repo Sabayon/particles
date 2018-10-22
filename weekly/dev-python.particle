@@ -502,7 +502,6 @@ packages:
 	dev-python/turbokid,
 	dev-python/tvdb_api,
 	dev-python/tweepy,
-	dev-python/twill,
 
 	dev-python/twisted-conch:0
 	dev-python/twisted-core:0
