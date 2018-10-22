@@ -283,7 +283,6 @@ packages:
 	dev-python/pycairo,
 	dev-python/pycdf,
 	dev-python/pycdio,
-	dev-python/pychart,
 	dev-python/pychecker,
 	dev-python/pychm,
 	dev-python/pyclamav,
