@@ -210,7 +210,6 @@ packages:
 	dev-python/mechanize,
 	dev-python/medusa,
 	dev-python/meld3,
-	dev-python/morbid,
 	dev-python/mox,
 	dev-python/mpi4py,
 	dev-python/mpmath,
