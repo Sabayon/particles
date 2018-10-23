@@ -201,7 +201,6 @@ packages:
 	dev-python/m2crypto,
 	dev-python/mako,
 	dev-python/manifestdestiny,
-	dev-python/mantissa,
 	dev-python/markdown,
 	dev-python/markdown2,
 	dev-python/markups,
