@@ -111,7 +111,6 @@ packages:
 	net-misc/midentd,
 	net-misc/mindterm,
 	net-misc/miniupnpd,
-	net-misc/miredo,
 	net-misc/mobile-broadband-provider-info,
 	net-misc/modemmanager,
 	net-misc/monmotha,
