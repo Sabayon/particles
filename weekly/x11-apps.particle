@@ -17,7 +17,7 @@ packages:
 	x11-apps/fusion-icon,
 	x11-apps/iceauth,
 	x11-apps/ico,
-	x11-apps/intel-gpu-tools,
+	x11-apps/igt-gpu-tools,
 	x11-apps/listres,
 	x11-apps/luit,
 	x11-apps/mesa-progs,
