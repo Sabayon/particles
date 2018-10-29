@@ -262,8 +262,8 @@ packages:
 	media-sound/takcd,
 	media-sound/tap-reverbed,
 
-	media-sound/teamspeak-server-bin
-	media-sound/teamspeak-client-bin,
+	media-sound/teamspeak-server
+	media-sound/teamspeak-client,
 
 	media-sound/tempest_for_eliza,
 	media-sound/terminatorx,
