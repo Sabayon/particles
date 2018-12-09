@@ -29,7 +29,6 @@ packages:
 	dev-db/mysql-workbench,
 	dev-db/mysqltuner,
 	dev-db/percona-toolkit,
-	dev-db/pgadmin3,
 	dev-db/pgbouncer,
 	dev-db/phpmyadmin,
 	dev-db/phppgadmin,
