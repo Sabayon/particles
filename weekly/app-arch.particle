@@ -61,7 +61,6 @@ packages:
 	app-arch/star,
 	app-arch/tapeutils,
 	app-arch/tar,
-	app-arch/tardy,
 	app-arch/tarsync,
 	app-arch/unace,
 	app-arch/unace,
