@@ -62,7 +62,6 @@ packages:
 	sys-apps/miscfiles,
 	sys-apps/mlocate,
 	sys-apps/most,
-	sys-apps/paludis,
 	sys-apps/pcmciautils,
 	sys-apps/pcsc-lite,
 	sys-apps/pkgcore,
