@@ -111,6 +111,7 @@ packages:
 	app-admin/system-tools-backends,
 	app-admin/systemdgenie,
 	app-admin/tenshi,
+	app-admin/terraform,
 	app-admin/testdisk,
 	app-admin/tmpreaper,
 	app-admin/tmpwatch,
