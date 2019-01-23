@@ -33,6 +33,7 @@ packages:
 	app-office/lyx,
 	app-office/magicpoint,
 	app-office/mdbtools,
+	app-office/moneyguru,
 	app-office/multitalk,
 	app-office/openerp,
 	app-office/orage,
