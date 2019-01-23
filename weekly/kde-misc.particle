@@ -27,6 +27,7 @@ packages:
 	kde-misc/kwebkitpart,
 	kde-misc/magneto-kde,
 	kde-misc/openofficeorg-thumbnail,
+	kde-misc/plasma-applet-weather-widget,
 	kde-misc/rsibreak,
 	kde-misc/skanlite,
 	kde-misc/tellico,
